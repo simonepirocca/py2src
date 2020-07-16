@@ -11,7 +11,6 @@ Installing dependencies from Pipfile.lock (XXX)…
 To activate this project's virtualenv, run pipenv shell.
 Alternatively, run a command inside the virtualenv with pipenv run.
 foo@bar:~/research_project/pypi_github$ pipenv shell
-foo@bar:~/research_project/pypi_github$ pipenv shell
 (pypi_github)foo@bar:~/research_project/pypi_github$ 
 ```
 4. Run tests
