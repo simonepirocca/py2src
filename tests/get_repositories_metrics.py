@@ -13,8 +13,8 @@ from metrics import Metrics
 def test_get_repositories():
     # Set source and range
     pypi_repos_json = "https://hugovk.github.io/top-pypi-packages/top-pypi-packages-365-days.json"
-    start = 91
-    count = 10
+    start = 1
+    count = 1
     end = start + count
 
     if start == 1:

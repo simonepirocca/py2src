@@ -7,7 +7,7 @@ Research project about the verification of factors that influence the usage of P
 - Stars (got using github api, see 'metrics_output/json/generic_data'): The number of GitHub users that displayed an appreciation for the repository. Stars are a manual way to rank the popularity of projects.
 - Last commit (got using github api, see 'metrics_output/json/commits'): The date of the last commit
 - Commit frequency (got from GitHub webpage using a crawler): The average number of commits per months
-- Release frequency (got from GitHub webpage using a crawler): The average number of releases per months
+- Release frequency (got from GitHub webpage using a crawler): The average number days between two releases
 - Open issues (got from GitHub webpage using a crawler): The total number of issues linked to the repository that are still open, thus not addressed yet.
 - Closed issues (got from GitHub webpage using a crawler): The total number of issues linked to the repository that have been resolved.
 - Average time to close an issue (got using github api, see 'metrics_output/json/closed_issues'): The average time elapsed between the creation of an issue and when it has been resolved.

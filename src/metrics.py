@@ -37,7 +37,8 @@ class Metrics:
         dep_repos_io = ""
 
         # Get the GitHub repo URL
-        github_url = pkg.extract_github_url()
+        github_url = pkg.extract_github_url().replace(".git", "")
+
         if(github_url != ""):
 
             # Get GitHub metrics
@@ -54,7 +55,7 @@ class Metrics:
             commits = pkg.get_commits_from_github_repo(github_url).strip()
             commits = commits.replace(",", "")
             #last_commit = pkg.get_updated_at_from_github_repo(github_url).strip()[:10]
-            releases = pkg.get_link_span_metric_from_github_repo(github_url, "releases").strip()
+            releases = pkg.get_link_span_metric_from_github_repo(github_url, "releases").strip().replace(",", "")
             contributors = pkg.get_link_span_metric_from_github_repo(github_url, "graphs/contributors").strip()
             dependents_url = pkg.get_dependent_url_from_github_repo(github_url).strip()
             dep_repos = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=REPOSITORY").strip()
@@ -68,32 +69,44 @@ class Metrics:
             github_json_url = "https://api.github.com/repos/" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1]
             api_req = Request(github_json_url)
             api_req.add_header('Authorization', 'token ' + github_token)
-            github_json = json.loads(urlopen(api_req).read().decode())
+            try:
+                github_json = json.loads(urlopen(api_req).read().decode())
+                created_at = github_json["created_at"][:10]
+                stargazers = github_json["stargazers_count"]
 
-            created_at = github_json["created_at"][:10]
-            stargazers = github_json["stargazers_count"]
-            issues_url = github_json["issues_url"]
-
-            with open('../metrics_output/json/generic_data/' + package_name + '.json', 'w') as json_file:
-                json.dump(github_json, json_file)
+                with open('../metrics_output/json/generic_data/' + package_name + '.json', 'w') as json_file:
+                    json.dump(github_json, json_file)
+            except Exception:
+                created_at = ""
+                stargazers = ""
 
             commits_json_url = "https://api.github.com/repos/" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1] + "/commits"
             api_req = Request(commits_json_url)
             api_req.add_header('Authorization', 'token ' + github_token)
-            commits_json = json.loads(urlopen(api_req).read().decode())
-            last_commit = commits_json[0]["commit"]["author"]["date"][:10]
 
-            with open('../metrics_output/json/commits/' + package_name + '.json', 'w') as json_file:
-                json.dump(commits_json, json_file)
+            try:
+                commits_json = json.loads(urlopen(api_req).read().decode())
+                last_commit = commits_json[0]["commit"]["author"]["date"][:10]
+                with open('../metrics_output/json/commits/' + package_name + '.json', 'w') as json_file:
+                    json.dump(commits_json, json_file)
 
+            except Exception:
+                last_commit = ""
+
+            total_days = 0
             total_months = 0
-            if created_at != "" and commits != "":
+            if created_at != "":
                 today_date = date.today().strftime('%Y-%m-%d')
                 total_months = (int(today_date[:4]) - int(created_at[:4])) * 12 + (int(today_date[5:7]) - int(created_at[5:7]))
+                total_days = (int(today_date[:4]) - int(created_at[:4])) * 365 + (int(today_date[5:7]) - int(created_at[5:7])) * 30 + (int(today_date[8:]) - int(created_at[8:]))
+                
+
+            if total_months != 0 and commits != "":                
                 commit_frequency = int(int(commits) / total_months)
 
-            if created_at != "" and releases != "":
-                release_frequency = round((int(releases) / total_months), 2)
+            if total_days != 0 and releases != "":
+                #release_frequency = round((int(releases) / total_months), 2)
+                release_frequency = int(total_days / int(releases))
 
             i = 0
             api_closed_issues = 0
@@ -139,8 +152,12 @@ class Metrics:
             else:
                 total_count = int(issue_json["total_count"])
                 for i in range(len(issue_json["items"])):
-                    created_date = issue_json["items"][i]["created_at"][:10]
-                    closed_date = issue_json["items"][i]["closed_at"][:10]
+                    try:
+                        created_date = issue_json["items"][i]["created_at"][:10]
+                        closed_date = issue_json["items"][i]["closed_at"][:10]
+                    except TypeError:
+                        created_date = ""
+                        closed_date = ""
 
                     if created_date != "" and closed_date != "":
                         #close_months = (int(closed_date[:4]) - int(created_date[:4])) * 12 + (int(closed_date[5:7]) - int(created_date[5:7]))
@@ -150,6 +167,11 @@ class Metrics:
 
                 if api_closed_issues > 0:
                     avg_close_issue_days = int(sum_closed_days / api_closed_issues)
+
+            if commit_frequency == 0: commit_frequency = ""
+            if release_frequency == 0: release_frequency = ""
+            if api_closed_issues == 0: api_closed_issues = ""
+            if avg_close_issue_days == 0: avg_close_issue_days = ""
 
         # Get the Libraries.io repo URL
         libraries_io_url = pkg.extract_libraries_io_url()

@@ -121,11 +121,10 @@ class Package:
 
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -153,10 +152,10 @@ class Package:
         url = f"https://pypi.org/project/{self._package_name}"
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return
-        else:
             soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
             
             for link in soup.findAll("a"):
                 try:
@@ -173,16 +172,16 @@ class Package:
 
     def extract_github_url(self) -> str:
         """
-        Scrape Libraries.io urls from the homepage or codepage urls
+        Get GitHub url from PyPi
         """
         
         url = f"https://pypi.org/project/{self._package_name}"
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return
-        else:
             soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
             
             for link in soup.findAll("a"):
                 try:
@@ -256,10 +255,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -279,10 +278,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             try:
                 div = soup.findAll("relative-time")[0]
                 datetime = div["datetime"]
@@ -298,10 +297,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -323,10 +322,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -353,10 +352,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             div = soup.findAll("relative-time")[1]
             try:
                 datetime = div["datetime"]
@@ -373,10 +372,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a", {"class": "d-flex"}):
                 try:
                     href_url = link["href"]
@@ -396,10 +395,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -419,12 +418,11 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-
-            for link in soup.findAll("a"):
+           for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -433,7 +431,7 @@ class Package:
                 else:
                     if type in href_url:
                         return link.getText().strip().split(' ', 1)[0]
-            return ""
+           return ""
 
     def get_closed_issues_from_github_repo(self, url: str) -> str:
         """
@@ -442,11 +440,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -465,10 +462,10 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -488,14 +485,15 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             sidebar = soup.findAll("div", {"class": "sidebar"})[1]
             metrics = sidebar.findAll("dl")[1]
             dep_packages = metrics.findAll("dd")[1]
-            return dep_packages.findAll("a")[0].getText()
+            if dep_packages.findAll("a")[0].getText() != None: return dep_packages.findAll("a")[0].getText()
+            else: return ""
 
     def get_dep_repos_from_libraries_io(self, url: str) -> str:
         """
@@ -504,11 +502,12 @@ class Package:
         
         try:
             req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return
         else:
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
             sidebar = soup.findAll("div", {"class": "sidebar"})[1]
             metrics = sidebar.findAll("dl")[1]
             dep_packages = metrics.findAll("dd")[2]
-            return dep_packages.getText()
+            if dep_packages.getText() != None: return dep_packages.getText()
+            else: return ""
