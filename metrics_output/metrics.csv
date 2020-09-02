@@ -219,7 +219,7 @@ google-cloud-logging;42104178;https://github.com/googleapis/python-logging;8;202
 elasticsearch;42078197;https://github.com/elastic/elasticsearch-py;2918;2020-08-20;13;;55;753;100;17;151;15,587;602;https://libraries.io/pypi/elasticsearch;21;203;5.29K
 tensorflow-transform;41983356;https://github.com/tensorflow/transform;827;2020-08-17;11;58;33;104;100;67;25;309;7;https://libraries.io/pypi/tensorflow-transform;7;0;42
 python-editor;41673231;https://github.com/fmoo/python-editor;52;2019-05-03;;;5;10;10;197;8;43,538;74;https://libraries.io/pypi/python-editor;17;16;5.83K
-ansible;41640560;https://github.com/ansible/ansible;44440;2020-08-20;500;;1.7k;26182;100;;5,000+;12,527;278;https://libraries.io/pypi/ansible;24;78;3.83K
+ansible;41640560;https://github.com/ansible/ansible;44440;2020-08-20;500;;1.7k;26182;100;;5,000;12,527;278;https://libraries.io/pypi/ansible;24;78;3.83K
 gitdb2;41301813;https://github.com/gitpython-developers/gitdb;103;2020-06-15;2;;6;25;25;103;18;3,208;51;https://libraries.io/pypi/gitdb2;17;23;1.03K
 tzlocal;41236088;https://github.com/regebro/tzlocal;119;2020-05-08;1;;5;41;40;97;18;17,648;548;https://libraries.io/pypi/tzlocal;19;230;3.01K
 msrestazure;41223003;https://github.com/Azure/msrestazure-for-python;16;2020-06-29;5;;11;57;57;140;16;1,817;188;https://libraries.io/pypi/msrestazure;17;128;420
@@ -759,7 +759,7 @@ pastel;6847015;https://github.com/sdispater/pastel;31;2019-12-16;;;4;2;2;118;;;;
 poyo;6841071;https://github.com/hackebrot/poyo;114;2019-07-26;2;242;5;11;11;48;7;;;https://libraries.io/pypi/poyo;16;4;299
 fakeredis;6834930;https://github.com/jamesls/fakeredis;546;2020-08-18;8;;5;122;100;231;76;1,522;61;https://libraries.io/pypi/fakeredis;18;21;370
 python-jenkins;6833219;;;;0;0;;;0;0;;;;https://libraries.io/pypi/python-jenkins;12;21;333
-filemagic;6817402;https://github.com/mxcl/homebrew;27704;2019-01-23;473;;0;17038;;;5,000+;;;https://libraries.io/pypi/filemagic;6;1;124
+filemagic;6817402;https://github.com/mxcl/homebrew;27704;2019-01-23;473;;0;17038;;;5,000;;;https://libraries.io/pypi/filemagic;6;1;124
 pylev;6815788;http://github.com/toastdriven/pylev;53;2015-01-08;;;3;1;1;3;4;496;15;https://libraries.io/pypi/pylev;15;5;87
 mysql-connector;6783350;;;;0;0;;;0;0;;;;https://libraries.io/pypi/mysql-connector;17;11;369
 brotli;6773018;https://github.com/google/brotli;9014;2020-07-09;14;153;40;226;100;94;64;2,718;61;https://libraries.io/pypi/Brotli;18;19;147

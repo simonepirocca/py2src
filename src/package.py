@@ -315,6 +315,31 @@ class Package:
                         return commits
             return ""
 
+    def get_commits2_from_github_repo(self, url: str) -> str:
+        """
+        Get commits of github repo
+        """
+        
+        try:
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "/commits/" in url_parts.path:
+                        span = link.findAll("span")[0]
+                        commits = span.findAll("strong")[0].getText()
+                        return commits
+            return ""
+
     def get_link_span_metric_from_github_repo(self, url: str, metric:str) -> str:
         """
         Get link span metric of github repo
@@ -344,6 +369,32 @@ class Package:
                             else:
                                 return span.getText()
             return ""
+
+    def get_tags_from_github_repo(self, url: str) -> str:
+        """
+        Get tags (releases) of github repo
+        """
+        
+        try:
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            i = 0
+            for link in soup.findAll("a", {"class": "link-gray-dark"}):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "/releases" in url_parts.path:
+                        i += 1
+                        if i == 2: return link.findAll("span", {"class": "text-bold"})[0].getText()
+            return ""
+
 
     def get_last_release_from_github_repo(self, url: str) -> str:
         """

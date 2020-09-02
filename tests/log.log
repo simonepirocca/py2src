@@ -1,0 +1,175 @@
+INFO:root:Count: 4000, Duplicated: 0, Tot packages: 3708, Complete rows: 528, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 1015, 983, 1496, 2333, 1324, 1167, 1313, 1370, 1203, 2392, 2415, 96, 130, 1063, 311]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 528, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 1015, 983, 1496, 2333, 1324, 1167, 1313, 1370, 1203, 2392, 2415, 96, 130, 1063, 311]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 529, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 1015, 983, 1496, 2333, 1324, 1167, 1313, 1313, 1203, 2392, 2415, 96, 130, 1063, 311]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 1085, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 1015, 983, 1496, 2333, 0, 0, 1313, 1370, 1203, 0, 0, 96, 0, 0, 0]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 652, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 1015, 983, 1496, 2333, 1046, 1044, 1313, 1370, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 654, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1370, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 2753, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 955, 955, 955, 955, 955, 955, 955, 0, 955, 955, 955, 95, 95, 95, 95]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 658, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 955, 1496, 2333, 1046, 1044, 1313, 358, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 658, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 955, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 4000, Duplicated: 292, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 1011, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 1011, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 655, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 983, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 658, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 1496, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 690, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2333, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1044, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1203, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2392, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2112, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 780, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2112, 2121, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 776, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2678, 1046, 1043, 1313, 1313, 1202, 2112, 2102, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 1119, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 1229, 1046, 1043, 1313, 1313, 1202, 2112, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 1119, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 1229, 1046, 1043, 1313, 1313, 1202, 2112, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 2753, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 95, 95, 95, 95]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 2753, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 955, 95, 95, 95, 95]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 1119, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 1229, 1046, 1043, 1313, 1313, 1202, 2112, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Count: 3708, Duplicated: 0, Tot packages: 3708, Complete rows: 693, Missing GitHub urls: 955
+INFO:root:Empty cells: [0, 0, 955, 977, 976, 977, 2329, 1046, 1043, 1313, 1313, 1202, 2112, 2392, 96, 97, 97, 96]
+INFO:root:First package: urllib3
+INFO:root:Last package: django-partial-index
+INFO:root:-------------------------------------------------------------------------------------------------------------
