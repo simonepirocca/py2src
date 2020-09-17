@@ -27,6 +27,7 @@ def test_fix_metrics():
     missing_github_url = 0
     complete_rows = 0
     semi_complete_rows = 0
+    useless_rows = 0
     tot_packages = 0
     duplicates = 0
     line_count = 0
@@ -49,9 +50,11 @@ def test_fix_metrics():
                 if not duplicated:
                     complete_row = True
                     semi_complete_row = True
+                    useless_row = True
                     metrics = []
                     for i in range(0, 18):
                         #if row[i] == "" or row[i] == "0": 
+                        if row[i] != "" and i in [3, 4, 5, 6, 7, 8, 10, 11, 12, 13]: useless_row = False
                         if row[i] == "": 
 
                             empty_cells[i] += 1
@@ -378,12 +381,13 @@ def test_fix_metrics():
              #       packages.append(metrics)
                     if complete_row: complete_rows += 1
                     if semi_complete_row: semi_complete_rows += 1
+                    if useless_row: useless_rows += 1
                     tot_packages += 1
 
             line_count += 1
             if line_count >= end: break
 
-    logging.info(f"Tot packages: {tot_packages}, Complete rows: {complete_rows}, Semi-complete rows: {semi_complete_rows}")
+    logging.info(f"Tot packages: {tot_packages}, Complete rows: {complete_rows}, Semi-complete rows: {semi_complete_rows}, Useless rows: {useless_rows}")
     logging.info(f"Empty cells: {empty_cells}")
     logging.info(f"-------------------------------------------------------------------------------------------------------------")
 
