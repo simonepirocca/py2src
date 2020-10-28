@@ -421,3 +421,359 @@ INFO:root:----------------------------------------------------------------------
 INFO:root:Tot packages: 3708, Complete rows: 1355, Semi-complete rows: 1366, Useless rows: 542
 INFO:root:Empty cells: [0, 0, 0, 542, 544, 544, 814, 627, 628, 1206, 1211, 801, 1780, 1895, 96, 96, 97, 96]
 INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Tot packages: 3708, First package: ['aadict', 'http://github.com/metagriffin/aadict', '387812', '', ''], Is 'urllib3' known? 3510, Is 'urlliba' known? -1
+INFO:root:urllib3 = urllib3
+INFO:root:urllib2 not present
+INFO:root:Total vulns: 30
+INFO:root:Total vulns: 1267 - Last severity: <span class="severity-list__item-text">M</span>
+INFO:root:Total vulns: 1267 - Last severity: M
+INFO:root:Total vulns: 30 - Last name: Heap-based Buffer Overflow - Last url: https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-1013604 - Last pkg: tensorflow-cpu
+INFO:root:Last name: Heap-based Buffer Overflow - Last url: https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-1013604 - Last pkg: tensorflow-cpu - Last versions: [,1.15.4),[2.0.0, 2.0.3),[2.1.0, 2.1.2),[2.2.0, 2.2.1),[2.3.0, 2.3.1)
+INFO:root:Tot vulns: 30
+INFO:root:First vuln: ['M', 'Cross-site Scripting (XSS)', 'https://snyk.io/vuln/SNYK-PYTHON-MATRIXSYNAPSE-1019356', 'matrix-synapse', '[,1.21.0)', '', '', '', '', '', '', '', '', '']
+INFO:root:CVE trial: Snyk - Open Source Security
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                        Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                        Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                        Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: 
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                          Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                          Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                          Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: Test your code
+INFO:root:CVE trial: any
+INFO:root:CVE trial: cocoapods
+INFO:root:CVE trial: Composer
+INFO:root:CVE trial: Go
+INFO:root:CVE trial: Linux
+INFO:root:CVE trial: Maven
+INFO:root:CVE trial: npm
+INFO:root:CVE trial: NuGet
+INFO:root:CVE trial: pip
+INFO:root:CVE trial: RubyGems
+INFO:root:CVE trial: Report a new vulnerability
+INFO:root:CVE trial: Cross-site Scripting (XSS)
+INFO:root:CVE trial: matrix-synapse
+INFO:root:CVE trial: Server-side Request Forgery (SSRF)
+INFO:root:CVE trial: libtaxii
+INFO:root:CVE trial: Insecure Permissions
+INFO:root:CVE trial: django-two-factor-auth
+INFO:root:CVE trial: Arbitrary Code Execution
+INFO:root:CVE trial: blazar-dashboard
+INFO:root:CVE trial: Security Bypass
+INFO:root:CVE trial: sopel-plugins.channelmgnt
+INFO:root:CVE trial: Regular Expression Denial of Service (ReDoS)
+INFO:root:CVE trial: splunk-sdk
+INFO:root:CVE trial: Directory Traversal
+INFO:root:CVE trial: xmpp-http-upload
+INFO:root:CVE trial: Arbitrary Code Execution
+INFO:root:CVE trial: django-cms
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: cryptoauthlib
+INFO:root:CVE trial: Cross-site Scripting (XSS)
+INFO:root:CVE trial: django-rest-framework
+INFO:root:CVE trial: Information Exposure
+INFO:root:CVE trial: apache-superset
+INFO:root:CVE trial: HTTP Header Injection
+INFO:root:CVE trial: urllib3
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Improper Input Validation
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Next
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: Sign up for free
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Test with Github
+INFO:root:CVE trial: Test with CLI
+INFO:root:CVE trial: API Status
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Documentation
+INFO:root:CVE trial: Disclosed Vulnerabilities
+INFO:root:CVE trial: FAQs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Jobs
+INFO:root:CVE trial: Contact
+INFO:root:CVE trial: Policies
+INFO:root:CVE trial: Press Kit
+INFO:root:CVE trial: Events
+INFO:root:CVE trial: Support
+INFO:root:CVE trial: Report a new vuln
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:Tot vulns: 1
+INFO:root:First vuln: ['M', 'Cross-site Scripting (XSS)', 'https://snyk.io/vuln/SNYK-PYTHON-MATRIXSYNAPSE-1019356', 'matrix-synapse', '[,1.21.0)', '', '', '', '', '', '', '', '', '']
+INFO:root:CVE trial: Snyk - Open Source Security
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                        Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                        Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                        Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: 
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                          Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                          Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                          Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: Test your code
+INFO:root:CVE trial: any
+INFO:root:CVE trial: cocoapods
+INFO:root:CVE trial: Composer
+INFO:root:CVE trial: Go
+INFO:root:CVE trial: Linux
+INFO:root:CVE trial: Maven
+INFO:root:CVE trial: npm
+INFO:root:CVE trial: NuGet
+INFO:root:CVE trial: pip
+INFO:root:CVE trial: RubyGems
+INFO:root:CVE trial: Report a new vulnerability
+INFO:root:CVE trial: Cross-site Scripting (XSS)
+INFO:root:CVE trial: matrix-synapse
+INFO:root:CVE trial: Server-side Request Forgery (SSRF)
+INFO:root:CVE trial: libtaxii
+INFO:root:CVE trial: Insecure Permissions
+INFO:root:CVE trial: django-two-factor-auth
+INFO:root:CVE trial: Arbitrary Code Execution
+INFO:root:CVE trial: blazar-dashboard
+INFO:root:CVE trial: Security Bypass
+INFO:root:CVE trial: sopel-plugins.channelmgnt
+INFO:root:CVE trial: Regular Expression Denial of Service (ReDoS)
+INFO:root:CVE trial: splunk-sdk
+INFO:root:CVE trial: Directory Traversal
+INFO:root:CVE trial: xmpp-http-upload
+INFO:root:CVE trial: Arbitrary Code Execution
+INFO:root:CVE trial: django-cms
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: cryptoauthlib
+INFO:root:CVE trial: Cross-site Scripting (XSS)
+INFO:root:CVE trial: django-rest-framework
+INFO:root:CVE trial: Information Exposure
+INFO:root:CVE trial: apache-superset
+INFO:root:CVE trial: HTTP Header Injection
+INFO:root:CVE trial: urllib3
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Denial of Service (DoS)
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: NULL Pointer Dereference
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Improper Input Validation
+INFO:root:CVE trial: tensorflow
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Heap-based Buffer Overflow
+INFO:root:CVE trial: tensorflow-cpu
+INFO:root:CVE trial: Next
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: Sign up for free
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Test with Github
+INFO:root:CVE trial: Test with CLI
+INFO:root:CVE trial: API Status
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Documentation
+INFO:root:CVE trial: Disclosed Vulnerabilities
+INFO:root:CVE trial: FAQs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Jobs
+INFO:root:CVE trial: Contact
+INFO:root:CVE trial: Policies
+INFO:root:CVE trial: Press Kit
+INFO:root:CVE trial: Events
+INFO:root:CVE trial: Support
+INFO:root:CVE trial: Report a new vuln
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:CVE trial: 
+INFO:root:Tot vulns: 1
+INFO:root:First vuln: ['M', 'Cross-site Scripting (XSS)', 'https://snyk.io/vuln/SNYK-PYTHON-MATRIXSYNAPSE-1019356', 'matrix-synapse', '[,1.21.0)', '', '', '', '', '', '', '', '', '']
+INFO:root:CVE trial: Snyk - Open Source Security
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                        Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                        Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                        Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: 
+INFO:root:CVE trial: Test
+INFO:root:CVE trial: Features
+INFO:root:CVE trial: Snyk for Developers & DevOps
+                          Find out of all the great features for developers and devops
+INFO:root:CVE trial: Snyk for Enterprise
+                          Find out of all the great features for Enterprise
+INFO:root:CVE trial: Container Vulnerability Management
+                          Find and fix Docker image vulnerabilities
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: Blog
+INFO:root:CVE trial: Partners
+INFO:root:CVE trial: Pricing
+INFO:root:CVE trial: Docs
+INFO:root:CVE trial: About
+INFO:root:CVE trial: Log In
+INFO:root:CVE trial: Sign Up
+INFO:root:CVE trial: Vulnerability DB
+INFO:root:CVE trial: pip
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: Report new vulnerabilities
+INFO:root:CVE trial: Test your applications
+INFO:root:CVE trial: tensorflow-gpu
+INFO:root:CVE trial: commons-fileupload:commons-fileupload
+INFO:root:CVE trial: npm ws package
+INFO:root:CVE trial: GitHub Commit
+INFO:root:CVE trial: GitHub Issue
+INFO:root:CVE trial: CVE-2020-15266
+INFO:root:Tot vulns: 1
+INFO:root:First vuln: ['H', 'Denial of Service (DoS)', 'https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1020815', 'tensorflow-gpu', '[,2.4.0)', 'CVE-2020-15266', '', 'https://github.com/tensorflow/tensorflow/pull/42143/commits/3ade2efec2e90c6237de32a19680caaa3ebc2845', '', '', '', '', 'https://github.com/tensorflow/tensorflow/issues/42129', '']
+INFO:root:Tot vulns: 1
+INFO:root:First vuln: ['H', 'Denial of Service (DoS)', 'https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1020815', 'tensorflow-gpu', '[,2.4.0)', 'CVE-2020-15266', '', 'https://github.com/tensorflow/tensorflow/pull/42143/commits/3ade2efec2e90c6237de32a19680caaa3ebc2845', '', '', '', '', 'https://github.com/tensorflow/tensorflow/issues/42129', '']
+INFO:root:Tot vulns: 30
+INFO:root:First vuln: ['H', 'Denial of Service (DoS)', 'https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1020815', 'tensorflow-gpu', '[,2.4.0)', 'CVE-2020-15266', '', 'https://github.com/tensorflow/tensorflow/pull/42143/commits/3ade2efec2e90c6237de32a19680caaa3ebc2845', '', '', '', '', 'https://github.com/tensorflow/tensorflow/issues/42129', '']
+INFO:root:Tot vulns: 30
+INFO:root:First vuln: ['H', 'Denial of Service (DoS)', 'https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1020815', 'tensorflow-gpu', '[,2.4.0)', 'CVE-2020-15266', '', 'https://github.com/tensorflow/tensorflow/pull/42143/commits/3ade2efec2e90c6237de32a19680caaa3ebc2845', '', '', '', '', 'https://github.com/tensorflow/tensorflow/issues/42129', '']
+INFO:root:Tot vulns: 30
+INFO:root:Tot vulns: 1276
+INFO:root:Tot vulns: 1276, Tot packages: 564, Complete rows: 43
+INFO:root:Not empty cells: [1276, 1276, 1276, 1276, 1276, 941, 98, 438, 61]
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Tot vulns: 1276, Tot packages: 564, Complete rows: 0
+INFO:root:Not empty cells: [941, 98, 438, 61, 3, 14, 182, 195, 343]
+INFO:root:-------------------------------------------------------------------------------------------------------------
+INFO:root:Matching vulns: 729, Matching packages: 232
+INFO:root:Matching vulns: 729, Matching packages: 232, First matching package: tensorflow-gpu
+INFO:root:Matching vulns: 729, Matching packages: 232

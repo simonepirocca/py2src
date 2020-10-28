@@ -1,0 +1,17 @@
+Vulnerabilities: 1276
+Packages: 564
+Complete rows: 0
+
+CVE: 941
+GitHub Advisory: 98
+GitHub Commit: 438
+GitHub Release: 61
+GitHub Release Tag: 3
+GitHub Additional Information: 14
+GitHub PR: 182
+GitHub Issue: 195
+NVD: 343
+
+------------------------------------------
+Vulnerabilities related to known packages:
+729 (of 232 packages)
