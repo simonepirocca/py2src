@@ -777,3 +777,37 @@ INFO:root:----------------------------------------------------------------------
 INFO:root:Matching vulns: 729, Matching packages: 232
 INFO:root:Matching vulns: 729, Matching packages: 232, First matching package: tensorflow-gpu
 INFO:root:Matching vulns: 729, Matching packages: 232
+INFO:root:Packages: 1106
+INFO:root:Packages: 1106, Vulns: 12120
+INFO:root:acqusition
+INFO:root:Packages: 1105, Vulns: 12120
+INFO:root:a
+INFO:root:Packages: 1105, Vulns: 12120
+INFO:root:[{'advisory': 'acqusition is a package affected by pytosquatting: http://www.nbu.gov.sk/skcsirt-sa-20170909-pypi/', 'cve': None, 'id': 'pyup.io-34978', 'specs': ['>0', '<0'], 'v': '>0,<0'}]
+INFO:root:Packages: 1105, Vulns: 12120
+INFO:root:[{'advisory': 'acqusition is a package affected by pytosquatting: http://www.nbu.gov.sk/skcsirt-sa-20170909-pypi/', 'cve': None, 'id': 'pyup.io-34978', 'specs': ['>0', '<0'], 'v': '>0,<0'}]
+INFO:root:Packages: 1105, Vulns: 1911
+INFO:root:advisory
+INFO:root:cve
+INFO:root:id
+INFO:root:specs
+INFO:root:v
+INFO:root:Packages: 1105, Vulns: 1911
+INFO:root:Packages: 51, Vulns: 87
+INFO:root:Packages: 1105, Vulns: 1911
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:v
+INFO:root:Packages: 11, Vulns: 14
+INFO:root:Packages: 1105, Vulns: 1911
+INFO:root:Packages: 1105, Vulns: 1911, CVE: 1909
+INFO:root:Packages: 1105, Vulns: 1911, CVE: 588
