@@ -811,3 +811,34 @@ INFO:root:Packages: 11, Vulns: 14
 INFO:root:Packages: 1105, Vulns: 1911
 INFO:root:Packages: 1105, Vulns: 1911, CVE: 1909
 INFO:root:Packages: 1105, Vulns: 1911, CVE: 588
+INFO:root:Matching vulns: 729, Matching packages: 729
+INFO:root:Matching vulns: 729, Matching packages: 232
+INFO:root:Matching vulns: 729, Matching packages: 232
+INFO:root:Commit packages: 117
+INFO:root:First name: aiohttp, First dir: aiohttp
+INFO:root:First name: aiohttp, First dir: aiohttp
+INFO:root:First name: aiohttp-session, First dir: aiohttp
+INFO:root:First name: aiohttp, First dir: aiohttp
+INFO:root:First name: aiohttp-session, First dir: aiohttp
+INFO:root:Commits: 234
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'c07998304b4a31df4c61deddcb03d3607a04691b' is not related to a package
+INFO:root:Commits: 234
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'c07998304b4a31df4c61deddcb03d3607a04691b' is not related to package 'markdown2'
+INFO:root:Commits: 234
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'c07998304b4a31df4c61deddcb03d3607a04691b' is not related to package 'markdown2'
+INFO:root:Commits: 234
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'1b1dcdd727c0ef03453b9f5ef5ae3679f1d72323' is not related to package 'markdown2'
+INFO:root:Commits: 234
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commits: 235
+INFO:root:First commit: ['tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'' is not related to package 'pillow'
+INFO:root:Commits: 234
+INFO:root:First commit: ['1', 'tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Commit'' is not related to package 'pillow' or is empty
+INFO:root:Commits: 234
+INFO:root:First commit: ['1', 'tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']

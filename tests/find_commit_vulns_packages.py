@@ -1,5 +1,5 @@
 """
-This file finds the vulnerabilities related to already known packages
+This file finds packages whose vulnerabilities have commit link
 """
 import sys
 import os
@@ -10,38 +10,29 @@ import logging
 logging.basicConfig(filename="log.log", level=logging.INFO)
 
 
-def test_match_packages():
-    packages = []
+def test_find_commit_vulns():
     package_names = []
     clone_urls = []
-    matching_vulns = []
-    matching_packages = []
-    tot_matching_packages = 0
+    commit_packages = []
+    tot_commit_packages = 0
 
-    with open('../metrics_output/packages_asc.csv') as csv_file:
+    with open('../vulns_output/matching_packages.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
         line_count = 0
         for row in csv_reader:
             if line_count > 0:
 
                 package_name = row[0]
-                github_url = row[1]
-                last_char_i = len(github_url) - 1
-                if github_url[last_char_i] == "/": clone_url = github_url[:last_char_i-1] + ".git"
-                else: clone_url = github_url + ".git"
-                pypi_downloads = row[2]
-                dep_repos = row[3]
-                dep_pkgs = row[4]
+                clone_url = row[1]
 
                 package_names.append(package_name)
                 clone_urls.append(clone_url)
-                packages.append([package_name, github_url, pypi_downloads, dep_repos, dep_pkgs])
 
             line_count += 1
 
     n = len(package_names)  
 
-    with open('../vulns_output/snyk_pip_vulns.csv') as csv_file:
+    with open('../vulns_output/matching_vulns_unique_commit.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
         line_count = 0
         for row in csv_reader:
@@ -51,34 +42,25 @@ def test_match_packages():
                 package_index = searchStr(package_names, name, 0, n-1)
 
                 if package_index != -1:
-                    matching_vulns.append(row)
 
                     duplicated = False
-                    for j in range (0, tot_matching_packages):
-                        if name == matching_packages[j][0]:
+                    for j in range (0, tot_commit_packages):
+                        if name == commit_packages[j][0]:
                             duplicated = True
                             break
                     if not duplicated:
-                        matching_packages.append([name, clone_urls[package_index]])
-                        tot_matching_packages += 1
+                        commit_packages.append([name, clone_urls[package_index]])
+                        tot_commit_packages += 1
 
             line_count += 1
 
-    logging.info(f"Matching vulns: {len(matching_vulns)}, Matching packages: {tot_matching_packages}")
+    logging.info(f"Commit packages: {tot_commit_packages}")
 
-    with open("../vulns_output/matching_vulns.csv", mode='w') as csv_file:
+    with open("../vulns_output/packages_with_vuln_commit.csv", mode='w') as csv_file:
         vulns_writer = csv.writer(csv_file, delimiter=';')
-        vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
-'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
-
-        for i in range(0, len(matching_vulns)):
-            vulns_writer.writerow(matching_vulns[i])
-
-    with open("../vulns_output/matching_packages.csv", mode='w') as csv_file:
-        vulns_writer = csv.writer(csv_file, delimiter=';')
-        vulns_writer.writerow(['Package name', 'Clone url'])
-        for i in range(0, len(matching_packages)):
-            vulns_writer.writerow(matching_packages[i])
+        #vulns_writer.writerow(['Package name', 'Clone url'])
+        for i in range(0, len(commit_packages)):
+            vulns_writer.writerow(commit_packages[i])
 
 def compareStrings(str1, str2):  
    
