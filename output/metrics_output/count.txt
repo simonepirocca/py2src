@@ -1,0 +1,26 @@
+json missing: 206 closed_issues, 26 commits, 22 generals
+github urls: 3045
+duplicates: 292
+total packages: 4000
+
+----------------------------------------
+AFTER FIXING
+json missing: 206 closed_issues, 20 commits, 21 generals
+github urls: 3045
+total packages: 3708
+----------------------------------------
+
+AFFTER OSSGadget
+100 different urls (see "diff.txt"): 
+3 totally wrong (ninja --> https://github.com/ninja-build/ninja, imagecodecs --> https://github.com/scossu/imagecodecs, simpy --> https://github.com/simpx/simpy)
+6 were right (plotly, statistics, sphinx-autobuild, speechrecognition, pydruid, repoze-who)
+
+github urls: 3708
+total packages: 3708
+semi-complete rows: 1366
+useless rows: 542
+empty cells with useless rows:
+[0, 0, 0, 542, 544, 544, 814, 627, 628, 1206, 1211, 801, 1780, 1895, 96, 96, 97, 96]
+empty cells without useless rows:
+[0, 0, 0, 0, 2, 2, 272, 85, 86, 664, 669, 259, 1238, 1353, 84, 84, 85, 84]
+json missing: 739 closed_issues, 252 commits, 250 generals
