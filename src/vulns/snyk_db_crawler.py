@@ -13,7 +13,7 @@ logging.basicConfig(filename="../log.log", level=logging.INFO)
 
 def test_crawl_snyk():
 
-    SNYK_DB_FILE = "../../outputs/vulns_output/snyk_pip_vulns.csv"
+    SNYK_DB_FILE = "../../output/vulns_output/snyk_pip_vulns.csv"
     BASE_URL = "https://snyk.io/vuln/page/"
     SNYK_VULN_PAGE_BASE_URL = "https://snyk.io"
 

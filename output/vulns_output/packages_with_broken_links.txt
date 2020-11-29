@@ -1,0 +1,9 @@
+bottle
+gdal
+msgpack
+notebook
+python-gnupg
+python-keystoneclient
+python-qpid-proton
+tensorflow-gpu
+thrift

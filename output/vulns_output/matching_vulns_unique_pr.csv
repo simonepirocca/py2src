@@ -1,0 +1,52 @@
+Severity;Name;Vulnerability_url;Package;Versions;CVE;GitHub Advisory;GitHub Commit;GitHub Release;GitHub Release Tag;GitHub Additional Information;GitHub PR;GitHub Issue;NVD
+H;Arbitrary Shell Injection;https://snyk.io/vuln/SNYK-PYTHON-PYTORCHLIGHTNING-609296;pytorch-lightning;[,0.9.0);;;;;;;https://github.com/PyTorchLightning/pytorch-lightning/pull/2786;https://github.com/PyTorchLightning/pytorch-lightning/issues/2782;
+H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-FLASKCORS-608972;flask-cors;[,3.0.9);CVE-2020-25032;;;;;;https://github.com/corydolphin/flask-cors/pull/272;;
+M;Cryptographic Issues;https://snyk.io/vuln/SNYK-PYTHON-IPADDRESS-590065;ipaddress;[0,];CVE-2020-14422;;;;;;https://github.com/phihag/ipaddress/pull/56;https://github.com/phihag/ipaddress/issues/55;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-597661;ansible;[,2.8.14),[2.9.0,2.9.12);CVE-2020-14330;;;;;;https://github.com/ansible/ansible/pull/70762/;;
+H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-STARLETTE-573266;starlette;[0,0.13.5);;;;;;;https://github.com/encode/starlette/pull/985/files;https://github.com/encode/starlette/issues/981;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-585821;ansible;[,2.8.14),[2.9.0, 2.9.12);CVE-2020-14332;;;;;;https://github.com/ansible/ansible/pull/71033;;
+H;Insecure Default;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-570290;apache-airflow;[0,1.10.11);CVE-2020-11982;;;;;;https://github.com/apache/airflow/pull/7205;;
+H;Command Injection;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-570291;apache-airflow;[0,1.10.11);CVE-2020-11981;;;;;;https://github.com/apache/airflow/pull/9178;;
+M;Out-of-bounds Read;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-574574;pillow;[0, 7.1.0);CVE-2020-11538;;;;;;https://github.com/python-pillow/Pillow/pull/4504;;
+M;Out-of-Bounds;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-574573;pillow;[, 7.1.0);CVE-2020-10177;;;;;;https://github.com/python-pillow/Pillow/pull/4503;;
+L;Insecure Permissions;https://snyk.io/vuln/SNYK-PYTHON-RTSLIBFB-572839;rtslib-fb;[,2.1.73);CVE-2020-14019;;;;;;https://github.com/open-iscsi/rtslib-fb/pull/162;;
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-GDAL-571002;gdal;[,3.1.0);;;;;;;https://github.com/OSGeo/gdal/pull/2207/files;;
+M;information leakage;https://snyk.io/vuln/SNYK-PYTHON-FASTAPI-569038;fastapi;[0.36.0, 0.37.0);;;;;;;https://github.com/tiangolo/fastapi/commit/6c6bdb62337ab2e05438d99fce66113e375ddb04;;
+H;Cross Site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MARKDOWN2-568905;markdown2;[,2.3.9);;;;;;;https://github.com/trentm/python-markdown2/pull/350;;
+M;Credential Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-568827;ansible;[2.7.0, 2.7.17),[2.8.0 , 2.8.11),[2.9.0, 2.9.7);CVE-2020-10685;;;;;;https://github.com/ansible/ansible/pull/68433;;
+M;Remote Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PYLINT-568073;pylint;[1.1.0,2.5.0);;;;;;;https://github.com/PyCQA/pylint/pull/3411;https://github.com/PyCQA/pylint/issues/959;
+M;Insecure Permissions;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-568018;ansible;[2.9.0, 2.9.7);CVE-2020-10691;;;;;;https://github.com/ansible/ansible/pull/68596;;
+L;Insufficient Randomness;https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-564338;werkzeug;[,0.12);;;;;;;https://github.com/pallets/werkzeug/pull/753;;
+M;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-PYRAMID-564354;pyramid;[,1.3a1);;;;;;;https://github.com/Pylons/pyramid/pull/320;;
+L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560367;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1740;;;;;;https://github.com/ansible/ansible/pull/68644;https://github.com/ansible/ansible/issues/67798;
+H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560368;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1735;;;;;;https://github.com/ansible/ansible/pull/68720;https://github.com/ansible/ansible/issues/67793;
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560366;ansible;[2.7.0,2.7.17),[2.8.0,2.8.11),[2.9.0,2.9.7);CVE-2020-1738;;;;;;https://github.com/ansible/ansible/pull/67808;https://github.com/ansible/ansible/issues/67796;
+M;Race Condition;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559860;ansible;[,2.7.17),[2.8.0,2.8.9),[2.9.0,2.9.6);CVE-2020-1733;;;;;;https://github.com/ansible/ansible/pull/68921;https://github.com/ansible/ansible/issues/67791;
+L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560128;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1739;;;;;;https://github.com/ansible/ansible/pull/67829;https://github.com/ansible/ansible/issues/67797;
+M;Arbitrary File Write via Archive Extraction (Zip Slip);https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559542;ansible;[,2.7.17),[2.8.0,2.8.9),[2.9.0,2.9.6);CVE-2020-1737;;;;;;https://github.com/ansible/ansible/pull/67799;https://github.com/ansible/ansible/issues/67795;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559099;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1746;;;;;;https://github.com/ansible/ansible/pull/68714;;
+M;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-535625;ansible;[2.8.0,2.8.6),[2.7.0,2.7.14),[,2.6.20);CVE-2019-14856;;;;;;https://github.com/ansible/ansible/pull/63351;;
+L;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-ECDSA-535624;ecdsa;[,0.13.3);CVE-2019-14853;;;https://github.com/warner/python-ecdsa/releases/tag/python-ecdsa-0.13.3;;;https://github.com/warner/python-ecdsa/pull/115;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-536093;notebook;[,5.5.0);CVE-2018-21030;;;https://github.com/jupyter/notebook/releases/tag/5.5.0;;;https://github.com/jupyter/notebook/pull/3341;;
+M;Use of Uninitialized Variable;https://snyk.io/vuln/SNYK-PYTHON-PYARROW-483026;pyarrow;[0.12.0,0.15.1);CVE-2019-12410;;;;;;https://github.com/apache/arrow/pull/5365;;
+L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-474286;ansible;[2.9.0b1,2.9.1),[2.8.0,2.8.7),[,2.7.15);CVE-2019-14864;;;;;;https://github.com/ansible/ansible/pull/63527;https://github.com/ansible/ansible/issues/63522;
+H;Server-side Request Forgery (SSRF);https://snyk.io/vuln/SNYK-PYTHON-GRAPHITEWEB-472979;graphite-web;[,1.1.6);CVE-2017-18638;;;;;;https://github.com/graphite-project/graphite-web/pull/2499;https://github.com/graphite-project/graphite-web/issues/2008;
+M;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-455610;ansible;[,2.2.1.0);CVE-2016-8647;;;;;;https://github.com/ansible/ansible-modules-core/pull/5388;;
+H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-FLASK-451637;flask;[,0.12.3);CVE-2019-1010083;;;;;;https://github.com/pallets/flask/pull/2691;;
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-KNACK-450215;knack;[,0.5.2);;;;https://github.com/Microsoft/knack/releases/tag/v0.5.2;;;https://github.com/microsoft/knack/pull/137;https://github.com/microsoft/knack/issues/136;
+H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-TWISTED-449939;twisted;[,19.7.0);CVE-2019-12855;;;;;;https://github.com/twisted/twisted/pull/1147;;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-174932;ansible;[2.5.0,2.8.1);CVE-2019-10156;;;;;;https://github.com/ansible/ansible/pull/57188;;
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-SALT-174927;salt;[,0.17.1);CVE-2013-4436;;;;;;https://github.com/saltstack/salt/pull/7356;;https://nvd.nist.gov/vuln/detail/CVE-2013-4436
+M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-174009;ansible;[2.5.0, 2.5.15),[2.6.0, 2.6.14),[2.7.0, 2.7.8);CVE-2019-3828;;;;;;https://github.com/ansible/ansible/pull/52133;;
+M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-URLLIB3-72681;urllib3;[,1.23);CVE-2018-20060;;;;;;https://github.com/urllib3/urllib3/pull/1346;https://github.com/urllib3/urllib3/issues/1316;
+H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TORNADO-40792;tornado;[,5.1.0);CVE-2018-1000518;;;;;;https://github.com/tornadoweb/tornado/pull/2391;;
+H;DNS Rebinding;https://snyk.io/vuln/SNYK-PYTHON-MITMPROXY-42179;mitmproxy;[,4.0.4);CVE-2018-14505;;;https://github.com/mitmproxy/mitmproxy/releases/tag/v4.0.4;;;https://github.com/mitmproxy/mitmproxy/pull/3243;https://github.com/mitmproxy/mitmproxy/issues/3234;
+H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-SALT-42128;salt;[,2016.11.7),[2017.7.0,2017.7.1);CVE-2017-12791;;;;;;https://github.com/saltstack/salt/pull/42944;;https://nvd.nist.gov/vuln/detail/CVE-2017-12791
+H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOREGISTRATIONREDUX-42114;django-registration-redux;[,1.7);;;;;;;https://github.com/macropin/django-registration/pull/268;;
+H;Client Impersonation;https://snyk.io/vuln/SNYK-PYTHON-SALT-42099;salt;[,2016.3.6);CVE-2017-7893;;;;;;https://github.com/saltstack/salt/pull/39855;;https://nvd.nist.gov/vuln/detail/CVE-2017-7893
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ROPE-42094;rope;[,0.11.0);CVE-2014-3539;;;;;;https://github.com/python-rope/rope/pull/251;;https://nvd.nist.gov/vuln/detail/CVE-2014-3539
+H;URI Scheme Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-BLEACH-42077;bleach;[2.1.0,2.1.3);CVE-2018-7753;;;;;;https://github.com/mozilla/bleach/commit/c5df5789ec3471a31311f42c2d19fc2cf21b35ef;;https://nvd.nist.gov/vuln/detail/CVE-2018-7753
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-42069;werkzeug;[,0.11.11);CVE-2016-10516;;;;;;https://github.com/pallets/werkzeug/pull/1001;;https://nvd.nist.gov/vuln/detail/CVE-2016-10516
+M;Insecure Randomness;https://snyk.io/vuln/SNYK-PYTHON-OAUTH2-40014;oauth2;[,1.9rc1);CVE-2013-4347;;;;;;https://github.com/simplegeo/python-oauth2/pull/146;https://github.com/simplegeo/python-oauth2/issues/9;
+M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-40368;twisted;[2.1.0,16.3.2];CVE-2016-1000111;;;;;;https://github.com/twisted/twisted/pull/482;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1000111
+H;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-CELERY-40086;celery;[2.4.0,2.4.3];CVE-2011-4356;;;;;;https://github.com/ask/celery/pull/544;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4356

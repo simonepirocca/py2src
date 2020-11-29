@@ -1,0 +1,2 @@
+tensorflow (tensorflow-gpu)
+djangorestframework ( django-rest-framework)

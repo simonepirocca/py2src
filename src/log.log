@@ -893,3 +893,18 @@ INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Differen
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 282, Different useless: 542, Different EMPTY useful: 165, Different EMPTY useless: 477
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 282, Different useless: 542, Different EMPTY useful: 165, Different EMPTY useless: 477
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 210, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
+INFO:root:Matching vulns: 701, Matching packages: 217
+INFO:root:Matching vulns with commit: 271
+INFO:root:Matching vulns with commit: 271
+INFO:root:Matching vulns with unique commit: 218
+INFO:root:Commit packages: 114
+INFO:root:Commit packages: 114
+INFO:root:Commit packages: 114
+INFO:root:Matching vulns: 701, Matching packages: 217
+INFO:root:Matching vulns with unique commit: 218
+INFO:root:Commit packages: 114
+INFO:root:Commit packages: 114
+INFO:root:Commit'' is not related to package 'pillow' or is empty
+INFO:root:Commits: 217
+INFO:root:First commit: ['1', 'tensorflow-gpu', 'tensorflow', '3ade2efec2e90c6237de32a19680caaa3ebc2845']
+INFO:root:Matching vulns with unique PR: 51

@@ -8,10 +8,9 @@ H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-1020819;te
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1020817;tensorflow-gpu;[,2.4.0);CVE-2020-15265;;https://github.com/tensorflow/tensorflow/commit/eccb7ec454e6617738554a255d77f08e60ee0808;;;;;https://github.com/tensorflow/tensorflow/issues/42105;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-1020818;tensorflow-cpu;[,2.4.0);CVE-2020-15265;;https://github.com/tensorflow/tensorflow/commit/eccb7ec454e6617738554a255d77f08e60ee0808;;;;;https://github.com/tensorflow/tensorflow/issues/42105;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-1020816;tensorflow;[,2.4.0);CVE-2020-15265;;https://github.com/tensorflow/tensorflow/commit/eccb7ec454e6617738554a255d77f08e60ee0808;;;;;https://github.com/tensorflow/tensorflow/issues/42105;
-M;Insecure Permissions;https://snyk.io/vuln/SNYK-PYTHON-DJANGOTWOFACTORAUTH-1014668;django-two-factor-auth;[0,1.13);;;;;;;;https://github.com/Bouke/django-two-factor-auth/issues/388;
 H;Regular Expression Denial of Service (ReDoS);https://snyk.io/vuln/SNYK-PYTHON-SPLUNKSDK-1017035;splunk-sdk;[0,];;;;;;;;https://github.com/splunk/splunk-sdk-python/issues/309;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCMS-1016279;django-cms;[3.4.0,3.4.7),[3.5.0,3.5.4),[3.6.0,3.6.1),[3.7.0,3.7.4);;;;;;;;;
-M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-1014656;django-rest-framework;[, 3.11.2);CVE-2020-25626;;https://github.com/encode/django-rest-framework/commit/4121b01b912668c049b26194a9a107c27a332429;;;;;;
+L;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-CRYPTOAUTHLIB-1015596;cryptoauthlib;[0, 3.2.3);;https://github.com/MicrochipTech/cryptoauthlib/security/advisories/GHSA-f366-4rvv-95x2;;;https://github.com/MicrochipTech/cryptoauthlib/releases/tag/v3.2.3;;;;
 H;HTTP Header Injection;https://snyk.io/vuln/SNYK-PYTHON-URLLIB3-1014645;urllib3;[,1.25.9);CVE-2020-26137;;https://github.com/urllib3/urllib3/commit/1dd69c5c5982fae7c87a620d487c2ebf7a6b436b;;;;https://github.com/urllib3/urllib3/pull/1800;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-1013620;tensorflow-gpu;[,1.15.4),[2.0.0, 2.0.3),[2.1.0, 2.1.2),[2.2.0, 2.2.1),[2.3.0, 2.3.1);CVE-2020-15206;https://github.com/tensorflow/tensorflow/security/advisories/GHSA-w5gh-2wr2-pm6g;;;;https://github.com/advisories/GHSA-w5gh-2wr2-pm6g;;;https://nvd.nist.gov/vuln/detail/CVE-2020-15206
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-1013619;tensorflow-cpu;[,1.15.4),[2.0.0, 2.0.3),[2.1.0, 2.1.2),[2.2.0, 2.2.1),[2.3.0, 2.3.1);CVE-2020-15206;https://github.com/tensorflow/tensorflow/security/advisories/GHSA-w5gh-2wr2-pm6g;;;;https://github.com/advisories/GHSA-w5gh-2wr2-pm6g;;;https://nvd.nist.gov/vuln/detail/CVE-2020-15206
@@ -103,24 +102,27 @@ H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-FLASKCORS-608972;flask-co
 H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-PDOC3-608847;pdoc3;[, 0.9.0);;;https://github.com/pdoc3/pdoc/commit/d9df475f5ab8afd2c45c920827ddd75fcb66b238;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SQLALCHEMY-590109;sqlalchemy;[0, 1.3.19);;;https://github.com/sqlalchemy/sqlalchemy/commit/d3ba45c00f83f7d57be5fb5caa7fb27f61624e28;;;;;https://github.com/sqlalchemy/sqlalchemy/issues/5470;
 L;Cleartext Storage of Sensitive Information;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCELERYRESULTS-598234;django-celery-results;[0,];CVE-2020-17495;;;;;;;https://github.com/celery/django-celery-results/issues/142;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DATASETTE-598229;datasette;[,0.46);;;https://github.com/simonw/datasette/commit/7f10f0f7664d474c1be82bf668829e3b736a3d2b;;;;;https://github.com/simonw/datasette/issues/918;
 L;Uninitialized Memory Exposure;https://snyk.io/vuln/SNYK-PYTHON-ASYNCPG-597672;asyncpg;[,0.21.0);CVE-2020-17446;;https://github.com/MagicStack/asyncpg/commit/69bcdf5bf7696b98ee708be5408fd7d854e910d0;;;;;;
 M;Cryptographic Issues;https://snyk.io/vuln/SNYK-PYTHON-IPADDRESS-590065;ipaddress;[0,];CVE-2020-14422;;;;;;https://github.com/phihag/ipaddress/pull/56;https://github.com/phihag/ipaddress/issues/55;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-597661;ansible;[,2.8.14),[2.9.0,2.9.12);CVE-2020-14330;;;;;;https://github.com/ansible/ansible/pull/70762/;;
 H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-TFTPY-597660;tftpy;[0,];;;;;;;;https://github.com/msoulier/tftpy/issues/110;
 H;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYBCRYPT-597179;py-bcrypt;[,0.3);CVE-2013-1895;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2013-1895
+H;Command Injection;https://snyk.io/vuln/SNYK-PYTHON-OSC-597178;osc;[,0.151);CVE-2015-0778;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-597084;tensorflow;[0, 1.12.2);CVE-2019-9635;;;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PYYAML-590151;pyyaml;[0,];CVE-2020-14343;;;;;;;https://github.com/yaml/pyyaml/issues/420;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-WAGTAIL-585980;wagtail;[,2.7.4),[2.8.0, 2.9.3);CVE-2020-15118;;https://github.com/wagtail/wagtail/commit/d9a41e7f24d08c024acc9a3094940199df94db34;https://github.com/wagtail/wagtail/blob/master/docs/releases/2.9.3.rst;;;;;
 M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-UVICORN-570471;uvicorn;[,0.11.7);CVE-2020-7695;;;;;;;;
 L;Log Injection;https://snyk.io/vuln/SNYK-PYTHON-UVICORN-575560;uvicorn;[,0.11.7);CVE-2020-7694;;;;;;;;
+M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-JUPYTERHUBKUBESPAWNER-585938;jupyterhub-kubespawner;[,0.12.0);CVE-2020-15110;https://github.com/jupyterhub/kubespawner/security/advisories/GHSA-v7m9-9497-p9gr;https://github.com/jupyterhub/kubespawner/commit/3dfe870a7f5e98e2e398b01996ca6b8eff4bb1d0;;;;;;
 H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-STARLETTE-573266;starlette;[0,0.13.5);;;;;;;https://github.com/encode/starlette/pull/985/files;https://github.com/encode/starlette/issues/981;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-585821;ansible;[,2.8.14),[2.9.0, 2.9.12);CVE-2020-14332;;;;;;https://github.com/ansible/ansible/pull/71033;;
 H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-585819;apache-airflow;[0,1.10.11);CVE-2020-9485;;;;;;;;
 H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-585818;apache-airflow;[0,1.10.11);CVE-2020-11983;;;;;;;;
 H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-585817;apache-airflow;[0,1.10.11);CVE-2020-11978;;;;;;;;
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-CHANNELSREDIS-574718;channels-redis;[0,3.0.0);;;https://github.com/django/channels_redis/commit/c13b3453f976e23a617fc55f9748609c1692c8f0;;;;https://github.com/django/channels_redis/pull/184;https://github.com/django/channels_redis/issues/182;
 H;Insecure Default;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-570290;apache-airflow;[0,1.10.11);CVE-2020-11982;;;;;;https://github.com/apache/airflow/pull/7205;;
 H;Command Injection;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-570291;apache-airflow;[0,1.10.11);CVE-2020-11981;;;;;;https://github.com/apache/airflow/pull/9178;;
-M;Insufficiently Protected Credentials;https://snyk.io/vuln/SNYK-PYTHON-DJANGOTWOFACTORAUTH-575703;django-two-factor-auth;[,1.12);CVE-2020-15105;;https://github.com/Bouke/django-two-factor-auth/commit/454fd9842fa6e8bb772dbf0943976bc8e3335359;;;;;;
 H;Deserialization of Untrusted Data;https://snyk.io/vuln/SNYK-PYTHON-BEAKER-575115;beaker;[0,];CVE-2013-7489;;;;;;;https://github.com/bbangert/beaker/issues/191;
 M;Buffer Overflow;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-574577;pillow;[, 7.1.0);CVE-2020-10379;;https://github.com/python-pillow/Pillow/commit/46f4a349b88915787fea3fb91348bb1665831bbb#diff-9478f2787e3ae9668a15123b165c23ac;;;;https://github.com/python-pillow/Pillow/pull/4538;;
 M;Out-of-bounds Read;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-574574;pillow;[0, 7.1.0);CVE-2020-11538;;;;;;https://github.com/python-pillow/Pillow/pull/4504;;
@@ -132,13 +134,9 @@ M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-571013;django;[3.
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-571014;django;[3.0.0, 3.0.7),[2.2.0, 2.2.13);CVE-2020-13596;;https://github.com/django/django/commit/6d61860b22875f358fac83d903dc629897934815;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-GDAL-571002;gdal;[,3.1.0);;;;;;;https://github.com/OSGeo/gdal/pull/2207/files;;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-RSA-570831;rsa;[0,4.1);CVE-2020-13757;;https://github.com/sybrenstuvel/python-rsa/commit/93af6f2f89a9bf28361e67716c4240e691520f30;;;;;https://github.com/sybrenstuvel/python-rsa/issues/146;
-H;CRLF Injection;https://snyk.io/vuln/SNYK-PYTHON-HTTPLIB2-570767;httplib2;[,0.18.0);;;https://github.com/httplib2/httplib2/commit/a1457cc31f3206cf691d11d2bf34e98865873e9e;;;;;;
-H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGOJSONFIELD-597545;django-jsonfield;[,1.0.1);;;;;;;;;
 H;HTTP Request Smuggling;https://snyk.io/vuln/SNYK-PYTHON-MEINHELD-569140;meinheld;[,1.0.2);CVE-2020-7658;;;;;;;;
-M;CRLF Injection;https://snyk.io/vuln/SNYK-PYTHON-HTTPLIB2-569758;httplib2;[,0.18.0);CVE-2020-11078;;https://github.com/httplib2/httplib2/commit/a1457cc31f3206cf691d11d2bf34e98865873e9e;;;;;;
 M;Cryptographic Weakness;https://snyk.io/vuln/SNYK-PYTHON-PASSLIB-569603;passlib;[,1.7.3);;;;;;;;;
 M;Race Condition;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-569107;ansible;[2.9.0b1,2.9.10),[,2.8.13);CVE-2020-10744;;;;;;;;
-M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-DJANGOSELECT2-569039;django-select2;[,5.7.0);;;https://github.com/applegrew/django-select2/commit/4a1b83ad1e9b2523961a0f23706c70b01683494f;;;;;;
 M;information leakage;https://snyk.io/vuln/SNYK-PYTHON-FASTAPI-569038;fastapi;[0.36.0, 0.37.0);;;;;;;https://github.com/tiangolo/fastapi/commit/6c6bdb62337ab2e05438d99fce66113e375ddb04;;
 M;Server-side request forgery (SSRF);https://snyk.io/vuln/SNYK-PYTHON-EC2METADATA-569069;ec2-metadata;[,2.2.0);;;;;;;;https://github.com/adamchainz/ec2-metadata/issues/150;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SCEPTRE-569070;sceptre;[,2.3.0);;;https://github.com/Sceptre/sceptre/commit/6d4124bdc9d4d5277c3f5cdc5eb7d6db9696b667;;;;;;
@@ -146,6 +144,10 @@ H;Cross Site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MARKDOWN2-568905;m
 H;Arbitrary File Write via Archive Extraction (Zip Slip);https://snyk.io/vuln/SNYK-PYTHON-PLATFORMIO-568834;platformio;[,4.1.0);;;https://github.com/platformio/platformio-core/commit/798b12ce7b097fdcb5056d84054fe157aa12a9ff;;;;;https://github.com/platformio/platformio-core/issues/2995;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-DJANGOHASHIDFIELD-568867;django-hashid-field;[,3.1.1);;;https://github.com/nshafer/django-hashid-field/commit/2a0be45333c5a700bbba0e15533ff8dce589e956;;;;;;
 M;Credential Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-568827;ansible;[2.7.0, 2.7.17),[2.8.0 , 2.8.11),[2.9.0, 2.9.7);CVE-2020-10685;;;;;;https://github.com/ansible/ansible/pull/68433;;
+H;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-568766;keystone;[,15.0.1),[16.0.0 ,16.0.1);CVE-2020-12691;;;;;;;;
+M;Improper Access Control;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-568463;keystone;[0, 17.0.0);CVE-2020-12690;;;;;;;;
+M;Improper Authentication;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-568468;keystone;[0, 17.0.0);CVE-2020-12692;;https://github.com/openstack/keystone/commit/ab89ea749013e7f2c46260f68504f5687763e019;;;;;;
+H;Improper Access Control;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-568466;keystone;[0, 17.0.0);CVE-2020-12689;;;;;;;;
 M;Out-of-bounds Read;https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-568085;tensorflow;[,1.7.0);CVE-2018-21233;;https://github.com/tensorflow/tensorflow/commit/49f73c55d56edffebde4bca4a407ad69c1cae433;;;;;;
 M;Remote Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PYLINT-568073;pylint;[1.1.0,2.5.0);;;;;;;https://github.com/PyCQA/pylint/pull/3411;https://github.com/PyCQA/pylint/issues/959;
 H;Cross Site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SOCKJSTORNADO-568071;sockjs-tornado;[,1.0.7);;;;;;;;https://github.com/mrjoes/sockjs-tornado/issues/116;
@@ -176,7 +178,9 @@ M;Arbitrary Code Injection;https://snyk.io/vuln/SNYK-PYTHON-IMAGEIO-564348;image
 M;HTTP Header Injection;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-564357;twisted;[,19.2.0);;;https://github.com/twisted/twisted/commit/63a707ed62ec95fe0285ac061721bd5de81d2e37;;;;https://github.com/twisted/twisted/pull/999;;
 L;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-WAITRESS-564339;waitress;[,0.9.0b1);;;https://github.com/Pylons/waitress/commit/4deab9f23f9eb273971da247981aa85b7a16e946;;;;https://github.com/Pylons/waitress/pull/124;https://github.com/Pylons/waitress/issues/122;
 M;Insufficient Validation;https://snyk.io/vuln/SNYK-PYTHON-THRIFT-564346;thrift;[,0.9.3);;;;;;;;;
-L;Improper Validation;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCORSHEADERS-564347;django-cors-headers;[,3.0.0);;;;;;;;;
+M;Incorrect Default Permissions;https://snyk.io/vuln/SNYK-PYTHON-FLASKAPPBUILDER-565889;flask-appbuilder;[,2.2.3);;;https://github.com/dpgaspar/Flask-AppBuilder/commit/08942c100174a111af41ff90e5444253b83d6294;;;;https://github.com/dpgaspar/Flask-AppBuilder/pull/1259;;
+H;SQL Injection;https://snyk.io/vuln/SNYK-PYTHON-FLASKAPPBUILDER-565890;flask-appbuilder;[,1.9.3);;;;;;;;;
+M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-FLASKAPPBUILDER-567790;flask-appbuilder;[,1.9.0);;;;;;;https://github.com/dpgaspar/Flask-AppBuilder/pull/472;;
 H;Cross-Site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-WEBARGS-564231;webargs;[6.0.0b1,6.0.0b4),[,5.5.3);CVE-2020-7965;;https://github.com/marshmallow-code/webargs/commit/74fada601a31b03dca0e4ae34c7d40246dcef598;;;;;;
 H;HTTP Request Smuggling;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-564121;twisted;[,20.3.0);CVE-2020-10108;;;;;;;;
 H;HTTP Request Splitting;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-564119;twisted;[,20.3.0);CVE-2020-10109;;;;;;;;
@@ -189,12 +193,14 @@ H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560368;ansible;[2
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560366;ansible;[2.7.0,2.7.17),[2.8.0,2.8.11),[2.9.0,2.9.7);CVE-2020-1738;;;;;;https://github.com/ansible/ansible/pull/67808;https://github.com/ansible/ansible/issues/67796;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560365;ansible;[2.7.0,2.7.17),[2.8.0,2.8.11),[2.9.0,2.9.7);CVE-2020-1736;;https://github.com/ansible/ansible/commit/dc79528cc6609ccef41a4e9708973b992851ab31;;;;;https://github.com/ansible/ansible/issues/67794;
 M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-DRFJWT-560361;drf-jwt;[1.15.0,1.15.1);CVE-2020-10594;;;;;;;https://github.com/Styria-Digital/django-rest-framework-jwt/issues/36;
+H;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-WAGTAIL2FA-560315;wagtail-2fa;[,1.4.1);CVE-2020-5240;;https://github.com/labd/wagtail-2fa/commit/ac23550d33b7436e90e3beea904647907eba5b74;;;;;;
 H;Arbitrary File Read;https://snyk.io/vuln/SNYK-PYTHON-DOCUTILS-560328;docutils;[0.5, 0.6);CVE-2009-5042;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2009-5042
 M;Race Condition;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559860;ansible;[,2.7.17),[2.8.0,2.8.9),[2.9.0,2.9.6);CVE-2020-1733;;;;;;https://github.com/ansible/ansible/pull/68921;https://github.com/ansible/ansible/issues/67791;
 L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-560128;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1739;;;;;;https://github.com/ansible/ansible/pull/67829;https://github.com/ansible/ansible/issues/67797;
 M;Arbitrary File Write via Archive Extraction (Zip Slip);https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559542;ansible;[,2.7.17),[2.8.0,2.8.9),[2.9.0,2.9.6);CVE-2020-1737;;;;;;https://github.com/ansible/ansible/pull/67799;https://github.com/ansible/ansible/issues/67795;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-URLLIB3-559452;urllib3;[1.25.2, 1.25.8);CVE-2020-7212;;;;;;;;
 H;SQL Injection;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-559326;django;[3.0.0,3.0.4),[2.2.0,2.2.11),[,1.11.29);CVE-2020-9402;;;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MARKDOWNEDITOR-559226;markdown-editor;[0,];;;;;;;https://github.com/ncornette/Python-Markdown-Editor/pull/22;;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559165;ansible;[2.7.0,2.7.17),[2.8.0,2.8.11),[2.9.0,2.9.7);CVE-2020-1734;;;;;;;https://github.com/ansible/ansible/issues/67792;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-559099;ansible;[2.7,2.7.17),[2.8.0a1,2.8.11),[2.9.0b1,2.9.7);CVE-2020-1746;;;;;;https://github.com/ansible/ansible/pull/68714;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PYYAML-559098;pyyaml;[0,5.3.1);CVE-2020-1747;;https://github.com/yaml/pyyaml/commit/5080ba513377b6355a0502104846ee804656f1e0;;;;https://github.com/yaml/pyyaml/pull/386;;
@@ -207,7 +213,6 @@ H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWGPU-543631;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOWCPU-543630;tensorflow-cpu;[1.12.0, 1.15.2),[2.0.0a0, 2.0.1);CVE-2020-5215;https://github.com/tensorflow/tensorflow/security/advisories/GHSA-977j-xj7q-2jr9;https://github.com/tensorflow/tensorflow/commit/5ac1b9e24ff6afc465756edf845d2e9660bd34bf;https://github.com/tensorflow/tensorflow/releases/tag/v1.15.2;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-543629;tensorflow;[1.12.0, 1.15.2),[2.0.0a0, 2.0.1);CVE-2020-5215;https://github.com/tensorflow/tensorflow/security/advisories/GHSA-977j-xj7q-2jr9;https://github.com/tensorflow/tensorflow/commit/5ac1b9e24ff6afc465756edf845d2e9660bd34bf;https://github.com/tensorflow/tensorflow/releases/tag/v1.15.2;;;;;
 M;XML Signature Wrapping;https://snyk.io/vuln/SNYK-PYTHON-PYSAML2-543298;pysaml2;[,5.0.0);CVE-2020-5390;;https://github.com/IdentityPython/pysaml2/commit/5e9d5acbcd8ae45c4e736ac521fd2df5b1c62e25;;;;;;
-M;Session Key Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOUSERSESSIONS-543286;django-user-sessions;[,1.7.1);CVE-2020-5224;https://github.com/Bouke/django-user-sessions/security/advisories/GHSA-5fq8-3q2f-4m5g;https://github.com/jazzband/django-user-sessions/commit/f0c4077e7d1436ba6d721af85cee89222ca5d2d9;;;;;;
 H;HTTP Request Smuggling;https://snyk.io/vuln/SNYK-PYTHON-WAITRESS-543054;waitress;[,1.4.0);CVE-2019-16792;;https://github.com/Pylons/waitress/commit/575994cd42e83fd772a5f7ec98b2c56751bd3f65;;;;;;
 M;Command Injection;https://snyk.io/vuln/SNYK-PYTHON-SALT-542668;salt;[2019.2.0, 2019.2.3);CVE-2019-17361;;;;;;;;
 H;Execution with Unnecessary Privileges;https://snyk.io/vuln/SNYK-PYTHON-PYINSTALLER-541867;pyinstaller;[,3.6);CVE-2019-16784;https://github.com/pyinstaller/pyinstaller/security/advisories/GHSA-7fcj-pq9j-wh2r;https://github.com/pyinstaller/pyinstaller/commit/42a67148b3bdf9211fda8499fdc5b63acdd7e6cc;;;;;;
@@ -225,12 +230,15 @@ H;HTTP Request Smuggling;https://snyk.io/vuln/SNYK-PYTHON-WAITRESS-538575;waitre
 M;Account Hijacking;https://snyk.io/vuln/SNYK-PYTHON-DJANGOALLAUTH-564371;django-allauth;[,0.41.0);CVE-2019-19844;;;;;;;;
 M;Account Hijacking;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-538244;django;[3.0.0,3.0.1),[2.2.0,2.2.9),[1.11.0,1.11.27);CVE-2019-19844;;;;;;;;
 L;Heap-based Buffer Overflow;https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-537867;tensorflow;[,1.15);CVE-2019-16778;https://github.com/tensorflow/tensorflow/security/advisories/GHSA-844w-j86r-4x2j;https://github.com/tensorflow/tensorflow/commit/db4f9717c41bccc3ce10099ab61996b246099892;;;;;;
+M;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-537036;keystone;[15.0.0, 17.0.0);CVE-2019-19687;;https://github.com/openstack/keystone/commit/17c337dbdbfb9d548ad531c2ad0483c9bce5b98f;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-VALIDATORS-536783;validators;[0.12.2,0.12.6);CVE-2019-19588;;;;;;;https://github.com/kvesteri/validators/issues/86;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-536473;ansible;[2.9.0,2.9.3),[2.8.0,2.8.8),[,2.7.16);CVE-2019-14905;;https://github.com/ansible/ansible/commit/88416b627caac5f0f4bff335d5387e0bcca938ca;;;;https://github.com/ansible/ansible/pull/65423;;
 H;Arbitrary Code Injection;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-536475;ansible;[0,2.9.4);CVE-2019-14904;;https://github.com/ansible/ansible/commit/7d2ae7e3226cdc8e37aea83c202aeb0e7e5a1aec;;;;;;
 M;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-536439;django;[2.1,2.1.15),[2.2,2.2.8);CVE-2019-19118;;https://github.com/django/django/commit/11c5e0609bcc0db93809de2a08e0dc3d70b393e4;;;;;;
+H;Improper Access Control;https://snyk.io/vuln/SNYK-PYTHON-WAGTAIL2FA-536385;wagtail-2fa;[,1.3.0);CVE-2019-16766;https://github.com/LabD/wagtail-2fa/security/advisories/GHSA-89px-ww3j-g2mm;https://github.com/labd/wagtail-2fa/commit/a6711b29711729005770ff481b22675b35ff5c81;;;;;;
 M;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-535625;ansible;[2.8.0,2.8.6),[2.7.0,2.7.14),[,2.6.20);CVE-2019-14856;;;;;;https://github.com/ansible/ansible/pull/63351;;
 L;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-ECDSA-535624;ecdsa;[,0.13.3);CVE-2019-14853;;;https://github.com/warner/python-ecdsa/releases/tag/python-ecdsa-0.13.3;;;https://github.com/warner/python-ecdsa/pull/115;;
+M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-POSTFIXMTASTSRESOLVER-536089;postfix-mta-sts-resolver;[,0.5.1);CVE-2019-16791;https://github.com/Snawoot/postfix-mta-sts-resolver/security/advisories/GHSA-h92m-42h4-82f6;;;;;;;
 M;Allocation of Resources Without Limits or Throttling;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-536096;pillow;[,6.2.0);CVE-2019-16865;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2019-16865
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-536093;notebook;[,5.5.0);CVE-2018-21030;;;https://github.com/jupyter/notebook/releases/tag/5.5.0;;;https://github.com/jupyter/notebook/pull/3341;;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-535522;ansible;[2.8.0,2.8.4);CVE-2019-10217;;https://github.com/ansible/ansible/pull/59427/commits/642a3b4d3133d0cff3ea5b8300757045b2bda09d;;;;https://github.com/ansible/ansible/pull/59427;https://github.com/ansible/ansible/issues/56269;
@@ -244,13 +252,14 @@ H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-474624
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-THRIFT-474615;thrift;[,0.13.0);CVE-2019-0205;;https://github.com/apache/thrift/commit/798e90aa8715ed0deff68ef4784926fe2be5c0ea;;;;;;
 H;Incorrect Default Permissions;https://snyk.io/vuln/SNYK-PYTHON-KEYRING-559861;keyring;[,0.10);CVE-2012-5577;;;;;;;;
 L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-474286;ansible;[2.9.0b1,2.9.1),[2.8.0,2.8.7),[,2.7.15);CVE-2019-14864;;;;;;https://github.com/ansible/ansible/pull/63527;https://github.com/ansible/ansible/issues/63522;
+H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-REPORTLAB2-473507;reportlab2;[0,];CVE-2019-17626;;;;;;;;
+H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-REPORTLABX-473508;reportlab-x;[0,];CVE-2019-17626;;;;;;;;
 H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-REPORTLAB-473444;reportlab;[0,3.5.34);CVE-2019-17626;;;;;;;;
 H;Double Free;https://snyk.io/vuln/SNYK-PYTHON-GDAL-473011;gdal;[,3.0.2);CVE-2019-17545;;https://github.com/OSGeo/gdal/commit/148115fcc40f1651a5d15fa34c9a8c528e7147bb;;;;;;
 H;Server-side Request Forgery (SSRF);https://snyk.io/vuln/SNYK-PYTHON-GRAPHITEWEB-472979;graphite-web;[,1.1.6);CVE-2017-18638;;;;;;https://github.com/graphite-project/graphite-web/pull/2499;https://github.com/graphite-project/graphite-web/issues/2008;
 H;SQL Injection;https://snyk.io/vuln/SNYK-PYTHON-SQLALCHEMY-472637;sqlalchemy;[,0.6.7);CVE-2012-0805;;;;;;;https://github.com/sqlalchemy/sqlalchemy/issues/2116;
 H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-RPYC-471893;rpyc;[4.1.0,4.1.2);CVE-2019-16328;;;https://github.com/tomerfiliba/rpyc/releases/tag/4.1.2;;;;;
 H;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-ELASTICAPM-467105;elastic-apm;[,5.1.0);CVE-2019-7617;;https://github.com/elastic/apm-agent-python/commit/47286d746e05897c6b3af8d465aa56ab1ed8d678;;;;https://github.com/elastic/apm-agent-python/pull/551;https://github.com/elastic/apm-agent-python/issues/458;
-H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGOJSREVERSE-460249;django-js-reverse;[,0.9.1);CVE-2019-15486;;https://github.com/ierror/django-js-reverse/commit/78d6aff2276f2d341f643b095515f8aaba5e67c2;;;;https://github.com/ierror/django-js-reverse/pull/81;;
 M;Arbitrary File Write via Archive Extraction (Zip Slip);https://snyk.io/vuln/SNYK-PYTHON-NLTK-460224;nltk;[,3.4.5);CVE-2019-14751;;https://github.com/nltk/nltk/commit/f59d7ed8df2e0e957f7f247fe218032abdbe9a10;;;;;;
 H;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-HTTPIE-460107;httpie;[,1.0.3);CVE-2019-10751;;https://github.com/jakubroztocil/httpie/commit/df36d6255df5793129b02ac82f1010171bd8a0a8;;;;;;
 H;Insufficient Randomness;https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-458931;werkzeug;[,0.15.3);CVE-2019-14806;;https://github.com/pallets/werkzeug/commit/00bc43b1672e662e5e3b8cecd79e67fc968fa246;;;;;;
@@ -269,14 +278,12 @@ H;Buffer Overflow;https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-451670;tensorflow;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-451669;tensorflow;[,1.6.0);CVE-2018-7576;https://github.com/tensorflow/tensorflow/blob/master/tensorflow/security/advisory/tfsa-2018-002.md;https://github.com/tensorflow/tensorflow/commit/c48431588e7cf8aff61d4c299231e3e925144df8;;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SCAPY-451666;scapy;[,2.4.1);CVE-2019-1010142;;https://github.com/secdev/scapy/pull/1409/commits/0d7ae2b039f650a40e511d09eb961c782da025d9;;;;https://github.com/secdev/scapy/pull/1409/files#diff-441eff981e466959968111fc6314fe93L1058;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-FLASK-451637;flask;[,0.12.3);CVE-2019-1010083;;;;;;https://github.com/pallets/flask/pull/2691;;
-M;Cross-Site WebSocket Hijacking (CSWSH);https://snyk.io/vuln/SNYK-PYTHON-PYTHONENGINEIO-451612;python-engineio;[,3.9.0);CVE-2019-13611;;;;;;;https://github.com/miguelgrinberg/python-engineio/issues/128;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-451565;apache-airflow;[,1.10.5);;;https://github.com/apache/airflow/pull/5635/commits/89f015e6c89392b6de61dab8ab90182e6ee42b74;;;;https://github.com/apache/airflow/pull/5635;;
 H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-451466;ansible;[,1.2.1);CVE-2013-2233;;;;;;;https://github.com/ansible/ansible/issues/857;
 L;Access Control Bypass;https://snyk.io/vuln/SNYK-PYTHON-MYSQLCONNECTOR-451467;mysql-connector;[,2.1.6);CVE-2017-3590;;;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-451465;ansible;[,1.6.6);CVE-2014-3498;;https://github.com/ansible/ansible/commit/8ed6350e65c82292a631f08845dfaacffe7f07f5;;;;;;
 H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-451300;django;[1.11.0,1.11.22),[2.1.0,2.1.10),[2.2.0,2.2.3);CVE-2019-12781;;https://github.com/django/django/commit/54d0f5e62f54c29a12dd96f44bacd810cbe03ac8;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-KNACK-450215;knack;[,0.5.2);;;;https://github.com/Microsoft/knack/releases/tag/v0.5.2;;;https://github.com/microsoft/knack/pull/137;https://github.com/microsoft/knack/issues/136;
-M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-450194;djangorestframework;[,3.9.1);;;https://github.com/encode/django-rest-framework/commit/75a489150ae24c2f3c794104a8e98fa43e2c9ce9;;;;;;
 H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-TWISTED-449939;twisted;[,19.7.0);CVE-2019-12855;;;;;;https://github.com/twisted/twisted/pull/1147;;
 H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-CHERRYPY-449897;cherrypy;[ ,2.2.1);CVE-2006-0847;;https://github.com/cherrypy/cherrypy/commit/7e6187ee19a90ebe7f8597296bfa942cd1eb1864;;;;;;
 H;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-449615;twisted;[ ,19.2.1);CVE-2019-12387;;https://github.com/twisted/twisted/commit/6c61fc4503ae39ab8ecee52d10f10ee2c371d7e2;;;;;;
@@ -287,6 +294,7 @@ H;XML External Entity (XXE) Injection;https://snyk.io/vuln/SNYK-PYTHON-SCRAPY-17
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SCAPY-174816;scapy;[,2.4.1);;;https://github.com/secdev/scapy/commit/905c80d6ed435477224c53de8850f763b04d495d;;;;;;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-DJOSER-174565;djoser;[,1.5.1);;;https://github.com/sunscrapers/djoser/commit/fcd20f302fd1d5d37319b42094ad070f17ed36cc;;;;;https://github.com/sunscrapers/djoser/issues/366;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-PYXDG-174562;pyxdg;[,0.26);CVE-2019-12761;;;;;;;;
+M;Cryptographic Issue;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCA-174566;django-ca;[,1.10.0);;;https://github.com/mathiasertl/django-ca/commit/188ec93057b1eebf0bc02056006eabd052f3aad5;;;;;;
 H;Buffer Overflow;https://snyk.io/vuln/SNYK-PYTHON-TENSORFLOW-451636;tensorflow;[1.5.0, 1.7.1);CVE-2018-8825;;https://github.com/tensorflow/tensorflow/commit/41335abb46f80ca644b5738550daef6136ba5476;;;;;;
 H;Remote Code Execution;https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-174526;notebook;[,5.4.1);CVE-2018-8768;;;;;;;;
 H;Arbitrary File Overwrite;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-174511;mercurial;[,4.9);CVE-2019-3902;;;;;;;;
@@ -299,9 +307,11 @@ H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-SPLUNKSDK-174097;spl
 L;Insecure Defaults;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLERUNNER-174098;ansible-runner;[,1.3.1);;;https://github.com/ansible/ansible-runner/commit/dd2e549c6aadca4fb4f2cde11f1d4dca4b98964f;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-174029;notebook;[,5.7.7);CVE-2019-10255;;https://github.com/jupyter/notebook/commit/08c4c898182edbe97aadef1815cce50448f975cb;;;;;;
 M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-174009;ansible;[2.5.0, 2.5.15),[2.6.0, 2.6.14),[2.7.0, 2.7.8);CVE-2019-3828;;;;;;https://github.com/ansible/ansible/pull/52133;;
+H;Remote Code Execution (RCE);https://snyk.io/vuln/SNYK-PYTHON-IPYCACHE-173995;ipycache;[0,];CVE-2019-7539;;;;;;;https://github.com/rossant/ipycache/issues/47;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-173993;apache-airflow;[,1.10.3);CVE-2019-0216;;;;;;;;
 H;Improper Access Control;https://snyk.io/vuln/SNYK-PYTHON-MYSQLCONNECTORPYTHON-173986;mysql-connector-python;[,8.0.14);CVE-2019-2435;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2019-2435
 M;CRLF Injection;https://snyk.io/vuln/SNYK-PYTHON-PYPISERVER-173983;pypiserver;[,1.2.6);;;https://github.com/pypiserver/pypiserver/commit/1375a67c55a9b8d4619df30d2a1c0b239d7357e6;;;;;https://github.com/pypiserver/pypiserver/issues/237;
+M;Insecure Defaults;https://snyk.io/vuln/SNYK-PYTHON-NEUTRON-173777;neutron;[,1.10.8),[,11.0.7),[12.0.0,12.0.6),[13.0.0,13.0.3);CVE-2019-9735;;;;;;;;
 M;Cross-site Inclusion;https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-173774;notebook;[,5.7.6);CVE-2019-9644;;https://github.com/jupyter/notebook/commit/bfaa61385729ed4fb453863053f9a79141f01119;;;;;;
 M;Race Condition;https://snyk.io/vuln/SNYK-PYTHON-WEBARGS-173773;webargs;[,5.1.3);CVE-2019-9710;;;;;;;https://github.com/marshmallow-code/webargs/issues/371;
 H;Integer Overflow;https://snyk.io/vuln/SNYK-PYTHON-PROTOBUF-472377;protobuf;[,3.4.0);CVE-2015-5237;;;;;;;https://github.com/protocolbuffers/protobuf/issues/760;
@@ -333,13 +343,20 @@ M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-MARSHMALLOW-72559;marshm
 H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-72546;ansible;[,2.7.1);CVE-2018-16837;;https://github.com/ansible/ansible/commit/a0aa53d1a1d6075a7ae98ace138712ee6cb45ae4;;;;https://github.com/ansible/ansible/pull/47436;;
 M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-SALT-72539;salt;[,2017.7.8),[2018.0, 2018.3.3);CVE-2018-15750;;;;;;;;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-SALT-72538;salt;[,2017.7.8),[2018.0.0, 2018.3.3);CVE-2018-15751;;;;;;;;
+H;Malicious Package;https://snyk.io/vuln/SNYK-PYTHON-COLOURAMA-72537;colourama;[0,];;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-CHANNELS-73623;channels;[,2.1.7);;;https://github.com/django/channels/commit/a1ecd5ee72a538f19bdd9e8f6bb91bb8aabba5d9;;;;;https://github.com/django/channels/issues/1170;
 H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-REQUESTS-72435;requests;[,2.20);CVE-2018-18074;;https://github.com/requests/requests/commit/c45d7c49ea75133e52ab22a8e9e13173938e36ff;;;;https://github.com/requests/requests/pull/4718;https://github.com/requests/requests/issues/4716;
 M;Insecure Defaults;https://snyk.io/vuln/SNYK-PYTHON-DJANGOSTORAGES-72415;django-storages;[,1.7);;;https://github.com/jschneier/django-storages/commit/6ee6a739752923c60eaa1e82262c1d07208ec7f6;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-FLASKADMIN-72414;flask-admin;[,1.5.3);CVE-2018-16516;;https://github.com/flask-admin/flask-admin/pull/1699/commits/75e51ebca2c4ef236854cfe88a237177813d39c1;;;;https://github.com/flask-admin/flask-admin/pull/1699;;
 H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOREGISTRATION-72413;django-registration;[,1.7);;;https://github.com/macropin/django-registration/commit/3a2e0182ff92cc8ce39a932e463cbac37e485afa;;;;https://github.com/macropin/django-registration/pull/268;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MAYANEDMS-72285;mayan-edms;[,3.0.2);CVE-2018-16406;;;;;;;https://gitlab.com/mayan-edms/mayan-edms/issues/495;
+M;Arbitrary Code Injection;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCA-72284;django-ca;[,1.9.0);;;https://github.com/mathiasertl/django-ca/commit/d19009faecbad3f8a95f8a66a8fe3cfce14d14ce;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-FLASKADMIN-72276;flask-admin;[,1.5.2);;;https://github.com/flask-admin/flask-admin/commit/0dc5a48fd0a4fdd28172e0bc508373ddb58fc50b;https://github.com/flask-admin/flask-admin/releases/tag/v1.5.2;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MAYANEDMS-72287;mayan-edms;[,3.0.2);CVE-2018-16405;;;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MAYANEDMS-72283;mayan-edms;[,3.0.3);CVE-2018-16407;;;;;;;;
+H;Arbitrary File Overwrite;https://snyk.io/vuln/SNYK-PYTHON-PYRO-72279;pyro;[,3.15);CVE-2011-2765;;https://github.com/irmen/Pyro3/commit/554e095a62c4412c91f981e72fd34a936ac2bf1e;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2011-2765
 H;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-FLASK-42185;flask;[,0.12.3);CVE-2018-1000656;;;;https://github.com/pallets/flask/releases/tag/0.12.3;;https://github.com/pallets/flask/pull/2691;;
+H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PYCRYPTODOME-42184;pycryptodome;[,3.6.6);CVE-2018-15560;;;;;;;https://github.com/Legrandin/pycryptodome/issues/198;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-WEBSOCKETS-42181;websockets;[,5.0);CVE-2018-1000518;;https://github.com/aaugustin/websockets/commit/b6a25ceb3555d0ba69e5961b8d7616e4c1aecb2b;;;;https://github.com/aaugustin/websockets/pull/407;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TORNADO-40792;tornado;[,5.1.0);CVE-2018-1000518;;;;;;https://github.com/tornadoweb/tornado/pull/2391;;
 H;DNS Rebinding;https://snyk.io/vuln/SNYK-PYTHON-MITMPROXY-42179;mitmproxy;[,4.0.4);CVE-2018-14505;;;https://github.com/mitmproxy/mitmproxy/releases/tag/v4.0.4;;;https://github.com/mitmproxy/mitmproxy/pull/3243;https://github.com/mitmproxy/mitmproxy/issues/3234;
@@ -385,25 +402,28 @@ M;Weak Encryption;https://snyk.io/vuln/SNYK-PYTHON-PYSAML2-42108;pysaml2;[,4.6.0
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-42106;mercurial;[,4.1.3);CVE-2017-9462;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-9462
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-FLEX-42109;flex;[,6.12.0);;;;;;;;;
 H;Client Impersonation;https://snyk.io/vuln/SNYK-PYTHON-SALT-42099;salt;[,2016.3.6);CVE-2017-7893;;;;;;https://github.com/saltstack/salt/pull/39855;;https://nvd.nist.gov/vuln/detail/CVE-2017-7893
+M;Improper Validation of Integrity Check;https://snyk.io/vuln/SNYK-PYTHON-TLSLITENG-42096;tlslite-ng;[,0.8.0-alpha3);CVE-2018-1000159;;https://github.com/tomato42/tlslite-ng/commit/ec5c61fae8b8eee0f62717091775f68d8161ca34;;;;https://github.com/tomato42/tlslite-ng/pull/234;;https://nvd.nist.gov/vuln/detail/CVE-2018-1000159
 H;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-GUNICORN-42097;gunicorn;[,19.5.0);CVE-2018-1000164;;https://github.com/fofanov/gunicorn/commit/6c3d8f9c205f541a6ae0a1d5eba32b1cfca252ee;;;;;https://github.com/benoitc/gunicorn/issues/1227;https://nvd.nist.gov/vuln/detail/CVE-2018-1000164
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ROPE-42094;rope;[,0.11.0);CVE-2014-3539;;;;;;https://github.com/python-rope/rope/pull/251;;https://nvd.nist.gov/vuln/detail/CVE-2014-3539
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ASTROPY-42091;astropy;[,3.0.1);;;;;;;;;
+M;Deprecated Cypher;https://snyk.io/vuln/SNYK-PYTHON-PYCRYPTODOME-40784;pycryptodome;[,3.4.4);;;;;;;;;
 H;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-PARAMIKO-42086;paramiko;[,1.17.6),[1.18.0, 1.18.5),[2.0.0, 2.0.8),[2.1.0, 2.1.5),[2.2.0, 2.2.3),[2.3.0,2.3.2),[2.4.0, 2.4.1);CVE-2018-7750;;https://github.com/paramiko/paramiko/commit/fa29bd8446c8eab237f5187d28787727b4610516;;;;;https://github.com/paramiko/paramiko/issues/1175;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-PARAMIKO-42085;paramiko;[,1.7.2);CVE-2008-0299;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2008-0299
 H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-UWSGI-42087;uwsgi;[,2.0.17);CVE-2018-7490;;;;;;;;
 H;HTTP Permission Bypass;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-42088;mercurial;[,4.5.2);CVE-2018-1000132;;;;;;;;
+H;Arbitrary Code Injection;https://snyk.io/vuln/SNYK-PYTHON-EVE-42079;eve;[,0.7.5);CVE-2018-8097;;https://github.com/pyeve/eve/commit/f8f7019ffdf9b4e05faf95e1f04e204aa4c91f98;;;;;https://github.com/pyeve/eve/issues/1101;
 H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOANYMAIL-42078;django-anymail;[,1.4);CVE-2018-1000089;;https://github.com/anymail/django-anymail/commit/1a6086f2b58478d71f89bf27eb034ed81aefe5ef;https://github.com/anymail/django-anymail/releases/tag/v1.4;;;;;https://nvd.nist.gov/vuln/detail/CVE-2018-1000089
 H;URI Scheme Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-BLEACH-42077;bleach;[2.1.0,2.1.3);CVE-2018-7753;;;;;;https://github.com/mozilla/bleach/commit/c5df5789ec3471a31311f42c2d19fc2cf21b35ef;;https://nvd.nist.gov/vuln/detail/CVE-2018-7753
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40778;django;[1.7, 1.8.19),[1.9,1.11.11),[2,2.0.3);CVE-2018-7536;;;;;;;;
 M;Regular Expression Denial of Service (ReDoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40779;django;[1.7,1.8.19),[1.9,1.11.11),[2,2.0.3);CVE-2018-7537;;;;;;;;
 H;Arbitrary File Creation;https://snyk.io/vuln/SNYK-PYTHON-SALT-42073;salt;[,2014.1.10);CVE-2014-3563;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2014-3563
-M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYTHON3SAML-40775;python3-saml;[,1.4.0);CVE-2017-11427;;;;;;;;
 M;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYTHONSAML-40774;python-saml;[,2.4.0);CVE-2017-11427;;;;;;;;
 M;Insecure use of /tmp folder;https://snyk.io/vuln/SNYK-PYTHON-SALT-42071;salt;[,2014.7.4);CVE-2015-1839;;https://github.com/saltstack/salt/commit/22d2f7a1ec93300c34e8c42d14ec39d51e610b5c;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2015-1839
 L;Regular Expression Denial of Service (ReDoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGOCACHEOPS-40772;django-cacheops;[,4.0.6);;;https://github.com/Suor/django-cacheops/commit/adba2dc9908c50157d417fd7564669c11ed23b2a;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-42069;werkzeug;[,0.11.11);CVE-2016-10516;;;;;;https://github.com/pallets/werkzeug/pull/1001;;https://nvd.nist.gov/vuln/detail/CVE-2016-10516
 M;Symlink Attack;https://snyk.io/vuln/SNYK-PYTHON-NUMPY-42067;numpy;[,1.8.2);CVE-2014-1859;;https://github.com/numpy/numpy/commit/0bb46c1448b0d3f5453d5182a17ea7ac5854ee15;;;;https://github.com/numpy/numpy/pull/4262;;https://nvd.nist.gov/vuln/detail/CVE-2014-1859
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-NUMPY-42064;numpy;[,1.13.3);CVE-2017-12852;;;;;;;https://github.com/numpy/numpy/issues/9560#issuecomment-322395292;https://nvd.nist.gov/vuln/detail/CVE-2017-12852
+L;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-LOGGERHEAD-42068;loggerhead;[,1.18.1);CVE-2011-0728;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2011-0728
 L;Cryptographic Issues;https://snyk.io/vuln/SNYK-PYTHON-PEEWEE-567791;peewee;[,2.10.0);;;https://github.com/coleifer/peewee/commit/6aee106831eed8c214086a20b26f72f2abff8db5;;;;;;
 H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-MXNET-42063;mxnet;[,1.0.0);;;;;;;;;
 H;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-42054;django;[2,2.0.2),[1.11.8,1.11.10);CVE-2018-6188;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2018-6188
@@ -414,13 +434,13 @@ M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MARKDOWN2-40770;ma
 M;Insecure Encryption;https://snyk.io/vuln/SNYK-PYTHON-OIC-40768;oic;[,0.11.0.0);;;https://github.com/OpenIDC/pyoidc/commit/64665112587ef43a57cb09442dd5dd3d175f583e;;;;https://github.com/OpenIDC/pyoidc/pull/354;https://github.com/OpenIDC/pyoidc/issues/349;
 H;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONEMIDDLEWARE-40673;keystonemiddleware;[,1.5.4),[2.0,2.3.3);CVE-2015-7546;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2015-7546
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MISTUNE-40765;mistune;[,0.8.1);CVE-2017-16876;;https://github.com/lepture/mistune/commit/5f06d724bc05580e7f203db2d4a4905fc1127f98;;;;;;
+L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-GLANCE-42039;glance;[,2013.1.4);CVE-2013-4428;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2013-4428
 M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-40739;werkzeug;[,0.8);;;;;;;;;
 M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-SETUPTOOLS-40729;setuptools;[,3.0);;;;;;;;;
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-SETUPTOOLS-40728;setuptools;[,1.3);;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SETUPTOOLS-40727;setuptools;[,0.9.5);;;;;;;;;
 H;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYTHONKEYSTONECLIENT-40716;python-keystoneclient;[1.5,1.5.4),[2,2.3.3);CVE-2015-7546;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2015-7546
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-PYTHONKEYSTONECLIENT-40715;python-keystoneclient;[,1.4.0);CVE-2015-1852;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2015-1852
-M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-PYTHONCJSON-40752;python-cjson;[,1.0.5];CVE-2009-4924;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2009-4924
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-PYRAMID-40730;pyramid;[,1.6a2);;;https://github.com/Pylons/pyramid/commit/67efda77a878450c217b90370e1a47e2d35d772a;;;;;;
 M;Security Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYJWT-40733;pyjwt;[,1.0.0);;;;;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40762;pillow;[,3.1.1);CVE-2016-4009;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2016-4009
@@ -434,10 +454,6 @@ M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-IPYTHON-40723;ipyt
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-HTML5LIB-40702;html5lib;[,0.99999999),[1.0b1,1.0b9);CVE-2016-9909;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9909
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-GEVENT-40735;gevent;[,1.2a1);;;;;;;;;
 H;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-FORMENCODE-40737;formencode;[,1.0.1);CVE-2008-6547;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2008-6547
-M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-40760;djangorestframework;[,2.3.14);;;;;;;;;
-M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-40759;djangorestframework;[,2.3.12);;;;;;;;;
-H;XML External Entity (XXE) Injection;https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-40758;djangorestframework;[,2.2.1);;;;;;;;;
-M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-40709;djangorestframework;[,2.4.4);;;;;;;;;
 M;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-DJANGOHAYSTACK-40757;django-haystack;[,1.1);;;https://github.com/django-haystack/django-haystack/commit/1b1b986890b5cb330b0b8a963b090e9b831c198c;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGOCRISPYFORMS-40756;django-crispy-forms;[,0.9.0);;;;;;;;;
 M;XML External Entity (XXE) Injection;https://snyk.io/vuln/SNYK-PYTHON-DEFUSEDXML-40746;defusedxml;[,0.4);CVE-2013-1665;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2013-1665
@@ -448,10 +464,11 @@ H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-CRYPTOGRAPHY-40720;cr
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-COVERALLS-40725;coveralls;[,0.1.1);;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-BLEACH-40754;bleach;[,2.1);;;;;;;;https://github.com/mozilla/bleach/issues/298;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-BEAKER-40703;beaker;[,0.9.4);;;;;;;;;
-M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-AWSCLI-40712;awscli;[,1.11.83);;;https://github.com/aws/aws-cli/commit/6080bb0b302b59149a305bfa0a6a7c92a07d1ea5;;;;;;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-SALT-40711;salt;[,2015.5.5);CVE-2015-6918;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2015-6918
+H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-SANIC-40704;sanic;[,0.5.1);CVE-2017-16762;;https://github.com/channelcat/sanic/commit/18829e648a26d947b7e441a9d7d012a24b0adf48;;;;https://github.com/channelcat/sanic/pull/635;https://github.com/channelcat/sanic/issues/633;https://nvd.nist.gov/vuln/detail/CVE-2017-16762
 H;Server-Side Request Forgery (SSRF);https://snyk.io/vuln/SNYK-PYTHON-RECURLY-42038;recurly;[,2.0.6),[2.1,2.1.16),[2.2,2.2.22),[2.3,2.3.1),[2.4,2.4.5),[2.5,2.5.1),[2.6,2.6.2);CVE-2017-0906;;https://github.com/recurly/recurly-client-python/commit/049c74699ce93cf126feff06d632ea63fba36742;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MISTUNE-40698;mistune;[,0.8);CVE-2017-15612;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-15612
+M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-DOCKERREGISTRY-40635;docker-registry;[,0.8.1);;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SCRAPY-40690;scrapy;[0,];CVE-2017-14158;;;;;;;;
 H;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYJWT-40693;pyjwt;[,1.5.1);CVE-2017-11424;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-11424
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-OVS-40696;ovs;[,2.7.2);CVE-2017-9264;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-9264
@@ -460,20 +477,23 @@ H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-OVS-40689;ovs;[,2.7.2
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-SALT-40453;salt;[,2015.8.13),[2016.3, 2016.3.5),[2016.11, 2016.11.2);CVE-2017-5200;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-5192
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-SALT-40452;salt;[,2015.8.12),[2016.3, 2016.3.5),[2016.11, 2016.11.2);CVE-2017-5192;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-5192
 H;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-SALT-40326;salt;[2015.5, 2015.5.6),[2015.8, 2015.8.1);CVE-2015-4017;;;;;;;;
+M;Cross-site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-PYRAMIDODESK-42027;pyramid-odesk;[,1.1.2);;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-PYPISERVER-42035;pypiserver;[,1.1.7);;;;;;;;;
-H;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-PYGRESQL-42032;pygresql;[,4.0);CVE-2009-2940;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2009-2940
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PEPPERCORN-42024;peppercorn;[,0.5);;;;;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SALT-40687;salt;[2017.7.0,2017.7.2),[2016.11.0,2016.11.8),[2016.3.0,2016.3.8);CVE-2017-14696;;;;;;;;
 H;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-SALT-40688;salt;[2017.7.0,2017.7.2),[2016.11.0,2016.11.8),[2016.3.0,2016.3.8);CVE-2017-14695;;;;;;;;
 H;Arbitrary Command Injection;https://snyk.io/vuln/SNYK-PYTHON-DULWICH-40686;dulwich;[,0.18.5];CVE-2017-16228;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-16228
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-ZODB-40677;zodb;[,3.10.0);CVE-2010-3495;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2010-3495
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PYTESTQTAPP-42017;pytest-qt-app;[,1.1.0);;;;;;;;;
 H;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYSAML2-40682;pysaml2;[,4.5.0);CVE-2017-1000433;;;;;;;;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-DJANGOJET-40655;django-jet;[,1.0.4);;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MISTUNE-40679;mistune;[,0.7.2);;;;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLEVAULT-40672;ansible-vault;[,1.0.5);CVE-2017-2809;;;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2017-2809
+H;Malicious Package;https://snyk.io/vuln/SNYK-PYTHON-URLLIB-40671;urllib;[0,];;;;;;;;;
+H;Malicious Package;https://snyk.io/vuln/SNYK-PYTHON-CRYPT-40665;crypt;[0,];;;;;;;;;
 L;Arbitrary File Download;https://snyk.io/vuln/SNYK-PYTHON-FLASK-40002;flask;[,0.6.1);;;https://github.com/pallets/flask/commit/aeed530e3221c1b445c13269dcd2fb67548bcefc;;;;;;
-M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGORESTFRAMEWORK-40656;djangorestframework;[2.4.0,2.4.5),[3,3.1.1);;;;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-RSANIC-40627;rsanic;[,0.2.2);;;https://github.com/reformo/rsanic/commit/6791cb09c322e1ff6e7b471a3bd2219a44e25801;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-OVS-40647;ovs;[,1.3.0);;;;;;;;;
-M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-DJANGOREVPROXY-40112;django-revproxy;[,0.9.7);;;https://github.com/TracyWebTech/django-revproxy/commit/e9b4dfd162c73adbad6077355c9420d0c40d4f3f;;;;;;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOFERNETFIELDS-40638;django-fernet-fields;[,0.3);;;;;;;;;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGOCRISPYFORMS-40653;django-crispy-forms;[,1.1.4);;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGOCOUNTRIES-40658;django-countries;[,3.4);;;;;;;;;
@@ -504,6 +524,7 @@ H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40462;ansibl
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-73586;apache-airflow;[,1.9.0);CVE-2017-15720;;https://github.com/apache/incubator-airflow/commit/04cacdd0a7526927137b452f38c3e894a5d2ce4a;;;;https://github.com/apache/incubator-airflow/pull/2184;;
 M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40461;django;[,1.8.18),[1.9,1.9.13),[1.10,1.10.7);CVE-2017-7234;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2017-7234
 M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40460;django;[,1.8.18),[1.9,1.9.13),[1.10,1.10.7);CVE-2017-7233;;;;;;;;
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40621;sentry;[8.11,8.15.0);;;https://github.com/getsentry/sentry/commit/460f0f7f1a910ccefce3c9ad11a9cc8f1214aeb1;;;;https://github.com/getsentry/sentry/pull/5166;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-APACHEAIRFLOW-73591;apache-airflow;[1.6.0, 1.9.0);;;https://github.com/apache/incubator-airflow/commit/fe9ebe3ccf5fec4c491343659aa0c52e4125f66b;;;;https://github.com/apache/incubator-airflow/pull/2193;;
 M;Improper Certificate Validation;https://snyk.io/vuln/SNYK-PYTHON-CERTIFI-40618;certifi;[,2017.04.17);;;https://github.com/certifi/python-certifi/commit/4f35e3529c78ced74040cf5d80bf8ec4aac9a190;;;;;;
 L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-BOTO3-40617;boto3;[,1.4.5);;;https://github.com/boto/boto3/commit/5a4396a4e0d1b337c081cb4095e5255da915198e;;;;;https://github.com/boto/boto3/issues/1017;
@@ -516,6 +537,7 @@ H;Insecure Default;https://snyk.io/vuln/SNYK-PYTHON-CELERY-40579;celery;[4.0.0,4
 M;Cross-site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-40449;notebook;[,4.3.1);CVE-2016-9971;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-FLOWER-40603;flower;[,0.9.2);;;https://github.com/mher/flower/commit/ba454515ee13a2940e728dabfec25b136cce8a23;;;;https://github.com/mher/flower/pull/651;https://github.com/mher/flower/issues/650;
 M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-BOTTLE-40448;bottle;[0.10.1,0.12.11);CVE-2016-9964;;https://github.com/bottlepy/bottle/commit/6d7e13da0f998820800ecb3fe9ccee4189aefb54;;;;;https://github.com/bottlepy/bottle/issues/913;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-9964
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40561;sentry;[7.1.0,7.4.0);;;;;;;;;
 H;DNS Rebinding;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40440;django;[,1.8.16),[1.9,1.9.11),[1.10,1.10.3);CVE-2016-9014;;;;;;;;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40437;ansible;[,2.1.3);CVE-2016-8628;;;;;;;;
 H;Improper Key Validation;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40436;ansible;[2,2.1.3);CVE-2016-8614;;;;;;;https://github.com/ansible/ansible-modules-core/issues/5237;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-8614
@@ -532,9 +554,11 @@ H;Out-of-bounds Memory Write;https://snyk.io/vuln/SNYK-PYTHON-PYCARES-40400;pyca
 H;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-PYTHONJOSE-40410;python-jose;[,1.3.2);CVE-2016-7036;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-7036
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-WERKZEUG-40482;werkzeug;[,0.11.11);;;https://github.com/pallets/werkzeug/commit/1034edc7f901dd645ec6e462754111b39002bd65;;;;https://github.com/pallets/werkzeug/pull/1001;;
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-JWCRYPTO-40404;jwcrypto;[,0.3.2);CVE-2016-6298;;https://github.com/latchset/jwcrypto/commit/eb5be5bd94c8cae1d7f3ba9801377084d8e5a7ba;;;;https://github.com/latchset/jwcrypto/pull/66;https://github.com/latchset/jwcrypto/issues/65;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-6298
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40549;sentry;[8,8.8.0);;;https://github.com/getsentry/sentry/commit/33d5aa268e4a6dee5c27daa4d6ebe32d384c4d7a;;;;https://github.com/getsentry/sentry/pull/3923;;
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-IPYTHON-40407;ipython;[2,4.0);CVE-2016-6524;;;;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-HPACK-40409;hpack;[,2.3.0);CVE-2016-6581;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-6581
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PRIORITY-40408;priority;[,1.2.0);CVE-2016-6580;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-6580
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40554;sentry;[8,8.7.0);;;https://github.com/getsentry/sentry/commit/82234e1f3f1d50d36aeb89c188f4e66cd66db8a1;;;;https://github.com/getsentry/sentry/pull/3797;;
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-NOTEBOOK-40406;notebook;[,4.2.2);CVE-2016-6524;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40403;django;[,1.8.14),[1.9.0,1.9.8);CVE-2016-6186;;;;;;;;
 M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-TWISTED-40368;twisted;[2.1.0,16.3.2];CVE-2016-1000111;;;;;;https://github.com/twisted/twisted/pull/482;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1000111
@@ -544,7 +568,6 @@ M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-WIDGETSNBEXTENSION-4
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-IPYWIDGETS-40468;ipywidgets;[5,5.1.5);;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40388;pillow;[2.5.0,3.1.2);CVE-2016-3076;;;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40444;pillow;[,3.3.2);CVE-2016-9190;;;;;;;;
-H;XML External Entity (XXE) Injection;https://snyk.io/vuln/SNYK-PYTHON-PYTHONDOCX-40402;python-docx;[,0.8.6);CVE-2016-5851;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-5851
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40389;ansible;[1.9.5,1.9.6),[2,2.0.2.0);CVE-2016-3096;;https://github.com/ansible/ansible-modules-extras/pull/1941/commits/8c6fe646ee79f5e55361b885b7efed5bec72d4a4;;;;https://github.com/ansible/ansible-modules-extras/pull/1941;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-3096
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-40390;mercurial;[2.6.2,3.8.1);CVE-2016-3105;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-3105
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-40387;mercurial;[2.7.0,3.7.3);CVE-2016-3069;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-3069
@@ -567,22 +590,21 @@ M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40282;pillow;[
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40283;pillow;[,2.5.3);CVE-2014-3598;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40299;pillow;[,2.7.0);CVE-2014-9601;;;;;;;;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40380;django;[1.9,1.9.2);CVE-2016-2048;;;;;;;;
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40562;sentry;[6.4.0,8.0.0rc2);;;https://github.com/getsentry/sentry/commit/0206ff097740b484360ce36295029c72dcceaad4;;;;https://github.com/getsentry/sentry/pull/2506;;
 M;Improper Input Validation;https://snyk.io/vuln/SNYK-PYTHON-RSA-40377;rsa;[,3.3);CVE-2016-1494;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-1494
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40359;django;[,1.7.11),[1.8,1.8.7);CVE-2015-8213;;https://github.com/django/django/commit/316bc3fc9437c5960c24baceb93c73f1939711e4;;;;;;
-M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-WEBOB-40490;webob;[,1.6.0a0);;;https://github.com/Pylons/webob/commit/97041f58fcee30b37a8c0fba0108cf69c6e01330;;;;https://github.com/Pylons/webob/pull/229;https://github.com/Pylons/webob/issues/217;
 M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-WAITRESS-40566;waitress;[,0.8.11b0);;;https://github.com/Pylons/waitress/commit/07e21576ef272a1bbd5410ef34f479e31ee68665;;;;https://github.com/Pylons/waitress/pull/121;https://github.com/Pylons/waitress/issues/117;
-M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-UAPARSER-40565;ua-parser;[,0.5.1);;;https://github.com/ua-parser/uap-python/commit/c81b1cbc20f9b52e09621573d3b34b7a6b7dbd73;;;;https://github.com/ua-parser/uap-python/pull/22;;
 M;BSON Corruption;https://snyk.io/vuln/SNYK-PYTHON-BSON-40575;bson;[0.3.5,0.4.2);;;https://github.com/py-bson/bson/commit/430c1a72c2c3669ce46ba28b4a813a2b12d07f31;;;;https://github.com/py-bson/bson/pull/34;;
 M;Insecure Randomness;https://snyk.io/vuln/SNYK-PYTHON-WEBSOCKETCLIENT-40498;websocket-client;[,0.33);;;https://github.com/websocket-client/websocket-client/commit/896e7c7317def65f7f8fb27a3eed807f2e1e5386;;;;https://github.com/websocket-client/websocket-client/pull/211;https://github.com/websocket-client/websocket-client/issues/210;
 H;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-WEBSOCKETCLIENT-40497;websocket-client;[,0.33);;;https://github.com/websocket-client/websocket-client/commit/896e7c7317def65f7f8fb27a3eed807f2e1e5386;;;;https://github.com/websocket-client/websocket-client/pull/211;https://github.com/websocket-client/websocket-client/issues/209;
 M;TLS Truncation Attack;https://snyk.io/vuln/SNYK-PYTHON-CRYPTOGRAPHY-40478;cryptography;[,1.1);;;https://github.com/pyca/cryptography/commit/41aabcbd2326ae154a16a1a050ee01fb9a54bd19;;;;https://github.com/pyca/cryptography/pull/2334;;
-H;Arbitrary Command Injection;https://snyk.io/vuln/SNYK-PYTHON-PYGMENTS-40362;pygments;[1.2.2,2.0.2];CVE-2015-8557;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-FLASKADMIN-40592;flask-admin;[,1.3.0);;;https://github.com/flask-admin/flask-admin/commit/f447db0c78c03235d0dd6bdce0c5365fc6a7c321;;;;https://github.com/flask-admin/flask-admin/pull/1002;https://github.com/flask-admin/flask-admin/issues/1000;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40339;django;[,1.4.22),[1.5,1.7.10),[1.8,1.8.4);CVE-2015-5963;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40340;django;[,1.4.22),[1.5,1.7.10),[1.8,1.8.4);CVE-2015-5964;;;;;;;;
 H;Symlink Attack;https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40341;ansible;[,1.9.2);CVE-2015-6240;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-6240
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-TLSLITE-40323;tlslite;[0.4.0,0.4.9);CVE-2015-3220;;;;;;;;
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-ANSIBLE-40324;ansible;[,1.9.2);CVE-2015-3908;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-3908
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40546;sentry;[,7.7.0);;;https://github.com/getsentry/sentry/commit/364b959811561de83f29893e105cc590224edbee;;;;;;
 H;Cross-site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-IPYTHON-40338;ipython;[,3.2.1);CVE-2015-5607;;;;;;;;
 H;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40332;django;[,1.4.21),[1.5,1.7.9),[1.8,1.8.3);CVE-2015-5143;;;;;;;;
 M;HTTP Response Splitting;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40333;django;[,1.4.21),[1.5,1.7.9),[1.8,1.8.3);CVE-2015-5144;;;;;;;;
@@ -594,13 +616,16 @@ L;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-FABRIC-40623;fabric;[0.9
 M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-AIOHTTP-40582;aiohttp;[,0.16.3);;;https://github.com/aio-libs/aiohttp/commit/d9fdf551aaa388a738febe5ce697c0b07f597e94;;;;https://github.com/aio-libs/aiohttp/pull/383;https://github.com/aio-libs/aiohttp/issues/380;
 M;Session Hijacking;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40325;django;[1.8,1.8.2);CVE-2015-3982;;;;;;;;
 H;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-PYKERBEROS-40322;pykerberos;[,1.1.6);CVE-2015-3206;;;;;;;;
+M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-COMET-40600;comet;[1.1.0,1.2.2);;;https://github.com/jdswinbank/Comet/commit/d25f5959c60b58645d2bf49cdf993294ab995991;;;;;;
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-KEYSTONEMIDDLEWARE-40314;keystonemiddleware;[1.0.0,1.6.0);CVE-2015-1852;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-1852
+M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-BOTO-40479;boto;[,2.39.0);;;https://github.com/boto/boto/commit/8b65a6c250d0548d9ffe6393842931f59f793c77;;;;https://github.com/boto/boto/pull/3097;;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-MERCURIAL-40298;mercurial;[,3.2.4);CVE-2014-9462;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-9462
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-DULWICH-40306;dulwich;[,0.9.8];CVE-2015-0838;;;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40317;django;[,1.4.20),[1.5,1.6.11),[1.7,1.7.7);CVE-2015-2316;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40318;django;[,1.4.20),[1.5,1.6.11),[1.7,1.7.7);CVE-2015-2317;;;;;;;;
 M;Session Fixation;https://snyk.io/vuln/SNYK-PYTHON-REQUESTS-40316;requests;[2.1.0,2.6.0);CVE-2015-2296;;https://github.com/kennethreitz/requests/commit/3bd8afbff29e50b38f889b2f688785a669b9aafc;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40315;django;[1.7,1.7.6);CVE-2015-2241;;;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40545;sentry;[,7.4.0);;;https://github.com/getsentry/sentry/commit/626acc195003cea0d830eada4a338b60ba7ea614;;;;;;
 M;Access Restriction Bypass;https://snyk.io/vuln/SNYK-PYTHON-PYSAML2-40567;pysaml2;[,2.3.0);;;;;;;;;
 M;Open Redirection;https://snyk.io/vuln/SNYK-PYTHON-TWINE-40578;twine;[,1.6.0);;;https://github.com/pypa/twine/commit/29e85757559154e919c9fe0a7f5803a425628855;;;;https://github.com/pypa/twine/pull/94;https://github.com/pypa/twine/issues/92;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-DULWICH-40300;dulwich;[,0.9.9];CVE-2014-9706;;;;;;;;
@@ -621,6 +646,7 @@ H;Cross-site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-TORNADO-403
 M;Cache Poisoning;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40256;django;[,1.4.13),[1.5,1.5.8),[1.6,1.6.5);CVE-2014-1418;;;;;;;;
 M;Session Hijacking;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40261;django;[,1.4.14),[1.5,1.5.9),[1.6,1.6.6);CVE-2014-0482;;;;;;;;
 M;Open Redirect;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40257;django;[,1.4.13),[1.5,1.5.8),[1.6,1.6.5);CVE-2014-3730;;;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40560;sentry;[,7.0.0);;;https://github.com/getsentry/sentry/commit/b4c3fcfe225c64a2b0e8b72a87692c43b5e39164;;;;;;
 H;Arbitrary Command Execution;https://snyk.io/vuln/SNYK-PYTHON-PILLOW-40037;pillow;[,2.5.0);CVE-2014-1932;;https://github.com/python-pillow/Pillow/commit/d8f55e3f50b0df2c850d15deedb46cb0e33a4cd8;;;;https://github.com/python-pillow/Pillow/pull/731;;
 M;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-BOTTLE-40278;bottle;[0.8,0.10.12),[0.11,0.11.7),[0.12,0.12.6);CVE-2014-3137;;;;;;;https://github.com/bottlepy/bottle/issues/616;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-3137
 M;Cross-site Request Forgery (CSRF);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40026;django;[,1.4.11),[1.5,1.5.6),[1.6,1.6.3),[1.7,1.7.1);CVE-2014-0473;;;;;;;;
@@ -636,7 +662,6 @@ M;SymLink Attack;https://snyk.io/vuln/SNYK-PYTHON-NUMPY-40268;numpy;[,1.8.1);CVE
 M;Arbitrary File Access;https://snyk.io/vuln/SNYK-PYTHON-LOGILABCOMMON-40032;logilab-common;[0.38.1,0.61.0);CVE-2014-1838;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1838
 M;Insecure use of temporary file;https://snyk.io/vuln/SNYK-PYTHON-LOGILABCOMMON-40033;logilab-common;[0.38.1,0.61.0);CVE-2014-1839;;;;;;;;
 M;Arbitrary File Overwrite;https://snyk.io/vuln/SNYK-PYTHON-PYXDG-40263;pyxdg;[0.25];CVE-2014-1624;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-1624
-L;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-HTTPLIB2-40181;httplib2;[,0.9);CVE-2013-2037;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2037
 M;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-JINJA2-40250;jinja2;[2.7.2];CVE-2014-1402;;https://github.com/mitsuhiko/jinja2/commit/acb672b6a179567632e032f547582f30fa2f4aa7;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0012
 M;Insecure use of temporary file;https://snyk.io/vuln/SNYK-PYTHON-RPLY-40029;rply;[,0.7.0);CVE-2014-1604;;https://github.com/alex/rply/commit/fc9bbcd25b0b4f09bbd6339f710ad24c129d5d7c;;;;;;
 M;Insecure Defaults;https://snyk.io/vuln/SNYK-PYTHON-JINJA2-40028;jinja2;[,2.7.2);CVE-2014-1402;;https://github.com/mitsuhiko/jinja2/commit/acb672b6;;;;;;
@@ -645,9 +670,11 @@ M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-REQUESTS-40030;requests;
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-PYTHONSWIFTCLIENT-40021;python-swiftclient;[1,2.0.0);CVE-2013-6396;;;;;;;;
 M;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-RSA-40541;rsa;[3.0,3.4.0);;;https://github.com/sybrenstuvel/python-rsa/commit/2310b34bdb530e0bad793d42f589c9f848ff181b;;;;;https://github.com/sybrenstuvel/python-rsa/issues/19;
 M;Directory Traversal;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40225;django;[,1.4.7),[1.5,1.5.3);CVE-2013-4315;;;;;;;;
+M;Privilege Escalation;https://snyk.io/vuln/SNYK-PYTHON-KEYSTONE-40020;keystone;[,2014.1);CVE-2013-4477;;https://github.com/openstack/keystone/commit/c6800c;;;;;;https://nvd.nist.gov/vuln/detail/CVE-2013-4477
 L;Timing Attack;https://snyk.io/vuln/SNYK-PYTHON-AUTOBAHN-40501;autobahn;[,0.6.4);;;https://github.com/crossbario/autobahn-python/commit/b22cf13ad9d581a744eb90108ae9a9d19af08f88;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40220;django;[,1.4.8),[1.5,1.5.4);CVE-2013-1443;;;;;;;;
 H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-SCIPY-40221;scipy;[0.12,0.12.1);CVE-2013-4251;;;;;;;;
+H;Arbitrary Code Execution;https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40544;sentry;[,6.1.1);;;https://github.com/getsentry/sentry/commit/5793c6cac19aeb7d2e19f9a09f4421b771af4306;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40176;django;[,1.4.6),[1.5,1.5.2);CVE-2013-4249;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40177;django;[,1.4.6),[1.5,1.5.2);CVE-2013-6044;;;;;;;;
 M;Arbitrary Code Injection;https://snyk.io/vuln/SNYK-PYTHON-GRAPHITEWEB-40229;graphite-web;[0.9.5,0.9.11);CVE-2013-5093;;https://github.com/graphite-project/graphite-web/commit/4a9f98647be279a39a982bd94922fdec710b0b3f;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-5093
@@ -666,6 +693,8 @@ M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40172;django;[,1.
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40173;django;[,1.3.6),[1.4,1.4.4);CVE-2013-0306;;;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-BBCODE-40502;bbcode;[,1.0.18);;;https://github.com/dcwatson/bbcode/commit/e23f5ae9f9e42a9988a52b8b39815593c264f3ce;;;;;https://github.com/dcwatson/bbcode/issues/4;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-BBCODE-40500;bbcode;[,1.0.9);;;https://github.com/dcwatson/bbcode/commit/116cb2067003e6c6f679ed3a34e9e00a97a332cf;;;;;https://github.com/dcwatson/bbcode/issues/4;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40559;sentry;[,5.4.4);;;https://github.com/getsentry/sentry/commit/beae68d620357a86a832adf5b2338c6ffde6a496;;;;;;
+M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-SENTRY-40557;sentry;[,5.4.4);;;https://github.com/getsentry/sentry/commit/a110a98cdc3d06d3261b5bd0ee3daa75f563382c;;;;;;
 M;Replay Attack;https://snyk.io/vuln/SNYK-PYTHON-OAUTH2-40013;oauth2;[,1.9rc1);CVE-2013-4346;;;;;;;https://github.com/simplegeo/python-oauth2/issues/129;https://nvd.nist.gov/vuln/detail/CVE-2013-4346
 H;Authentication Bypass;https://snyk.io/vuln/SNYK-PYTHON-RSA-40542;rsa;[3.0,3.4);;;https://github.com/sybrenstuvel/python-rsa/commit/1681a0b2f84a4a252c71b87de870a2816de06fdf;;;;;https://github.com/sybrenstuvel/python-rsa/issues/13;
 M;Man-in-the-Middle (MitM);https://snyk.io/vuln/SNYK-PYTHON-TWEEPY-40160;tweepy;[,2.3.1);CVE-2012-5825;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-5825
@@ -698,5 +727,4 @@ M;Cryptographic Issues;https://snyk.io/vuln/SNYK-PYTHON-KEYRING-40004;keyring;(,
 M;Information Exposure;https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40055;django;[,1.1.3),[1.2,1.2.4);CVE-2010-4534;;https://github.com/django/django/commit/732198ed5c;;;;;;
 M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40056;django;[,1.1.3),[1.2,1.2.4);CVE-2010-4535;;https://github.com/django/django/commit/6819be1ea1;;;;;;
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-DJANGO-40053;django;[1.2,1.2.2);CVE-2010-3082;;;;;;;;
-M;Denial of Service (DoS);https://snyk.io/vuln/SNYK-PYTHON-PYTHONCJSON-40046;python-cjson;[1.0.0,1.0.5.1);CVE-2010-1666;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-1666
 M;Cross-site Scripting (XSS);https://snyk.io/vuln/SNYK-PYTHON-MAKO-40048;mako;[,0.3.4);CVE-2010-2480;;;;;;;;https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-2480
