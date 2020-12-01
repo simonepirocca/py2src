@@ -43,7 +43,7 @@ def test_fix_wrong_urls():
 
                 github_url_parts = github_url.split("/")
                 parts = len(github_url_parts)
-                github_token = "85ebe3db54f576a6c75c5431d8bd2caee157aeb9"
+                github_token = "put_here_a_valid_github_token"
                 pkg = Package(package_name)
 
                 stargazers = ""

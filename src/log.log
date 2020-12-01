@@ -1467,3 +1467,6 @@ INFO:root:Commit for PR Link 'https://github.com/saltstack/salt/pull/7356' of Vu
 INFO:root:Commits found: 18,  Commit NOT found: 2
 INFO:root:Commit for PR Link 'https://github.com/ask/celery/pull/544' of Vuln ID '51' didn't found
 INFO:root:Commits found: 10,  Commit NOT found: 10
+INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 210, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
+INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 210, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
+INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 198, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477

@@ -1,6 +1,7 @@
 Package name;Right URL;Useless;Old URL
 cffi;https://github.com/cffi/cffi;False;https://github.com/python-cffi/release-doc
 future;https://github.com/future/future;True;https://github.com/PythonCharmers/python-future
+websocket-client;https://github.com/websocket-client/websocket-client;False;https://github.com/websocket-client/websocket-client.git
 typing;https://github.com/python/typing;False;https://github.com/python/cpython
 contextlib2;https://github.com/contextlib2/contextlib2;True;https://github.com/jazzband/contextlib2
 babel;https://github.com/babel/babel;False;https://github.com/python-babel/babel
@@ -26,6 +27,8 @@ rx;https://github.com/ReactiveX/RxPY;False;https://github.com/ReactiveX/rxjs
 heapdict;https://github.com/heapdict/heapdict;True;https://github.com/DanielStutzbach/heapdict
 rospkg;https://github.com/rospkg/rospkg;True;https://github.com/ros-infrastructure/rospkg
 mleap;https://github.com/combust/mleap;False;https://github.com/combust/mleap-demo
+h2o;https://github.com/h2oai/h2o-3;False;https://github.com/h2oai/h2o-3.git
+bashlex;https://github.com/idank/bashlex;False;https://github.com/idank/bashlex.git
 locustio;https://github.com/locustio/locustio;True;https://github.com/locustio/locust
 python-stdnum;https://github.com/python-stdnum/python-stdnum;True;https://github.com/arthurdejong/python-stdnum
 capstone;https://github.com/capstone/capstone;True;https://github.com/aquynh/capstone
@@ -37,8 +40,11 @@ palettable;https://github.com/palettable/palettable;True;https://github.com/jiff
 django-rest-framework;https://github.com/django-rest-framework/django-rest-framework;True;https://github.com/encode/django-rest-framework
 httpagentparser;https://github.com/httpagentparser/httpagentparser;True;https://github.com/shon/httpagentparser
 mando;https://github.com/mando/mando;True;https://github.com/rubik/mando
+py3nvml;https://github.com/fbcotter/py3nvml;False;https://github.com/fbcotter/py3nvml.git
 numpydoc;https://github.com/numpydoc/numpydoc;True;https://github.com/numpy/numpydoc
 progressbar;https://github.com/progressbar/progressbar;True;https://github.com/niltonvolpato/python-progressbar
+jupyter-contrib-nbextensions;https://github.com/ipython-contrib/jupyter_contrib_nbextensions;False;https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+jupyter-highlight-selected-word;https://github.com/jcb91/jupyter_highlight_selected_word;False;https://github.com/jcb91/jupyter_highlight_selected_word.git
 junitparser;https://github.com/gastlygem/junitparser;False;https://github.com/weiwei/junitparser
 limits;https://github.com/limits/limits;True;https://github.com/alisaifee/limits
 deepmerge;https://github.com/deepmerge/deepmerge;True;https://github.com/toumorokoshi/deepmerge
@@ -50,6 +56,8 @@ django-haystack;https://github.com/django-haystack/django-haystack;False;https:/
 textdistance;https://github.com/life4/textdistance;False;https://github.com/orsinium/textdistance
 python-heatclient;https://github.com/python-heatclient/python-heatclient;True;https://github.com/openstack/python-heatclient
 lml;https://github.com/chfw/lml;False;https://github.com/python-lml/lml
+awsiotpythonsdk;https://github.com/aws/aws-iot-device-sdk-python;False;https://github.com/aws/aws-iot-device-sdk-python.git
+svgwrite;http://github.com/mozman/svgwrite;False;http://github.com/mozman/svgwrite.git
 cmarkgfm;https://github.com/jonparrott/cmarkgfm;False;https://github.com/theacodes/cmarkgfm
 jupyterhub;https://github.com/jupyterhub/jupyterhub;False;https://github.com/jupyter/jupyterhub
 flask-debugtoolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;False;https://github.com/mgood/flask-debugtoolbar
@@ -61,6 +69,7 @@ dbutils;https://github.com/dbutils/dbutils;True;https://github.com/WebwareForPyt
 django-tinymce;https://github.com/aljosa/django-tinymce;False;https://github.com/jazzband/django-tinymce
 patool;https://github.com/patool/patool;True;https://github.com/wummel/patool
 django-configurations;https://github.com/django-configurations/django-configurations;True;https://github.com/jazzband/django-configurations
+starkbank-ecdsa;https://github.com/starkbank/ecdsa-python;False;https://github.com/starkbank/ecdsa-python.git
 keystonemiddleware;https://github.com/openstack/keystone;False;https://github.com/openstack/keystonemiddleware
 param;https://github.com/param/param;True;https://github.com/holoviz/param
 imagecodecs;https://github.com/scossu/imagecodecs;False;https://github.com/Czaki/imagecodecs
@@ -83,6 +92,7 @@ genshi;https://github.com/genshi/genshi;True;https://github.com/edgewall/genshi
 redo;https://github.com/bhearsum/redo;False;https://github.com/mozilla-releng/redo
 lmfit;https://github.com/lmfit/lmfit;True;https://github.com/lmfit/lmfit-py
 modernize;https://github.com/python-modernize/python-modernize;False;https://github.com/PyCQA/modernize
+edx-submissions;http://github.com/edx/edx-submissions;False;http://github.com/edx/edx-submissions.git
 python-jsonschema-objects;https://github.com/python-jsonschema-objects/python-jsonschema-objects;True;https://github.com/cwacek/python-jsonschema-objects
 simhash;https://github.com/simhash/simhash;True;https://github.com/leonsim/simhash
 python-igraph;https://github.com/python-igraph/python-igraph;True;https://github.com/igraph/python-igraph
@@ -92,7 +102,9 @@ bpemb;https://github.com/bpemb/bpemb;True;https://github.com/bheinzerling/bpemb
 chargebee;https://github.com/chargebee/chargebee;True;https://github.com/chargebee/chargebee-python
 pycapnp;https://github.com/jparyani/pycapnp;False;https://github.com/capnproto/pycapnp
 python-firebase;https://github.com/python-firebase/python-firebase;True;https://github.com/ozgur/python-firebase
+typesentry;https://github.com/h2oai/typesentry;False;https://github.com/h2oai/typesentry.git
 cloudbridge;https://github.com/cloudbridge/cloudbridge;True;https://github.com/CloudVE/cloudbridge
 yaql;https://github.com/yaql/yaql;True;https://github.com/openstack/yaql
+mattermostwrapper;https://github.com/btotharye/mattermostwrapper;False;https://github.com/btotharye/mattermostwrapper.git
 darglint;https://github.com/terrencepreilly/darglint;False;https://github.com/raddessi/SublimeLinter-contrib-darglint
 django-slack;https://github.com/django-slack/django-slack;True;https://github.com/lamby/django-slack

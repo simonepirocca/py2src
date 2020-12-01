@@ -9,7 +9,7 @@ Total different urls: 803 (283 in useful rows, 520 in useless rows)
 GATHERING DATA WITH URL FINDER
 Total packages: 3708
 Total useful rows: 3166 (useless: 542)
-Different urls in useful rows: 210 (45 not empty)
+Different urls in useful rows: 198 (33 not empty)
 Different urls in useless rows: 541 (64 not empty)
 
 Broken links that we can fix: 64

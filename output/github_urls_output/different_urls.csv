@@ -7,7 +7,6 @@ importlib-metadata;https://github.com/importlib-metadata/importlib-metadata;True
 future;https://github.com/future/future;True;https://github.com/PythonCharmers/python-future
 grpcio;https://github.com/grpc/grpc;False;
 enum34;https://github.com/enum34/enum34;True;
-websocket-client;https://github.com/websocket-client/websocket-client;False;https://github.com/websocket-client/websocket-client.git
 pexpect;https://github.com/pexpect/pexpect;False;
 beautifulsoup4;https://github.com/beautifulsoup4/beautifulsoup4;True;
 pycodestyle;http://github.com/PyCQA/pycodestyle;False;
@@ -234,7 +233,6 @@ beautifulsoup;https://github.com/beautifulsoup/beautifulsoup;True;
 marionette-driver;https://github.com/marionette-driver/marionette-driver;True;
 azureml-train;https://github.com/azureml-train/azureml-train;True;
 azureml-sdk;https://github.com/Azure/MachineLearningNotebooks;False;
-h2o;https://github.com/h2oai/h2o-3;False;https://github.com/h2oai/h2o-3.git
 firebase-admin;https://github.com/firebase-admin/firebase-admin;True;
 pdfkit;https://github.com/JazzCore/python-pdfkit;False;
 pywebhdfs;https://github.com/pywebhdfs/pywebhdfs;False;
@@ -251,7 +249,6 @@ python-glanceclient;https://github.com/python-glanceclient/python-glanceclient;T
 pyformance;https://github.com/pyformance/pyformance;True;
 mongomock;https://github.com/mongomock/mongomock;False;
 cheetah;https://github.com/cheetah/cheetah;True;
-bashlex;https://github.com/idank/bashlex;False;https://github.com/idank/bashlex.git
 locustio;https://github.com/locustio/locustio;True;https://github.com/locustio/locust
 dash-renderer;https://github.com/dash-renderer/dash-renderer;True;
 dash-core-components;https://github.com/dash-core-components/dash-core-components;True;
@@ -317,7 +314,6 @@ proglog;https://github.com/Edinburgh-Genome-Foundry/Proglog;False;
 suds;https://github.com/suds/suds;True;
 logbook;https://github.com/logbook/logbook;True;
 vatnumber;https://github.com/vatnumber/vatnumber;True;
-py3nvml;https://github.com/fbcotter/py3nvml;False;https://github.com/fbcotter/py3nvml.git
 numpydoc;https://github.com/numpydoc/numpydoc;True;https://github.com/numpy/numpydoc
 pytest-cache;https://github.com/pytest-cache/pytest-cache;True;
 progressbar;https://github.com/progressbar/progressbar;True;https://github.com/niltonvolpato/python-progressbar
@@ -325,9 +321,7 @@ pydub;https://github.com/pydub/pydub;True;
 functools;https://github.com/functools/functools;True;
 publicsuffix;https://github.com/publicsuffix/publicsuffix;True;
 pyjwkest;https://github.com/pyjwkest/pyjwkest;True;
-jupyter-contrib-nbextensions;https://github.com/ipython-contrib/jupyter_contrib_nbextensions;False;https://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
 demjson;https://github.com/demjson/demjson;True;
-jupyter-highlight-selected-word;https://github.com/jcb91/jupyter_highlight_selected_word;False;https://github.com/jcb91/jupyter_highlight_selected_word.git
 mpld3;https://github.com/jakevdp/mpld3;False;
 wasmer;https://github.com/wasmerio/wasmer;False;
 junitparser;https://github.com/gastlygem/junitparser;False;https://github.com/weiwei/junitparser
@@ -386,7 +380,6 @@ futurist;https://github.com/futurist/futurist;True;
 nose-cov;https://github.com/nose-cov/nose-cov;True;
 json-delta;https://github.com/json-delta/json-delta;True;
 wincertstore;https://github.com/wincertstore/wincertstore;True;
-awsiotpythonsdk;https://github.com/aws/aws-iot-device-sdk-python;False;https://github.com/aws/aws-iot-device-sdk-python.git
 databricks-pypi;https://github.com/databricks-pypi/databricks-pypi;True;
 testresources;https://github.com/testresources/testresources;False;
 pycocotools;https://github.com/pycocotools/pycocotools;True;
@@ -394,7 +387,6 @@ pyaudio;https://github.com/pyaudio/pyaudio;True;
 pprint;https://github.com/pprint/pprint;True;
 reno;https://github.com/reno/reno;True;
 pycontracts;https://github.com/andreacensi/contracts;False;
-svgwrite;http://github.com/mozman/svgwrite;False;http://github.com/mozman/svgwrite.git
 grpcio-health-checking;https://github.com/grpcio-health-checking/grpcio-health-checking;True;
 python-designateclient;https://github.com/python-designateclient/python-designateclient;True;
 pycli;https://github.com/pycli/pycli;True;
@@ -445,7 +437,6 @@ aliyun-python-sdk-kms;https://github.com/aliyun-python-sdk-kms/aliyun-python-sdk
 stemming;https://github.com/stemming/stemming;True;
 patool;https://github.com/patool/patool;True;https://github.com/wummel/patool
 django-configurations;https://github.com/django-configurations/django-configurations;True;https://github.com/jazzband/django-configurations
-starkbank-ecdsa;https://github.com/starkbank/ecdsa-python;False;https://github.com/starkbank/ecdsa-python.git
 osprofiler;https://github.com/osprofiler/osprofiler;True;
 pyarabic;http://github.com/linuxscout/pyarabic;False;
 oslo-cache;https://github.com/oslo-cache/oslo-cache;True;
@@ -637,7 +628,6 @@ pytictoc;https://github.com/pytictoc/pytictoc;True;
 oslotest;https://github.com/oslotest/oslotest;True;
 mailchimp;https://github.com/mailchimp/mcapi2-python-examples;True;
 colorhash;https://github.com/zenozeng/color-hash;False;
-edx-submissions;http://github.com/edx/edx-submissions;False;http://github.com/edx/edx-submissions.git
 pyqtgraph;https://github.com/pyqtgraph/pyqtgraph;False;
 junit2html;https://github.com/junit2html/junit2html;True;
 pytest-localserver;https://github.com/pytest-localserver/pytest-localserver;True;
@@ -708,7 +698,6 @@ notify2;https://github.com/notify2/notify2;True;
 python-firebase;https://github.com/python-firebase/python-firebase;True;https://github.com/ozgur/python-firebase
 pytest-logbook;https://github.com/pytest-logbook/pytest-logbook;True;
 dogpile-core;https://github.com/dogpile-core/dogpile-core;True;
-typesentry;https://github.com/h2oai/typesentry;False;https://github.com/h2oai/typesentry.git
 cloudbridge;https://github.com/cloudbridge/cloudbridge;True;https://github.com/CloudVE/cloudbridge
 zc-buildout;https://github.com/buildout/buildout;False;
 yaql;https://github.com/yaql/yaql;True;https://github.com/openstack/yaql
@@ -723,7 +712,6 @@ chromedriver;https://github.com/chromedriver/chromedriver;True;
 python-sql;https://github.com/python-sql/python-sql;True;
 fabric2;https://github.com/fabric2/fabric2;True;
 morfessor;https://github.com/morfessor/morfessor;True;
-mattermostwrapper;https://github.com/btotharye/mattermostwrapper;False;https://github.com/btotharye/mattermostwrapper.git
 glob3;https://github.com/camabeh/glob3;True;
 plaidml-keras;https://github.com/plaidml-keras/plaidml-keras;True;
 python-termstyle;https://github.com/python-termstyle/python-termstyle;True;

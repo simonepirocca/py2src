@@ -29,9 +29,11 @@ def test_find_diff_urls():
                 package_name = row[0]
                 right_url = row[1]
                 right_url_path = urlparse(right_url).path.lower()
+                right_url_path = right_url_path.replace(".git", "")
                 useless = row[2]
                 old_url = row[3]
                 old_url_path = urlparse(old_url).path.lower()
+                old_url_path = old_url_path.replace(".git", "")
 
                 if useless == "False": total_useful += 1
                 else: total_useless += 1
