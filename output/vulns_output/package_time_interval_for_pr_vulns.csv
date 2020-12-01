@@ -1,0 +1,23 @@
+Package name;Clone dir;Tot vulns with commit;Avg time interval
+ansible;ansible;8;78
+apache-airflow;airflow;2;53
+bleach;bleach;1;0
+ecdsa;python-ecdsa;1;39
+fastapi;fastapi;1;0
+flask;flask;1;16
+gdal;gdal;1;86
+graphite-web;graphite-web;1;117
+knack;knack;1;0
+markdown2;python-markdown2;1;0
+mitmproxy;mitmproxy;1;514
+notebook;notebook;1;52
+oauth2;python-oauth2;1;5
+pillow;Pillow;2;0
+pyarrow;arrow;1;14
+pyramid;pyramid;1;55
+pytorch-lightning;pytorch-lightning;1;19
+salt;salt;1;0
+starlette;starlette;1;1
+twisted;twisted;2;30
+urllib3;urllib3;1;65
+werkzeug;werkzeug;2;;141

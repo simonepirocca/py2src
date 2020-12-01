@@ -4,7 +4,6 @@ This file finds the vulnerabilities related to already known packages and with c
 import sys
 import os
 import csv
-from urllib.request import Request, urlopen
 import logging
 logging.basicConfig(filename="../log.log", level=logging.INFO)
 

@@ -1,12 +1,12 @@
 #!/bin/bash
 
-INPUT=../output/vulns_output/packages_with_vuln_commit.csv
+INPUT=../output/vulns_output/uncloned_pr_packages.csv
 START=1
 END=120
 i=0
 
 cd ../../cloned_packages
-while IFS=';' read -r package_name clone_url
+while IFS=';' read -r package_name clone_url clone_dir 
 do
     if [ $i -ge $START ]
     then

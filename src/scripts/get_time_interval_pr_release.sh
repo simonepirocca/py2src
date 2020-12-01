@@ -1,9 +1,9 @@
 #!/bin/bash
 
-INPUT=../output/vulns_output/clone_dir_from_commit_hash.csv
-VULNS_OUTPUT=../output/vulns_output/commit_vulns_time_interval.csv
-PACKAGE_OUTPUT=../output/vulns_output/package_time_interval_for_commits_vulns.csv
-ERRORS_LOG=../../output/vulns_output/errors_for_commit_hashes.txt
+INPUT=../output/vulns_output/clone_dir_from_pr_commit_hash.csv
+VULNS_OUTPUT=../output/vulns_output/pr_vulns_time_interval.csv
+PACKAGE_OUTPUT=../output/vulns_output/package_time_interval_for_pr_vulns.csv
+ERRORS_LOG=../../output/vulns_output/errors_for_pr_hashes.txt
 START=1
 END=1000
 i=0
@@ -25,7 +25,7 @@ cd ../../cloned_packages
 echo "Vuln ID;Package name;Clone dir;Commit hash;Release;Commit date;Release date;Time interval" > $VULNS_OUTPUT
 echo "Package name;Clone dir;Tot vulns with commit;Avg time interval" > $PACKAGE_OUTPUT
 
-while IFS=';' read -r id package_name clone_dir commit_hash 
+while IFS=';' read -r id package_name clone_dir commit_url commit_hash 
 do
     if [ $i -ge $START ]
     then

@@ -4,7 +4,6 @@ This file correlate commit link of a vulnerability with the relative package nam
 import sys
 import os
 import csv
-from urllib.request import Request, urlopen
 import logging
 logging.basicConfig(filename="../log.log", level=logging.INFO)
 

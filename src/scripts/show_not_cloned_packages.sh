@@ -1,6 +1,7 @@
 #!/bin/bash
 
-INPUT=../../output/vulns_output/packages_with_vuln_commit.csv
+INPUT=../output/vulns_output/packages_with_vuln_commit.csv
+ERRORS=../output/vulns_output/not_cloned_packages.csv
 START=1
 END=120
 i=0
@@ -13,7 +14,7 @@ do
         if [ ! -d "$package_name" ]
         then
             echo "$package_name not cloned."
-            echo "$package_name" >> ../../output/vulns_output/not_cloned_packages.csv
+            echo "$package_name" >> $ERRORS
         fi
     fi
 
