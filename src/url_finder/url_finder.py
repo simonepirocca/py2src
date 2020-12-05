@@ -5,6 +5,9 @@ codepage urls of the Package, collecting artifact urls of the Package.
 import collections
 import json
 import os
+import subprocess
+import logging
+logging.basicConfig(filename="../../tests/log.log", level=logging.INFO)
 from typing import Dict
 from typing import Iterator
 from urllib.error import HTTPError
@@ -218,7 +221,7 @@ class URLFinder:
         """Get package url in PyPI"""
         return "https://pypi.org/project/{}".format(self._package_name)
 
-    def find_github_url(self) -> str:
+    def find_github_url_from_metadata(self) -> str:
         """
         Aggreate github urls collecting from various sources
         """
@@ -236,5 +239,68 @@ class URLFinder:
         elif github_url_scraping and self.test_url_working(github_url_scraping):
             final_github_url = github_url_scraping
 
-        return final_github_url
+        return self.normalize_url(final_github_url)
 
+    def find_github_url_from_pypi_page(self) -> str:
+        """
+        Get GitHub url from PyPi page
+        """
+
+        github_url = ""
+        url = f"https://pypi.org/project/{self._package_name}"
+        try:
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    
+                    if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
+                        github_url = href_url
+                        break
+
+        if github_url != "" and self.test_url_working(github_url): return self.normalize_url(github_url)
+        else: return ""
+
+    def find_github_url_from_ossgadget(self) -> str:
+        """
+        Get GitHub url using OSSGadget tool
+        """
+        github_url = self.launch_ossgadget_command("pypi/" + self._package_name)
+        if(github_url != ""): return self.normalize_url(github_url)
+        else:
+            github_url = self.launch_ossgadget_command("github/" + self._package_name + "/" + self._package_name)
+            if(github_url != ""): return self.normalize_url(github_url)
+            else: return ""
+
+    @staticmethod
+    def launch_ossgadget_command(pkg: str) -> str:
+        """
+        Launch OSSGadget tool to search the url
+        """
+        command = ["docker", "run", "-it", "ossgadget:latest", "/bin/bash", "-c", "./oss-find-source/bin/Debug/netcoreapp3.1/oss-find-source pkg:" + pkg]
+        result = subprocess.run(command, stdout=subprocess.PIPE)
+        decoded_result = result.stdout.decode('utf-8')
+        logging.info(f"{decoded_result}")
+        if "No repositories were found after searching metadata." in decoded_result: github_url = ""
+        #else: github_url = decoded_result.split(" ")[0][decoded_result.index("h"):]
+        else: github_url = decoded_result
+        #if github_url != "" and URLFinder.test_url_working(github_url): return github_url
+        if github_url != "": return github_url
+        else: return ""
+
+    @staticmethod
+    def normalize_url(url: str) -> str:
+        """
+        Normalize URL
+        """
+        return "https://github.com" + urlparse(url).path.replace(".git", "").lower()

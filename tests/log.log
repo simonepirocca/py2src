@@ -1470,3 +1470,26 @@ INFO:root:Commits found: 10,  Commit NOT found: 10
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 210, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 210, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
 INFO:root:Total packages: 3708, Total useful: 3166, Total useless: 542, Different useful: 198, Different useless: 541, Different EMPTY useful: 165, Different EMPTY useless: 477
+INFO:root:GitHub url: https://github.com//urllib3/urllib3, Accuracy: 66%
+INFO:root:https://github.com//urllib3/urllib3, https://github.com//urllib3/urllib3, https://github.com/he 
+INFO:root:GitHub url: https://github.com//urllib3/urllib3, Accuracy: 66%
+INFO:root:https://github.com//urllib3/urllib3, https://github.com//urllib3/urllib3, https://github.com/he 
+INFO:root:GitHub url: https://github.com//urllib3/urllib3, Accuracy: 66%
+INFO:root:https://github.com//urllib3/urllib3, https://github.com//urllib3/urllib3, https://github.com/
+the command 'docker' could not be found in this wsl 1 distro.
+we recommend to convert this distro to wsl 2 and activate
+the wsl integration in docker desktop settings.
+
+see https://docs.docker.com/docker-for-windows/wsl/ for details.
+
+ 
+INFO:root:GitHub url: https://github.com//urllib3/urllib3, Accuracy: 66%
+INFO:root:https://github.com//urllib3/urllib3, https://github.com//urllib3/urllib3,  
+INFO:root:GitHub url: https://github.com//urllib3/urllib3, Accuracy: 66%
+INFO:root:GitHub url: https://github.com/urllib3/urllib3, Accuracy: 66%
+INFO:root:
+INFO:root:
+INFO:root:https://github.com/urllib3/urllib3, https://github.com/urllib3/urllib3, 
+INFO:root:GitHub url: https://github.com/urllib3/urllib3, Accuracy: 66%
+INFO:root:
+INFO:root:
