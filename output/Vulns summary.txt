@@ -46,7 +46,7 @@ PR (51)
 Not found: 1
 Open (not analysed): 1
 Closed with commit link: 4
-Closed without commit link: 4
+Closed without commit link: 2
 Merged: 43
 
 

@@ -2,7 +2,7 @@ USEFUL ROWS
 
 - In my script I didn't found URLs because there are not in PyPi page (caught with OSSGadget), whereas his script found it, but wrong 
  --> cffi, https://github.com/cffi/cffi, https://github.com/python-cffi/release-doc
- --> babel, https://github.com/babel/babel, https://github.com/babel/babel
+ --> babel, https://github.com/babel/babel, https://github.com/python-babel/babel
 
 - In my script I didn't found URLs because there are not in PyPi page (caught with OSSGadget), whereas his script found it, and they are linked to the same page 
  --> pycrypto, https://github.com/pycrypto/pycrypto, https://github.com/dlitz/pycrypto
