@@ -1,189 +1,325 @@
 """
-This file contains the description of the Metrics class, needed
-to collect the metrics about a specific repositoriy
+This file contains methods to gather metrics of a GitHub repository
 """
-import sys
-import os
-import json
-#import logging
-import csv
+import logging
 from urllib.request import Request, urlopen
-from package import Package
-from datetime import date
-sys.path.append(os.path.abspath("../src/"))
-#logging.basicConfig(filename="log.log", level=logging.INFO)
+import urllib
+from urllib.error import URLError, HTTPError
+import json
+from pathlib import Path
+from bs4 import BeautifulSoup
+from typing import Dict, Iterator, List
+from urllib.parse import urlparse
+import validators
+import os
+import re
+import requests
+import collections
+
 
 class Metrics:
+    def __init__(self, package_name: str, github_url: str):
+        self._package_name = package_name
+        self._github_url = github_url
+        self._closed_issues_url = ""
+
+    @property
+    def package_name(self) -> str:
+        return self._package_name
+
+    @property
+    def github_url(self) -> str:
+        return self._github_url
+
+    @property
+    def closed_issues_url(self) -> str:
+        return self._closed_issues_url
+    
+    def get_link_metric_from_github_repo(self, metric:str) -> str:
+        """
+        Get a link metric of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if metric in url_parts.path:
+                        output = link.getText().strip()
+                        return self.convert_to_number(output)
+            return ""
+
+    def get_updated_at_from_github_repo(self) -> str:
+        """
+        Get updated_at of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            try:
+                div = soup.findAll("relative-time")[0]
+                datetime = div["datetime"]
+            except Error:
+                return ""
+            else:
+                return datetime.strip()
+
+    def get_commits_from_github_repo(self) -> str:
+        """
+        Get commits of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "/commits/" in url_parts.path and "." not in href_url:
+                        span = link.findAll("span")[0]
+                        commits = span.findAll("strong")[0].getText().strip()
+                        return self.convert_to_number(commits)
+            return ""
+
+    def get_commits2_from_github_repo(self) -> str:
+        """
+        Get commits of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "/commits/" in url_parts.path:
+                        span = link.findAll("span")[0]
+                        commits = span.findAll("strong")[0].getText().strip()
+                        return self.convert_to_number(commits)
+            return ""
+
+    def get_link_span_metric_from_github_repo(self, metric:str) -> str:
+        """
+        Get link span metric of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if metric in url_parts.path:
+                        for span in link.findAll("span"):
+                            try:
+                                issues = span["title"]
+                            except KeyError:
+                                # Link is not valid, go to the next line
+                                continue
+                            else:
+                                output = span.getText().strip()
+                                return self.convert_to_number(output)
+            return ""
+
+    def get_tags_from_github_repo(self) -> str:
+        """
+        Get tags (releases) of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            i = 0
+            for link in soup.findAll("a", {"class": "link-gray-dark"}):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "/releases" in url_parts.path:
+                        i += 1
+                        if i == 2:
+                            tags = link.findAll("span", {"class": "text-bold"})[0].getText().strip()
+                            return self.convert_to_number(tags)
+            return ""
+
+
+    def get_last_release_from_github_repo(self) -> str:
+        """
+        Get updated_at of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            div = soup.findAll("relative-time")[1]
+            try:
+                datetime = div["datetime"]
+            except KeyError:
+                # Link is not valid, return
+                return ""
+            else:
+                return datetime
+
+    def get_dependent_url_from_github_repo(self) -> str:
+        """
+        Get dependent url of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a", {"class": "d-flex"}):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "dependents" in url_parts.path:
+                        return "https://github.com" + href_url.strip()
+            return ""
+
+    def get_closed_issues_from_github_repo(self) -> str:
+        """
+        Get issues url of github repo
+        """
+        
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    url_parts = urlparse(href_url)
+                    if "issues" in url_parts.path:
+                        self._closed_issues_url = "https://github.com" + href_url.strip()
+                        return self.get_closed_issues_from_closed_issues_url()
+            return ""
+
+    def get_dependent_from_github_repo(self, url: str, type: str) -> str:
+        """
+        Get dependent repositories or package of github repo
+        """
+        
+        try:
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+           for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    if type in href_url:
+                        return self.convert_to_number(link.getText().strip().split(' ', 1)[0])
+           return ""
+
+    def get_closed_issues_from_closed_issues_url(self) -> str:
+        """
+        Get closed issues of github repo
+        """
+        
+        try:
+            req = Request(self._closed_issues_url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+        else:
+            for link in soup.findAll("a"):
+                try:
+                    href_url = link["href"]
+                except KeyError:
+                    # Link is not valid, go to the next line
+                    continue
+                else:
+                    if "issues?q=is%3Aissue+is%3Aclosed" in href_url:
+                        return self.convert_to_number(link.getText().strip().split(' ', 1)[0])
+            return ""
 
     @staticmethod
-    def get_repo_metrics(package_name: str, downloads: str):
-        # Set Package object
-        pkg = Package(package_name)
-
-        # Variables declaration
-        stargazers = ""
-        last_commit = ""
-        commit_frequency = 0
-        release_frequency = 0
-        open_issues = ""
-        closed_issues = ""
-        api_closed_issues = 0
-        avg_close_issue_days = 0
-        contributors = ""
-        dep_repos = ""
-        dep_packages = ""
-        sourcerank = ""
-        dep_packages_io = ""
-        dep_repos_io = ""
-
-        # Get the GitHub repo URL
-        github_url = pkg.extract_github_url().replace(".git", "")
-
-        if(github_url != ""):
-
-            # Get GitHub metrics
-
-            #watchers = pkg.get_link_metric_from_github_repo(github_url, "watchers").strip()
-            #stargazers = pkg.get_link_metric_from_github_repo(github_url, "stargazers").strip()
-            #forks = pkg.get_link_metric_from_github_repo(github_url, "members").strip()
-            #updated_at = pkg.get_updated_at_from_github_repo(github_url).strip()[:10]
-            created_at = ""
-            open_issues = pkg.get_link_span_metric_from_github_repo(github_url, "issues").strip()
-            issues_url = pkg.get_issues_url_from_github_repo(github_url).strip()
-            closed_issues = pkg.get_closed_issues_from_github_repo(issues_url).strip()
-            closed_issues = closed_issues.replace(",", "")
-            commits = pkg.get_commits_from_github_repo(github_url).strip()
-            commits = commits.replace(",", "")
-            #last_commit = pkg.get_updated_at_from_github_repo(github_url).strip()[:10]
-            releases = pkg.get_link_span_metric_from_github_repo(github_url, "releases").strip().replace(",", "")
-            contributors = pkg.get_link_span_metric_from_github_repo(github_url, "graphs/contributors").strip()
-            dependents_url = pkg.get_dependent_url_from_github_repo(github_url).strip()
-            dep_repos = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=REPOSITORY").strip()
-            dep_packages = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=PACKAGE").strip()
-
-            github_url_parts = github_url.split("/")
-            parts = len(github_url_parts)
-
-            github_token = "put_here_a_valid_github_token"
-
-            github_json_url = "https://api.github.com/repos/" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1]
-            api_req = Request(github_json_url)
-            api_req.add_header('Authorization', 'token ' + github_token)
-            try:
-                github_json = json.loads(urlopen(api_req).read().decode())
-                created_at = github_json["created_at"][:10]
-                stargazers = github_json["stargazers_count"]
-
-                with open('../metrics_output/json/generic_data/' + package_name + '.json', 'w') as json_file:
-                    json.dump(github_json, json_file)
-            except Exception:
-                created_at = ""
-                stargazers = ""
-
-            commits_json_url = "https://api.github.com/repos/" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1] + "/commits"
-            api_req = Request(commits_json_url)
-            api_req.add_header('Authorization', 'token ' + github_token)
-
-            try:
-                commits_json = json.loads(urlopen(api_req).read().decode())
-                last_commit = commits_json[0]["commit"]["author"]["date"][:10]
-                with open('../metrics_output/json/commits/' + package_name + '.json', 'w') as json_file:
-                    json.dump(commits_json, json_file)
-
-            except Exception:
-                last_commit = ""
-
-            total_days = 0
-            total_months = 0
-            if created_at != "":
-                today_date = date.today().strftime('%Y-%m-%d')
-                total_months = (int(today_date[:4]) - int(created_at[:4])) * 12 + (int(today_date[5:7]) - int(created_at[5:7]))
-                total_days = (int(today_date[:4]) - int(created_at[:4])) * 365 + (int(today_date[5:7]) - int(created_at[5:7])) * 30 + (int(today_date[8:]) - int(created_at[8:]))
-                
-
-            if total_months != 0 and commits != "":                
-                commit_frequency = int(int(commits) / total_months)
-
-            if total_days != 0 and releases != "":
-                #release_frequency = round((int(releases) / total_months), 2)
-                release_frequency = int(total_days / int(releases))
-
-            i = 0
-            api_closed_issues = 0
-            sum_closed_days = 0
-            #api_closed_issues = 0
-            #sum_closed_months = 0
-
-            #while count < int(closed_issues):
-            #while True:
-            #    i = i + 1
-            #    issue_json_url = "https://api.github.com/repos/" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1] + "/issues/" + str(i)
-            #    api_req = Request(issue_json_url)
-            #    api_req.add_header('Authorization', 'token ' + github_token)
-
-             #   try:
-             #       issue_json = json.loads(urlopen(api_req).read().decode())
-             #   except Exception:
-             #       break
-             #   else:
-             #       if issue_json["state"] == "closed":
-             #           created_date = issue_json["created_at"][:10]
-             #           closed_date = issue_json["closed_at"][:10]
-             #           count = count + 1
-
-             #           if created_date != "" and closed_date != "":
-             #               close_months = (int(closed_date[:4]) - int(created_date[:4])) * 12 + (int(closed_date[5:7]) - int(created_date[5:7]))
-             #               sum_closed_months = sum_closed_months + close_months
-             #               api_closed_issues = api_closed_issues + 1
-
-
-            issue_json_url = "https://api.github.com/search/issues?q=repo:" + github_url_parts[parts-2] + "/" + github_url_parts[parts-1] + "%20is:issue%20is:closed&per_page=" + closed_issues
-            api_req = Request(issue_json_url)
-            api_req.add_header('Authorization', 'token ' + github_token)            
-
-            try:
-                issue_json = json.loads(urlopen(api_req).read().decode())
-
-                with open('../metrics_output/json/closed_issues/' + package_name + '.json', 'w') as json_file:
-                    json.dump(issue_json, json_file)
-
-            except Exception:
-                avg_close_issue_days = 0
-            else:
-                total_count = int(issue_json["total_count"])
-                for i in range(len(issue_json["items"])):
-                    try:
-                        created_date = issue_json["items"][i]["created_at"][:10]
-                        closed_date = issue_json["items"][i]["closed_at"][:10]
-                    except TypeError:
-                        created_date = ""
-                        closed_date = ""
-
-                    if created_date != "" and closed_date != "":
-                        #close_months = (int(closed_date[:4]) - int(created_date[:4])) * 12 + (int(closed_date[5:7]) - int(created_date[5:7]))
-                        close_days = (int(closed_date[:4]) - int(created_date[:4])) * 365 + (int(closed_date[5:7]) - int(created_date[5:7])) * 30 + (int(closed_date[8:]) - int(created_date[8:]))
-                        sum_closed_days = sum_closed_days + close_days
-                        api_closed_issues = api_closed_issues + 1
-
-                if api_closed_issues > 0:
-                    avg_close_issue_days = int(sum_closed_days / api_closed_issues)
-
-            if commit_frequency == 0: commit_frequency = ""
-            if release_frequency == 0: release_frequency = ""
-            if api_closed_issues == 0: api_closed_issues = ""
-            if avg_close_issue_days == 0: avg_close_issue_days = ""
-
-        # Get the Libraries.io repo URL
-        libraries_io_url = pkg.extract_libraries_io_url()
-        if(libraries_io_url != ""):
-
-            # Get Libraries.io metrics
-            sourcerank = pkg.get_sourcerank_from_libraries_io(libraries_io_url).strip()
-            dep_packages_io = pkg.get_dep_packages_from_libraries_io(libraries_io_url).strip()
-            dep_repos_io = pkg.get_dep_repos_from_libraries_io(libraries_io_url).strip()
-
-        with open('../metrics_output/metrics.csv', mode='a') as packages:
-            packages_writer = csv.writer(packages, delimiter=';')
-            packages_writer.writerow([package_name, downloads, github_url, stargazers,\
- last_commit, commit_frequency, release_frequency, open_issues, closed_issues, api_closed_issues, avg_close_issue_days,\
- contributors, dep_repos, dep_packages, libraries_io_url, sourcerank, dep_packages_io, dep_repos_io])
+    def convert_to_number(n: str):
+        """
+        Convert a numeric string into a number
+        """
+        # Remove all not-numeric characters
+        n = n.replace("+", "").replace(",", "").replace("?", "")
+        # If the number is expressed in "k", remove it and multiply the number
+        if "K" in n:
+            if "." in n:
+                dot_index = n.index(".")
+                k_index = n.index("K")
+                decimals = k_index - dot_index - 1
+                if decimals == 1: return int(n.replace(".", "").replace("K", "")) * 100
+                elif decimals == 2: return int(n.replace(".", "").replace("K", "")) * 10
+            return int(n.replace("K", "")) * 1000
+        if "k" in n:
+            if "." in n:
+                dot_index = n.index(".")
+                k_index = n.index("k")
+                decimals = k_index - dot_index - 1
+                if decimals == 1: return int(n.replace(".", "").replace("k", "")) * 100
+                elif decimals == 2: return int(n.replace(".", "").replace("k", "")) * 10
+            return int(n.replace("k", "")) * 1000
+        return int(n)

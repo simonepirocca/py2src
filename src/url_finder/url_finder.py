@@ -265,6 +265,12 @@ class URLFinder:
                     if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
                         github_url = href_url
                         break
+
+        # Remove tag part from URL
+        if "#" in github_url:
+            to_delete_index = github_url.index("#")
+            github_url = github_url[:to_delete_index]
+
         # Return the normalized URL if working, otherwise return empty string
         if github_url != "" and self.test_url_working(github_url): return self.normalize_url(github_url)
         else: return ""

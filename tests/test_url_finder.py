@@ -54,3 +54,17 @@ def test_github_url_gathering():
 
     #logger.info(f"{metadata_url}, {pypi_url}, {ossgadget_url}")
     logger.info(f"Package name: {package_name} --> GitHub url: {final_url} (Accuracy: {accuracy})")
+
+def test_find_missing_urls():
+    input_csv = "../output/metrics_output/metrics_final_with_tags_and_0.csv"
+    output_csv = "../output/metrics_output/missing_urls.csv"
+    # Open the URL file
+    with open(input_csv) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=';')
+        for row in csv_reader:
+            github_url = row[2]
+            if github_url == "":
+                # Write the package name into the missing urls file, if URL is empty 
+                with open(output_csv, mode='a') as missing_csv:
+                    packages_writer = csv.writer(missing_csv, delimiter=';')
+#                    packages_writer.writerow([row[0]])
