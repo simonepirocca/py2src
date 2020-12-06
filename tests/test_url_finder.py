@@ -2,10 +2,19 @@ import sys
 import os
 import csv
 import logging
-logging.basicConfig(filename="log.log", level=logging.INFO)
-sys.path.append(os.path.abspath('../src/url_finder'))
+import pytest
+from pathlib import Path
+
+url_finder_module_path = Path().resolve().parent / "src" / "url_finder"
+sys.path.append(str(url_finder_module_path))
 from url_finder import URLFinder
 
+utils_module_path = Path().resolve().parent / "src" / "utils"
+sys.path.append(str(utils_module_path))
+from utils import log_function_output
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/url_finder.log")
+
+# Test the GitHub URL gathering of a package, using three sources
 def test_github_url_gathering():
     package_name = 'urllib3'
     url_finder = URLFinder(package_name)
@@ -43,5 +52,5 @@ def test_github_url_gathering():
                 final_url = metadata_url
                 accuracy = "33%"
 
-    logging.info(f"{metadata_url}, {pypi_url}, {ossgadget_url}")
-    logging.info(f"GitHub url: {final_url}, Accuracy: {accuracy}")
+    #logger.info(f"{metadata_url}, {pypi_url}, {ossgadget_url}")
+    logger.info(f"Package name: {package_name} --> GitHub url: {final_url} (Accuracy: {accuracy})")

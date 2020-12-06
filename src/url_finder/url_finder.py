@@ -6,8 +6,6 @@ import collections
 import json
 import os
 import subprocess
-import logging
-logging.basicConfig(filename="../../tests/log.log", level=logging.INFO)
 from typing import Dict
 from typing import Iterator
 from urllib.error import HTTPError
@@ -254,7 +252,7 @@ class URLFinder:
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""
         else:
-            
+            # Examine all the links present in the PyPi page of that package
             for link in soup.findAll("a"):
                 try:
                     href_url = link["href"]
@@ -263,11 +261,11 @@ class URLFinder:
                     continue
                 else:
                     url_parts = urlparse(href_url)
-                    
+                    # Keep the first link that refers to a valid URL of GitHub project, that is not the "warehouse" project 
                     if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
                         github_url = href_url
                         break
-
+        # Return the normalized URL if working, otherwise return empty string
         if github_url != "" and self.test_url_working(github_url): return self.normalize_url(github_url)
         else: return ""
 
@@ -275,9 +273,12 @@ class URLFinder:
         """
         Get GitHub url using OSSGadget tool
         """
+        # Launch the OSSGadget command to see if it can found a URL linked to PyPi 
         github_url = self.launch_ossgadget_command("pypi/" + self._package_name)
+        # Return the normalized URL if found...
         if(github_url != ""): return self.normalize_url(github_url)
         else:
+            #... Otherwise relaunch the command to see if it can found directly a GitHub URL 
             github_url = self.launch_ossgadget_command("github/" + self._package_name + "/" + self._package_name)
             if(github_url != ""): return self.normalize_url(github_url)
             else: return ""
@@ -285,22 +286,23 @@ class URLFinder:
     @staticmethod
     def launch_ossgadget_command(pkg: str) -> str:
         """
-        Launch OSSGadget tool to search the url
+        Launch OSSGadget tool to search the URL, based on the type of source
         """
+        # Launch the command and save the decoded result
         command = ["docker", "run", "-it", "ossgadget:latest", "/bin/bash", "-c", "./oss-find-source/bin/Debug/netcoreapp3.1/oss-find-source pkg:" + pkg]
         result = subprocess.run(command, stdout=subprocess.PIPE)
         decoded_result = result.stdout.decode('utf-8')
-        logging.info(f"{decoded_result}")
+
         if "No repositories were found after searching metadata." in decoded_result: github_url = ""
-        #else: github_url = decoded_result.split(" ")[0][decoded_result.index("h"):]
-        else: github_url = decoded_result
-        #if github_url != "" and URLFinder.test_url_working(github_url): return github_url
-        if github_url != "": return github_url
+        # If a result has been found, take only the URL
+        else: github_url = decoded_result.split(" ")[0][decoded_result.index("h"):]
+        # Return the normalized URL if working, otherwise return empty string
+        if github_url != "" and URLFinder.test_url_working(github_url): return github_url
         else: return ""
 
     @staticmethod
     def normalize_url(url: str) -> str:
         """
-        Normalize URL
+        Normalize the URL, taking just the lower version of the path, removing ".git" if needed
         """
         return "https://github.com" + urlparse(url).path.replace(".git", "").lower()
