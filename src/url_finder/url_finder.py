@@ -231,13 +231,13 @@ class URLFinder:
         # Checking the urls to find the final github url
         final_github_url = ""
         if github_url_metadata and self.test_url_working(github_url_metadata):
-            final_github_url = github_url_metadata
+            final_github_url = self.normalize_url(github_url_metadata)
         elif github_url_homepage and self.test_url_working(github_url_homepage):
-            final_github_url = github_url_homepage
+            final_github_url = self.normalize_url(github_url_homepage)
         elif github_url_scraping and self.test_url_working(github_url_scraping):
-            final_github_url = github_url_scraping
+            final_github_url = self.normalize_url(github_url_scraping)
 
-        return self.normalize_url(final_github_url)
+        return final_github_url
 
     def find_github_url_from_pypi_page(self) -> str:
         """
