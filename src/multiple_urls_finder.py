@@ -14,63 +14,59 @@ url_finder_module_path = Path().resolve() / "url_finder"
 sys.path.append(str(url_finder_module_path))
 from url_finder import URLFinder
 
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/url_finder.log")
-
 # Set source, output and range
 pypi_repos_json = "https://hugovk.github.io/top-pypi-packages/top-pypi-packages-365-days.json"
 output_file = "../output/url_finder_output/github_urls.csv"
 start = 1
-count = 1
+count = 10
 end = start + count
 urls = []
 
 # Open and decode the JSON file
 with urlopen(pypi_repos_json) as response:
-        packages = json.loads(response.read().decode())["rows"]
-        # Analyse each row in the range
-        for i in range(start, end):
-            # Get package name and downloads from the row
-            package_name = packages[i-1]["project"]
-            downloads = packages[i-1]["download_count"]
+    packages = json.loads(response.read().decode())["rows"]
 
-            url_finder = URLFinder(package_name)
+    # Analyse each row in the range
+    for i in range(start, end):
+        # Get package name and downloads from the row
+        package_name = packages[i-1]["project"]
+        downloads = packages[i-1]["download_count"]
 
-            # use three different sources to gather the URL
-            metadata_url = url_finder.find_github_url_from_metadata()
-            pypi_url = url_finder.find_github_url_from_pypi_page()
-            ossgadget_url = url_finder.find_github_url_from_ossgadget()
+        url_finder = URLFinder(package_name)
 
-            # all urls are empty
-            final_url = ""
-            accuracy = "0%"
+        # use three different sources to gather the URL
+        metadata_url = url_finder.find_github_url_from_metadata()
+        pypi_url = url_finder.find_github_url_from_pypi_page()
+        ossgadget_url = url_finder.find_github_url_from_ossgadget()
+
+        # all urls are empty
+        final_url = ""
+        accuracy = "0%"
     
-            # all urls are equal
-            if metadata_url == pypi_url and pypi_url == ossgadget_url:
+        # all urls are equal
+        if metadata_url != "" and metadata_url == pypi_url and pypi_url == ossgadget_url:
+            final_url = metadata_url
+            accuracy = "100%"
+        else:
+            # at least two urls are equal
+            if metadata_url != "" and (metadata_url == pypi_url or metadata_url == ossgadget_url):
                 final_url = metadata_url
-                accuracy = "100%"
+                accuracy = "66%"
+            elif pypi_url != "" and pypi_url == ossgadget_url:
+                final_url = pypi_url
+                accuracy = "66%"
             else:
-                # at least two urls are equal
-                if metadata_url == pypi_url or metadata_url == ossgadget_url:
-                    final_url = metadata_url
-                    accuracy = "66%"
-                elif pypi_url == ossgadget_url:
+                # at least one url is not empty
+                if ossgadget_url != "":
+                    final_url = ossgadget_url
+                    accuracy = "33%"
+                elif pypi_url != "":
                     final_url = pypi_url
-                    accuracy = "66%"
-                else:
-                    # at least one url is not empty
-                    if ossgadget_url != "":
-                        final_url = ossgadget_url
-                        accuracy = "33%"
-                    elif pypi_url != "":
-                        final_url = pypi_url
-                        accuracy = "33%"
-                    elif metadata_url != "":
-                        final_url = metadata_url
-                        accuracy = "33%"
-            urls.append([package_name, github_url, accuracy, downloads])
+                    accuracy = "33%"
+                elif metadata_url != "":
+                    final_url = metadata_url
+                    accuracy = "33%"
+        urls.append([package_name, final_url, accuracy, downloads])
 
 # Store the urls
 with open(output_file, mode='w') as csv_file:

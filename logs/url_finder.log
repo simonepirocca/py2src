@@ -1,6 +1,10 @@
-2020-12-28 17:21:40,766 - 22 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
-2020-12-28 17:21:41,656 - 29 - INFO     $ Package: ninja, URL: https://github.com/scikit-build/ninja-python-distributions $ <module>
-2020-12-28 17:21:42,035 - 36 - INFO     $ Package: python-dateutil, URL:  $ <module>
-2020-12-28 17:21:43,677 - 66 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
-2020-12-28 17:21:46,086 - 73 - INFO     $ Package: cffi, URL: https://github.com/python-cffi/release-doc $ <module>
-2020-12-28 17:21:47,016 - 80 - INFO     $ Package: python-dateutil, URL:  $ <module>
+2020-12-29 08:58:32,128 - 22 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2020-12-29 08:58:33,137 - 29 - INFO     $ Package: ninja, URL: https://github.com/scikit-build/ninja-python-distributions $ <module>
+2020-12-29 08:58:33,550 - 36 - INFO     $ Package: python-dateutil, URL:  $ <module>
+2020-12-29 08:58:37,985 - 44 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2020-12-29 08:58:40,067 - 51 - INFO     $ Package: statistics, URL: https://github.com/python/cpython $ <module>
+2020-12-29 08:58:43,720 - 58 - INFO     $ Package: pkg_test_fail, URL:  $ <module>
+2020-12-29 08:58:45,300 - 66 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2020-12-29 08:58:49,425 - 73 - INFO     $ Package: cffi, URL: https://github.com/python-cffi/release-doc $ <module>
+2020-12-29 08:58:50,694 - 80 - INFO     $ Package: python-dateutil, URL:  $ <module>
+2020-12-29 08:59:53,532 - 58 - INFO     $ Package name: urllib3 --> GitHub url: https://github.com/urllib3/urllib3 (Accuracy: 100%) $ <module>
