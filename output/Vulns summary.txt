@@ -39,7 +39,7 @@ Final packages involved: 100
 
 Vulnerabilties related to known packages 
 with (unique) PR link and no Commit link:
-51 (of 30 packages , of which 12 new)
+51 (of 30 packages, of which 12 new)
 
 PR (51)
 
@@ -50,8 +50,8 @@ Closed without commit link: 2
 Merged: 43
 
 
-Hashes not found: 12
-Hashes with no releases linked: 2 
+Hashes not found: 2
+Hashes with no releases linked: 3 
 
-Final pr analysed: 33
-Final packages involved: 22
+Final pr analysed: 42
+Final packages involved: 26

@@ -6,3 +6,11 @@
 48 closed
 49 closed
 51 not found *
+
+
+AFTER SCRIPT:
+4 no releases linked
+6 no releases linked
+33 archived
+44 found online but not locally 
+32 no releases linked

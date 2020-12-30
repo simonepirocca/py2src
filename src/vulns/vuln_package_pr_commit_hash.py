@@ -13,7 +13,7 @@ logging.basicConfig(filename="../log.log", level=logging.INFO)
 def test_find_package_from_vuln():
     dirs = {}
     commit_packages = []
-    start = 41
+    start = 1
     count = 20
     end = start + count
 
@@ -49,7 +49,7 @@ def test_find_package_from_vuln():
                 elif "pull" in pr_url: 
                     pr_url = pr_url.replace("/files", "")
                     commit_url = get_commit_from_pr(pr_url)
-                    else: commit_url = ""
+                else: commit_url = ""
 
                 #logging.info(f"PR url: {pr_url} --> Commit url: {commit_url}")
 
@@ -88,7 +88,7 @@ def get_commit_from_pr(url: str) -> str:
     except (ValueError, URLError, HTTPError, ConnectionResetError):
         return ""
     else:
-        for div in soup.findAll("div"):
+        for div in soup.findAll("div", {"class", "TimelineItem-body"}):
             # merged case
             div_text = div.getText()
             if "merged commit" in div_text:
