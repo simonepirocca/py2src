@@ -1,21 +1,10 @@
 """
 This file contains methods to gather metrics of a GitHub repository
 """
-import logging
 from urllib.request import Request, urlopen
-import urllib
 from urllib.error import URLError, HTTPError
-import json
-from pathlib import Path
 from bs4 import BeautifulSoup
-from typing import Dict, Iterator, List
 from urllib.parse import urlparse
-import validators
-import os
-import re
-import requests
-import collections
-
 
 class Metrics:
     def __init__(self, package_name: str, github_url: str):

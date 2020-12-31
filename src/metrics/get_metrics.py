@@ -1,12 +1,7 @@
-import sys
-import os
-import csv
-import logging
 import json
 from urllib.request import Request, urlopen
 from datetime import date
 import pytest
-from pathlib import Path
 from metrics import Metrics
 
 class GetMetrics:

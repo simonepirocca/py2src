@@ -5,7 +5,7 @@ START=1
 END=120
 i=0
 
-cd ../../cloned_packages
+cd ../../../cloned_packages
 while IFS=';' read -r package_name clone_url
 do
     if [ $i -ge $START ]

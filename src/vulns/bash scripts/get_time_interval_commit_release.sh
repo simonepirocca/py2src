@@ -20,8 +20,8 @@ release_day=""
 time_interval=0
 release_date=""
 
-if [ -f "$ERRORS_LOG" ]; then rm $ERRORS_LOG; fi
-cd ../../cloned_packages
+if [ -f "$ERRORS_LOG" ]; then rm ../$ERRORS_LOG; fi
+cd ../../../cloned_packages
 echo "Vuln ID;Package name;Clone dir;Commit hash;Release;Commit date;Release date;Time interval" > $VULNS_OUTPUT
 echo "Package name;Clone dir;Tot vulns with commit;Avg time interval" > $PACKAGE_OUTPUT
 
