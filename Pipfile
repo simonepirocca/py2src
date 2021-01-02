@@ -10,6 +10,7 @@ pytest = "*"
 beautifulsoup4 = "*"
 validators = "*"
 requests = "*"
+gitpython = "*"
 
 [requires]
 python_version = "3.6"
