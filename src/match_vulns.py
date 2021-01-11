@@ -1,6 +1,8 @@
 """
 This file finds the vulnerabilities related to already known packages,
-storing them and the packages involved
+storing them and the packages involved. 
+If indicated, it also counts the number of unique occurrences 
+related to a certain reference
 """
 import sys
 import os
@@ -23,6 +25,13 @@ urls = {}
 matching_vulns = []
 matching_packages = []
 tot_matching_packages = 0
+
+ref_to_check = ""
+ref_column = 0
+ref_vulns = []
+ref_packages = []
+tot_ref_packages = 0
+tot_ref_vulns = 0
 
 # Open csv file of known packages
 with open(packages_input_file) as csv_file:
@@ -65,22 +74,47 @@ with open(vulns_input_file) as csv_file:
                     matching_packages.append([name, urls[name]])
                     tot_matching_packages += 1
 
+                # If there is a reference to count, do the same,
+                # checking also that the reference value is unique
+                if ref_to_check != "" and row[ref_column] != "":
+                    ref_info = row[ref_column]
+
+                    duplicated = False
+                    for j in range (0, tot_ref_vulns):
+                        if ref_info == ref_vulns[j][ref_column]:
+                            duplicated = True
+                            break
+                    if not duplicated:
+                        ref_vulns.append(row)
+                        tot_ref_vulns += 1
+
+                        duplicated = False
+                        for j in range (0, tot_ref_packages):
+                            if name == ref_packages[j][0]:
+                                duplicated = True
+                                break
+                        if not duplicated:
+                            ref_packages.append([name, urls[name]])
+                            tot_ref_packages += 1
+
         line_count += 1
 
 # Print out the total number of matching vulnerabilities and packages
 logger.info(f"Matching vulns: {len(matching_vulns)}, Matching packages: {tot_matching_packages}")
+if ref_to_check != "":
+    logger.info(f"'{ref_to_check}' vulns: {tot_ref_vulns}, '{ref_to_check}' packages: {tot_ref_packages}")
 
 # Store matching vulnerabilities
-with open(vulns_output_file, mode='w') as csv_file:
-    vulns_writer = csv.writer(csv_file, delimiter=';')
-    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
-'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
-    for i in range(0, len(matching_vulns)):
-        vulns_writer.writerow(matching_vulns[i])
+#with open(vulns_output_file, mode='w') as csv_file:
+#    vulns_writer = csv.writer(csv_file, delimiter=';')
+#    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
+#'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
+#    for i in range(0, len(matching_vulns)):
+#        vulns_writer.writerow(matching_vulns[i])
 
 # Store matching packages
-with open(packages_output_file, mode='w') as csv_file:
-    vulns_writer = csv.writer(csv_file, delimiter=';')
-    vulns_writer.writerow(['Package name', 'Clone url'])
-    for i in range(0, len(matching_packages)):
-        vulns_writer.writerow(matching_packages[i])
+#with open(packages_output_file, mode='w') as csv_file:
+#    vulns_writer = csv.writer(csv_file, delimiter=';')
+#    vulns_writer.writerow(['Package name', 'Clone url'])
+#    for i in range(0, len(matching_packages)):
+#        vulns_writer.writerow(matching_packages[i])
