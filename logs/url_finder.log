@@ -8,3 +8,7 @@
 2020-12-29 08:58:49,425 - 73 - INFO     $ Package: cffi, URL: https://github.com/python-cffi/release-doc $ <module>
 2020-12-29 08:58:50,694 - 80 - INFO     $ Package: python-dateutil, URL:  $ <module>
 2020-12-29 08:59:53,532 - 58 - INFO     $ Package name: urllib3 --> GitHub url: https://github.com/urllib3/urllib3 (Accuracy: 100%) $ <module>
+2021-01-18 23:44:02,194 - 66 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
+2021-01-18 23:44:02,194 - 67 - INFO     $ Different URLs: 582, Different useless URLs: 542 $ <module>
+2021-01-18 23:44:02,194 - 68 - INFO     $ Different NOT EMPTY URLs: 114, Different NOT EMPTY useless URLs: 76 $ <module>
+2021-01-18 23:44:02,194 - 69 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 186, Accuracy 66%: 390, Accuracy 100%: 2665 $ <module>

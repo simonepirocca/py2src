@@ -230,11 +230,11 @@ class URLFinder:
 
         # Checking the urls to find the final github url
         final_github_url = ""
-        if github_url_metadata and self.test_url_working(github_url_metadata):
+        if github_url_metadata and self.test_url_working(self.normalize_url(github_url_metadata)):
             final_github_url = self.normalize_url(github_url_metadata)
-        elif github_url_homepage and self.test_url_working(github_url_homepage):
+        elif github_url_homepage and self.test_url_working(self.normalize_url(github_url_homepage)):
             final_github_url = self.normalize_url(github_url_homepage)
-        elif github_url_scraping and self.test_url_working(github_url_scraping):
+        elif github_url_scraping and self.test_url_working(self.normalize_url(github_url_scraping)):
             final_github_url = self.normalize_url(github_url_scraping)
 
         return final_github_url
@@ -272,7 +272,7 @@ class URLFinder:
             github_url = github_url[:to_delete_index]
 
         # Return the normalized URL if working, otherwise return empty string
-        if github_url != "" and self.test_url_working(github_url): return self.normalize_url(github_url)
+        if github_url != "" and self.test_url_working(self.normalize_url(github_url)): return self.normalize_url(github_url)
         else: return ""
 
     def find_github_url_from_ossgadget(self) -> str:
@@ -303,7 +303,7 @@ class URLFinder:
         # If a result has been found, take only the URL
         else: github_url = decoded_result.split(" ")[0][decoded_result.find("h"):]
         # Return the normalized URL if working, otherwise return empty string
-        if github_url != "" and URLFinder.test_url_working(github_url): return github_url
+        if github_url != "" and URLFinder.test_url_working(URLFinder.normalize_url(github_url)): return github_url
         else: return ""
 
     @staticmethod
@@ -311,4 +311,5 @@ class URLFinder:
         """
         Normalize the URL, taking just the lower version of the path, removing ".git" if needed
         """
+        if url[0:2] == "//": url = url[2:]
         return "https://github.com" + urlparse(url).path.replace(".git", "").lower()
