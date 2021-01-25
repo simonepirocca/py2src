@@ -8,7 +8,12 @@
 2020-12-29 08:58:49,425 - 73 - INFO     $ Package: cffi, URL: https://github.com/python-cffi/release-doc $ <module>
 2020-12-29 08:58:50,694 - 80 - INFO     $ Package: python-dateutil, URL:  $ <module>
 2020-12-29 08:59:53,532 - 58 - INFO     $ Package name: urllib3 --> GitHub url: https://github.com/urllib3/urllib3 (Accuracy: 100%) $ <module>
-2021-01-18 23:44:02,194 - 66 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
-2021-01-18 23:44:02,194 - 67 - INFO     $ Different URLs: 582, Different useless URLs: 542 $ <module>
-2021-01-18 23:44:02,194 - 68 - INFO     $ Different NOT EMPTY URLs: 114, Different NOT EMPTY useless URLs: 76 $ <module>
-2021-01-18 23:44:02,194 - 69 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 186, Accuracy 66%: 390, Accuracy 100%: 2665 $ <module>
+2021-01-23 18:00:43,205 - 175 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
+2021-01-23 18:00:43,205 - 176 - INFO     $ Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3169, $ <module>
+2021-01-23 18:00:43,205 - 177 - INFO     $ Different URLs: 586, Different useless URLs: 542 $ <module>
+2021-01-23 18:00:43,205 - 178 - INFO     $ Different NOT EMPTY URLs: 116, Different NOT EMPTY useless URLs: 78 $ <module>
+2021-01-23 18:00:43,205 - 179 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 185, Accuracy 66%: 393, Accuracy 100%: 2663 $ <module>
+2021-01-23 18:01:34,819 - 51 - INFO     $ Metadata 66% URLs: 335, PyPI 66% URLs: 64, OSSGadget 66% URLs: 387, $ <module>
+2021-01-23 20:14:58,864 - 51 - INFO     $ Metadata NOT 66% URLs: 58, PyPI NOT 66% URLs: 329, OSSGadget NOT 66% URLs: 6, $ <module>
+2021-01-23 20:21:41,683 - 51 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 70, OSSGadget (NOT EMPTY) NOT 66% URLs: 5, $ <module>
+2021-01-23 18:23:40,120 - 51 - INFO     $ Metadata 33% URLs: 70, PyPI 33% URLs: 26, OSSGadget 33% URLs: 122, $ <module>
