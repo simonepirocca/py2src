@@ -55,3 +55,8 @@ Hashes with no releases linked: 3
 
 Final pr analysed: 42
 Final packages involved: 26
+
+------------------------------------------
+
+Total number of considered vulnerabilities
+(Commit + PR): 231, related to 109 packages
