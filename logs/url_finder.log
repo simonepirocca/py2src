@@ -7,7 +7,72 @@
 2020-12-29 08:58:45,300 - 66 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
 2020-12-29 08:58:49,425 - 73 - INFO     $ Package: cffi, URL: https://github.com/python-cffi/release-doc $ <module>
 2020-12-29 08:58:50,694 - 80 - INFO     $ Package: python-dateutil, URL:  $ <module>
+2021-02-01 10:04:08,995 - 87 - INFO     $ URL: https://github.com/kmike/dawg-python, Real URL: https://github.com/pytries/dawg-python $ <module>
+2021-02-01 10:04:09,095 - 93 - INFO     $ URL: https://github.com/urllib3/urllib3, Real URL: https://github.com/urllib3/urllib3 $ <module>
 2020-12-29 08:59:53,532 - 58 - INFO     $ Package name: urllib3 --> GitHub url: https://github.com/urllib3/urllib3 (Accuracy: 100%) $ <module>
+
+
+2021-01-25 16:31:34,455 - 98 - INFO     $ 1065. Redirection: pypi URL https://github.comgithub.com/knio/dominate --> https://github.com/knio/dominate $ <module>
+2021-01-25 16:31:34,456 - 100 - INFO     $ 1065. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:31:47,188 - 104 - INFO     $ 1403. Redirection: final URL https://github.com/yhat/ggplot --> https://github.com/yhat/ggpy $ <module>
+2021-01-25 16:31:51,864 - 71 - INFO     $ 1560. Redirection: metadata URL https://github.com/tomerfiliba/rpyc --> https://github.com/tomerfiliba-org/rpyc $ <module>
+2021-01-25 16:31:51,864 - 74 - INFO     $ 1560. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:31:56,778 - 117 - INFO     $ 1834. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:31:56,778 - 131 - INFO     $ 1834. Redirection: final URL https://github.com/orsinium/textdistance --> https://github.com/life4/textdistance $ <module>
+2021-01-25 16:31:56,778 - 138 - INFO     $ 1834. Old and final URLs are NO MORE DIFFERENT $ <module>
+2021-01-25 16:32:01,508 - 71 - INFO     $ 1995. Redirection: metadata URL https://github.com/jupyter/jupyterhub --> https://github.com/jupyterhub/jupyterhub $ <module>
+2021-01-25 16:32:01,508 - 74 - INFO     $ 1995. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:32:02,811 - 77 - INFO     $ 2004. Redirection: final URL https://github.com/django-debug-toolbar/django-debug-toolbar --> https://github.com/jazzband/django-debug-toolbar $ <module>
+2021-01-25 16:32:06,953 - 125 - INFO     $ 2225. Redirection: ossgadget URL https://github.com/metamx/pydruid --> https://github.com/druid-io/pydruid $ <module>
+2021-01-25 16:32:06,953 - 128 - INFO     $ 2225. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:32:15,623 - 104 - INFO     $ 2930. Redirection: final URL https://github.com/aio-libs/aiohttp_session --> https://github.com/aio-libs/aiohttp-session $ <module>
+2021-01-25 16:32:27,413 - 98 - INFO     $ 3417. Redirection: pypi URL https://github.com/wgbh/django-versatileimagefield --> https://github.com/respondcreate/django-versatileimagefield $ <module>
+2021-01-25 16:32:27,413 - 100 - INFO     $ 3417. Accuracy changed from 66% to 100% $ <module>
+2021-01-25 16:32:35,588 - 104 - INFO     $ 3668. Redirection: final URL https://github.com/kmike/dawg-python --> https://github.com/pytries/dawg-python $ <module>
+2021-01-25 16:32:36,360 - 146 - INFO     $ 33% with 2 NOT EMPTY URLs: 3086, 66% with redirections: 10, 66% with changed accuracy(100%): 6 $ <module>
+2021-01-26 10:47:45,352 - 149 - INFO     $ 33% with 2 NOT EMPTY URLs: 30, 66% with redirections: 0, 66% with changed accuracy(100%): 0 $ <module>
+2021-01-26 10:51:59,753 - 152 - INFO     $ 33% with 2 NOT EMPTY URLs: 3, 66% with redirections: 0, 66% with changed accuracy(100%): 0 $ <module>
+
+
+
+2021-01-27 14:06:41,122 - 77 - INFO     $ 150. Redirection: metadata URL https://github.com/halst/schema --> https://github.com/keleshev/schema $ <module>
+2021-01-27 14:06:42,112 - 77 - INFO     $ 155. Redirection: metadata URL https://github.com/kennethreitz/requests --> https://github.com/psf/requests $ <module>
+2021-01-27 14:06:44,527 - 67 - INFO     $ 198. Redirection: metadata URL https://github.com/dlitz/pycrypto --> https://github.com/pycrypto/pycrypto $ <module>
+2021-01-27 14:06:44,609 - 122 - INFO     $ 198. Accuracy changed from 33% to 66% $ <module>
+2021-01-27 14:06:57,379 - 67 - INFO     $ 611. Redirection: metadata URL https://github.com/hypothesisworks/hypothesis-python --> https://github.com/hypothesisworks/hypothesis $ <module>
+2021-01-27 14:06:57,784 - 122 - INFO     $ 611. Accuracy changed from 33% to 66% $ <module>
+2021-01-27 14:07:09,731 - 176 - INFO     $ 1065. Redirection: pypi URL https://github.comgithub.com/knio/dominate --> https://github.com/knio/dominate $ <module>
+2021-01-27 14:07:09,731 - 178 - INFO     $ 1065. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:07:23,139 - 67 - INFO     $ 1312. Redirection: metadata URL https://github.com/django/django-formtools --> https://github.com/jazzband/django-formtools $ <module>
+2021-01-27 14:07:23,229 - 122 - INFO     $ 1312. Accuracy changed from 33% to 66% $ <module>
+2021-01-27 14:07:23,901 - 67 - INFO     $ 1370. Redirection: metadata URL https://github.com/platformio/platformio --> https://github.com/platformio/platformio-core $ <module>
+2021-01-27 14:07:24,424 - 122 - INFO     $ 1370. Accuracy changed from 33% to 66% $ <module>
+2021-01-27 14:07:27,859 - 182 - INFO     $ 1403. Redirection: final URL https://github.com/yhat/ggplot --> https://github.com/yhat/ggpy $ <module>
+2021-01-27 14:07:31,834 - 148 - INFO     $ 1560. Redirection: metadata URL https://github.com/tomerfiliba/rpyc --> https://github.com/tomerfiliba-org/rpyc $ <module>
+2021-01-27 14:07:31,835 - 151 - INFO     $ 1560. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:07:39,493 - 67 - INFO     $ 1810. Redirection: metadata URL https://github.com/toastdriven/django-haystack --> https://github.com/django-haystack/django-haystack $ <module>
+2021-01-27 14:07:39,586 - 122 - INFO     $ 1810. Accuracy changed from 33% to 66% $ <module>
+2021-01-27 14:07:41,136 - 196 - INFO     $ 1834. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:07:41,136 - 210 - INFO     $ 1834. Redirection: final URL https://github.com/orsinium/textdistance --> https://github.com/life4/textdistance $ <module>
+2021-01-27 14:07:41,136 - 218 - INFO     $ 1834. Old and final URLs are NO MORE DIFFERENT $ <module>
+2021-01-27 14:07:46,223 - 148 - INFO     $ 1995. Redirection: metadata URL https://github.com/jupyter/jupyterhub --> https://github.com/jupyterhub/jupyterhub $ <module>
+2021-01-27 14:07:46,223 - 151 - INFO     $ 1995. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:07:47,396 - 154 - INFO     $ 2004. Redirection: final URL https://github.com/django-debug-toolbar/django-debug-toolbar --> https://github.com/jazzband/django-debug-toolbar $ <module>
+2021-01-27 14:07:51,861 - 87 - INFO     $ 2201. Redirection: metadata URL https://github.com/ipfs/py-ipfs-http-client --> https://github.com/ipfs-shipyard/py-ipfs-http-client $ <module>
+2021-01-27 14:07:51,861 - 124 - INFO     $ 2201. Redirection: final URL https://github.com/ipfs/py-ipfs-http-client --> https://github.com/ipfs-shipyard/py-ipfs-http-client $ <module>
+2021-01-27 14:07:52,554 - 204 - INFO     $ 2225. Redirection: ossgadget URL https://github.com/metamx/pydruid --> https://github.com/druid-io/pydruid $ <module>
+2021-01-27 14:07:52,554 - 207 - INFO     $ 2225. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:08:04,531 - 182 - INFO     $ 2930. Redirection: final URL https://github.com/aio-libs/aiohttp_session --> https://github.com/aio-libs/aiohttp-session $ <module>
+2021-01-27 14:08:15,309 - 87 - INFO     $ 3333. Redirection: metadata URL https://github.com/pypowervm/pypowervm --> https://github.com/powervm/pypowervm $ <module>
+2021-01-27 14:08:15,309 - 124 - INFO     $ 3333. Redirection: final URL https://github.com/pypowervm/pypowervm --> https://github.com/powervm/pypowervm $ <module>
+2021-01-27 14:08:19,076 - 77 - INFO     $ 3402. Redirection: metadata URL https://github.com/abeham/simsharp --> https://github.com/heal-research/simsharp $ <module>
+2021-01-27 14:08:20,249 - 176 - INFO     $ 3417. Redirection: pypi URL https://github.com/wgbh/django-versatileimagefield --> https://github.com/respondcreate/django-versatileimagefield $ <module>
+2021-01-27 14:08:20,250 - 178 - INFO     $ 3417. Accuracy changed from 66% to 100% $ <module>
+2021-01-27 14:08:29,179 - 182 - INFO     $ 3668. Redirection: final URL https://github.com/kmike/dawg-python --> https://github.com/pytries/dawg-python $ <module>
+2021-01-27 14:08:30,251 - 226 - INFO     $ 33% redirections: 12, 33% accuracy change: 5, 33% no more different: 0 $ <module>
+2021-01-27 14:08:30,251 - 227 - INFO     $ 66% redirections: 10, 66% accuracy change (100%): 6, 66% no more different: 1 $ <module>
+
+
 2021-01-23 18:00:43,205 - 175 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
 2021-01-23 18:00:43,205 - 176 - INFO     $ Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3169, $ <module>
 2021-01-23 18:00:43,205 - 177 - INFO     $ Different URLs: 586, Different useless URLs: 542 $ <module>
@@ -17,3 +82,14 @@
 2021-01-23 20:14:58,864 - 51 - INFO     $ Metadata NOT 66% URLs: 58, PyPI NOT 66% URLs: 329, OSSGadget NOT 66% URLs: 6, $ <module>
 2021-01-23 20:21:41,683 - 51 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 70, OSSGadget (NOT EMPTY) NOT 66% URLs: 5, $ <module>
 2021-01-23 18:23:40,120 - 51 - INFO     $ Metadata 33% URLs: 70, PyPI 33% URLs: 26, OSSGadget 33% URLs: 122, $ <module>
+
+
+2021-01-27 14:34:03,896 - 111 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
+2021-01-27 14:34:03,897 - 112 - INFO     $ Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3177, $ <module>
+2021-01-27 14:34:03,897 - 113 - INFO     $ Different URLs: 585, Different useless URLs: 542 $ <module>
+2021-01-27 14:34:03,897 - 114 - INFO     $ Different NOT EMPTY URLs: 118, Different NOT EMPTY useless URLs: 78 $ <module>
+2021-01-27 14:34:03,897 - 115 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 180, Accuracy 66%: 392, Accuracy 100%: 2669 $ <module>
+2021-01-27 14:34:03,897 - 116 - INFO     $ Metadata 66% URLs: 336, PyPI 66% URLs: 60, OSSGadget 66% URLs: 388, $ <module>
+2021-01-27 14:34:03,897 - 117 - INFO     $ Metadata NOT 66% URLs: 56, PyPI NOT 66% URLs: 332, OSSGadget NOT 66% URLs: 4, $ <module>
+2021-01-27 14:34:03,897 - 118 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3, $ <module>
+2021-01-27 14:34:03,897 - 119 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117, $ <module>

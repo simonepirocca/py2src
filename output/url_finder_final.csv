@@ -148,12 +148,12 @@ sqlparse;https://github.com/andialbrecht/sqlparse;False;https://github.com/andia
 pymongo;https://github.com/mongodb/mongo-python-driver;False;https://github.com/mongodb/mongo-python-driver;https://github.com/mongodb/mongo-python-driver;https://github.com/mongodb/mongo-python-driver;https://github.com/mongodb/mongo-python-driver;100%;False
 ipykernel;https://github.com/ipykernel/ipykernel;True;;;;;0%;True
 mistune;https://github.com/lepture/mistune;False;https://github.com/lepture/mistune;https://github.com/lepture/mistune;https://github.com/lepture/mistune;https://github.com/lepture/mistune;100%;False
-docopt;https://github.com/docopt/docopt;False;;https://github.com/halst/schema;https://github.com/docopt/docopt;https://github.com/docopt/docopt;33%;False
+docopt;https://github.com/docopt/docopt;False;;https://github.com/keleshev/schema;https://github.com/docopt/docopt;https://github.com/docopt/docopt;33%;False
 jupyter-client;https://github.com/jupyter/jupyter_client;False;;;https://github.com/jupyter/jupyter_client;https://github.com/jupyter/jupyter_client;33%;False
 awscli-cwlogs;https://github.com/awscli-cwlogs/awscli-cwlogs;True;;;;;0%;True
 regex;https://github.com/regex/regex;True;;;;;0%;True
 nbconvert;https://github.com/jupyter/nbconvert;False;https://github.com/jupyter/nbconvert;https://github.com/jupyter/nbconvert;https://github.com/jupyter/nbconvert;https://github.com/jupyter/nbconvert;100%;False
-requests-toolbelt;https://github.com/requests/toolbelt;False;;https://github.com/kennethreitz/requests;https://github.com/requests/toolbelt;https://github.com/requests/toolbelt;33%;False
+requests-toolbelt;https://github.com/requests/toolbelt;False;;https://github.com/psf/requests;https://github.com/requests/toolbelt;https://github.com/requests/toolbelt;33%;False
 notebook;https://github.com/notebook/notebook;True;;;;;0%;True
 testpath;https://github.com/jupyter/testpath;False;https://github.com/jupyter/testpath;https://github.com/jupyter/testpath;https://github.com/jupyter/testpath;https://github.com/jupyter/testpath;100%;False
 pandocfilters;https://github.com/jgm/pandocfilters;False;https://github.com/jgm/pandocfilters;https://github.com/jgm/pandocfilters;https://github.com/jgm/pandocfilters;https://github.com/jgm/pandocfilters;100%;False
@@ -196,7 +196,7 @@ jupyter;https://github.com/jupyter/jupyter;False;;;https://github.com/jupyter/ju
 tensorflow-metadata;https://github.com/tensorflow/metadata;False;;https://github.com/tensorflow/metadata;https://github.com/tensorflow/metadata;https://github.com/tensorflow/metadata;66%;False
 xlrd;https://github.com/xlrd/xlrd;True;https://github.com/python-excel/xlrd;;;https://github.com/python-excel/xlrd;33%;True
 distlib;https://github.com/distlib/distlib;True;;;;;0%;True
-pycrypto;https://github.com/pycrypto/pycrypto;False;https://github.com/dlitz/pycrypto;;https://github.com/pycrypto/pycrypto;https://github.com/pycrypto/pycrypto;33%;False
+pycrypto;https://github.com/pycrypto/pycrypto;False;https://github.com/pycrypto/pycrypto;;https://github.com/pycrypto/pycrypto;https://github.com/pycrypto/pycrypto;66%;False
 astor;https://github.com/berkerpeksag/astor;False;https://github.com/berkerpeksag/astor;https://github.com/berkerpeksag/astor;https://github.com/berkerpeksag/astor;https://github.com/berkerpeksag/astor;100%;False
 backcall;https://github.com/takluyver/backcall;False;https://github.com/takluyver/backcall;https://github.com/takluyver/backcall;https://github.com/takluyver/backcall;https://github.com/takluyver/backcall;100%;False
 backports-functools-lru-cache;https://github.com/jaraco/backports.functools_lru_cache;False;https://github.com/jaraco/backports.functools_lru_cache;https://github.com/jaraco/backports.functools_lru_cache;https://github.com/jaraco/backports.functools_lru_cache;https://github.com/jaraco/backports.functools_lru_cache;100%;False
@@ -609,7 +609,7 @@ pydantic;https://github.com/samuelcolvin/pydantic;False;https://github.com/samue
 fire;https://github.com/google/python-fire;False;https://github.com/google/python-fire;https://github.com/google/python-fire;https://github.com/google/python-fire;https://github.com/google/python-fire;100%;False
 django-redis;https://github.com/jazzband/django-redis;False;https://github.com/jazzband/django-redis;https://github.com/jazzband/django-redis;https://github.com/jazzband/django-redis;https://github.com/jazzband/django-redis;100%;False
 gym;https://github.com/openai/gym;False;https://github.com/openai/gym;https://github.com/openai/gym;https://github.com/openai/gym;https://github.com/openai/gym;100%;False
-hypothesis;https://github.com/hypothesisworks/hypothesis;False;https://github.com/hypothesisworks/hypothesis-python;;https://github.com/hypothesisworks/hypothesis;https://github.com/hypothesisworks/hypothesis;33%;False
+hypothesis;https://github.com/hypothesisworks/hypothesis;False;https://github.com/hypothesisworks/hypothesis;;https://github.com/hypothesisworks/hypothesis;https://github.com/hypothesisworks/hypothesis;66%;False
 apispec;https://github.com/marshmallow-code/apispec;False;https://github.com/marshmallow-code/apispec;https://github.com/marshmallow-code/apispec;https://github.com/marshmallow-code/apispec;https://github.com/marshmallow-code/apispec;100%;False
 aspy-yaml;https://github.com/asottile/aspy.yaml;False;https://github.com/asottile/aspy.yaml;https://github.com/asottile/aspy.yaml;https://github.com/asottile/aspy.yaml;https://github.com/asottile/aspy.yaml;100%;False
 whitenoise;https://github.com/evansd/whitenoise;False;https://github.com/evansd/whitenoise;https://github.com/evansd/whitenoise;https://github.com/evansd/whitenoise;https://github.com/evansd/whitenoise;100%;False
@@ -1063,7 +1063,7 @@ azureml-pipeline-steps;https://github.com/azureml-pipeline-steps/azureml-pipelin
 python-subunit;https://github.com/python-subunit/python-subunit;True;;;;;0%;True
 tifffile;https://github.com/cgohlke/tifffile;False;https://github.com/cgohlke/tifffile;https://github.com/cgohlke/tifffile;https://github.com/cgohlke/tifffile;https://github.com/cgohlke/tifffile;100%;False
 clickhouse-cityhash;https://github.com/xzkostyan/python-cityhash;False;https://github.com/xzkostyan/python-cityhash;https://github.com/xzkostyan/python-cityhash;https://github.com/xzkostyan/python-cityhash;https://github.com/xzkostyan/python-cityhash;100%;False
-dominate;https://github.com/knio/dominate;False;https://github.com/knio/dominate;https://github.comgithub.com/knio/dominate;https://github.com/knio/dominate;https://github.com/knio/dominate;66%;False
+dominate;https://github.com/knio/dominate;False;https://github.com/knio/dominate;https://github.com/knio/dominate;https://github.com/knio/dominate;https://github.com/knio/dominate;100%;False
 macholib;https://github.com/ronaldoussoren/macholib;False;https://github.com/ronaldoussoren/macholib;https://github.com/ronaldoussoren/macholib;https://github.com/ronaldoussoren/macholib;https://github.com/ronaldoussoren/macholib;100%;False
 aiobotocore;https://github.com/aio-libs/aiobotocore;False;https://github.com/aio-libs/aiobotocore;https://github.com/aio-libs/aiobotocore;https://github.com/aio-libs/aiobotocore;https://github.com/aio-libs/aiobotocore;100%;False
 google-cloud-dlp;https://github.com/googleapis/python-dlp;False;https://github.com/googleapis/python-dlp;https://github.com/googleapis/python-dlp;https://github.com/googleapis/python-dlp;https://github.com/googleapis/python-dlp;100%;False
@@ -1310,7 +1310,7 @@ bson;https://github.com/py-bson/bson;False;https://github.com/py-bson/bson;https
 pyros-genpy;https://github.com/ros/genpy;False;https://github.com/ros/genpy;https://github.com/ros/genpy;https://github.com/ros/genpy;https://github.com/ros/genpy;100%;False
 furl;https://github.com/gruns/furl;False;https://github.com/gruns/furl;https://github.com/gruns/furl;https://github.com/gruns/furl;https://github.com/gruns/furl;100%;False
 port-for;https://github.com/kmike/port-for;False;https://github.com/kmike/port-for;;https://github.com/kmike/port-for;https://github.com/kmike/port-for;66%;False
-django-formtools;https://github.com/jazzband/django-formtools;False;https://github.com/django/django-formtools;;https://github.com/jazzband/django-formtools;https://github.com/jazzband/django-formtools;33%;False
+django-formtools;https://github.com/jazzband/django-formtools;False;https://github.com/jazzband/django-formtools;;https://github.com/jazzband/django-formtools;https://github.com/jazzband/django-formtools;66%;False
 enum;https://github.com/enum/enum;True;;;;;0%;True
 circleci;https://github.com/levlaz/circleci.py;False;https://github.com/levlaz/circleci.py;https://github.com/levlaz/circleci.py;https://github.com/levlaz/circleci.py;https://github.com/levlaz/circleci.py;100%;False
 polyaxon-client;https://github.com/polyaxon/polyaxon-client;False;https://github.com/polyaxon/polyaxon-client;https://github.com/polyaxon/polyaxon-client;https://github.com/polyaxon/polyaxon-client;https://github.com/polyaxon/polyaxon-client;100%;False
@@ -1368,7 +1368,7 @@ django-polymorphic;https://github.com/django-polymorphic/django-polymorphic;Fals
 wand;https://github.com/emcconville/wand;False;https://github.com/emcconville/wand;https://github.com/emcconville/wand;https://github.com/emcconville/wand;https://github.com/emcconville/wand;100%;False
 django-rest-auth;https://github.com/tivix/django-rest-auth;False;https://github.com/tivix/django-rest-auth;https://github.com/tivix/django-rest-auth;https://github.com/tivix/django-rest-auth;https://github.com/tivix/django-rest-auth;100%;False
 allure-python-commons;https://github.com/allure-framework/allure-python;False;https://github.com/allure-framework/allure-python;https://github.com/allure-framework/allure-python;https://github.com/allure-framework/allure-python;https://github.com/allure-framework/allure-python;100%;False
-platformio;https://github.com/platformio/platformio-core;False;https://github.com/platformio/platformio;https://github.com/platformio/platformio-examples;https://github.com/platformio/platformio-core;https://github.com/platformio/platformio-core;33%;False
+platformio;https://github.com/platformio/platformio-core;False;https://github.com/platformio/platformio-core;https://github.com/platformio/platformio-examples;https://github.com/platformio/platformio-core;https://github.com/platformio/platformio-core;66%;False
 imagehash;https://github.com/johannesbuchner/imagehash;False;https://github.com/johannesbuchner/imagehash;https://github.com/johannesbuchner/imagehash;https://github.com/johannesbuchner/imagehash;https://github.com/johannesbuchner/imagehash;100%;False
 python-telegram-bot;https://github.com/python-telegram-bot/python-telegram-bot;False;https://github.com/python-telegram-bot/python-telegram-bot;https://github.com/psf/black;https://github.com/python-telegram-bot/python-telegram-bot;https://github.com/python-telegram-bot/python-telegram-bot;66%;False
 pyspark-flame;https://github.com/jamespic/pyspark-flame;False;https://github.com/jamespic/pyspark-flame;https://github.com/jamespic/pyspark-flame;https://github.com/jamespic/pyspark-flame;https://github.com/jamespic/pyspark-flame;100%;False
@@ -1401,7 +1401,7 @@ zstandard;https://github.com/indygreg/python-zstandard;False;https://github.com/
 polyline;https://github.com/hicsail/polyline;False;https://github.com/hicsail/polyline;https://github.com/hicsail/polyline;https://github.com/hicsail/polyline;https://github.com/hicsail/polyline;100%;False
 textwrap3;https://github.com/jonathaneunice/textwrap3;False;https://github.com/jonathaneunice/textwrap3;https://github.com/jonathaneunice/textwrap3;https://github.com/jonathaneunice/textwrap3;https://github.com/jonathaneunice/textwrap3;100%;False
 autoflake;https://github.com/myint/autoflake;False;https://github.com/myint/autoflake;https://github.com/myint/autoflake;https://github.com/myint/autoflake;https://github.com/myint/autoflake;100%;False
-ggplot;https://github.com/yhat/ggplot;False;https://github.com/yhat/ggplot;https://github.com/hadley/ggplot2;https://github.com/yhat/ggplot;https://github.com/yhat/ggplot;66%;False
+ggplot;https://github.com/yhat/ggplot;False;https://github.com/yhat/ggpy;https://github.com/hadley/ggplot2;https://github.com/yhat/ggpy;https://github.com/yhat/ggpy;66%;False
 gevent-websocket;https://github.com/methane/wsaccel;False;;;https://github.com/methane/wsaccel;https://github.com/methane/wsaccel;33%;False
 routes;https://github.com/routes/routes;True;;;;;0%;True
 fancycompleter;https://github.com/pdbpp/fancycompleter;False;https://github.com/pdbpp/fancycompleter;https://github.com/pdbpp/fancycompleter;https://github.com/pdbpp/fancycompleter;https://github.com/pdbpp/fancycompleter;100%;False
@@ -1558,7 +1558,7 @@ pydotplus;https://github.com/carlos-jenkins/pydotplus;False;https://github.com/c
 python-rapidjson;https://github.com/python-rapidjson/python-rapidjson;False;https://github.com/python-rapidjson/python-rapidjson;https://github.com/python-rapidjson/python-rapidjson;https://github.com/python-rapidjson/python-rapidjson;https://github.com/python-rapidjson/python-rapidjson;100%;False
 elasticsearch-curator;https://github.com/elastic/curator;False;https://github.com/elastic/curator;https://github.com/elastic/curator;https://github.com/elastic/curator;https://github.com/elastic/curator;100%;False
 markuppy;https://github.com/tylerbakke/markuppy;False;https://github.com/tylerbakke/markuppy;https://github.com/tylerbakke/markuppy;https://github.com/tylerbakke/markuppy;https://github.com/tylerbakke/markuppy;100%;False
-rpyc;https://github.com/tomerfiliba/rpyc;False;https://github.com/tomerfiliba/rpyc;https://github.com/tomerfiliba-org/rpyc;https://github.com/tomerfiliba-org/rpyc;https://github.com/tomerfiliba-org/rpyc;66%;True
+rpyc;https://github.com/tomerfiliba/rpyc;False;https://github.com/tomerfiliba-org/rpyc;https://github.com/tomerfiliba-org/rpyc;https://github.com/tomerfiliba-org/rpyc;https://github.com/tomerfiliba-org/rpyc;100%;True
 newlinejson;https://github.com/geowurster/newlinejson;False;https://github.com/geowurster/newlinejson;https://github.com/geowurster/newlinejson;https://github.com/geowurster/newlinejson;https://github.com/geowurster/newlinejson;100%;False
 torchtext;https://github.com/pytorch/text;False;https://github.com/pytorch/text;https://github.com/pytorch/text;https://github.com/pytorch/text;https://github.com/pytorch/text;100%;False
 django-otp;https://github.com/django-otp/django-otp;False;https://github.com/django-otp/django-otp;https://github.com/django-otp/django-otp;https://github.com/django-otp/django-otp;https://github.com/django-otp/django-otp;100%;False
@@ -1808,7 +1808,7 @@ commentjson;https://github.com/vaidik/commentjson;False;https://github.com/vaidi
 jaraco-text;https://github.com/jaraco/jaraco.text;False;https://github.com/jaraco/jaraco.text;https://github.com/jaraco/jaraco.text;https://github.com/jaraco/jaraco.text;https://github.com/jaraco/jaraco.text;100%;False
 pybtex-docutils;https://github.com/mcmtroffaes/pybtex-docutils;False;https://github.com/mcmtroffaes/pybtex-docutils;https://github.com/mcmtroffaes/pybtex-docutils;https://github.com/mcmtroffaes/pybtex-docutils;https://github.com/mcmtroffaes/pybtex-docutils;100%;False
 lazy;https://github.com/stefanholek/lazy;False;https://github.com/stefanholek/lazy;https://github.com/stefanholek/lazy;https://github.com/stefanholek/lazy;https://github.com/stefanholek/lazy;100%;False
-django-haystack;https://github.com/django-haystack/django-haystack;False;https://github.com/toastdriven/django-haystack;;https://github.com/django-haystack/django-haystack;https://github.com/django-haystack/django-haystack;33%;False
+django-haystack;https://github.com/django-haystack/django-haystack;False;https://github.com/django-haystack/django-haystack;;https://github.com/django-haystack/django-haystack;https://github.com/django-haystack/django-haystack;66%;False
 rpy2;https://github.com/rpy2/rpy2;False;https://github.com/rpy2/rpy2;;https://github.com/rpy2/rpy2;https://github.com/rpy2/rpy2;66%;False
 us;https://github.com/unitedstates/python-us;False;https://github.com/unitedstates/python-us;https://github.com/unitedstates/python-us;https://github.com/unitedstates/python-us;https://github.com/unitedstates/python-us;100%;False
 phik;https://github.com/kaveio/phik;False;https://github.com/kaveio/phik;https://github.com/kaveio/phik;https://github.com/kaveio/phik;https://github.com/kaveio/phik;100%;False
@@ -1832,7 +1832,7 @@ google-oauth;https://github.com/miedzinski/google-oauth;False;https://github.com
 google-cloud-securitycenter;https://github.com/googleapis/python-securitycenter;False;https://github.com/googleapis/python-securitycenter;https://github.com/googleapis/python-securitycenter;https://github.com/googleapis/python-securitycenter;https://github.com/googleapis/python-securitycenter;100%;False
 nosexcover;https://github.com/cmheisel/nose-xcover;False;https://github.com/cmheisel/nose-xcover;;https://github.com/cmheisel/nose-xcover;https://github.com/cmheisel/nose-xcover;66%;False
 robotframework-sshlibrary;https://github.com/robotframework/sshlibrary;False;https://github.com/robotframework/sshlibrary;https://github.com/robotframework/sshlibrary;https://github.com/robotframework/sshlibrary;https://github.com/robotframework/sshlibrary;100%;False
-textdistance;https://github.com/life4/textdistance;False;https://github.com/orsinium/textdistance;https://github.com/orsinium/textdistance;https://github.com/life4/textdistance;https://github.com/orsinium/textdistance;66%;True
+textdistance;https://github.com/life4/textdistance;False;https://github.com/life4/textdistance;https://github.com/life4/textdistance;https://github.com/life4/textdistance;https://github.com/life4/textdistance;100%;False
 nimbusml;https://github.com/microsoft/nimbusml;False;;https://github.com/dotnet/machinelearning;https://github.com/microsoft/nimbusml;https://github.com/microsoft/nimbusml;33%;False
 django-bulk-update;https://github.com/aykut/django-bulk-update;False;https://github.com/aykut/django-bulk-update;https://github.com/aykut/django-bulk-update;https://github.com/aykut/django-bulk-update;https://github.com/aykut/django-bulk-update;100%;False
 infinity;https://github.com/kvesteri/infinity;False;https://github.com/kvesteri/infinity;https://github.com/kvesteri/infinity;https://github.com/kvesteri/infinity;https://github.com/kvesteri/infinity;100%;False
@@ -1993,7 +1993,7 @@ gtts;https://github.com/pndurette/gtts;False;https://github.com/pndurette/gtts;h
 colored;https://github.com/colored/colored;True;;;;;0%;True
 cmarkgfm;https://github.com/jonparrott/cmarkgfm;False;https://github.com/theacodes/cmarkgfm;https://github.com/theacodes/cmarkgfm;https://github.com/theacodes/cmarkgfm;https://github.com/theacodes/cmarkgfm;100%;True
 oci;https://github.com/oracle/oci-python-sdk;False;https://github.com/oracle/oci-python-sdk;https://github.com/oracle/oci-python-sdk;https://github.com/oracle/oci-python-sdk;https://github.com/oracle/oci-python-sdk;100%;False
-jupyterhub;https://github.com/jupyterhub/jupyterhub;False;https://github.com/jupyter/jupyterhub;https://github.com/jupyterhub/jupyterhub;https://github.com/jupyterhub/jupyterhub;https://github.com/jupyterhub/jupyterhub;66%;False
+jupyterhub;https://github.com/jupyterhub/jupyterhub;False;https://github.com/jupyterhub/jupyterhub;https://github.com/jupyterhub/jupyterhub;https://github.com/jupyterhub/jupyterhub;https://github.com/jupyterhub/jupyterhub;100%;False
 django-auth-ldap;https://github.com/django-auth-ldap/django-auth-ldap;False;https://github.com/django-auth-ldap/django-auth-ldap;https://github.com/django-auth-ldap/django-auth-ldap;https://github.com/django-auth-ldap/django-auth-ldap;https://github.com/django-auth-ldap/django-auth-ldap;100%;False
 memcnn;https://github.com/silvandeleemput/memcnn;False;https://github.com/silvandeleemput/memcnn;;https://github.com/silvandeleemput/memcnn;https://github.com/silvandeleemput/memcnn;66%;False
 azure-keyvault-keys;https://github.com/azure/azure-sdk-for-python;False;https://github.com/azure/azure-sdk-for-python;;https://github.com/azure/azure-sdk-for-python;https://github.com/azure/azure-sdk-for-python;66%;False
@@ -2002,7 +2002,7 @@ zappa;https://github.com/miserlou/zappa;False;https://github.com/miserlou/zappa;
 asyncio-nats-client;https://github.com/nats-io/nats.py;False;https://github.com/nats-io/nats.py;https://github.com/nats-io/nats.py;https://github.com/nats-io/nats.py;https://github.com/nats-io/nats.py;100%;False
 addict;https://github.com/mewwts/addict;False;https://github.com/mewwts/addict;https://github.com/mewwts/addict;https://github.com/mewwts/addict;https://github.com/mewwts/addict;100%;False
 pyrect;https://github.com/asweigart/pyrect;False;https://github.com/asweigart/pyrect;https://github.com/asweigart/pyrect;https://github.com/asweigart/pyrect;https://github.com/asweigart/pyrect;100%;False
-flask-debugtoolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;False;https://github.com/mgood/flask-debugtoolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;66%;False
+flask-debugtoolbar;https://github.com/django-debug-toolbar/django-debug-toolbar;False;https://github.com/mgood/flask-debugtoolbar;https://github.com/jazzband/django-debug-toolbar;https://github.com/jazzband/django-debug-toolbar;https://github.com/jazzband/django-debug-toolbar;66%;False
 stop-words;https://github.com/alir3z4/python-stop-words;False;https://github.com/alir3z4/python-stop-words;https://github.com/alir3z4/python-stop-words;https://github.com/alir3z4/python-stop-words;https://github.com/alir3z4/python-stop-words;100%;False
 trafaret;https://github.com/deepwalker/trafaret;False;https://github.com/deepwalker/trafaret;https://github.com/deepwalker/trafaret_schema;https://github.com/deepwalker/trafaret;https://github.com/deepwalker/trafaret;66%;False
 pytest-azurepipelines;https://github.com/tonybaloney/pytest-azurepipelines;False;https://github.com/tonybaloney/pytest-azurepipelines;https://github.com/tonybaloney/pytest-azurepipelines;https://github.com/tonybaloney/pytest-azurepipelines;https://github.com/tonybaloney/pytest-azurepipelines;100%;False
@@ -2199,7 +2199,7 @@ flask-pymongo;https://github.com/dcrosta/flask-pymongo;False;https://github.com/
 ifaddr;https://github.com/pydron/ifaddr;False;https://github.com/pydron/ifaddr;https://github.com/pydron/ifaddr;https://github.com/pydron/ifaddr;https://github.com/pydron/ifaddr;100%;False
 rarfile;https://github.com/markokr/rarfile;False;https://github.com/markokr/rarfile;https://github.com/markokr/rarfile;https://github.com/markokr/rarfile;https://github.com/markokr/rarfile;100%;False
 keras-mxnet;https://github.com/awslabs/keras-apache-mxnet;False;https://github.com/awslabs/keras-apache-mxnet;https://github.com/awslabs/keras-apache-mxnet;https://github.com/awslabs/keras-apache-mxnet;https://github.com/awslabs/keras-apache-mxnet;100%;False
-ipfshttpclient;https://github.com/ipfs/py-ipfs-http-client;False;;https://github.com/richardlitt/standard-readme;https://github.com/ipfs/py-ipfs-http-client;https://github.com/ipfs/py-ipfs-http-client;33%;False
+ipfshttpclient;https://github.com/ipfs/py-ipfs-http-client;False;;https://github.com/richardlitt/standard-readme;https://github.com/ipfs-shipyard/py-ipfs-http-client;https://github.com/ipfs-shipyard/py-ipfs-http-client;33%;False
 python-ironicclient;https://github.com/python-ironicclient/python-ironicclient;True;;;;;0%;True
 dfply;https://github.com/kieferk/dfply;False;https://github.com/kieferk/dfply;https://github.com/kieferk/dfply;https://github.com/kieferk/dfply;https://github.com/kieferk/dfply;100%;False
 asset;https://github.com/metagriffin/asset;False;https://github.com/metagriffin/asset;https://github.com/metagriffin/asset;https://github.com/metagriffin/asset;https://github.com/metagriffin/asset;100%;False
@@ -2223,7 +2223,7 @@ pyicu;https://github.com/ovalhub/pyicu;False;https://github.com/ovalhub/pyicu;ht
 html;https://github.com/html/html;True;;;;;0%;True
 imagecodecs;https://github.com/scossu/imagecodecs;False;https://github.com/cgohlke/imagecodecs;https://github.com/cgohlke/imagecodecs;https://github.com/cgohlke/imagecodecs;https://github.com/cgohlke/imagecodecs;100%;True
 bindep;https://github.com/bindep/bindep;True;;;;;0%;True
-pydruid;https://github.com/druid-io/pydruid;False;https://github.com/druid-io/pydruid;https://github.com/druid-io/pydruid;https://github.com/metamx/pydruid;https://github.com/druid-io/pydruid;66%;False
+pydruid;https://github.com/druid-io/pydruid;False;https://github.com/druid-io/pydruid;https://github.com/druid-io/pydruid;https://github.com/druid-io/pydruid;https://github.com/druid-io/pydruid;100%;False
 abbyy;https://github.com/samueltc/abbyy;False;https://github.com/samueltc/abbyy;https://github.com/samueltc/abbyy;https://github.com/samueltc/abbyy;https://github.com/samueltc/abbyy;100%;False
 redlock-py;https://github.com/spscommerce/identity-service;True;;;;;0%;True
 pysolar;https://github.com/pysolar/pysolar;True;https://github.com/pingswept/pysolar;;;https://github.com/pingswept/pysolar;33%;True
@@ -2928,7 +2928,7 @@ sparse-dot-topn;https://github.com/ing-bank/sparse_dot_topn;False;https://github
 scikit-plot;https://github.com/reiinakano/scikit-plot;False;https://github.com/reiinakano/scikit-plot;https://github.com/reiinakano/scikit-plot;https://github.com/reiinakano/scikit-plot;https://github.com/reiinakano/scikit-plot;100%;False
 mod-wsgi;https://github.com/mod-wsgi/mod-wsgi;True;;;;;0%;True
 plotly-express;https://github.com/plotly/plotly_express;False;;;https://github.com/plotly/plotly_express;https://github.com/plotly/plotly_express;33%;False
-aiohttp-session;https://github.com/aio-libs/aiohttp_session;False;https://github.com/aio-libs/aiohttp_session;https://github.com/alexpantyukhin/aiohttp-session-mongo;https://github.com/aio-libs/aiohttp_session;https://github.com/aio-libs/aiohttp_session;66%;False
+aiohttp-session;https://github.com/aio-libs/aiohttp_session;False;https://github.com/aio-libs/aiohttp-session;https://github.com/alexpantyukhin/aiohttp-session-mongo;https://github.com/aio-libs/aiohttp-session;https://github.com/aio-libs/aiohttp-session;66%;False
 python-can;https://github.com/hardbyte/python-can;False;https://github.com/hardbyte/python-can;https://github.com/hardbyte/python-can;https://github.com/hardbyte/python-can;https://github.com/hardbyte/python-can;100%;False
 jsl;https://github.com/aromanovich/jsl;False;https://github.com/aromanovich/jsl;https://github.com/aromanovich/jsl;https://github.com/aromanovich/jsl;https://github.com/aromanovich/jsl;100%;False
 petastorm;https://github.com/uber/petastorm;False;https://github.com/uber/petastorm;https://github.com/uber/petastorm;https://github.com/uber/petastorm;https://github.com/uber/petastorm;100%;False
@@ -3331,7 +3331,7 @@ aioamqp;https://github.com/polyconseil/aioamqp;False;https://github.com/polycons
 cornice;https://github.com/mozilla-services/cornice;False;https://github.com/mozilla-services/cornice;https://github.com/mozilla-services/cornice;https://github.com/mozilla-services/cornice;https://github.com/mozilla-services/cornice;100%;False
 pydomo;https://github.com/domoinc/domo-python-sdk;False;https://github.com/domoinc/domo-python-sdk;https://github.com/domoinc/domo-python-sdk;https://github.com/domoinc/domo-python-sdk;https://github.com/domoinc/domo-python-sdk;100%;False
 bfh;https://github.com/percolate/bfh;False;https://github.com/percolate/bfh;https://github.com/percolate/bfh;https://github.com/percolate/bfh;https://github.com/percolate/bfh;100%;False
-pypowervm;https://github.com/pypowervm/pypowervm;False;;https://github.com/powervm/;https://github.com/pypowervm/pypowervm;https://github.com/pypowervm/pypowervm;33%;False
+pypowervm;https://github.com/pypowervm/pypowervm;False;;https://github.com/powervm/;https://github.com/powervm/pypowervm;https://github.com/powervm/pypowervm;33%;False
 uncompyle6;https://github.com/rocky/python-uncompyle6;False;https://github.com/rocky/python-uncompyle6;https://github.com/rocky/python-decompile3;https://github.com/rocky/python-uncompyle6;https://github.com/rocky/python-uncompyle6;66%;False
 robinhood-aiokafka;https://github.com/robinhood-aiokafka/robinhood-aiokafka;True;;;;;0%;True
 redset;https://github.com/percolate/redset;False;https://github.com/percolate/redset;https://github.com/percolate/redset;https://github.com/percolate/redset;https://github.com/percolate/redset;100%;False
@@ -3400,7 +3400,7 @@ taskcluster;https://github.com/taskcluster/taskcluster;False;https://github.com/
 plaidml;https://github.com/plaidml/plaidml;False;;;https://github.com/plaidml/plaidml;https://github.com/plaidml/plaidml;33%;False
 sparkmeasure;https://github.com/lucacanali/sparkmeasure;False;https://github.com/lucacanali/sparkmeasure;https://github.com/lucacanali/sparkmeasure;https://github.com/lucacanali/sparkmeasure;https://github.com/lucacanali/sparkmeasure;100%;False
 nylas;https://github.com/nylas/nylas-python;False;https://github.com/nylas/nylas-python;https://github.com/nylas/nylas-python;https://github.com/nylas/nylas-python;https://github.com/nylas/nylas-python;100%;False
-simpy;https://github.com/simpx/simpy;False;;https://github.com/abeham/simsharp;https://github.com/r-simmer/simmer;https://github.com/r-simmer/simmer;33%;True
+simpy;https://github.com/simpx/simpy;False;;https://github.com/heal-research/simsharp;https://github.com/r-simmer/simmer;https://github.com/r-simmer/simmer;33%;True
 tabledata;https://github.com/thombashi/tabledata;False;https://github.com/thombashi/tabledata;https://github.com/thombashi/tabledata;https://github.com/thombashi/tabledata;https://github.com/thombashi/tabledata;100%;False
 xss-utils;https://github.com/edx/xss-utils;False;https://github.com/edx/xss-utils;https://github.com/edx/xss-utils;https://github.com/edx/xss-utils;https://github.com/edx/xss-utils;100%;False
 segtok;https://github.com/fnl/segtok;False;https://github.com/fnl/segtok;https://github.com/fnl/segtok;https://github.com/fnl/segtok;https://github.com/fnl/segtok;100%;False
@@ -3415,7 +3415,7 @@ blosc;https://github.com/blosc/python-blosc;False;https://github.com/blosc/pytho
 google-images-download;https://github.com/hardikvasa/google-images-download;False;https://github.com/hardikvasa/google-images-download;https://github.com/hardikvasa/google-images-download;https://github.com/hardikvasa/google-images-download;https://github.com/hardikvasa/google-images-download;100%;False
 bigquery-schema-generator;https://github.com/bxparks/bigquery-schema-generator;False;https://github.com/bxparks/bigquery-schema-generator;https://github.com/bxparks/bigquery-schema-generator;https://github.com/bxparks/bigquery-schema-generator;https://github.com/bxparks/bigquery-schema-generator;100%;False
 flask-oidc;https://github.com/puiterwijk/flask-oidc;False;https://github.com/puiterwijk/flask-oidc;https://github.com/puiterwijk/flask-oidc;https://github.com/puiterwijk/flask-oidc;https://github.com/puiterwijk/flask-oidc;100%;False
-django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;False;https://github.com/respondcreate/django-versatileimagefield;https://github.com/wgbh/django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;66%;False
+django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;False;https://github.com/respondcreate/django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;https://github.com/respondcreate/django-versatileimagefield;100%;False
 inject;https://github.com/ivankorobkov/python-inject;False;https://github.com/ivankorobkov/python-inject;https://github.com/ivankorobkov/python-inject;https://github.com/ivankorobkov/python-inject;https://github.com/ivankorobkov/python-inject;100%;False
 marshmallow-jsonapi;https://github.com/marshmallow-code/marshmallow-jsonapi;False;https://github.com/marshmallow-code/marshmallow-jsonapi;https://github.com/marshmallow-code/marshmallow-jsonapi;https://github.com/marshmallow-code/marshmallow-jsonapi;https://github.com/marshmallow-code/marshmallow-jsonapi;100%;False
 ibmiotf;https://github.com/ibm-watson-iot/iot-python;False;https://github.com/ibm-watson-iot/iot-python;https://github.com/ibm-watson-iot/iot-python;https://github.com/ibm-watson-iot/iot-python;https://github.com/ibm-watson-iot/iot-python;100%;False
@@ -3666,7 +3666,7 @@ flair;https://github.com/flairnlp/flair;False;https://github.com/flairnlp/flair;
 pyramid-beaker;https://github.com/pylons/pyramid_beaker;False;;;https://github.com/pylons/pyramid_beaker;https://github.com/pylons/pyramid_beaker;33%;False
 ciscoconfparse;https://github.com/mpenning/ciscoconfparse;False;https://github.com/mpenning/ciscoconfparse;https://github.com/mpenning/ciscoconfparse;https://github.com/mpenning/ciscoconfparse;https://github.com/mpenning/ciscoconfparse;100%;False
 faiss-cpu;https://github.com/kyamagu/faiss-wheels;False;https://github.com/kyamagu/faiss-wheels;https://github.com/kyamagu/faiss-wheels;https://github.com/kyamagu/faiss-wheels;https://github.com/kyamagu/faiss-wheels;100%;False
-dawg-python;https://github.com/kmike/dawg-python;False;https://github.com/kmike/dawg-python;https://github.com/kmike/dawg;https://github.com/kmike/dawg-python;https://github.com/kmike/dawg-python;66%;False
+dawg-python;https://github.com/kmike/dawg-python;False;https://github.com/pytries/dawg-python;https://github.com/kmike/dawg;https://github.com/pytries/dawg-python;https://github.com/pytries/dawg-python;66%;False
 json-logic-qubit;https://github.com/qubitproducts/json-logic-py;False;https://github.com/qubitproducts/json-logic-py;https://github.com/qubitproducts/json-logic-py;https://github.com/qubitproducts/json-logic-py;https://github.com/qubitproducts/json-logic-py;100%;False
 pysnooper;https://github.com/cool-rr/pysnooper;False;https://github.com/cool-rr/pysnooper;https://github.com/cool-rr/pysnooper;https://github.com/cool-rr/pysnooper;https://github.com/cool-rr/pysnooper;100%;False
 consul-kv;https://github.com/vdloo/consul-kv;False;https://github.com/vdloo/consul-kv;https://github.com/vdloo/consul-kv;https://github.com/vdloo/consul-kv;https://github.com/vdloo/consul-kv;100%;False
