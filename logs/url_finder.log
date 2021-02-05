@@ -84,12 +84,13 @@
 2021-01-23 18:23:40,120 - 51 - INFO     $ Metadata 33% URLs: 70, PyPI 33% URLs: 26, OSSGadget 33% URLs: 122, $ <module>
 
 
-2021-01-27 14:34:03,896 - 111 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
-2021-01-27 14:34:03,897 - 112 - INFO     $ Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3177, $ <module>
-2021-01-27 14:34:03,897 - 113 - INFO     $ Different URLs: 585, Different useless URLs: 542 $ <module>
-2021-01-27 14:34:03,897 - 114 - INFO     $ Different NOT EMPTY URLs: 118, Different NOT EMPTY useless URLs: 78 $ <module>
-2021-01-27 14:34:03,897 - 115 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 180, Accuracy 66%: 392, Accuracy 100%: 2669 $ <module>
-2021-01-27 14:34:03,897 - 116 - INFO     $ Metadata 66% URLs: 336, PyPI 66% URLs: 60, OSSGadget 66% URLs: 388, $ <module>
-2021-01-27 14:34:03,897 - 117 - INFO     $ Metadata NOT 66% URLs: 56, PyPI NOT 66% URLs: 332, OSSGadget NOT 66% URLs: 4, $ <module>
-2021-01-27 14:34:03,897 - 118 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3, $ <module>
-2021-01-27 14:34:03,897 - 119 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117, $ <module>
+2021-02-05 14:05:16,954 - 120 - INFO     $ Total packages: 3708, Useless rows: 542 $ <module>
+2021-02-05 14:05:16,955 - 121 - INFO     $ Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3177 $ <module>
+2021-02-05 14:05:16,955 - 122 - INFO     $ Different URLs: 585, Different useless URLs: 542 $ <module>
+2021-02-05 14:05:16,955 - 123 - INFO     $ Different NOT EMPTY URLs: 118, Different NOT EMPTY useless URLs: 78 $ <module>
+2021-02-05 14:05:16,955 - 124 - INFO     $ Accuracy 0%: 467, Accuracy 33%: 180, Accuracy 66%: 392, Accuracy 100%: 2669 $ <module>
+2021-02-05 14:05:16,955 - 125 - INFO     $ Metadata 66% URLs: 336, PyPI 66% URLs: 60, OSSGadget 66% URLs: 388 $ <module>
+2021-02-05 14:05:16,955 - 126 - INFO     $ Metadata NOT 66% URLs: 56, PyPI NOT 66% URLs: 332, OSSGadget NOT 66% URLs: 4 $ <module>
+2021-02-05 14:05:16,955 - 127 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3 $ <module>
+2021-02-05 14:05:16,956 - 128 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117 $ <module>
+2021-02-05 14:05:16,956 - 129 - INFO     $ Metadata NOT 33% URLs: 4, PyPI NOT 33% URLs: 23, OSSGadget NOT 33% URLs: 0 $ <module>

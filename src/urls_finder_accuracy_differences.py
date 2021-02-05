@@ -47,6 +47,9 @@ ossgadget_not_66_urls = 0
 metadata_33_urls = 0
 pypi_33_urls = 0
 ossgadget_33_urls = 0
+metadata_not_33_urls = 0
+pypi_not_33_urls = 0
+ossgadget_not_33_urls = 0
 
 # Open matching packages csv file
 with open(input_file) as csv_file:
@@ -86,9 +89,15 @@ with open(input_file) as csv_file:
                     if ossgadget_url != "": ossgadget_not_not_empty_66_urls += 1
 
             if accuracy == "33%":
-                if metadata_url != "": metadata_33_urls += 1
-                if pypi_url != "": pypi_33_urls += 1
-                if ossgadget_url != "": ossgadget_33_urls += 1
+                if metadata_url != "": 
+                    metadata_33_urls += 1
+                    if metadata_url != final_url: metadata_not_33_urls += 1
+                if pypi_url != "": 
+                    pypi_33_urls += 1
+                    if pypi_url != final_url: pypi_not_33_urls += 1
+                if ossgadget_url != "": 
+                    ossgadget_33_urls += 1
+                    if ossgadget_url != ossgadget_url: ossgadget_not_33_urls += 1
 
             if different == "True":
                 different_urls += 1
@@ -109,11 +118,12 @@ with open(input_file) as csv_file:
 
 # Print out the information
 logger.info(f"Total packages: {total_packages}, Useless rows: {useless_urls}")
-logger.info(f"Metadata URLs: {metadata_urls}, PyPI URLs: {pypi_urls}, OSSGadget URLs: {ossgadget_urls},")
+logger.info(f"Metadata URLs: {metadata_urls}, PyPI URLs: {pypi_urls}, OSSGadget URLs: {ossgadget_urls}")
 logger.info(f"Different URLs: {different_urls}, Different useless URLs: {different_useless_urls}")
 logger.info(f"Different NOT EMPTY URLs: {different_not_empty_urls}, Different NOT EMPTY useless URLs: {different_not_empty_useless_urls}")
 logger.info(f"Accuracy 0%: {accuracy_0}, Accuracy 33%: {accuracy_33}, Accuracy 66%: {accuracy_66}, Accuracy 100%: {accuracy_100}")
-logger.info(f"Metadata 66% URLs: {metadata_66_urls}, PyPI 66% URLs: {pypi_66_urls}, OSSGadget 66% URLs: {ossgadget_66_urls},")
-logger.info(f"Metadata NOT 66% URLs: {metadata_not_66_urls}, PyPI NOT 66% URLs: {pypi_not_66_urls}, OSSGadget NOT 66% URLs: {ossgadget_not_66_urls},")
-logger.info(f"Metadata NOT (NOT EMPTY) 66% URLs: {metadata_not_not_empty_66_urls}, PyPI NOT (NOT EMPTY) 66% URLs: {pypi_not_not_empty_66_urls}, OSSGadget NOT (NOT EMPTY) 66% URLs: {ossgadget_not_not_empty_66_urls},")
-logger.info(f"Metadata 33% URLs: {metadata_33_urls}, PyPI 33% URLs: {pypi_33_urls}, OSSGadget 33% URLs: {ossgadget_33_urls},")
+logger.info(f"Metadata 66% URLs: {metadata_66_urls}, PyPI 66% URLs: {pypi_66_urls}, OSSGadget 66% URLs: {ossgadget_66_urls}")
+logger.info(f"Metadata NOT 66% URLs: {metadata_not_66_urls}, PyPI NOT 66% URLs: {pypi_not_66_urls}, OSSGadget NOT 66% URLs: {ossgadget_not_66_urls}")
+logger.info(f"Metadata NOT (NOT EMPTY) 66% URLs: {metadata_not_not_empty_66_urls}, PyPI NOT (NOT EMPTY) 66% URLs: {pypi_not_not_empty_66_urls}, OSSGadget NOT (NOT EMPTY) 66% URLs: {ossgadget_not_not_empty_66_urls}")
+logger.info(f"Metadata 33% URLs: {metadata_33_urls}, PyPI 33% URLs: {pypi_33_urls}, OSSGadget 33% URLs: {ossgadget_33_urls}")
+logger.info(f"Metadata NOT 33% URLs: {metadata_not_33_urls}, PyPI NOT 33% URLs: {pypi_not_33_urls}, OSSGadget NOT 33% URLs: {ossgadget_not_33_urls}")
