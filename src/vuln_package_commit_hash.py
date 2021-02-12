@@ -49,8 +49,9 @@ with open(vulns_input_file) as csv_file:
     for row in csv_reader:
         if line_count > 0:
 
-            # Get Vuln ID, package name and commit URL of each vulnerability
+            # Get Vuln ID, severity, package name and commit URL of each vulnerability
             id = row[0]
+            severity = row[1]
             name = row[4]
             commit_url = row[8]
             # Extract the hash out of the commit URL
@@ -63,7 +64,7 @@ with open(vulns_input_file) as csv_file:
             # If the vulnerability's package actually have some vulnerabilities 
             # with commit link associated, append it, its hash and the package directory
             if name in dirs and commit_hash != "":
-                commit_packages.append([id, name, dirs[name], commit_hash])
+                commit_packages.append([id, severity, name, dirs[name], commit_hash])
             else: logger.info(f"Commit '{commit_hash}' is not related to package '{name}' or is empty")
 
         line_count += 1
@@ -73,6 +74,6 @@ with open(vulns_input_file) as csv_file:
 logger.info(f"Commits: {len(commit_packages)}")
 with open(output_file, mode='w') as csv_file:
     vulns_writer = csv.writer(csv_file, delimiter=';')
-    #vulns_writer.writerow(['Vuln ID', 'Package name', 'Clone dir', 'Commit hash'])
+    #vulns_writer.writerow(['Vuln ID', 'Severity','Package name', 'Clone dir', 'Commit hash'])
     for i in range(0, len(commit_packages)):
         vulns_writer.writerow(commit_packages[i])

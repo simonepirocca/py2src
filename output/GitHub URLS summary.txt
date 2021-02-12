@@ -16,11 +16,12 @@ Broken links that we can fix: 64
 ------------------------------------------
 GATHERING DATA WITH FINAL ALGORITHM
 
-Total packages: 3708
-Total useful rows: 3166 (useless: 542)
-Different urls: 582 (114 not empty)
-Different urls in useless rows: 542 (76 not empty)
-0% Accuracy: 467 
-33% Accuracy: 186
-66% Accuracy: 390
-100% Accuracy: 2665 
+Total packages: 3708 (Useless rows: 542)
+Metadata URLs: 3077, PyPI URLs: 2823, OSSGadget URLs: 3177
+Different URLs: 585 (118 not empty) 
+Different useless URLs: 542 (78 not empty)
+Accuracy 0%: 467, Accuracy 33%: 180, Accuracy 66%: 392, Accuracy 100%: 2669
+Metadata 66% URLs: 336, PyPI 66% URLs: 60, OSSGadget 66% URLs: 388
+Metadata NOT 66% URLs: 56, PyPI NOT 66% URLs: 332, OSSGadget NOT 66% URLs: 4
+Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3
+Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117

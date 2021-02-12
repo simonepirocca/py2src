@@ -79,3 +79,16 @@ def test_find_github_url_from_metadata_fail():
     url_found = finder.find_github_url_from_metadata()
     logger.info("Package: {}, URL: {}".format(package_name, url_found))
     assert url_found == ""
+
+# Static methods tests
+def test_not_redirected_github_url():
+    url = "https://github.com/kmike/dawg-python"
+    real_url = URLFinder.real_github_url(url)
+    logger.info("URL: {}, Real URL: {}".format(url, real_url))
+    assert real_url == "https://github.com/pytries/dawg-python"
+
+def test_redirected_github_url():
+    url = "https://github.com/urllib3/urllib3"
+    real_url = URLFinder.real_github_url(url)
+    logger.info("URL: {}, Real URL: {}".format(url, real_url))
+    assert real_url == "https://github.com/urllib3/urllib3"

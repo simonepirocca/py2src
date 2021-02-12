@@ -20,10 +20,10 @@ logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEB
 # Set input and output files, inizialize variables
 packages_input_file = "../output/vulns_output/packages_with_vuln_pr.csv"
 vulns_input_file = "../output/vulns_output/matching_vulns_unique_pr.csv"
-output_file = "../output/vulns_output/test_clone_dir_from_pr_commit_hash.csv"
+output_file = "../output/vulns_output/clone_dir_from_pr_commit_hash.csv"
 dirs = {}
 commit_packages = []
-start = 21
+start = 1
 count = 20 # It breaks if looking at more than 20 elements at time
 end = start + count
 
@@ -56,8 +56,9 @@ with open(vulns_input_file) as csv_file:
     for row in csv_reader:
         if line_count >= start:
 
-            # Get Vuln ID, package name and PR URL of each vulnerability
+            # Get Vuln ID, severity, package name and PR URL of each vulnerability
             id = row[0]
+            severity = row[1]
             name = row[4]
             pr_url = row[12]
 
@@ -82,7 +83,7 @@ with open(vulns_input_file) as csv_file:
                 # If the vulnerability's package actually have some vulnerabilities with commit link associated,
                 # append it, its hash and commit url and the package directory
                 if name in dirs and commit_hash != "":
-                    commit_packages.append([id, name, dirs[name], commit_url, commit_hash])
+                    commit_packages.append([id, severity, name, dirs[name], commit_url, commit_hash])
                 else: logger.info(f"Commit'{commit_hash}' is not related to package '{name}' or is empty")
 
             else: logger.info(f"Commit for PR Link '{pr_url}' of Vuln ID '{id}' didn't found")
@@ -98,6 +99,6 @@ logger.info(f"Commits for PR link found: {commits_found},  Commit for PR link NO
 # Store the information into a csv file
 with open(output_file, mode='a') as csv_file:
     vulns_writer = csv.writer(csv_file, delimiter=';')
-    #vulns_writer.writerow(['Vuln ID', 'Package name', 'Clone dir', 'Commit url', 'Commit hash'])
+    #vulns_writer.writerow(['Vuln ID', 'Severity', 'Package name', 'Clone dir', 'Commit URL', 'Commit hash'])
     for i in range(0, len(commit_packages)):
         vulns_writer.writerow(commit_packages[i])
