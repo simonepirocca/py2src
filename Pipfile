@@ -11,6 +11,9 @@ beautifulsoup4 = "*"
 validators = "*"
 requests = "*"
 gitpython = "*"
+numpy = "*"
+python-levenshtein = "*"
+fuzzywuzzy = "*"
 
 [requires]
 python_version = "3.6"
