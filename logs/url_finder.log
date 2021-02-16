@@ -94,3 +94,34 @@
 2021-02-05 14:05:16,955 - 127 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3 $ <module>
 2021-02-05 14:05:16,956 - 128 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117 $ <module>
 2021-02-05 14:05:16,956 - 129 - INFO     $ Metadata NOT 33% URLs: 4, PyPI NOT 33% URLs: 23, OSSGadget NOT 33% URLs: 0 $ <module>
+
+
+2021-02-16 15:02:24,823 - 120 - INFO     $ Total packages: 4000, Useless rows: 542 $ <module>
+2021-02-16 15:02:24,823 - 121 - INFO     $ Metadata URLs: 3355, PyPI URLs: 3114, OSSGadget URLs: 3466 $ <module>
+2021-02-16 15:02:24,823 - 122 - INFO     $ Different URLs: 669, Different useless URLs: 542 $ <module>
+2021-02-16 15:02:24,823 - 123 - INFO     $ Different NOT EMPTY URLs: 201, Different NOT EMPTY useless URLs: 78 $ <module>
+2021-02-16 15:02:24,823 - 124 - INFO     $ Accuracy 0%: 468, Accuracy 33%: 189, Accuracy 66%: 452, Accuracy 100%: 2891 $ <module>
+2021-02-16 15:02:24,823 - 125 - INFO     $ Metadata 66% URLs: 390, PyPI 66% URLs: 66, OSSGadget 66% URLs: 448 $ <module>
+2021-02-16 15:02:24,823 - 126 - INFO     $ Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4 $ <module>
+2021-02-16 15:02:24,823 - 127 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3 $ <module>
+2021-02-16 15:02:24,823 - 128 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124 $ <module>
+2021-02-16 15:02:24,823 - 129 - INFO     $ Metadata NOT 33% URLs: 4, PyPI NOT 33% URLs: 30, OSSGadget NOT 33% URLs: 0 $ <module>
+
+2021-02-16 15:21:51,491 - 39 - INFO     $ ['service-identity', 'https://github.com/ambv/black', 'False', '', 'https://github.com/psf/black', 'https://github.com/pyca/service-identity', 'https://github.com/pyca/service-identity', '33%', 'True'] $ <module>
+2021-02-16 15:21:51,491 - 39 - INFO     $ ['spacy', 'https://github.com/ambv/black', 'False', '', 'https://github.com/psf/black', 'https://github.com/explosion/spacy', 'https://github.com/explosion/spacy', '33%', 'True'] $ <module>
+2021-02-16 15:21:51,493 - 39 - INFO     $ ['msal-extensions', 'https://github.com/azuread/microsoft-authentication-library-for-python', 'False', '', 'https://github.com/azuread/microsoft-authentication-library-for-python', 'https://github.com/azuread/microsoft-authentication-extensions-for-python', 'https://github.com/azuread/microsoft-authentication-extensions-for-python', '33%', 'True'] $ <module>
+
+***2021-02-16 15:21:51,496 - 39 - INFO     $ ['github3-py', 'https://github.com/kennethreitz/requests', 'False', '', 'https://github.com/psf/requests', '', 'https://github.com/psf/requests', '33%', 'True'] $ <module>
+(https://github.com/sigmavirus24/github3.py)
+
+***2021-02-16 15:21:51,497 - 39 - INFO     $ ['chart-studio', 'https://github.com/plotly/plotly.py', 'False', '', 'https://github.com/plotly/plotly.py', 'https://github.com/plotly/ruby-api', 'https://github.com/plotly/ruby-api', '33%', 'True'] $ <module>
+(https://github.com/plotly/plotly.py)
+
+2021-02-16 15:21:51,499 - 39 - INFO     $ ['asyncssh', 'https://github.com/jedisct1/libsodium', 'False', '', 'https://github.com/jedisct1/libsodium', 'https://github.com/ronf/asyncssh', 'https://github.com/ronf/asyncssh', '33%', 'True'] $ <module>
+2021-02-16 15:21:51,499 - 39 - INFO     $ ['oss2', 'https://github.com/kennethreitz/requests', 'False', '', 'https://github.com/psf/requests', 'https://github.com/aliyun/aliyun-oss-python-sdk', 'https://github.com/aliyun/aliyun-oss-python-sdk', '33%', 'True'] $ <module>
+
+***2021-02-16 15:21:51,503 - 39 - INFO     $ ['ocspresponder', 'https://github.com/wbond/ocspbuilder', 'False', '', 'https://github.com/wbond/ocspbuilder', '', 'https://github.com/wbond/ocspbuilder', '33%', 'False'] $ <module>
+(not found)
+
+***2021-02-16 15:21:51,503 - 39 - INFO     $ ['hypercorn', 'https://github.com/python-hyper/h11', 'False', '', 'https://github.com/python-hyper/h11', 'https://github.com/python-hyper/hyper-h2', 'https://github.com/python-hyper/hyper-h2', '33%', 'True'] $ <module>
+(not found, is't on GitLab: https://gitlab.com/pgjones/hypercorn/)

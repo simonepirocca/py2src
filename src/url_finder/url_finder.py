@@ -319,7 +319,7 @@ class URLFinder:
         """
         Return the real GitHub URL, if it is a redirection
         """
-        real_url_request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        real_url_request = Request(URLFinder.normalize_url(url), headers={"User-Agent": "Mozilla/5.0"})
         real_url_response = urlopen(real_url_request)
         real_url = URLFinder.normalize_url(real_url_response.geturl())
         return real_url
