@@ -25,8 +25,8 @@ duplicates_output_file = "../output/url_finder_output/urls_duplicates.csv"
 old_urls = []
 urls = []
 duplicates = []
-old_urls_index = 3657
-start = 3944
+old_urls_index = 0
+start = 0
 
 if start == 0:
     with open(urls_output_file, mode='w') as csv_file:
