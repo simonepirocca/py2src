@@ -16,7 +16,8 @@ from utils import log_function_output
 logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/url_finder.log")
 
 # Set source and range
-input_file = "../output/url_finder_output/github_urls_real_differences.csv"
+#input_file = "../output/url_finder_output/urls_with_duplicates.csv"
+input_file = "../output/url_finder_output/github_urls_with_fixed_metrics_and_urls.csv"
 start = 1
 count = 4000
 end = start + count
@@ -50,6 +51,11 @@ ossgadget_33_urls = 0
 metadata_not_33_urls = 0
 pypi_not_33_urls = 0
 ossgadget_not_33_urls = 0
+true_positives = [0, 0, 0]
+false_positives = [0, 0, 0]
+true_positives_unique_not_empty = [0, 0, 0]
+false_positives_other_not_empty = [0, 0, 0]
+false_positives_other_right = [0, 0, 0]
 
 # Open matching packages csv file
 with open(input_file) as csv_file:
@@ -111,6 +117,33 @@ with open(input_file) as csv_file:
             elif accuracy == "66%": accuracy_66 += 1
             elif accuracy == "100%": accuracy_100 += 1
 
+            if metadata_url != "":
+                if metadata_url == final_url: 
+                    true_positives[0] += 1
+                    if pypi_url == "" and ossgadget_url == "": true_positives_unique_not_empty[0] += 1
+                else:
+                    false_positives[0] += 1
+                    if pypi_url != "" or ossgadget_url != "": false_positives_other_not_empty[0] += 1
+                    if pypi_url == final_url or ossgadget_url == final_url: false_positives_other_right[0] += 1
+
+            if pypi_url != "":
+                if pypi_url == final_url: 
+                    true_positives[1] += 1
+                    if metadata_url == "" and ossgadget_url == "": true_positives_unique_not_empty[1] += 1
+                else:
+                    false_positives[1] += 1
+                    if ossgadget_url != "" or ossgadget_url != "": false_positives_other_not_empty[1] += 1
+                    if ossgadget_url == final_url or ossgadget_url == final_url: false_positives_other_right[1] += 1
+
+            if ossgadget_url != "":
+                if ossgadget_url == final_url: 
+                    true_positives[2] += 1
+                    if pypi_url == "" and ossgadget_url == "": true_positives_unique_not_empty[2] += 1
+                else:
+                    false_positives[2] += 1
+                    if pypi_url != "" or ossgadget_url != "": false_positives_other_not_empty[2] += 1
+                    if pypi_url == final_url or ossgadget_url == final_url: false_positives_other_right[2] += 1
+
             total_packages += 1
 
         line_count += 1
@@ -127,3 +160,5 @@ logger.info(f"Metadata NOT 66% URLs: {metadata_not_66_urls}, PyPI NOT 66% URLs: 
 logger.info(f"Metadata NOT (NOT EMPTY) 66% URLs: {metadata_not_not_empty_66_urls}, PyPI NOT (NOT EMPTY) 66% URLs: {pypi_not_not_empty_66_urls}, OSSGadget NOT (NOT EMPTY) 66% URLs: {ossgadget_not_not_empty_66_urls}")
 logger.info(f"Metadata 33% URLs: {metadata_33_urls}, PyPI 33% URLs: {pypi_33_urls}, OSSGadget 33% URLs: {ossgadget_33_urls}")
 logger.info(f"Metadata NOT 33% URLs: {metadata_not_33_urls}, PyPI NOT 33% URLs: {pypi_not_33_urls}, OSSGadget NOT 33% URLs: {ossgadget_not_33_urls}")
+logger.info(f"True Positives: {true_positives}, False Positives: {false_positives}")
+logger.info(f"True Positives unique not empty: {true_positives_unique_not_empty}, False Positives other not empty: {false_positives_other_not_empty}, False positives other right: {false_positives_other_right}")

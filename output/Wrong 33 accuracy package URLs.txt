@@ -1,0 +1,39 @@
+PACKAGE NAME              OLD GITHUB URL                                       RIGHT GITHUB URL
+---------------------------------------------------------------------------------------------------------------------------------
+docutils:                 https://github.com/docutils/docutils            -->   
+cffi:                     https://github.com/cffi/cffi                    --> 
+babel:                    https://github.com/babel/babel                  -->  https://github.com/python-babel/babel
+alembic:                  https://github.com/alembic/alembic              -->  
+ruamel-yaml:              https://github.com/pypa/setuptools              -->  https://github.com/commx/ruamel-yaml
+s3cmd:                    https://github.com/s3cmd/s3cmd                  -->  https://github.com/s3tools/s3cmd
+anyjson:                  https://github.com/ask/carrot                   -->  
+statistics:               https://github.com/python/cpython               -->  https://github.com/digitalemagine/py-statistics
+wget:                     https://github.com/wget/wget                    -->  https://github.com/steveej/python-wget
+request (IGNORE):         https://github.com/request/request              -->
+post (IGNORE):            https://github.com/post/post                    -->
+gevent-websocket:         https://github.com/methane/wsaccel              -->  https://github.com/jgelens/gevent-websocket
+logging:                  https://github.com/logging/logging              -->  
+hacking:                  https://github.com/jcrocholl/pep8               -->  https://github.com/openstack/hacking
+tlslite:                  https://github.com/moxie0/convergence           -->  https://github.com/trevp/tlslite
+pytest-pep8:              https://github.com/jcrocholl/pep8               -->  https://github.com/davidraleigh/pytest-pep8
+testresources:            https://github.com/testresources/testresources  -->  https://github.com/testing-cabal/testresources
+websocket:                https://github.com/websocket/websocket          -->
+petname:                  https://github.com/petname/petname              -->  https://github.com/dustinkirkland/python-petname
+sphinxcontrib-napoleon:   https://github.com/numpy/numpy                  -->  https://github.com/sphinx-contrib/napoleon
+bashate:                  https://github.com/pycqa/pycodestyle            -->  https://github.com/openstack/bashate
+pyviz-comms:              https://github.com/holoviz/holoviz              -->  https://github.com/holoviz/pyviz_comms
+taskflow:                 https://github.com/taskflow/taskflow            -->  https://github.com/openstack/taskflow
+logger:                   https://github.com/logger/logger                -->  
+geoip:                    https://github.com/geoip/geoip                  -->  https://github.com/maxmind/geoip-api-python
+twitter-common-app (RED): https://github.com/twitter/commons              -->  https://github.com/twitter-archive/commons
+pydns:                    https://github.com/pydns/pydns                  -->  
+pytorch:                  https://github.com/pytorch/pytorch              -->
+rook:                     https://github.com/rook/rook                    -->
+pomegranate:              https://github.com/pomegranate/pomegranate      -->  https://github.com/jmschrei/pomegranate
+openexr:                  https://github.com/openexr/openexr              -->  
+update:                   https://github.com/update/update                --> 
+simpy:                    https://github.com/r-simmer/simmer              -->  
+github3-py:               https://github.com/psf/requests                 -->  https://github.com/sigmavirus24/github3.py
+chart-studio:             https://github.com/plotly/ruby-api              -->  https://github.com/plotly/plotly.py
+ocspresponder:            https://github.com/wbond/ocspbuilder            -->  
+hypercorn:                https://github.com/python-hyper/hyper-h2        -->  

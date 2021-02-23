@@ -18,7 +18,6 @@ import requests
 import validators
 from bs4 import BeautifulSoup
 
-
 class URLFinder:
     """
     Package class represeting a PyPI package
@@ -26,14 +25,28 @@ class URLFinder:
 
     def __init__(self, package_name: str):
         self._package_name = package_name
+        self._pypi_url = URLFinder.real_pypi_url("https://pypi.org/project/{}".format(self._package_name))
+        self._github_url = ""
+        self._pypi_soup = None
+        self._github_soup = None
+        self.open_pypi_soup()
 
     @property
     def package_name(self) -> str:
         return self._package_name
 
+    @property
+    def github_url(self) -> str:
+        return self._github_url
+
     @package_name.setter
     def package_name(self, package_name: str):
         self._package_name = package_name
+
+    #@github_url.setter
+    def set_github_url(self, github_url: str):
+        self._github_url = URLFinder.real_github_url(github_url)
+        self.open_github_soup()
 
     def get_json_url(self) -> str:
         """Return the json metadata url of the package"""
@@ -239,21 +252,42 @@ class URLFinder:
 
         return final_github_url
 
+    def open_pypi_soup(self):
+        """
+        Open PyPI page setting the BeautifulSoup obj
+        """
+        try:
+            req = Request(self._pypi_url, headers={'User-Agent': 'Mozilla/5.0'})
+            self._pypi_soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            self._pypi_soup = None
+
+    def open_github_soup(self):
+        """
+        Open GitHub page setting the BeautifulSoup obj
+        """
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            self._github_soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            self._github_soup = None
+
     def find_github_url_from_pypi_page(self) -> str:
         """
         Get GitHub url from PyPi page
         """
 
         github_url = ""
-        url = f"https://pypi.org/project/{self._package_name}"
-        try:
-            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
+        #url = f"https://pypi.org/project/{self._package_name}"
+        #try:
+        #    req = Request(self._pypi_url, headers={'User-Agent': 'Mozilla/5.0'})
+        #    soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        #except (ValueError, URLError, HTTPError, ConnectionResetError):
+        #    return ""
+        #else:
+        if self._pypi_soup != None:
             # Examine all the links present in the PyPi page of that package
-            for link in soup.findAll("a"):
+            for link in self._pypi_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -311,7 +345,9 @@ class URLFinder:
         """
         Normalize the URL, taking just the lower version of the path, removing ".git" if needed
         """
+        if url == "": return ""
         if url[0:2] == "//": url = url[2:]
+        if url[-1] == "/": url = url[:-1]
         return "https://github.com" + urlparse(url).path.replace(".git", "").lower()
 
     @staticmethod
@@ -319,7 +355,235 @@ class URLFinder:
         """
         Return the real GitHub URL, if it is a redirection
         """
-        real_url_request = Request(URLFinder.normalize_url(url), headers={"User-Agent": "Mozilla/5.0"})
-        real_url_response = urlopen(real_url_request)
-        real_url = URLFinder.normalize_url(real_url_response.geturl())
-        return real_url
+        try:
+            normalized_url = URLFinder.normalize_url(url)
+            real_url_request = Request(normalized_url, headers={"User-Agent": "Mozilla/5.0"})
+            real_url_response = urlopen(real_url_request)
+            real_url = URLFinder.normalize_url(real_url_response.geturl())
+            if real_url[-1] == "/": real_url = real_url[:-1]
+            return real_url
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+
+    @staticmethod
+    def normalize_pypi_url(url: str) -> str:
+        """
+        Normalize the URL, taking just the lower version of the path, removing ".git" if needed
+        """
+        if url == "": return ""
+        if url[0:2] == "//": url = url[2:]
+        if url[-1] == "/": url = url[:-1]
+        return "https://pypi.org" + urlparse(url).path.replace(".git", "").lower()
+
+    @staticmethod
+    def real_pypi_url(url: str) -> str:
+        """
+        Return the real PyPI URL, if it is a redirection
+        """
+        try:
+            real_url_request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            real_url_response = urlopen(real_url_request)
+            real_url = real_url_response.geturl()
+            if "pypi.org" in real_url: return URLFinder.normalize_pypi_url(real_url)
+            else: return ""
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return ""
+
+    def check_pypi_statistics(self) -> bool:
+        """
+        Check if PyPI page have statistics referring to GitHub URL.
+        If it doesn't correspond, return the URL
+        """
+        other_link = ""
+        if self._github_url == "" or self._pypi_soup == None: return False
+        for div in self._pypi_soup.findAll("div", {"class": "github-repo-info"}):
+            try:
+                github_api_url = div["data-url"]
+            except KeyError:
+                # Link is not valid, go to the next line
+                continue
+            else:
+                if github_api_url != "" and "github.com" in github_api_url:
+                    if github_api_url[-1] == "/": github_api_url = github_api_url[:-1]
+                    api_url_parts = urlparse(github_api_url)
+                    if api_url_parts.path.count("/") == 3:
+                        api_path_parts = api_url_parts.path.split("/")
+                        stat_url = "https://github.com/" + api_path_parts[2] + "/" + api_path_parts[3]
+                        stat_url = URLFinder.real_github_url(stat_url)
+                        if stat_url != "":
+                            if stat_url[-1] == "/": stat_url = stat_url[:-1]
+                            if stat_url == self._github_url: return True
+                            else: other_link = stat_url
+
+        if other_link != "": return other_link
+        return False
+
+    def get_pypi_descr(self) -> str:
+        """
+        Get the project description on PyPI page
+        """
+        if self._pypi_soup == None: return ""
+        for div in self._pypi_soup.findAll("div", {"class": "project-description"}):
+            try:
+                description = div.getText()
+                if len(description) > 1500: description = description[:1500]
+                return description
+            except KeyError:
+                # Link is not valid, go to the next line
+                continue
+
+        return ""
+
+    def get_github_descr(self) -> str:
+        """
+        Get the project description on PyPI page
+        """
+        if self._github_soup == None: return ""
+        for div in self._github_soup.findAll("div", {"class": "Box-body"}):
+            try:
+                description = div.getText()
+                if len(description) > 1500: description = description[:1500]
+                return description
+            except KeyError:
+                # Link is not valid, go to the next line
+                continue
+
+        return ""
+
+    def check_readthedocs(self) -> bool:
+        """
+        Check if PyPI page have a "readthedocs.io" link, 
+        and if it has a correspoding GitHub URL.
+        If it doesn't correspond, return the URL
+        """
+        other_link = ""
+        if self._github_url == "" or self._pypi_soup == None: return False
+        for link1 in self._pypi_soup.findAll("a"):
+            try:
+                href_url = link1["href"].replace(" ", "")
+                if "readthedocs.io" in href_url:
+                    try:
+                        docs_req = Request(href_url, headers={'User-Agent': 'Mozilla/5.0'})
+                        docs_soup = BeautifulSoup(urlopen(docs_req).read(), features="html.parser")
+                    except (ValueError, URLError, HTTPError, ConnectionResetError): continue
+                    else:
+                        for link2 in docs_soup.findAll("a"):
+                            try:
+                                tmp_url = link2["href"]
+                            except KeyError: continue
+                            else:
+                                url_parts = urlparse(tmp_url)
+                                if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
+                                    docs_github_url = URLFinder.real_github_url(tmp_url)
+                                    if docs_github_url != "":
+                                        if docs_github_url[-1] == "/": docs_github_url = docs_github_url[:-1]
+                                        if docs_github_url == self._github_url: return True
+                                        else: other_link = docs_github_url
+            except KeyError: continue
+
+        if other_link != "": return other_link
+        return False
+
+    def check_github_badge(self) -> bool:
+        """
+        Check if PyPI page have a GitHub badge referring to GitHub URL.
+        If it doesn't correspond, return the URL
+        """
+        other_link = ""
+        if self._github_url == "" or self._pypi_soup == None: return False
+        for div in self._pypi_soup.findAll("div", {"class": "project-description"}):
+            for badge in div.findAll("a"):
+                if len(badge.findAll("img")) > 0:
+                    try:
+                        tmp_badge_url = badge["href"]
+                    except KeyError: continue
+                    else:
+                        # It cares about both GitHub and Travis badges
+                        if tmp_badge_url != "" and ("github.com" in tmp_badge_url or "travis-ci.org" in tmp_badge_url):
+                            if tmp_badge_url[-1] == "/": tmp_badge_url = tmp_badge_url[:-1]
+                            badge_url_parts = urlparse(tmp_badge_url)
+                            if badge_url_parts.path.count("/") >= 2:
+                                badge_url_path_parts = badge_url_parts.path.split("/")
+                                badge_url = "https://github.com/" + badge_url_path_parts[1] + "/" + badge_url_path_parts[2]
+                                badge_url = URLFinder.real_github_url(badge_url)
+                                if badge_url != "":
+                                    if badge_url[-1] == "/": badge_url = badge_url[:-1]
+                                    if badge_url == self._github_url: return True
+                                    else: other_link = badge_url
+
+        if other_link != "": return other_link
+        return False
+
+    def check_pypi_badge(self) -> bool:
+        """
+        Check if GitHub page have a PyPI badge referring to PyPI URL
+        """
+        other_link = ""
+        if self._pypi_url == "" or self._github_soup == None: return False
+        for div in self._github_soup.findAll("div", {"class": "Box-body"}):
+            for badge in div.findAll("a"):
+                if len(badge.findAll("img")) > 0:
+                    try:
+                        tmp_badge_url = badge["href"].lower()
+                        if tmp_badge_url != "":
+                            if tmp_badge_url[-1] == "/": tmp_badge_url = tmp_badge_url[:-1]
+                            badge_url = URLFinder.real_pypi_url(tmp_badge_url)
+                            if badge_url != "" and "pypi.org" in badge_url:
+                                if badge_url[-1] == "/": badge_url = badge_url[:-1]
+                                badge_url = URLFinder.normalize_pypi_url(badge_url)
+                                badge_url_parts = urlparse(badge_url)
+                                if badge_url_parts.path.count("/") > 2:
+                                    badge_url_path_parts = badge_url_parts.path.split("/")
+                                    badge_url = "https://pypi.org/" + badge_url_path_parts[1] + "/" + badge_url_path_parts[2]
+                                if badge_url == self._pypi_url: return True
+                                else: other_link = badge_url
+                    except KeyError: continue
+
+        if other_link != "": return other_link
+        return False
+
+    def check_python_lang(self) -> str:
+        """
+        Check if GitHub page have Python as major language 
+        """
+        if self._pypi_url == "" or self._github_soup == None: return "0%"
+        for div in self._github_soup.findAll("div", {"class": "BorderGrid-cell"}):
+            languages_found = False
+            for title in div.findAll("h2"):
+                if title.getText() == "Languages":
+                    languages_found = True
+                    break
+            if languages_found == True:
+                for span in div.findAll("span"):
+                    try:
+                        language = span["aria-label"]
+                        if "Python" in language and language.find(" ") != -1:
+                            perc = language.split(" ")[1]
+                            return perc + "%"
+                    except KeyError: continue
+        return "0%"
+
+    def get_other_lang(self) -> str:
+        """
+        Get other languages in GitHub repo and relative percentage
+        """
+        other_lang = ""
+        if self._pypi_url == "" or self._github_soup == None: return ""
+        for div in self._github_soup.findAll("div", {"class": "BorderGrid-cell"}):
+            languages_found = False
+            for title in div.findAll("h2"):
+                if title.getText() == "Languages":
+                    languages_found = True
+                    break
+            if languages_found == True:
+                for span in div.findAll("span"):
+                    try:
+                        language = span["aria-label"]
+                        if "Python" not in language and language.find(" ") != -1:
+                            lang_parts = language.split(" ")
+                            lang = lang_parts[0]
+                            perc = lang_parts[1]
+                            other_lang += lang + " (" + perc + "%) - "
+                    except KeyError: continue
+        if other_lang != "": return other_lang[:-3]
+        else: return ""

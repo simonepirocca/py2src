@@ -2916,7 +2916,7 @@ tap-py;422510;https://github.com/python-tap/tappy;94;10/05/2020;4;118;3;66;66;79
 django-impersonate;422468;https://github.com/django-impersonate/django-impersonate;;;;;;;;;;;;https://libraries.io/pypi/django-impersonate;10;2;127
 kneed;422308;https://github.com/arvkevi/kneed;233;13/08/2020;7;;4;33;33;30;7;454;14;https://libraries.io/pypi/kneed;12;0;8
 uproot-methods;421663;https://github.com/scikit-hep/uproot-methods;17;14/05/2020;11;15;14;23;23;20;16;63;6;https://libraries.io/pypi/uproot-methods;10;3;10
-twitter-common-app;420827;https://github.com/twitter/commons;1929;07/12/2019;14;3474;;;;;91;;;https://libraries.io/pypi/twitter.common.app;12;0;29
+twitter-common-app;420827;https://github.com/twitter-archive/commons;1929;07/12/2019;14;3474;;;;;91;;;https://libraries.io/pypi/twitter.common.app;12;0;29
 hunspell;420777;http://github.com/blatinier/pyhunspell;143;13/01/2019;1;171;23;32;32;89;;;;https://libraries.io/pypi/hunspell;11;0;6
 qiniu;420565;https://github.com/qiniu/python-sdk;486;21/08/2020;7;66;5;124;100;136;43;1924;61;https://libraries.io/pypi/qiniu;17;23;396
 edx-django-release-util;420243;http://github.com/edx/edx-django-release-util;5;21/07/2020;1;73;0;1;1;1;16;;;https://libraries.io/pypi/edx-django-release-util;12;0;44

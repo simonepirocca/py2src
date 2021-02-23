@@ -25,3 +25,77 @@ Metadata 66% URLs: 336, PyPI 66% URLs: 60, OSSGadget 66% URLs: 388
 Metadata NOT 66% URLs: 56, PyPI NOT 66% URLs: 332, OSSGadget NOT 66% URLs: 4
 Metadata NOT (NOT EMPTY) 66% URLs: 7, PyPI NOT (NOT EMPTY) 66% URLs: 69, OSSGadget NOT (NOT EMPTY) 66% URLs: 3
 Metadata 33% URLs: 65, PyPI 33% URLs: 25, OSSGadget 33% URLs: 117
+Metadata NOT 33% URLs: 4, PyPI NOT 33% URLs: 23, OSSGadget NOT 33% URLs: 0
+
+------------------------------------------
+WITH ALL 4000 PACKAGES
+Total packages: 4000, Useless rows: 542
+Metadata URLs: 3355, PyPI URLs: 3114, OSSGadget URLs: 3466
+Different URLs: 669 (201 not empty)
+Different useless URLs: 542 (78 not empty)
+Accuracy 0%: 468, Accuracy 33%: 189, Accuracy 66%: 452, Accuracy 100%: 2891
+Metadata 66% URLs: 390, PyPI 66% URLs: 66, OSSGadget 66% URLs: 448
+Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4
+Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3
+Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124
+Metadata NOT 33% URLs: 4, PyPI NOT 33% URLs: 30, OSSGadget NOT 33% URLs: 0
+
+METRICS (out of 4000 packages)
+No match: 10            ( 0.25%)
+1 metric match: 3990    (99.75%)
+2 metrics match: 3463   (86.57%)
+3 metrics match: 3022   (75.55%)
+4 metrics match: 2307   (57.67%)
+5 metrics match: 1422   (35.55%)
+6 metrics match: 710    (17.75%)
+7 metrics match: 79     ( 1.97%)
+
+High Python lang. perc.: 3141         (78.52%)
+Statistics: 3107                      (77.67%)
+Package name Lev. distance 0: 2418    (60.45%)
+Low descriptions Lev. distance: 2051  (51.27%)
+PyPI badge: 1510                      (37.75%)
+GitHub/Travis badge: 1492             (37.30%)
+Package name SUB: 998                 (24.95%)
+Readthedocs.io: 276                   ( 6.90%)
+--------------------------------------------
+AFTER FIXING WRONG URLS
+
+Total packages: 4000, Useless rows: 542
+Metadata URLs: 3355, PyPI URLs: 3114, OSSGadget URLs: 3466
+Different URLs: 669 (197 not empty)
+Different useless URLs: 542 (77 not empty)
+Accuracy 0%: 468, Accuracy 33%: 189, Accuracy 66%: 452, Accuracy 100%: 2891
+Metadata 66% URLs: 390, PyPI 66% URLs: 66, OSSGadget 66% URLs: 448
+Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4
+Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3
+Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124
+Metadata NOT 33% URLs: 3, PyPI NOT 33% URLs: 31, OSSGadget NOT 33% URLs: 0
+
+TP/FP (metadata, pypi, ossgadget)
+Empty: [645 (16.12%), 886 (22.15%), 534 (13.35%)]
+True Positives: [3343 (99.64%), 2960 (95.05%), 3430 (98.96%)]
+False Positives: [12 (0.36%), 154 (4.95%), 36 (1.04%)] 
+TP/FP: [278, 19, 95]
+True Positives unique not empty: [61, 1, 0]
+False Positives other not empty: [12, 151, 36]
+False positives other right: [12, 150, 19]
+
+METRICS (out of 4000 packages)
+No match: 7             ( 0.17%)
+1 metric match: 3993    (99.83%)
+2 metrics match: 3477   (86.92%)
+3 metrics match: 3031   (75.77%)
+4 metrics match: 2309   (57.72%)
+5 metrics match: 1422   (35.55%)
+6 metrics match: 710    (17.75%)
+7 metrics match: 79     ( 1.97%)
+
+High Python lang. perc.: 3144         (78.60%)
+Statistics: 3108                      (77.70%)
+Package name Lev. distance 0: 2408    (60.20%)
+Low descriptions Lev. distance: 2061  (51.52%)
+PyPI badge: 1512                      (37.80%)
+GitHub/Travis badge: 1492             (37.30%)
+Package name SUB: 1019                (25.47%)
+Readthedocs.io: 277                   ( 6.92%)

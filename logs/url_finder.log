@@ -11,6 +11,23 @@
 2021-02-01 10:04:09,095 - 93 - INFO     $ URL: https://github.com/urllib3/urllib3, Real URL: https://github.com/urllib3/urllib3 $ <module>
 2020-12-29 08:59:53,532 - 58 - INFO     $ Package name: urllib3 --> GitHub url: https://github.com/urllib3/urllib3 (Accuracy: 100%) $ <module>
 
+2021-02-17 16:19:35,056 - 103 - INFO     $ Final URL: https://github.com/urllib3/urllib3, Stat URL: True $ <module>
+2021-02-17 16:19:35,963 - 112 - INFO     $ Final URL: https://github.com/pythoncharmers/python-future, Stat URL: False $ <module>
+2021-02-17 16:19:37,097 - 119 - INFO     $ Description: UNKNOWN $ <module>
+2021-02-17 16:19:37,929 - 128 - INFO     $ Description: Six is a Python 2 and 3 compatibility library.  It provides utility functionsfor smoothing over the differences between the Python versions with the goal ofwriting Python code that is compatible on both Python versions.  See thedocumentation for more information on what is provided.Six supports Python 2.7 and 3.3+.  It is contained in only one Pythonfile, so it can be easily copied into your project. (The copyright and licensenotice must be retained.)Online documentation is at https://six.readthedocs.io/.Bugs can be reported to https://github.com/benjaminp/six.  The code can alsobe found there. $ <module>
+2021-02-17 16:19:40,258 - 137 - INFO     $ Readthedocs link: True $ <module>
+2021-02-17 16:19:40,948 - 146 - INFO     $ Readthedocs link: False $ <module>
+2021-02-17 16:19:42,391 - 155 - INFO     $ GitHub badge: True $ <module>
+2021-02-17 16:19:43,351 - 164 - INFO     $ Travis badge: True $ <module>
+2021-02-17 16:19:44,059 - 173 - INFO     $ GitHub badge: False $ <module>
+2021-02-17 16:19:44,906 - 182 - INFO     $ PyPI badge: True $ <module>
+2021-02-17 16:19:45,914 - 191 - INFO     $ PyPI badge: False $ <module>
+2021-02-17 16:19:46,571 - 200 - INFO     $ Python language: 99.8% $ <module>
+2021-02-17 16:19:47,185 - 209 - INFO     $ Python language: 16.3% $ <module>
+2021-02-17 16:19:48,050 - 218 - INFO     $ Python language: 0% $ <module>
+2021-02-17 16:19:48,784 - 227 - INFO     $ Python language: 0% $ <module>
+
+------------------------------------------------ END URL FINDER TESTS -------------------------------------------------------------------
 
 2021-01-25 16:31:34,455 - 98 - INFO     $ 1065. Redirection: pypi URL https://github.comgithub.com/knio/dominate --> https://github.com/knio/dominate $ <module>
 2021-01-25 16:31:34,456 - 100 - INFO     $ 1065. Accuracy changed from 66% to 100% $ <module>
@@ -125,3 +142,1086 @@
 
 ***2021-02-16 15:21:51,503 - 39 - INFO     $ ['hypercorn', 'https://github.com/python-hyper/h11', 'False', '', 'https://github.com/python-hyper/h11', 'https://github.com/python-hyper/hyper-h2', 'https://github.com/python-hyper/hyper-h2', '33%', 'True'] $ <module>
 (not found, is't on GitLab: https://gitlab.com/pgjones/hypercorn/)
+
+
+2021-02-16 17:52:09,893 - 67 - INFO     $ --------------------------------------------------------------------------------------------------------------------- $ <module>
+2021-02-16 17:52:09,893 - 68 - INFO     $ Package name: google-auth, URL package name: google-auth-library-python $ <module>
+2021-02-16 17:52:09,893 - 69 - INFO     $ Lev distance: 15, Similarity: Substring $ <module>
+2021-02-16 17:52:09,893 - 67 - INFO     $ --------------------------------------------------------------------------------------------------------------------- $ <module>
+2021-02-16 17:52:09,894 - 68 - INFO     $ Package name: google-api-core, URL package name: python-api-core $ <module>
+2021-02-16 17:52:09,894 - 69 - INFO     $ Lev distance: 6, Similarity: Different $ <module>
+2021-02-16 17:52:09,894 - 67 - INFO     $ --------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-17 11:48:42,937 - 96 - INFO     $ Package name: urllib3, URL: https://github.com/urllib3/urllib3, Distance: 26 $ <module>
+2021-02-17 11:48:43,532 - 96 - INFO     $ Package name: six, URL: https://github.com/benjaminp/six, Distance: 2 $ <module>
+
+2021-02-17 11:51:10,296 - 96 - INFO     $ Package name: pytz, URL: https://github.com/stub42/pytz, Package name distance: 0/4, Description distance: 1055/1500 $ <module>
+
+
+2021-02-17 14:14:37,501 - 114 - INFO     $ Package name: urllib3, Readthedocs: True $ <module>
+2021-02-17 14:14:39,338 - 114 - INFO     $ Package name: six, Readthedocs: True $ <module>
+2021-02-17 14:14:41,358 - 114 - INFO     $ Package name: botocore, Readthedocs: False $ <module>
+2021-02-17 14:14:46,976 - 114 - INFO     $ Package name: python-dateutil, Readthedocs: False $ <module>
+
+
+
+2021-02-17 15:02:14,416 - 118 - INFO     $ Package name: urllib3, GitHub badge: False $ <module>
+2021-02-17 15:02:15,690 - 118 - INFO     $ Package name: six, GitHub badge: True $ <module>
+2021-02-17 15:02:17,401 - 118 - INFO     $ Package name: botocore, GitHub badge: True $ <module>
+2021-02-17 15:02:19,151 - 118 - INFO     $ Package name: requests, GitHub badge: False $ <module>
+
+
+
+2021-02-17 15:21:52,273 - 123 - INFO     $ Package name: urllib3, GitHub URL: https://github.com/urllib3/urllib3, PyPI badge: True $ <module>
+2021-02-17 15:21:53,923 - 123 - INFO     $ Package name: six, GitHub URL: https://github.com/benjaminp/six, PyPI badge: False $ <module>
+2021-02-17 15:21:56,104 - 123 - INFO     $ Package name: botocore, GitHub URL: https://github.com/boto/botocore, PyPI badge: False $ <module>
+2021-02-17 15:21:59,407 - 123 - INFO     $ Package name: requests, GitHub URL: https://github.com/psf/requests, PyPI badge: True $ <module>
+2021-02-17 15:22:02,702 - 123 - INFO     $ Package name: python-dateutil, GitHub URL: https://github.com/dateutil/dateutil, PyPI badge: False $ <module>
+2021-02-17 15:22:05,491 - 123 - INFO     $ Package name: certifi, GitHub URL: https://github.com/certifi/python-certifi, PyPI badge: False $ <module>
+
+2021-02-17 15:28:34,261 - 123 - INFO     $ Package name: urllib3, GitHub URL: https://github.com/urllib3/urllib3, PyPI badge: True $ <module>
+2021-02-17 15:28:35,895 - 123 - INFO     $ Package name: six, GitHub URL: https://github.com/benjaminp/six, PyPI badge: True $ <module>
+2021-02-17 15:28:38,041 - 123 - INFO     $ Package name: botocore, GitHub URL: https://github.com/boto/botocore, PyPI badge: False $ <module>
+
+
+
+
+2021-02-18 13:57:53,967 - 156 - INFO     $ ------------------------------------- rows 1-500 (True rows: 3) ---------------------------------------------------------- $ <module>
+2021-02-18 13:57:53,967 - 157 - INFO     $ Package name Lev. distance 0: 289, Package name SUB: 127, Statistics: 381, Low descriptions Lev. distance: 271 $ <module>
+2021-02-18 13:57:53,967 - 158 - INFO     $ Readthedocs.io: 49, GitHub/Travis badge: 155, PyPI badge: 82, High Python lang. perc.: 398 $ <module>
+2021-02-18 13:57:53,967 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-18 14:16:42,556 - 156 - INFO     $ ------------------------------------- rows 501-1000 (True rows: 0) ---------------------------------------------------------- $ <module>
+2021-02-18 14:16:42,556 - 157 - INFO     $ Package name Lev. distance 0: 276, Package name SUB: 110, Statistics: 344, Low descriptions Lev. distance: 217 $ <module>
+2021-02-18 14:16:42,556 - 158 - INFO     $ Readthedocs.io: 30, GitHub/Travis badge: 130, PyPI badge: 58, High Python lang. perc.: 374 $ <module>
+2021-02-18 14:16:42,556 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-18 15:01:49,433 - 156 - INFO     $ ------------------------------------- rows 1001-1500 (True rows: 1) ---------------------------------------------------------- $ <module>
+2021-02-18 15:01:49,433 - 157 - INFO     $ Package name Lev. distance 0: 303, Package name SUB: 131, Statistics: 270, Low descriptions Lev. distance: 212 $ <module>
+2021-02-18 15:01:49,433 - 158 - INFO     $ Readthedocs.io: 29, GitHub/Travis badge: 112, PyPI badge: 49, High Python lang. perc.: 285 $ <module>
+2021-02-18 15:01:49,434 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-18 15:18:51,007 - 156 - INFO     $ ------------------------------------- rows 1501-2000 (True rows: 1) ---------------------------------------------------------- $ <module>
+2021-02-18 15:18:51,007 - 157 - INFO     $ Package name Lev. distance 0: 306, Package name SUB: 115, Statistics: 292, Low descriptions Lev. distance: 230 $ <module>
+2021-02-18 15:18:51,007 - 158 - INFO     $ Readthedocs.io: 24, GitHub/Travis badge: 117, PyPI badge: 49, High Python lang. perc.: 309 $ <module>
+2021-02-18 15:18:51,007 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-18 15:32:10,368 - 156 - INFO     $ ------------------------------------- rows 2001-2500 (True rows: 0) ---------------------------------------------------------- $ <module>
+2021-02-18 15:32:10,368 - 157 - INFO     $ Package name Lev. distance 0: 325, Package name SUB: 116, Statistics: 255, Low descriptions Lev. distance: 206 $ <module>
+2021-02-18 15:32:10,368 - 158 - INFO     $ Readthedocs.io: 20, GitHub/Travis badge: 106, PyPI badge: 26, High Python lang. perc.: 274 $ <module>
+2021-02-18 15:32:10,368 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-20 10:29:38,910 - 156 - INFO     $ ------------------------------------- rows 2501-3000 (True rows: 0) ---------------------------------------------------------- $ <module>
+2021-02-20 10:29:38,910 - 157 - INFO     $ Package name Lev. distance 0: 286, Package name SUB: 155, Statistics: 365, Low descriptions Lev. distance: 216 $ <module>
+2021-02-20 10:29:38,910 - 158 - INFO     $ Readthedocs.io: 16, GitHub/Travis badge: 132, PyPI badge: 37, High Python lang. perc.: 338 $ <module>
+2021-02-20 10:29:38,910 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-20 10:49:50,461 - 156 - INFO     $ ------------------------------------- rows 3001-3500 (True rows: 0) ---------------------------------------------------------- $ <module>
+2021-02-20 10:49:50,461 - 157 - INFO     $ Package name Lev. distance 0: 320, Package name SUB: 117, Statistics: 350, Low descriptions Lev. distance: 229 $ <module>
+2021-02-20 10:49:50,462 - 158 - INFO     $ Readthedocs.io: 22, GitHub/Travis badge: 132, PyPI badge: 53, High Python lang. perc.: 324 $ <module>
+2021-02-20 10:49:50,462 - 159 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-20 11:06:03,682 - 156 - INFO     $ ------------------------------------- rows 3501-4000 (True rows: 0) ---------------------------------------------------------- $ <module>
+2021-02-20 11:06:03,682 - 157 - INFO     $ Package name Lev. distance 0: 313, Package name SUB: 127, Statistics: 382, Low descriptions Lev. distance: 250 $ <module>
+2021-02-20 11:06:03,683 - 158 - INFO     $ Readthedocs.io: 40, GitHub/Travis badge: 155, PyPI badge: 41, High Python lang. perc.: 372 $ <module>
+
+
+
+
+2021-02-22 18:34:24,689 - 183 - INFO     $ 30. Package name: attrs, GitHub URL: https://github.com/python-attrs/attrs, Statistics: https://github.com/sponsors/hynek, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 18:34:24,689 - 184 - INFO     $  GitHub badge: True, PyPI badge: False $ <module>
+2021-02-22 18:34:24,689 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:37:28,274 - 183 - INFO     $ 68. Package name: google-cloud-storage, GitHub URL: https://github.com/googleapis/python-storage, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:37:28,274 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 18:37:28,274 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:38:41,112 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-22 18:39:18,886 - 183 - INFO     $ 114. Package name: azure-common, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:39:18,886 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:39:18,886 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:39:44,461 - 183 - INFO     $ 122. Package name: azure-storage-blob, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:39:44,462 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:39:44,462 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:40:17,651 - 183 - INFO     $ 137. Package name: google-cloud-bigquery, GitHub URL: https://github.com/googleapis/python-bigquery, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 18:40:17,651 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 18:40:17,651 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:43:30,408 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-22 18:44:44,340 - 183 - INFO     $ 221. Package name: ansible, GitHub URL: https://github.com/ansible/ansible, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:44:44,340 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/ansible-core $ <module>
+2021-02-22 18:44:44,340 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:44:48,126 - 183 - INFO     $ 222. Package name: gitdb2, GitHub URL: https://github.com/gitpython-developers/gitdb, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:44:48,126 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/gitdb $ <module>
+2021-02-22 18:44:48,126 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:45:15,402 - 183 - INFO     $ 230. Package name: azure-nspkg, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:45:15,402 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:45:15,402 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:45:29,626 - 183 - INFO     $ 234. Package name: ruamel-yaml, GitHub URL: https://github.com/pypa/setuptools, Statistics: False, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 18:45:29,626 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/setuptools $ <module>
+2021-02-22 18:45:29,626 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:46:21,754 - 183 - INFO     $ 247. Package name: azure-core, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:46:21,754 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:46:21,754 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:46:23,996 - 183 - INFO     $ 248. Package name: marshmallow, GitHub URL: https://github.com/marshmallow-code/marshmallow, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 18:46:23,996 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 18:46:23,996 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:46:38,603 - 183 - INFO     $ 253. Package name: slackclient, GitHub URL: https://github.com/slackapi/python-slackclient, Statistics: True, Readthedocs.io: https://github.com/aio-libs/aiohttp  $ <module>
+2021-02-22 18:46:38,603 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/slack-sdk $ <module>
+2021-02-22 18:46:38,603 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:46:56,126 - 183 - INFO     $ 258. Package name: pytest-runner, GitHub URL: https://github.com/pytest-dev/pytest-runner, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:46:56,126 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 18:46:56,126 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:47:27,688 - 183 - INFO     $ 266. Package name: pandas-gbq, GitHub URL: https://github.com/pydata/pandas-gbq, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 18:47:27,688 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 18:47:27,688 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:48:54,653 - 183 - INFO     $ 295. Package name: google-cloud-pubsub, GitHub URL: https://github.com/googleapis/python-pubsub, Statistics: True, Readthedocs.io: https://github.com/googleapis/google-auth-library-python  $ <module>
+2021-02-22 18:48:54,653 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 18:48:54,653 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:49:03,920 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-22 18:49:10,588 - 183 - INFO     $ 303. Package name: tox, GitHub URL: https://github.com/tox-dev/tox, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 18:49:10,588 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 18:49:10,588 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:49:46,724 - 183 - INFO     $ 312. Package name: azure-mgmt-resource, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:49:46,725 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:49:46,725 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:50:25,592 - 183 - INFO     $ 322. Package name: azure-mgmt-storage, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:50:25,592 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:50:25,592 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:52:14,093 - 183 - INFO     $ 349. Package name: google-cloud-datastore, GitHub URL: https://github.com/googleapis/python-datastore, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:52:14,093 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 18:52:14,093 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:52:23,003 - 183 - INFO     $ 351. Package name: execnet, GitHub URL: https://github.com/python/black, Statistics: False, Readthedocs.io: https://github.com/pytest-dev/pytest-xdist  $ <module>
+2021-02-22 18:52:23,004 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/black $ <module>
+2021-02-22 18:52:23,004 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:52:45,253 - 183 - INFO     $ 356. Package name: google-cloud-bigtable, GitHub URL: https://github.com/googleapis/python-bigtable, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 18:52:45,254 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 18:52:45,254 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:53:00,330 - 183 - INFO     $ 360. Package name: azure-mgmt-containerregistry, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:53:00,331 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:53:00,331 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:53:25,548 - 183 - INFO     $ 366. Package name: azure-mgmt-keyvault, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:53:25,548 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:53:25,548 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:54:40,810 - 183 - INFO     $ 397. Package name: azure-mgmt-nspkg, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:54:40,811 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:54:40,811 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:54:47,995 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-22 18:54:54,825 - 183 - INFO     $ 401. Package name: azure-mgmt-authorization, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:54:54,825 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:54:54,825 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:55:03,809 - 183 - INFO     $ 402. Package name: azure-graphrbac, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:55:03,809 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:55:03,809 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:55:19,936 - 183 - INFO     $ 409. Package name: python-levenshtein, GitHub URL: https://github.com/ztane/python-levenshtein, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:55:19,937 - 184 - INFO     $  GitHub badge: https://github.com/pickhardt/maintainers-wanted, PyPI badge: False $ <module>
+2021-02-22 18:55:19,937 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:55:55,006 - 183 - INFO     $ 416. Package name: azure-storage-queue, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:55:55,006 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:55:55,006 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:56:07,696 - 183 - INFO     $ 418. Package name: azure-mgmt-compute, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:56:07,696 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:56:07,696 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:56:28,472 - 183 - INFO     $ 425. Package name: azure-keyvault, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:56:28,472 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:56:28,472 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:56:32,652 - 183 - INFO     $ 426. Package name: netifaces, GitHub URL: https://github.com/al45tair/netifaces, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:56:32,652 - 184 - INFO     $  GitHub badge: https://github.com/al45tair/dmgbuild, PyPI badge: False $ <module>
+2021-02-22 18:56:32,652 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:56:58,365 - 183 - INFO     $ 435. Package name: azure-mgmt-network, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:56:58,365 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:56:58,365 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:58:23,661 - 183 - INFO     $ 450. Package name: google-cloud, GitHub URL: https://github.com/googleapis/google-cloud-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:58:23,661 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/google-cloud-webrisk $ <module>
+2021-02-22 18:58:23,661 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:58:55,581 - 183 - INFO     $ 455. Package name: azure-mgmt-sql, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:58:55,581 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:58:55,581 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:59:13,314 - 183 - INFO     $ 458. Package name: azure-mgmt-datalake-nspkg, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:59:13,315 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:59:13,315 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:59:46,507 - 183 - INFO     $ 464. Package name: azure-mgmt-rdbms, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:59:46,507 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:59:46,507 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 18:59:53,335 - 183 - INFO     $ 465. Package name: azure-batch, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 18:59:53,335 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 18:59:53,335 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:00:38,424 - 183 - INFO     $ 476. Package name: azure-mgmt-datalake-store, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:00:38,425 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:00:38,425 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:00:48,387 - 183 - INFO     $ 479. Package name: azure-mgmt-batch, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:00:48,387 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:00:48,387 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:00:55,254 - 183 - INFO     $ 480. Package name: azure-mgmt-cdn, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:00:55,254 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:00:55,254 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:01:10,036 - 183 - INFO     $ 484. Package name: azure-mgmt-cosmosdb, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:01:10,036 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:01:10,036 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:01:58,288 - 183 - INFO     $ 497. Package name: azure-storage, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:01:58,288 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:01:58,288 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:02:04,591 - 183 - INFO     $ 498. Package name: azure-mgmt-web, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:02:04,591 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:02:04,591 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:02:09,210 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-22 19:02:09,210 - 192 - INFO     $ ---------------------------------- rows 1-500 (True rows: 0, At least one metrics: 499) ---------------------------------- $ <module>
+2021-02-22 19:02:09,210 - 193 - INFO     $ Package name Lev. distance 0: 289, Package name SUB: 127, Statistics: 383, Low descriptions Lev. distance: 311 $ <module>
+2021-02-22 19:02:09,210 - 194 - INFO     $ Readthedocs.io: 49, GitHub/Travis badge: 202, PyPI badge: 199, High Python lang. perc.: 400 $ <module>
+2021-02-22 19:02:09,210 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+
+2021-02-22 19:03:41,536 - 183 - INFO     $ 501. Package name: pika, GitHub URL: https://github.com/invl/retry, Statistics: False, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 19:03:41,537 - 184 - INFO     $  GitHub badge: https://github.com/pika/pika, PyPI badge: https://pypi.org/project/retry $ <module>
+2021-02-22 19:03:41,537 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:04:04,217 - 183 - INFO     $ 505. Package name: azure-mgmt-containerservice, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:04:04,217 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:04:04,217 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:04:10,344 - 183 - INFO     $ 506. Package name: azure-mgmt-monitor, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:04:10,344 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:04:10,354 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:04:49,686 - 183 - INFO     $ 515. Package name: azure-servicebus, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:04:49,686 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:04:49,686 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:04:56,412 - 183 - INFO     $ 516. Package name: azure-mgmt-datalake-analytics, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:04:56,412 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:04:56,412 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:05:03,420 - 183 - INFO     $ 518. Package name: pep8, GitHub URL: https://github.com/pycqa/pep8, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-22 19:05:03,420 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/pycodestyle $ <module>
+2021-02-22 19:05:03,421 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:05:19,997 - 183 - INFO     $ 522. Package name: azure-mgmt-dns, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:05:19,998 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:05:19,998 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:05:26,829 - 183 - INFO     $ 523. Package name: azure-mgmt-devtestlabs, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:05:26,829 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:05:26,829 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:06:04,625 - 183 - INFO     $ 531. Package name: azure-mgmt-redis, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:06:04,625 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:06:04,625 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:06:14,685 - 183 - INFO     $ 533. Package name: azure-mgmt-iothub, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:06:14,685 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:06:14,685 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:06:30,338 - 183 - INFO     $ 536. Package name: google-cloud-spanner, GitHub URL: https://github.com/googleapis/python-spanner, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:06:30,338 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:06:30,338 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:06:55,432 - 183 - INFO     $ 541. Package name: preshed, GitHub URL: https://github.com/explosion/preshed, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:06:55,432 - 184 - INFO     $  GitHub badge: https://github.com/explosion/wheelwright, PyPI badge: True $ <module>
+2021-02-22 19:06:55,432 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:07:06,970 - 183 - INFO     $ 542. Package name: azure-mgmt-cognitiveservices, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:07:06,970 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:07:06,970 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:07:29,846 - 183 - INFO     $ 544. Package name: azure-mgmt-trafficmanager, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:07:29,846 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:07:29,846 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:07:46,348 - 183 - INFO     $ 546. Package name: azure-mgmt-containerinstance, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:07:46,348 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:07:46,348 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:08:06,612 - 183 - INFO     $ 551. Package name: murmurhash, GitHub URL: https://github.com/explosion/murmurhash, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:08:06,612 - 184 - INFO     $  GitHub badge: https://github.com/explosion/wheelwright, PyPI badge: True $ <module>
+2021-02-22 19:08:06,612 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:08:26,431 - 183 - INFO     $ 553. Package name: azure-mgmt-eventhub, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:08:26,431 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:08:26,431 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:08:59,982 - 183 - INFO     $ 559. Package name: azure-mgmt-loganalytics, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:08:59,982 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:08:59,982 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:03,073 - 183 - INFO     $ 560. Package name: cymem, GitHub URL: https://github.com/explosion/cymem, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:03,074 - 184 - INFO     $  GitHub badge: https://github.com/explosion/wheelwright, PyPI badge: True $ <module>
+2021-02-22 19:09:03,074 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:12,470 - 183 - INFO     $ 563. Package name: azure-mgmt-recoveryservicesbackup, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:12,470 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:09:12,470 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:24,000 - 183 - INFO     $ 565. Package name: azure-mgmt-applicationinsights, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:24,000 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:09:24,000 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:42,073 - 183 - INFO     $ 570. Package name: azure-mgmt-media, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:42,074 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:09:42,074 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:50,144 - 183 - INFO     $ 571. Package name: azure-mgmt-reservations, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:50,144 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:09:50,144 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:09:57,270 - 183 - INFO     $ 572. Package name: azure-mgmt-servicefabric, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:09:57,270 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:09:57,270 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:03,355 - 183 - INFO     $ 573. Package name: azure-mgmt-servicebus, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:03,355 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:10:03,355 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:12,175 - 183 - INFO     $ 574. Package name: azure-mgmt-recoveryservices, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:12,175 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:10:12,175 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:22,287 - 183 - INFO     $ 576. Package name: azure-mgmt-marketplaceordering, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:22,287 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:10:22,288 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:27,430 - 183 - INFO     $ 578. Package name: discord, GitHub URL: https://github.com/rapptz/discord.py, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:27,430 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/discord.py $ <module>
+2021-02-22 19:10:27,438 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:34,421 - 183 - INFO     $ 579. Package name: azure-mgmt-search, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:34,421 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:10:34,421 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:10:42,269 - 183 - INFO     $ 580. Package name: azure-mgmt-eventgrid, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:10:42,269 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:10:42,269 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:02,172 - 183 - INFO     $ 583. Package name: azure-mgmt-iothubprovisioningservices, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:02,172 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:02,172 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:08,539 - 183 - INFO     $ 584. Package name: azure-mgmt-msi, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:08,539 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:08,548 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:16,056 - 183 - INFO     $ 585. Package name: azure-mgmt-advisor, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:16,056 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:16,056 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:22,383 - 183 - INFO     $ 586. Package name: azure-mgmt-batchai, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:22,383 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:22,383 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:30,241 - 183 - INFO     $ 588. Package name: azure-mgmt-billing, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:30,241 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:30,241 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:37,613 - 183 - INFO     $ 589. Package name: azure-mgmt-consumption, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:37,613 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:37,613 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:39,552 - 183 - INFO     $ 590. Package name: google-cloud-monitoring, GitHub URL: https://github.com/googleapis/python-monitoring, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:39,552 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:11:39,552 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:49,699 - 183 - INFO     $ 593. Package name: azure-mgmt-relay, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:49,699 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:49,700 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:11:56,163 - 183 - INFO     $ 594. Package name: azure-mgmt-iotcentral, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:11:56,164 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:11:56,164 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:12:14,497 - 183 - INFO     $ 598. Package name: blis, GitHub URL: https://github.com/explosion/cython-blis, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:12:14,497 - 184 - INFO     $  GitHub badge: https://github.com/explosion/wheelwright, PyPI badge: True $ <module>
+2021-02-22 19:12:14,497 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:12:39,695 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-22 19:13:01,295 - 183 - INFO     $ 606. Package name: azure-mgmt-policyinsights, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:13:01,296 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:13:01,296 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:13:33,857 - 183 - INFO     $ 615. Package name: azure-mgmt-signalr, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:13:33,857 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:13:33,857 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:13:58,095 - 183 - INFO     $ 621. Package name: azure-mgmt-managementgroups, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:13:58,095 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:13:58,095 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:14:18,496 - 183 - INFO     $ 623. Package name: azure-mgmt-datamigration, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:14:18,496 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:14:18,496 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:14:37,761 - 183 - INFO     $ 627. Package name: wasabi, GitHub URL: https://github.com/explosion/thinc, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-22 19:14:37,761 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: https://pypi.org/project/thinc $ <module>
+2021-02-22 19:14:37,761 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:14:52,004 - 183 - INFO     $ 629. Package name: azure-mgmt-maps, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:14:52,004 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:14:52,004 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:16:12,888 - 183 - INFO     $ 652. Package name: google-cloud-firestore, GitHub URL: https://github.com/googleapis/python-firestore, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:16:12,888 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:16:12,888 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:16:55,859 - 183 - INFO     $ 667. Package name: azure-loganalytics, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:16:55,860 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:16:55,860 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:17:10,534 - 183 - INFO     $ 670. Package name: azure-mgmt-datafactory, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:17:10,534 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:17:10,534 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:17:19,776 - 183 - INFO     $ 672. Package name: azure-servicefabric, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:17:19,777 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:17:19,777 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:17:39,752 - 183 - INFO     $ 675. Package name: azure-servicemanagement-legacy, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:17:39,752 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:17:39,752 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:18:07,321 - 183 - INFO     $ 681. Package name: azure-mgmt, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:18:07,321 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:18:07,321 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:18:14,211 - 183 - INFO     $ 683. Package name: azure-mgmt-logic, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:18:14,211 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:18:14,211 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:18:22,767 - 183 - INFO     $ 686. Package name: structlog, GitHub URL: https://github.com/hynek/structlog, Statistics: https://github.com/sponsors/hynek, Readthedocs.io: False  $ <module>
+2021-02-22 19:18:22,767 - 184 - INFO     $  GitHub badge: False, PyPI badge: False $ <module>
+2021-02-22 19:18:22,767 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:18:40,032 - 183 - INFO     $ 689. Package name: azure-mgmt-scheduler, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:18:40,032 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:18:40,032 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:19:16,327 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-22 19:19:23,467 - 183 - INFO     $ 701. Package name: azure-eventgrid, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:19:23,467 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:19:23,467 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:19:26,146 - 183 - INFO     $ 702. Package name: apispec, GitHub URL: https://github.com/marshmallow-code/apispec, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 19:19:26,146 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 19:19:26,146 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:19:53,475 - 183 - INFO     $ 710. Package name: marshmallow-sqlalchemy, GitHub URL: https://github.com/marshmallow-code/marshmallow-sqlalchemy, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 19:19:53,475 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 19:19:53,475 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:19:59,908 - 183 - INFO     $ 711. Package name: azure-mgmt-notificationhubs, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:19:59,908 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:19:59,908 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:06,570 - 183 - INFO     $ 712. Package name: azure-mgmt-subscription, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:06,570 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:06,570 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:14,793 - 183 - INFO     $ 713. Package name: azure-mgmt-managementpartner, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:14,793 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:14,793 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:29,376 - 183 - INFO     $ 717. Package name: azure-mgmt-commerce, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:29,376 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:29,377 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:35,750 - 183 - INFO     $ 718. Package name: azure-mgmt-powerbiembedded, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:35,750 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:35,750 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:43,900 - 183 - INFO     $ 719. Package name: azure-mgmt-hanaonazure, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:43,901 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:43,901 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:20:51,495 - 183 - INFO     $ 721. Package name: azure-mgmt-machinelearningcompute, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:20:51,495 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:20:51,495 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:21:29,095 - 183 - INFO     $ 724. Package name: tensorflow-gpu, GitHub URL: https://github.com/tensorflow/tensorflow, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:21:29,095 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/tensorflow $ <module>
+2021-02-22 19:21:29,095 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:21:53,849 - 183 - INFO     $ 734. Package name: azure-cli-core, GitHub URL: https://github.com/azure/azure-cli, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:21:53,849 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-cli $ <module>
+2021-02-22 19:21:53,849 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:22:17,318 - 183 - INFO     $ 741. Package name: google-cloud-vision, GitHub URL: https://github.com/googleapis/python-vision, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:22:17,318 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:22:17,318 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:24:28,604 - 183 - INFO     $ 775. Package name: azure-mgmt-devspaces, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:24:28,604 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:24:28,604 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:25:07,793 - 183 - INFO     $ 785. Package name: azure-applicationinsights, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:25:07,793 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:25:07,793 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:25:34,595 - 183 - INFO     $ 793. Package name: azure-cosmos, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:25:34,595 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:25:34,595 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:25:46,737 - 183 - INFO     $ 800. Package name: google-cloud-kms, GitHub URL: https://github.com/googleapis/python-kms, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:25:46,737 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:25:46,737 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:25:46,737 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-22 19:26:52,549 - 183 - INFO     $ 826. Package name: google-cloud-language, GitHub URL: https://github.com/googleapis/python-language, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:26:52,549 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:26:52,549 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:28:13,725 - 183 - INFO     $ 855. Package name: google-cloud-error-reporting, GitHub URL: https://github.com/googleapis/python-error-reporting, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:28:13,725 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:28:13,725 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:30:24,782 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-22 19:30:34,238 - 183 - INFO     $ 905. Package name: google-cloud-translate, GitHub URL: https://github.com/googleapis/python-translate, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:30:34,238 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:30:34,238 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:30:45,695 - 183 - INFO     $ 908. Package name: google-cloud-videointelligence, GitHub URL: https://github.com/googleapis/python-videointelligence, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:30:45,695 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:30:45,695 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:32:12,114 - 183 - INFO     $ 936. Package name: google-cloud-speech, GitHub URL: https://github.com/googleapis/python-speech, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:32:12,114 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 19:32:12,114 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:34:08,694 - 183 - INFO     $ 968. Package name: azure-identity, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:34:08,694 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 19:34:08,694 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:34:14,700 - 183 - INFO     $ 969. Package name: azure-cli-nspkg, GitHub URL: https://github.com/azure/azure-cli, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:34:14,700 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-cli $ <module>
+2021-02-22 19:34:14,700 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:34:36,443 - 183 - INFO     $ 976. Package name: azure-cli-telemetry, GitHub URL: https://github.com/azure/azure-cli, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 19:34:36,443 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-cli $ <module>
+2021-02-22 19:34:36,444 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:35:16,088 - 183 - INFO     $ 985. Package name: django-crispy-forms, GitHub URL: https://github.com/django-crispy-forms/django-crispy-forms, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 19:35:16,089 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: False $ <module>
+2021-02-22 19:35:16,089 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 19:36:05,171 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-22 19:36:05,171 - 192 - INFO     $ ---------------------------------- rows 501-1000 (True rows: 0, At least one metrics: 499) ---------------------------------- $ <module>
+2021-02-22 19:36:05,171 - 193 - INFO     $ Package name Lev. distance 0: 276, Package name SUB: 110, Statistics: 395, Low descriptions Lev. distance: 243 $ <module>
+2021-02-22 19:36:05,171 - 194 - INFO     $ Readthedocs.io: 38, GitHub/Travis badge: 194, PyPI badge: 191, High Python lang. perc.: 420 $ <module>
+2021-02-22 19:36:05,172 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-22 23:26:10,406 - 183 - INFO     $ 1010. Package name: opencensus-context, GitHub URL: https://github.com/census-instrumentation/opencensus-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:26:10,406 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/opencensus $ <module>
+2021-02-22 23:26:10,406 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:26:22,364 - 183 - INFO     $ 1016. Package name: webargs, GitHub URL: https://github.com/marshmallow-code/webargs, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 23:26:22,364 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 23:26:22,364 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:27:14,336 - 183 - INFO     $ 1034. Package name: google-cloud-dns, GitHub URL: https://github.com/googleapis/python-dns, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:27:14,337 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:27:14,337 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:27:37,656 - 183 - INFO     $ 1052. Package name: google-cloud-trace, GitHub URL: https://github.com/googleapis/python-trace, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:27:37,656 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:27:37,656 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:27:38,848 - 183 - INFO     $ 1053. Package name: google-cloud-resource-manager, GitHub URL: https://github.com/googleapis/python-resource-manager, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:27:38,848 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:27:38,848 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:28:15,258 - 183 - INFO     $ 1069. Package name: google-cloud-runtimeconfig, GitHub URL: https://github.com/googleapis/python-runtimeconfig, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:28:15,258 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:28:15,259 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:28:40,646 - 183 - INFO     $ 1077. Package name: azure-eventhub, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:28:40,647 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:28:40,647 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:28:48,420 - 183 - INFO     $ 1079. Package name: kafka, GitHub URL: https://github.com/dpkp/kafka-python, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 23:28:48,420 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/kafka-python $ <module>
+2021-02-22 23:28:48,420 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:29:50,660 - 183 - INFO     $ 1090. Package name: gcloud, GitHub URL: https://github.com/googlecloudplatform/gcloud-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:29:50,660 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/google-cloud-webrisk $ <module>
+2021-02-22 23:29:50,660 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:29:53,415 - 183 - INFO     $ 1091. Package name: flask-marshmallow, GitHub URL: https://github.com/marshmallow-code/flask-marshmallow, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-22 23:29:53,415 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-22 23:29:53,415 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:30:02,662 - 183 - INFO     $ 1093. Package name: azure-mgmt-hdinsight, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:30:02,662 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:30:02,662 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:30:18,485 - 183 - INFO     $ 1100. Package name: flake8-docstrings, GitHub URL: https://github.com/pycqa/pydocstyle, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-22 23:30:18,485 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/pydocstyle $ <module>
+2021-02-22 23:30:18,485 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:30:18,485 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-22 23:30:29,633 - 183 - INFO     $ 1105. Package name: google-cloud-container, GitHub URL: https://github.com/googleapis/python-container, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:30:29,633 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:30:29,633 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:32:17,084 - 183 - INFO     $ 1153. Package name: azure-mgmt-netapp, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:32:17,084 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:32:17,084 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:33:35,113 - 183 - INFO     $ 1193. Package name: google-cloud-dlp, GitHub URL: https://github.com/googleapis/python-dlp, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:33:35,114 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:33:35,114 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:33:40,348 - 183 - INFO     $ 1196. Package name: eli5, GitHub URL: https://github.com/teamhg-memex/eli5, Statistics: https://github.com/eli5-org/eli5, Readthedocs.io: True  $ <module>
+2021-02-22 23:33:40,348 - 184 - INFO     $  GitHub badge: https://github.com/eli5-org/eli5, PyPI badge: True $ <module>
+2021-02-22 23:33:40,356 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:33:52,256 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-22 23:35:26,596 - 183 - INFO     $ 1242. Package name: google-cloud-bigquery-datatransfer, GitHub URL: https://github.com/googleapis/python-bigquery-datatransfer, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:35:26,596 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:35:26,596 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:35:31,486 - 183 - INFO     $ 1243. Package name: vsts, GitHub URL: https://github.com/microsoft/azure-devops-python-api, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:35:31,486 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-devops $ <module>
+2021-02-22 23:35:31,486 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:35:42,869 - 183 - INFO     $ 1246. Package name: azure-mgmt-sqlvirtualmachine, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:35:42,869 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:35:42,869 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:36:12,846 - 183 - INFO     $ 1254. Package name: azure-mgmt-deploymentmanager, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:36:12,846 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:36:12,846 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:36:48,484 - 183 - INFO     $ 1265. Package name: azure-mgmt-appconfiguration, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:36:48,484 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:36:48,484 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:37:33,964 - 183 - INFO     $ 1288. Package name: path-py, GitHub URL: https://github.com/jaraco/path, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:37:33,965 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/path $ <module>
+2021-02-22 23:37:33,965 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:05,600 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-22 23:38:09,555 - 183 - INFO     $ 1302. Package name: brotlipy, GitHub URL: https://github.com/python-hyper/brotlicffi, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:09,555 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/brotlicffi $ <module>
+2021-02-22 23:38:09,563 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:16,420 - 183 - INFO     $ 1303. Package name: azure-mgmt-security, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:16,420 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:38:16,420 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:23,886 - 183 - INFO     $ 1304. Package name: locustio, GitHub URL: https://github.com/locustio/locust, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:23,886 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/locust $ <module>
+2021-02-22 23:38:23,886 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:35,179 - 183 - INFO     $ 1308. Package name: azure-mgmt-kusto, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:35,180 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:38:35,180 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:50,204 - 183 - INFO     $ 1315. Package name: azure-cli-command-modules-nspkg, GitHub URL: https://github.com/azure/azure-cli, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:50,204 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-cli $ <module>
+2021-02-22 23:38:50,204 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:38:57,041 - 183 - INFO     $ 1317. Package name: azure-mgmt-imagebuilder, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:38:57,041 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:38:57,041 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:39:09,821 - 183 - INFO     $ 1321. Package name: azure-mgmt-privatedns, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:39:09,821 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:39:09,821 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:39:21,116 - 183 - INFO     $ 1326. Package name: ninja, GitHub URL: https://github.com/scikit-build/ninja-python-distributions, Statistics: https://github.com/ninja-build/ninja, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-22 23:39:21,116 - 184 - INFO     $  GitHub badge: True, PyPI badge: True $ <module>
+2021-02-22 23:39:21,116 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:39:33,085 - 183 - INFO     $ 1329. Package name: azure-mgmt-botservice, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:39:33,086 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:39:33,086 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:39:39,036 - 183 - INFO     $ 1330. Package name: azure-mgmt-apimanagement, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:39:39,037 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:39:39,037 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:41:00,548 - 183 - INFO     $ 1345. Package name: libsass, GitHub URL: https://github.com/sass/libsass, Statistics: https://github.com/sass/libsass-python, Readthedocs.io: False  $ <module>
+2021-02-22 23:41:00,549 - 184 - INFO     $  GitHub badge: False, PyPI badge: False $ <module>
+2021-02-22 23:41:00,549 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:41:22,725 - 183 - INFO     $ 1352. Package name: python-openid, GitHub URL: https://github.com/openid/python-openid, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:41:22,725 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/python-openid2 $ <module>
+2021-02-22 23:41:22,725 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:41:31,471 - 183 - INFO     $ 1355. Package name: azure-mgmt-managedservices, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:41:31,472 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-22 23:41:31,472 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:43:34,218 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-22 23:43:55,206 - 183 - INFO     $ 1409. Package name: google-cloud-dataproc, GitHub URL: https://github.com/googleapis/python-dataproc, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:43:55,206 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:43:55,206 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:45:08,079 - 183 - INFO     $ 1444. Package name: google-cloud-tasks, GitHub URL: https://github.com/googleapis/python-tasks, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:45:08,079 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:45:08,079 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:46:39,161 - 183 - INFO     $ 1477. Package name: google-cloud-automl, GitHub URL: https://github.com/googleapis/python-automl, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-22 23:46:39,161 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-22 23:46:39,161 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-22 23:47:37,436 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-22 23:47:37,436 - 192 - INFO     $ ---------------------------------- rows 1001-1500 (True rows: 0, At least one metrics: 499) ---------------------------------- $ <module>
+2021-02-22 23:47:37,436 - 193 - INFO     $ Package name Lev. distance 0: 303, Package name SUB: 131, Statistics: 374, Low descriptions Lev. distance: 219 $ <module>
+2021-02-22 23:47:37,436 - 194 - INFO     $ Readthedocs.io: 45, GitHub/Travis badge: 184, PyPI badge: 199, High Python lang. perc.: 390 $ <module>
+2021-02-22 23:47:37,436 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 08:39:40,799 - 183 - INFO     $ 1513. Package name: allure-python-commons, GitHub URL: https://github.com/allure-framework/allure-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:39:40,799 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/allure-nose2 $ <module>
+2021-02-23 08:39:40,799 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:39:45,867 - 183 - INFO     $ 1514. Package name: platformio, GitHub URL: https://github.com/platformio/platformio-core, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 08:39:45,867 - 184 - INFO     $  GitHub badge: https://github.com/platformio/platformio-examples, PyPI badge: True $ <module>
+2021-02-23 08:39:45,868 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:40:24,315 - 183 - INFO     $ 1526. Package name: google-cloud-bigquery-storage, GitHub URL: https://github.com/googleapis/python-bigquery-storage, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 08:40:24,316 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 08:40:24,316 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:41:03,661 - 183 - INFO     $ 1544. Package name: sagemaker, GitHub URL: https://github.com/aws/sagemaker-python-sdk, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-23 08:41:03,661 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 08:41:03,661 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:42:59,431 - 183 - INFO     $ 1582. Package name: django-rest-framework, GitHub URL: https://github.com/encode/django-rest-framework, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 08:42:59,431 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/djangorestframework $ <module>
+2021-02-23 08:42:59,431 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:43:06,576 - 183 - INFO     $ 1584. Package name: graphql-server-core, GitHub URL: https://github.com/graphql-python/graphql-server-core, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:43:06,576 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/graphql-server $ <module>
+2021-02-23 08:43:06,576 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:43:13,635 - 183 - INFO     $ 1588. Package name: google-cloud-texttospeech, GitHub URL: https://github.com/googleapis/python-texttospeech, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:43:13,635 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 08:43:13,635 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:43:39,617 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-23 08:44:00,949 - 183 - INFO     $ 1606. Package name: opencensus-ext-azure, GitHub URL: https://github.com/census-instrumentation/opencensus-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:44:00,950 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/opencensus $ <module>
+2021-02-23 08:44:00,950 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:45:15,777 - 183 - INFO     $ 1632. Package name: azure-keyvault-secrets, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:45:15,777 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 08:45:15,777 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:46:39,247 - 183 - INFO     $ 1651. Package name: brewer2mpl, GitHub URL: https://github.com/jiffyclub/brewer2mpl, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:46:39,247 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/palettable $ <module>
+2021-02-23 08:46:39,247 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:47:13,172 - 183 - INFO     $ 1660. Package name: github3-py, GitHub URL: https://github.com/psf/requests, Statistics: False, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 08:47:13,172 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/requests $ <module>
+2021-02-23 08:47:13,172 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:47:42,824 - 183 - INFO     $ 1668. Package name: azure-storage-file-datalake, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:47:42,824 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 08:47:42,824 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:48:16,005 - 183 - INFO     $ 1677. Package name: ur-rtde, GitHub URL: https://github.com/pybind/pybind11, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 08:48:16,005 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/pybind11 $ <module>
+2021-02-23 08:48:16,005 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:48:28,045 - 183 - INFO     $ 1679. Package name: chart-studio, GitHub URL: https://github.com/plotly/ruby-api, Statistics: https://github.com/plotly/plotly.py, Readthedocs.io: False  $ <module>
+2021-02-23 08:48:28,045 - 184 - INFO     $  GitHub badge: False, PyPI badge: False $ <module>
+2021-02-23 08:48:28,045 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:49:59,700 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-23 08:57:49,601 - 183 - INFO     $ 1784. Package name: hacking, GitHub URL: https://github.com/jcrocholl/pep8, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 08:57:49,601 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/pycodestyle $ <module>
+2021-02-23 08:57:49,601 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:58:03,272 - 183 - INFO     $ 1789. Package name: django-tables2, GitHub URL: https://github.com/jieter/django-tables2, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 08:58:03,272 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 08:58:03,272 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 08:59:31,514 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-23 08:59:50,477 - 183 - INFO     $ 1807. Package name: fake-factory, GitHub URL: https://github.com/joke2k/faker, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 08:59:50,477 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/faker $ <module>
+2021-02-23 08:59:50,477 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:00:17,844 - 183 - INFO     $ 1816. Package name: google-cloud-secret-manager, GitHub URL: https://github.com/googleapis/python-secret-manager, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:00:17,845 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:00:17,845 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:01:50,891 - 183 - INFO     $ 1843. Package name: environs, GitHub URL: https://github.com/sloria/environs, Statistics: True, Readthedocs.io: https://github.com/marshmallow-code/marshmallow  $ <module>
+2021-02-23 09:01:50,891 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 09:01:50,891 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:01:58,672 - 183 - INFO     $ 1844. Package name: azure-mgmt-core, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:01:58,673 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 09:01:58,673 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:02:01,076 - 183 - INFO     $ 1845. Package name: google-cloud-redis, GitHub URL: https://github.com/googleapis/python-redis, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:02:01,076 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:02:01,076 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:02:36,392 - 183 - INFO     $ 1859. Package name: google-cloud-iam, GitHub URL: https://github.com/googleapis/python-iam, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:02:36,392 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:02:36,392 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:02:57,228 - 183 - INFO     $ 1865. Package name: google-cloud-asset, GitHub URL: https://github.com/googleapis/python-asset, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:02:57,228 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:02:57,228 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:03:52,850 - 183 - INFO     $ 1883. Package name: google-cloud-datacatalog, GitHub URL: https://github.com/googleapis/python-datacatalog, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:03:52,850 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:03:52,851 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:04:30,155 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-23 09:04:39,635 - 183 - INFO     $ 1902. Package name: google-cloud-scheduler, GitHub URL: https://github.com/googleapis/python-scheduler, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:04:39,635 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:04:39,635 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:05:53,122 - 183 - INFO     $ 1929. Package name: jaraco-classes, GitHub URL: https://github.com/jaraco/jaraco.classes, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:05:53,122 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/jaraco.ui $ <module>
+2021-02-23 09:05:53,122 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:06:15,559 - 183 - INFO     $ 1940. Package name: pytest-pep8, GitHub URL: https://github.com/jcrocholl/pep8, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 09:06:15,560 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/pycodestyle $ <module>
+2021-02-23 09:06:15,560 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:10:18,011 - 183 - INFO     $ 1990. Package name: google-cloud-securitycenter, GitHub URL: https://github.com/googleapis/python-securitycenter, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:10:18,012 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:10:18,012 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:10:38,678 - 183 - INFO     $ 1999. Package name: google-cloud-iot, GitHub URL: https://github.com/googleapis/python-iot, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:10:38,678 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:10:38,678 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:10:40,956 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-23 09:10:40,956 - 192 - INFO     $ ---------------------------------- rows 1501-2000 (True rows: 0, At least one metrics: 497) ---------------------------------- $ <module>
+2021-02-23 09:10:40,956 - 193 - INFO     $ Package name Lev. distance 0: 306, Package name SUB: 115, Statistics: 380, Low descriptions Lev. distance: 261 $ <module>
+2021-02-23 09:10:40,956 - 194 - INFO     $ Readthedocs.io: 28, GitHub/Travis badge: 184, PyPI badge: 199, High Python lang. perc.: 395 $ <module>
+2021-02-23 09:10:40,956 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:18:44,448 - 183 - INFO     $ 2011. Package name: netmiko, GitHub URL: https://github.com/ktbyers/netmiko, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:18:44,448 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 09:18:44,448 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:18:55,430 - 183 - INFO     $ 2016. Package name: google-cloud-talent, GitHub URL: https://github.com/googleapis/python-talent, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:18:55,430 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:18:55,430 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:19:00,421 - 183 - INFO     $ 2018. Package name: google-cloud-os-login, GitHub URL: https://github.com/googleapis/python-oslogin, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:19:00,421 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:19:00,421 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:19:18,371 - 183 - INFO     $ 2025. Package name: google-cloud-websecurityscanner, GitHub URL: https://github.com/googleapis/python-websecurityscanner, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:19:18,371 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: True $ <module>
+2021-02-23 09:19:18,371 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:19:32,099 - 183 - INFO     $ 2029. Package name: pem, GitHub URL: https://github.com/hynek/pem, Statistics: https://github.com/sponsors/hynek, Readthedocs.io: True  $ <module>
+2021-02-23 09:19:32,099 - 184 - INFO     $  GitHub badge: True, PyPI badge: False $ <module>
+2021-02-23 09:19:32,099 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:23:23,008 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-23 09:23:49,900 - 183 - INFO     $ 2106. Package name: azure-mgmt-redhatopenshift, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:23:49,900 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 09:23:49,900 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:26:59,787 - 183 - INFO     $ 2163. Package name: azure-keyvault-keys, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:26:59,788 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 09:26:59,788 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:27:20,581 - 183 - INFO     $ 2169. Package name: flask-debugtoolbar, GitHub URL: https://github.com/jazzband/django-debug-toolbar, Statistics: False, Readthedocs.io: True  $ <module>
+2021-02-23 09:27:20,581 - 184 - INFO     $  GitHub badge: https://github.com/flask-debugtoolbar/flask-debugtoolbar, PyPI badge: https://pypi.org/project/django-debug-toolbar $ <module>
+2021-02-23 09:27:20,581 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:29:09,835 - 183 - INFO     $ 2196. Package name: opencensus-ext-stackdriver, GitHub URL: https://github.com/census-instrumentation/opencensus-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:29:09,835 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/opencensus $ <module>
+2021-02-23 09:29:09,835 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:29:14,554 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-23 09:30:21,597 - 183 - INFO     $ 2217. Package name: codetiming, GitHub URL: https://github.com/realpython/codetiming, Statistics: True, Readthedocs.io: https://github.com/bitprophet/alabaster  $ <module>
+2021-02-23 09:30:21,597 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 09:30:21,597 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:33:29,536 - 183 - INFO     $ 2274. Package name: selinux, GitHub URL: https://github.com/pycontribs/selinux, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:33:29,536 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: False $ <module>
+2021-02-23 09:33:29,536 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:34:09,721 - 183 - INFO     $ 2285. Package name: cupy-cuda100, GitHub URL: https://github.com/cupy/cupy, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:34:09,721 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/cupy $ <module>
+2021-02-23 09:34:09,721 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:34:52,062 - 183 - INFO     $ 2291. Package name: tf-nightly, GitHub URL: https://github.com/tensorflow/tensorflow, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:34:52,062 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/tensorflow $ <module>
+2021-02-23 09:34:52,062 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:35:19,715 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-23 09:38:02,617 - 183 - INFO     $ 2357. Package name: azure-mgmt-servermanager, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:38:02,617 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 09:38:02,617 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:38:52,136 - 183 - INFO     $ 2373. Package name: ipfshttpclient, GitHub URL: https://github.com/ipfs-shipyard/py-ipfs-http-client, Statistics: False, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 09:38:52,136 - 184 - INFO     $  GitHub badge: https://github.com/richardlitt/standard-readme, PyPI badge: True $ <module>
+2021-02-23 09:38:52,136 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:39:53,526 - 183 - INFO     $ 2395. Package name: nose-parameterized, GitHub URL: https://github.com/wolever/parameterized, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 09:39:53,526 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/parameterized $ <module>
+2021-02-23 09:39:53,526 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:40:01,709 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-23 09:44:38,785 - 183 - INFO     $ 2494. Package name: editorconfig, GitHub URL: https://github.com/editorconfig/editorconfig, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 09:44:38,785 - 184 - INFO     $  GitHub badge: https://github.com/editorconfig/editorconfig-core-py, PyPI badge: False $ <module>
+2021-02-23 09:44:38,785 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 09:44:55,395 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-23 09:44:55,395 - 192 - INFO     $ ---------------------------------- rows 2001-2500 (True rows: 0, At least one metrics: 500) ---------------------------------- $ <module>
+2021-02-23 09:44:55,395 - 193 - INFO     $ Package name Lev. distance 0: 325, Package name SUB: 116, Statistics: 380, Low descriptions Lev. distance: 229 $ <module>
+2021-02-23 09:44:55,395 - 194 - INFO     $ Readthedocs.io: 31, GitHub/Travis badge: 179, PyPI badge: 181, High Python lang. perc.: 402 $ <module>
+2021-02-23 09:44:55,395 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-02-23 10:26:57,815 - 183 - INFO     $ 2545. Package name: bashate, GitHub URL: https://github.com/pycqa/pycodestyle, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 10:26:57,816 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/pycodestyle $ <module>
+2021-02-23 10:26:57,816 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:30:49,166 - 183 - INFO     $ 2585. Package name: aws-cdk-cx-api, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:30:49,166 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:30:49,166 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:31:21,407 - 183 - INFO     $ 2593. Package name: arviz, GitHub URL: https://github.com/arviz-devs/arviz, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:31:21,407 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: False $ <module>
+2021-02-23 10:31:21,407 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:31:33,307 - 183 - INFO     $ 2598. Package name: azure-mgmt-documentdb, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:31:33,307 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 10:31:33,307 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:31:43,784 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-23 10:32:27,311 - 183 - INFO     $ 2617. Package name: marshmallow-jsonschema, GitHub URL: https://github.com/fuhrysteve/marshmallow-jsonschema, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 10:32:27,311 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: False $ <module>
+2021-02-23 10:32:27,311 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:34:07,863 - 183 - INFO     $ 2645. Package name: aws-cdk-aws-iam, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:34:07,863 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:34:07,863 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:34:28,848 - 183 - INFO     $ 2653. Package name: aws-cdk-region-info, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:34:28,848 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:34:28,849 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:35:17,634 - 183 - INFO     $ 2661. Package name: blaze, GitHub URL: https://github.com/blaze/blaze-tutorial, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 10:35:17,635 - 184 - INFO     $  GitHub badge: https://github.com/blaze/blaze, PyPI badge: False $ <module>
+2021-02-23 10:35:17,635 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:36:27,933 - 183 - INFO     $ 2681. Package name: aws-cdk-aws-kms, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:36:27,933 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:36:27,933 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:37:36,263 - 183 - INFO     $ 2698. Package name: aliyun-python-sdk-core-v3, GitHub URL: https://github.com/aliyun/aliyun-openapi-python-sdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:37:36,263 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aliyun-python-sdk-core $ <module>
+2021-02-23 10:37:36,263 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:37:40,439 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-23 10:38:34,411 - 183 - INFO     $ 2717. Package name: aws-cdk-aws-events, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:38:34,411 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:38:34,412 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:38:55,359 - 183 - INFO     $ 2724. Package name: aws-cdk-aws-s3, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:38:55,359 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:38:55,359 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:39:08,359 - 183 - INFO     $ 2728. Package name: aws-cdk-aws-ssm, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:39:08,359 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:39:08,359 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:39:30,258 - 183 - INFO     $ 2731. Package name: jupytext, GitHub URL: https://github.com/mwouts/jupytext, Statistics: True, Readthedocs.io: https://github.com/bitprophet/alabaster  $ <module>
+2021-02-23 10:39:30,258 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 10:39:30,258 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:40:02,509 - 183 - INFO     $ 2744. Package name: aws-cdk-aws-cloudwatch, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:40:02,509 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:40:02,509 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:40:19,594 - 183 - INFO     $ 2749. Package name: aws-cdk-assets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:40:19,594 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:40:19,594 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:40:46,890 - 183 - INFO     $ 2757. Package name: aws-cdk-aws-ec2, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:40:46,890 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:40:46,890 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:42:26,556 - 183 - INFO     $ 2776. Package name: aws-cdk-aws-logs, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:42:26,556 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:42:26,556 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:43:27,703 - 183 - INFO     $ 2790. Package name: aws-cdk-aws-sqs, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:43:27,703 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:43:27,704 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:43:41,249 - 183 - INFO     $ 2796. Package name: aws-cdk-aws-lambda, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:43:41,249 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:43:41,249 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:43:50,586 - 183 - INFO     $ 2798. Package name: aws-cdk-aws-s3-assets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:43:50,586 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:43:50,586 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:43:55,768 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-23 10:44:04,464 - 183 - INFO     $ 2802. Package name: pyramid-arima, GitHub URL: https://github.com/tgsmith61591/pyramid, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:44:04,464 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/pmdarima $ <module>
+2021-02-23 10:44:04,464 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:45:45,520 - 183 - INFO     $ 2833. Package name: pyviz-comms, GitHub URL: https://github.com/holoviz/holoviz, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 10:45:45,520 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/holoviz $ <module>
+2021-02-23 10:45:45,520 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:47:10,632 - 183 - INFO     $ 2859. Package name: aws-cdk-aws-sns, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:47:10,632 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:47:10,632 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:47:18,284 - 183 - INFO     $ 2863. Package name: django-extra-fields, GitHub URL: https://github.com/hipo/drf-extra-fields, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:47:18,284 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/drf-extra-fields $ <module>
+2021-02-23 10:47:18,284 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:48:51,887 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-23 10:51:26,474 - 183 - INFO     $ 2952. Package name: questionary, GitHub URL: https://github.com/tmbo/questionary, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-23 10:51:26,474 - 184 - INFO     $  GitHub badge: https://github.com/rasahq/rasa, PyPI badge: True $ <module>
+2021-02-23 10:51:26,474 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:52:36,560 - 183 - INFO     $ 2969. Package name: pep257, GitHub URL: https://github.com/greensteam/pep257, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:52:36,560 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/pydocstyle $ <module>
+2021-02-23 10:52:36,560 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:54:59,727 - 183 - INFO     $ 2995. Package name: tensorflow-cpu, GitHub URL: https://github.com/tensorflow/tensorflow, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:54:59,727 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/tensorflow $ <module>
+2021-02-23 10:54:59,727 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:55:09,121 - 183 - INFO     $ 2996. Package name: aws-cdk-aws-cloudformation, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:55:09,121 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:55:09,121 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:55:17,912 - 183 - INFO     $ 3000. Package name: aws-cdk-aws-route53, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 10:55:17,913 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 10:55:17,913 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 10:55:17,913 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-23 10:55:17,913 - 192 - INFO     $ ---------------------------------- rows 2501-3000 (True rows: 0, At least one metrics: 498) ---------------------------------- $ <module>
+2021-02-23 10:55:17,913 - 193 - INFO     $ Package name Lev. distance 0: 286, Package name SUB: 155, Statistics: 381, Low descriptions Lev. distance: 255 $ <module>
+2021-02-23 10:55:17,913 - 194 - INFO     $ Readthedocs.io: 19, GitHub/Travis badge: 178, PyPI badge: 176, High Python lang. perc.: 353 $ <module>
+2021-02-23 10:55:17,913 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+
+2021-02-23 11:21:27,478 - 183 - INFO     $ 3007. Package name: aws-cdk-aws-certificatemanager, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:21:27,478 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:21:27,478 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:23:29,416 - 183 - INFO     $ 3056. Package name: aws-cdk-aws-elasticloadbalancingv2, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:23:29,416 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:23:29,416 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:24:22,868 - 183 - INFO     $ 3079. Package name: ocspresponder, GitHub URL: https://github.com/wbond/ocspbuilder, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 11:24:22,868 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/ocspbuilder $ <module>
+2021-02-23 11:24:22,868 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:25:19,737 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-23 11:25:46,280 - 183 - INFO     $ 3110. Package name: aws-cdk-aws-apigateway, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:25:46,280 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:25:46,280 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:26:24,062 - 183 - INFO     $ 3120. Package name: cos-python-sdk-v5, GitHub URL: https://github.com/tencentyun/cos-python-sdk-v5, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 11:26:24,062 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/search $ <module>
+2021-02-23 11:26:24,062 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:26:32,982 - 183 - INFO     $ 3123. Package name: apispec-webframeworks, GitHub URL: https://github.com/marshmallow-code/apispec-webframeworks, Statistics: True, Readthedocs.io: https://github.com/marshmallow-code/marshmallow  $ <module>
+2021-02-23 11:26:32,983 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 11:26:32,983 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:27:05,654 - 183 - INFO     $ 3131. Package name: aws-cdk-aws-autoscaling-common, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:27:05,655 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:27:05,655 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:29:11,078 - 183 - INFO     $ 3158. Package name: aws-cdk-aws-sns-subscriptions, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:29:11,078 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:29:11,078 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:29:16,741 - 183 - INFO     $ 3159. Package name: aws-cdk-aws-applicationautoscaling, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:29:16,742 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:29:16,750 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:29:34,596 - 183 - INFO     $ 3165. Package name: usps-api, GitHub URL: https://github.com/brobin/usps-api, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:29:34,597 - 184 - INFO     $  GitHub badge: https://github.com/brobin/django-seed, PyPI badge: True $ <module>
+2021-02-23 11:29:34,597 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:30:39,827 - 183 - INFO     $ 3192. Package name: opencensus-ext-logging, GitHub URL: https://github.com/census-instrumentation/opencensus-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:30:39,827 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/opencensus $ <module>
+2021-02-23 11:30:39,827 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:30:59,876 - 183 - INFO     $ 3198. Package name: aws-cdk-aws-elasticloadbalancing, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:30:59,877 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:30:59,877 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:31:05,974 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-23 11:31:47,567 - 183 - INFO     $ 3220. Package name: aws-cdk-aws-cloudfront, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:31:47,567 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:31:47,568 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:32:44,481 - 183 - INFO     $ 3236. Package name: aws-cdk-aws-secretsmanager, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:32:44,481 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:32:44,482 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:33:09,810 - 183 - INFO     $ 3240. Package name: aws-cdk-aws-autoscaling, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:33:09,810 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:33:09,810 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:34:33,402 - 183 - INFO     $ 3279. Package name: aws-cdk-aws-route53-targets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:34:33,402 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:34:33,402 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:35:16,758 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-23 11:35:53,118 - 183 - INFO     $ 3310. Package name: aws-cdk-aws-ecr, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:35:53,118 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:35:53,118 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:37:00,774 - 183 - INFO     $ 3340. Package name: aws-cdk-aws-ecr-assets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:37:00,774 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:37:00,774 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:37:14,693 - 183 - INFO     $ 3344. Package name: aws-cdk-aws-ecs, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:37:14,693 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:37:14,693 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:37:18,166 - 183 - INFO     $ 3345. Package name: ldclient-py, GitHub URL: https://github.com/launchdarkly/python-server-sdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:37:18,166 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/launchdarkly-server-sdk $ <module>
+2021-02-23 11:37:18,167 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:37:56,822 - 183 - INFO     $ 3357. Package name: watson-developer-cloud, GitHub URL: https://github.com/watson-developer-cloud/python-sdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:37:56,822 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/ibm-watson $ <module>
+2021-02-23 11:37:56,822 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:38:10,147 - 183 - INFO     $ 3360. Package name: aws-cdk-aws-servicediscovery, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:38:10,148 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:38:10,148 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:38:23,472 - 183 - INFO     $ 3363. Package name: aws-cdk-aws-autoscaling-hooktargets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:38:23,472 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:38:23,472 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:40:10,387 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-23 11:41:52,700 - 183 - INFO     $ 3440. Package name: slots, GitHub URL: https://github.com/roycoding/slots, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:41:52,701 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 11:41:52,701 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:42:03,771 - 183 - INFO     $ 3444. Package name: asgi-redis, GitHub URL: https://github.com/django/asgi_redis, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 11:42:03,771 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/channels-redis $ <module>
+2021-02-23 11:42:03,771 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:42:27,788 - 183 - INFO     $ 3452. Package name: aws-cdk-aws-stepfunctions, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 11:42:27,788 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 11:42:27,789 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 11:45:42,129 - 187 - INFO     $ rows: 500 $ <module>
+2021-02-23 11:45:42,129 - 192 - INFO     $ ---------------------------------- rows 3001-3500 (True rows: 0, At least one metrics: 500) ---------------------------------- $ <module>
+2021-02-23 11:45:42,129 - 193 - INFO     $ Package name Lev. distance 0: 320, Package name SUB: 117, Statistics: 411, Low descriptions Lev. distance: 249 $ <module>
+2021-02-23 11:45:42,129 - 194 - INFO     $ Readthedocs.io: 24, GitHub/Travis badge: 182, PyPI badge: 187, High Python lang. perc.: 383 $ <module>
+2021-02-23 11:45:42,129 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 15:01:42,077 - 183 - INFO     $ 3505. Package name: pydevd-pycharm, GitHub URL: https://github.com/jetbrains/intellij-community, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:01:42,077 - 184 - INFO     $  GitHub badge: https://github.com/fabioz/pydev.debugger, PyPI badge: False $ <module>
+2021-02-23 15:01:42,077 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:01:47,939 - 183 - INFO     $ 3507. Package name: azure-cli-profile, GitHub URL: https://github.com/azure/azure-cli, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:01:47,939 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure-cli $ <module>
+2021-02-23 15:01:47,939 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:05:33,072 - 187 - INFO     $ rows: 100 $ <module>
+2021-02-23 15:06:11,076 - 183 - INFO     $ 3616. Package name: tf-sentencepiece, GitHub URL: https://github.com/google/sentencepiece, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:06:11,077 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/sentencepiece $ <module>
+2021-02-23 15:06:11,077 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:08:18,436 - 183 - INFO     $ 3663. Package name: aws-cdk-aws-sam, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:08:18,437 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 15:08:18,437 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:10:28,109 - 183 - INFO     $ 3677. Package name: pretty-bad-protocol, GitHub URL: https://github.com/isislovecruft/python-gnupg, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:10:28,109 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/gnupg $ <module>
+2021-02-23 15:10:28,109 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:11:05,792 - 183 - INFO     $ 3691. Package name: marshmallow-jsonapi, GitHub URL: https://github.com/marshmallow-code/marshmallow-jsonapi, Statistics: True, Readthedocs.io: True  $ <module>
+2021-02-23 15:11:05,793 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 15:11:05,793 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:11:10,397 - 183 - INFO     $ 3692. Package name: ibmiotf, GitHub URL: https://github.com/ibm-watson-iot/iot-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:11:10,397 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/wiotp-sdk $ <module>
+2021-02-23 15:11:10,397 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:11:21,914 - 187 - INFO     $ rows: 200 $ <module>
+2021-02-23 15:11:51,580 - 183 - INFO     $ 3710. Package name: dialogflow, GitHub URL: https://github.com/googleapis/dialogflow-python-client-v2, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:11:51,581 - 184 - INFO     $  GitHub badge: https://github.com/googleapis/google-cloud-python, PyPI badge: https://pypi.org/project/google-cloud-dialogflow $ <module>
+2021-02-23 15:11:51,581 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:11:58,990 - 183 - INFO     $ 3712. Package name: aiosmtplib, GitHub URL: https://github.com/cole/aiosmtplib, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:11:58,990 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 15:11:58,990 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:12:25,018 - 183 - INFO     $ 3724. Package name: pulsar-galaxy-lib, GitHub URL: https://github.com/galaxyproject/pulsar, Statistics: True, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 15:12:25,018 - 184 - INFO     $  GitHub badge: True, PyPI badge: https://pypi.org/project/pulsar-app $ <module>
+2021-02-23 15:12:25,018 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:13:25,219 - 183 - INFO     $ 3749. Package name: azure-keyvault-certificates, GitHub URL: https://github.com/azure/azure-sdk-for-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:13:25,219 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/azure $ <module>
+2021-02-23 15:13:25,219 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:13:33,503 - 183 - INFO     $ 3751. Package name: aws-cdk-aws-codecommit, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:13:33,504 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 15:13:33,504 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:14:02,267 - 183 - INFO     $ 3760. Package name: aws-cdk-aws-codebuild, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:14:02,267 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 15:14:02,267 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:14:36,374 - 183 - INFO     $ 3767. Package name: localstack-ext, GitHub URL: https://github.com/localstack/localstack, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:14:36,374 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/localstack $ <module>
+2021-02-23 15:14:36,374 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:15:36,536 - 183 - INFO     $ 3782. Package name: aws-cdk-aws-codepipeline, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:15:36,536 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 15:15:36,536 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:15:55,838 - 183 - INFO     $ 3793. Package name: aws-cdk-aws-events-targets, GitHub URL: https://github.com/aws/aws-cdk, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:15:55,838 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/aws-cdk.core $ <module>
+2021-02-23 15:15:55,838 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:16:42,252 - 187 - INFO     $ rows: 300 $ <module>
+2021-02-23 15:18:19,019 - 183 - INFO     $ 3820. Package name: sfx-jaeger-client, GitHub URL: https://github.com/jaegertracing/jaeger-client-python, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:18:19,020 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/jaeger-client $ <module>
+2021-02-23 15:18:19,020 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:23:44,056 - 183 - INFO     $ 3867. Package name: django-hijack-admin, GitHub URL: https://github.com/arteria/django-hijack, Statistics: False, Readthedocs.io: False  $ <module>
+2021-02-23 15:23:44,056 - 184 - INFO     $  GitHub badge: False, PyPI badge: https://pypi.org/project/django-hijack $ <module>
+2021-02-23 15:23:44,056 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:24:47,129 - 183 - INFO     $ 3869. Package name: hydra-core, GitHub URL: https://github.com/facebookresearch/hydra, Statistics: True, Readthedocs.io: False  $ <module>
+2021-02-23 15:24:47,129 - 184 - INFO     $  GitHub badge: https://github.com/psf/black, PyPI badge: True $ <module>
+2021-02-23 15:24:47,129 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 15:26:18,732 - 187 - INFO     $ rows: 400 $ <module>
+2021-02-23 15:26:18,732 - 192 - INFO     $ ---------------------------------- rows 3501-3900 (True rows: 14, At least one metrics: 399) ---------------------------------- $ <module>
+2021-02-23 15:26:18,732 - 193 - INFO     $ Package name Lev. distance 0: 254, Package name SUB: 105, Statistics: 320, Low descriptions Lev. distance: 223 $ <module>
+2021-02-23 15:26:18,732 - 194 - INFO     $ Readthedocs.io: 33, GitHub/Travis badge: 146, PyPI badge: 142, High Python lang. perc.: 311 $ <module>
+2021-02-23 15:26:18,732 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 15:57:19,429 - 192 - INFO     $ ---------------------------------- rows 3901-3950 (True rows: 0, At least one metrics: 49) ---------------------------------- $ <module>
+2021-02-23 15:57:19,429 - 193 - INFO     $ Package name Lev. distance 0: 26, Package name SUB: 15, Statistics: 40, Low descriptions Lev. distance: 29 $ <module>
+2021-02-23 15:57:19,430 - 194 - INFO     $ Readthedocs.io: 5, GitHub/Travis badge: 20, PyPI badge: 18, High Python lang. perc.: 41 $ <module>
+2021-02-23 15:57:19,430 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 16:14:31,428 - 183 - INFO     $ 3998. Package name: pykube-ng, GitHub URL: https://github.com/kelproject/pykube, Statistics: False, Readthedocs.io: https://github.com/readthedocs/sphinx_rtd_theme  $ <module>
+2021-02-23 16:14:31,428 - 184 - INFO     $  GitHub badge: https://github.com/hjacobs/pykube, PyPI badge: https://pypi.org/project/pykube $ <module>
+2021-02-23 16:14:31,428 - 185 - INFO     $ ---------------------------------------------------------------------------------------------------- $ <module>
+2021-02-23 16:14:36,477 - 192 - INFO     $ ---------------------------------- rows 3951-4000 (True rows: 0, At least one metrics: 50) ---------------------------------- $ <module>
+2021-02-23 16:14:36,477 - 193 - INFO     $ Package name Lev. distance 0: 33, Package name SUB: 7, Statistics: 43, Low descriptions Lev. distance: 32 $ <module>
+2021-02-23 16:14:36,477 - 194 - INFO     $ Readthedocs.io: 4, GitHub/Travis badge: 23, PyPI badge: 18, High Python lang. perc.: 46 $ <module>
+2021-02-23 16:14:36,477 - 195 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 16:26:02,510 - 109 - INFO     $ ------------------------------------------ rows 1-4000 ------------------------------------------- $ <module>
+2021-02-23 16:26:02,511 - 110 - INFO     $ Complete rows 1: [10, 527, 441, 715, 885, 712, 631, 79], Complete rows 2: [4000, 3990, 3463, 3022, 2307, 1422, 710, 79] $ <module>
+2021-02-23 16:26:02,511 - 111 - INFO     $ Package name Lev. distance 0: 2418, Package name SUB: 998, Statistics: 3107, Low descriptions Lev. distance: 2051 $ <module>
+2021-02-23 16:26:02,511 - 112 - INFO     $ Readthedocs.io: 276, GitHub/Travis badge: 1492, PyPI badge: 1510, High Python lang. perc.: 3141 $ <module>
+2021-02-23 16:26:02,511 - 113 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+
+2021-02-23 18:17:52,371 - 195 - INFO     $ ------------------------------------- rows 1-4000 (Updated rows: 36) ---------------------------------------------------------- $ <module>
+2021-02-23 18:17:52,371 - 196 - INFO     $ Complete rows 1: [0, 17, 10, 7, 2, 0, 0, 0], Complete rows 2: [36, 36, 19, 9, 2, 0, 0, 0] $ <module>
+2021-02-23 18:17:52,371 - 197 - INFO     $ Package name Lev. distance 0: 11, Package name SUB: 22, Statistics: 1, Low descriptions Lev. distance: 12 $ <module>
+2021-02-23 18:17:52,371 - 198 - INFO     $ Readthedocs.io: 1, GitHub/Travis badge: 0, PyPI badge: 2, High Python lang. perc.: 17 $ <module>
+2021-02-23 18:17:52,371 - 199 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+
+2021-02-23 18:49:01,547 - 113 - INFO     $ ----------------------------------------------- rows 1-4000 ----------------------------------------------------------- $ <module>
+2021-02-23 18:49:01,547 - 114 - INFO     $ Wrong name len: 1191, Wrong descr len: 43 $ <module>
+2021-02-23 18:49:01,547 - 115 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 21:46:34,103 - 195 - INFO     $ ------------------------------------- rows 1-4000 (Updated rows: 36) ---------------------------------------------------------- $ <module>
+2021-02-23 21:46:34,103 - 196 - INFO     $ Complete rows 1: [0, 17, 10, 7, 2, 0, 0, 0], Complete rows 2: [36, 36, 19, 9, 2, 0, 0, 0] $ <module>
+2021-02-23 21:46:34,103 - 197 - INFO     $ Package name Lev. distance 0: 11, Package name SUB: 22, Statistics: 1, Low descriptions Lev. distance: 12 $ <module>
+2021-02-23 21:46:34,103 - 198 - INFO     $ Readthedocs.io: 1, GitHub/Travis badge: 0, PyPI badge: 2, High Python lang. perc.: 17 $ <module>
+2021-02-23 21:46:34,103 - 199 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+2021-02-23 21:47:39,360 - 107 - INFO     $ ------------------------------------------ rows 1-4000 ------------------------------------------- $ <module>
+2021-02-23 21:47:39,360 - 108 - INFO     $ Complete rows 1: [7, 516, 446, 722, 887, 712, 631, 79], Complete rows 2: [4000, 3993, 3477, 3031, 2309, 1422, 710, 79] $ <module>
+2021-02-23 21:47:39,360 - 109 - INFO     $ Package name Lev. distance 0: 2408, Package name SUB: 1019, Statistics: 3108, Low descriptions Lev. distance: 2061 $ <module>
+2021-02-23 21:47:39,360 - 110 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
+2021-02-23 21:47:39,360 - 111 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+
+
+2021-02-23 22:13:44,374 - 153 - INFO     $ Total packages: 4000, Useless rows: 542 $ <module>
+2021-02-23 22:13:44,374 - 154 - INFO     $ Metadata URLs: 3355, PyPI URLs: 3114, OSSGadget URLs: 3466 $ <module>
+2021-02-23 22:13:44,374 - 155 - INFO     $ Different URLs: 669, Different useless URLs: 542 $ <module>
+2021-02-23 22:13:44,374 - 156 - INFO     $ Different NOT EMPTY URLs: 197, Different NOT EMPTY useless URLs: 77 $ <module>
+2021-02-23 22:13:44,374 - 157 - INFO     $ Accuracy 0%: 468, Accuracy 33%: 189, Accuracy 66%: 452, Accuracy 100%: 2891 $ <module>
+2021-02-23 22:13:44,374 - 158 - INFO     $ Metadata 66% URLs: 390, PyPI 66% URLs: 66, OSSGadget 66% URLs: 448 $ <module>
+2021-02-23 22:13:44,374 - 159 - INFO     $ Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4 $ <module>
+2021-02-23 22:13:44,375 - 160 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3 $ <module>
+2021-02-23 22:13:44,375 - 161 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124 $ <module>
+2021-02-23 22:13:44,375 - 162 - INFO     $ Metadata NOT 33% URLs: 3, PyPI NOT 33% URLs: 31, OSSGadget NOT 33% URLs: 0 $ <module>
+2021-02-23 22:13:44,375 - 163 - INFO     $ True Positives: [3343, 2960, 3430], False Positives: [12, 154, 36] $ <module>
+2021-02-23 22:13:44,375 - 164 - INFO     $ True Positives unique not empty: [61, 1, 0], False Positives other not empty: [12, 151, 36], False positives other right: [12, 150, 19] $ <module>
