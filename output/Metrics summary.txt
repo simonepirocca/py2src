@@ -24,3 +24,24 @@ empty cells with useless rows:
 empty cells without useless rows:
 [0, 0, 0, 0, 2, 2, 272, 85, 86, 664, 669, 259, 1238, 1353, 84, 84, 85, 84]
 json missing: 739 closed_issues, 252 commits, 250 generals
+
+----------------------------------------
+AFTER FIXING URLS
+total packages = 4000
+duplicated GitHub urls = 250
+empty GitHub urls = 485
+
+final packages: 3265
+
+Correct rows: 2814
+Wrong rows: 379
+Not before in metrics rows: 72
+Not in urls rows: 515
+
+final packages: 3265
+
+complete rows: 1322
+useless rows: 1
+
+Empty cells: [0, 0, 0, 1, 1, 128, 525, 209, 211, 471, 660, 364, 1397, 1508]
+NOT Empty cells: [3265, 3265, 3265, 3264, 3264, 3137, 2740, 3056, 3054, 2794, 2605, 2901, 1868, 1757]
