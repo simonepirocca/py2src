@@ -15,7 +15,7 @@ from utils import log_function_output
 logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/url_finder.log")
 
 # Set source and range
-input_file = "../output/url_finder_output/github_urls_with_fixed_metrics_and_urls.csv"
+input_file = "../output/url_finder_final.csv"
 start = 1
 count = 4000
 end = start + count
