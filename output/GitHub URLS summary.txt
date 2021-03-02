@@ -71,6 +71,8 @@ Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4
 Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3
 Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124
 Metadata NOT 33% URLs: 3, PyPI NOT 33% URLs: 31, OSSGadget NOT 33% URLs: 0
+Metadata 33% right URLs: 62, PyPI 33% right URLs: 3, OSSGadget 33% right URLs: 91
+Metadata 33% other not empty URLs: 1, PyPI 33% other not empty URLs: 2, OSSGadget 33% other not empty URLs: 26
 
 TP/FP (metadata, pypi, ossgadget)
 Empty: [645 (16.12%), 886 (22.15%), 534 (13.35%)]

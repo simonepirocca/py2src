@@ -17,7 +17,7 @@ logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEB
 
 # Set source and range
 #input_file = "../output/url_finder_output/urls_with_duplicates.csv"
-input_file = "../output/url_finder_output/github_urls_with_fixed_metrics_and_urls.csv"
+input_file = "../output/url_finder_final.csv"
 start = 1
 count = 4000
 end = start + count
@@ -51,6 +51,12 @@ ossgadget_33_urls = 0
 metadata_not_33_urls = 0
 pypi_not_33_urls = 0
 ossgadget_not_33_urls = 0
+metadata_33_right_urls = 0
+pypi_33_right_urls = 0
+ossgadget_33_right_urls = 0
+metadata_33_right_other_not_empty_urls = 0
+pypi_33_right_other_not_empty_urls = 0
+ossgadget_33_right_other_not_empty_urls = 0
 true_positives = [0, 0, 0]
 false_positives = [0, 0, 0]
 true_positives_unique_not_empty = [0, 0, 0]
@@ -98,12 +104,21 @@ with open(input_file) as csv_file:
                 if metadata_url != "": 
                     metadata_33_urls += 1
                     if metadata_url != final_url: metadata_not_33_urls += 1
+                    else:
+                        metadata_33_right_urls += 1
+                        if pypi_url != "" or ossgadget_url != "": metadata_33_right_other_not_empty_urls += 1
                 if pypi_url != "": 
                     pypi_33_urls += 1
                     if pypi_url != final_url: pypi_not_33_urls += 1
+                    else:
+                        pypi_33_right_urls += 1
+                        if metadata_url != "" or ossgadget_url != "": pypi_33_right_other_not_empty_urls += 1
                 if ossgadget_url != "": 
                     ossgadget_33_urls += 1
-                    if ossgadget_url != ossgadget_url: ossgadget_not_33_urls += 1
+                    if ossgadget_url != final_url: ossgadget_not_33_urls += 1
+                    else:
+                        ossgadget_33_right_urls += 1
+                        if pypi_url != "" or metadata_url != "": ossgadget_33_right_other_not_empty_urls += 1
 
             if different == "True":
                 different_urls += 1
@@ -160,5 +175,7 @@ logger.info(f"Metadata NOT 66% URLs: {metadata_not_66_urls}, PyPI NOT 66% URLs: 
 logger.info(f"Metadata NOT (NOT EMPTY) 66% URLs: {metadata_not_not_empty_66_urls}, PyPI NOT (NOT EMPTY) 66% URLs: {pypi_not_not_empty_66_urls}, OSSGadget NOT (NOT EMPTY) 66% URLs: {ossgadget_not_not_empty_66_urls}")
 logger.info(f"Metadata 33% URLs: {metadata_33_urls}, PyPI 33% URLs: {pypi_33_urls}, OSSGadget 33% URLs: {ossgadget_33_urls}")
 logger.info(f"Metadata NOT 33% URLs: {metadata_not_33_urls}, PyPI NOT 33% URLs: {pypi_not_33_urls}, OSSGadget NOT 33% URLs: {ossgadget_not_33_urls}")
+logger.info(f"Metadata 33% right URLs: {metadata_33_right_urls}, PyPI 33% right URLs: {pypi_33_right_urls}, OSSGadget 33% right URLs: {ossgadget_33_right_urls}")
+logger.info(f"Metadata 33% other not empty URLs: {metadata_33_right_other_not_empty_urls}, PyPI 33% other not empty URLs: {pypi_33_right_other_not_empty_urls}, OSSGadget 33% other not empty URLs: {ossgadget_33_right_other_not_empty_urls}")
 logger.info(f"True Positives: {true_positives}, False Positives: {false_positives}")
 logger.info(f"True Positives unique not empty: {true_positives_unique_not_empty}, False Positives other not empty: {false_positives_other_not_empty}, False positives other right: {false_positives_other_right}")

@@ -1225,3 +1225,28 @@
 2021-02-23 22:13:44,375 - 162 - INFO     $ Metadata NOT 33% URLs: 3, PyPI NOT 33% URLs: 31, OSSGadget NOT 33% URLs: 0 $ <module>
 2021-02-23 22:13:44,375 - 163 - INFO     $ True Positives: [3343, 2960, 3430], False Positives: [12, 154, 36] $ <module>
 2021-02-23 22:13:44,375 - 164 - INFO     $ True Positives unique not empty: [61, 1, 0], False Positives other not empty: [12, 151, 36], False positives other right: [12, 150, 19] $ <module>
+
+2021-02-24 09:54:53,722 - 66 - INFO     $ Not duplicated URLs: 3265, Duplicated URLs: 250, Empty: 485 $ <module>
+
+
+2021-02-25 19:50:12,766 - 43 - INFO     $ Empty Substring: 485 $ <module>
+2021-02-25 19:51:55,602 - 107 - INFO     $ ------------------------------------------ rows 1-4000 ------------------------------------------- $ <module>
+2021-02-25 19:51:55,602 - 108 - INFO     $ Complete rows 1: [429, 157, 383, 722, 887, 712, 631, 79], Complete rows 2: [4000, 3571, 3414, 3031, 2309, 1422, 710, 79] $ <module>
+2021-02-25 19:51:55,602 - 109 - INFO     $ Package name Lev. distance 0: 2408, Package name SUB: 534, Statistics: 3108, Low descriptions Lev. distance: 2061 $ <module>
+2021-02-25 19:51:55,602 - 110 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
+2021-02-25 19:51:55,602 - 111 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-03-02 17:07:59,751 - 168 - INFO     $ Total packages: 4000, Useless rows: 542 $ <module>
+2021-03-02 17:07:59,751 - 169 - INFO     $ Metadata URLs: 3355, PyPI URLs: 3114, OSSGadget URLs: 3466 $ <module>
+2021-03-02 17:07:59,751 - 170 - INFO     $ Different URLs: 669, Different useless URLs: 542 $ <module>
+2021-03-02 17:07:59,751 - 171 - INFO     $ Different NOT EMPTY URLs: 197, Different NOT EMPTY useless URLs: 77 $ <module>
+2021-03-02 17:07:59,751 - 172 - INFO     $ Accuracy 0%: 468, Accuracy 33%: 189, Accuracy 66%: 452, Accuracy 100%: 2891 $ <module>
+2021-03-02 17:07:59,751 - 173 - INFO     $ Metadata 66% URLs: 390, PyPI 66% URLs: 66, OSSGadget 66% URLs: 448 $ <module>
+2021-03-02 17:07:59,751 - 174 - INFO     $ Metadata NOT 66% URLs: 62, PyPI NOT 66% URLs: 386, OSSGadget NOT 66% URLs: 4 $ <module>
+2021-03-02 17:07:59,752 - 175 - INFO     $ Metadata NOT (NOT EMPTY) 66% URLs: 9, PyPI NOT (NOT EMPTY) 66% URLs: 123, OSSGadget NOT (NOT EMPTY) 66% URLs: 3 $ <module>
+2021-03-02 17:07:59,752 - 176 - INFO     $ Metadata 33% URLs: 65, PyPI 33% URLs: 34, OSSGadget 33% URLs: 124 $ <module>
+2021-03-02 17:07:59,752 - 177 - INFO     $ Metadata NOT 33% URLs: 3, PyPI NOT 33% URLs: 31, OSSGadget NOT 33% URLs: 33 $ <module>
+2021-03-02 17:07:59,752 - 178 - INFO     $ Metadata 33% right URLs: 62, PyPI 33% right URLs: 3, OSSGadget 33% right URLs: 91 $ <module>
+2021-03-02 17:07:59,752 - 179 - INFO     $ Metadata 33% other not empty URLs: 1, PyPI 33% other not empty URLs: 2, OSSGadget 33% other not empty URLs: 26 $ <module>
+2021-03-02 17:07:59,752 - 180 - INFO     $ True Positives: [3343, 2960, 3430], False Positives: [12, 154, 36] $ <module>
+2021-03-02 17:07:59,752 - 181 - INFO     $ True Positives unique not empty: [61, 1, 0], False Positives other not empty: [12, 151, 36], False positives other right: [12, 150, 19] $ <module>
