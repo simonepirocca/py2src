@@ -95,9 +95,14 @@ No match: 429           (10.72%)
 
 High Python lang. perc.: 3144         (78.60%)
 Statistics: 3108                      (77.70%)
-Package name Lev. distance 0: 2408    (60.20%)
+Package name Lev. distance 0: 2548    (63.70%)
 Low descriptions Lev. distance: 2061  (51.52%)
 PyPI badge: 1512                      (37.80%)
 GitHub/Travis badge: 1492             (37.30%)
 Package name SUB: 534                 (13.35%)
 Readthedocs.io: 277                   ( 6.92%)
+
+
+33% Acc. high val: 101
+66% Acc. low val: 73
+100% Acc. low val: 340

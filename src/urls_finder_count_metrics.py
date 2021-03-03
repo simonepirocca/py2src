@@ -31,6 +31,11 @@ true_pypi_badge = 0
 high_python_lang = 0
 complete_rows_1 = [0, 0, 0, 0, 0, 0, 0, 0]
 complete_rows_2 = [0, 0, 0, 0, 0, 0, 0, 0]
+acc_33_high_val = 0
+acc_66_high_val = 0
+acc_66_low_val = 0
+acc_100_low_val = 0
+validating_threashold = 3
 
 # Open urls csv file
 with open(input_file) as csv_file:
@@ -62,7 +67,7 @@ with open(input_file) as csv_file:
             matching_metrics = 0
 
             lev_distance = lev_dist_text.split("/")[0]
-            if lev_distance == "0": lev_dist_0 += 1
+            if lev_distance == "0" or lev_distance == "1": lev_dist_0 += 1
             if similarity == "Substring": name_substring += 1
             if similarity == "Substring" or lev_distance == "0": matching_metrics += 1
 
@@ -90,11 +95,15 @@ with open(input_file) as csv_file:
                 true_pypi_badge += 1
                 matching_metrics += 1
 
-            # Get Python language on GitHub page
             perc = float(python_lang[:-1])
             if perc > 50: 
                 high_python_lang += 1
                 matching_metrics += 1
+
+            if accuracy == "33%" and matching_metrics >= validating_threashold: acc_33_high_val += 1
+            elif accuracy == "66%" and matching_metrics >= validating_threashold: acc_66_high_val += 1
+            elif accuracy == "66%" and matching_metrics < validating_threashold: acc_66_low_val += 1
+            elif accuracy == "100%" and matching_metrics < validating_threashold: acc_100_low_val += 1
 
             complete_rows_1[matching_metrics] += 1
             for i in range(0, matching_metrics+1): complete_rows_2[i] += 1
@@ -108,4 +117,5 @@ logger.info(f"------------------------------------------ rows {start}-{end-1} --
 logger.info(f"Complete rows 1: {complete_rows_1}, Complete rows 2: {complete_rows_2}")
 logger.info(f"Package name Lev. distance 0: {lev_dist_0}, Package name SUB: {name_substring}, Statistics: {true_stats}, Low descriptions Lev. distance: {low_descr_dist}")
 logger.info(f"Readthedocs.io: {true_readthedocs}, GitHub/Travis badge: {true_github_badge}, PyPI badge: {true_pypi_badge}, High Python lang. perc.: {high_python_lang}")
+logger.info(f"33% Acc. high val: {acc_33_high_val}, 66% Acc. high val: {acc_66_high_val}, 66% Acc. low val: {acc_66_low_val}, 100% Acc. low val: {acc_100_low_val}")
 logger.info(f"-------------------------------------------------------------------------------------------------------------------------")

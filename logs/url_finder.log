@@ -1250,3 +1250,10 @@
 2021-03-02 17:07:59,752 - 179 - INFO     $ Metadata 33% other not empty URLs: 1, PyPI 33% other not empty URLs: 2, OSSGadget 33% other not empty URLs: 26 $ <module>
 2021-03-02 17:07:59,752 - 180 - INFO     $ True Positives: [3343, 2960, 3430], False Positives: [12, 154, 36] $ <module>
 2021-03-02 17:07:59,752 - 181 - INFO     $ True Positives unique not empty: [61, 1, 0], False Positives other not empty: [12, 151, 36], False positives other right: [12, 150, 19] $ <module>
+
+2021-03-03 10:41:33,980 - 116 - INFO     $ ------------------------------------------ rows 1-4000 ------------------------------------------- $ <module>
+2021-03-03 10:41:33,980 - 117 - INFO     $ Complete rows 1: [429, 157, 383, 722, 887, 712, 631, 79], Complete rows 2: [4000, 3571, 3414, 3031, 2309, 1422, 710, 79] $ <module>
+2021-03-03 10:41:33,981 - 118 - INFO     $ Package name Lev. distance 0: 2548, Package name SUB: 534, Statistics: 3108, Low descriptions Lev. distance: 2061 $ <module>
+2021-03-03 10:41:33,981 - 119 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
+2021-03-03 10:41:33,981 - 120 - INFO     $ 33% Acc. high val: 101, 66% Acc. high val: 379, 66% Acc. low val: 73, 100% Acc. low val: 340 $ <module>
+2021-03-03 10:41:33,981 - 121 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
