@@ -1257,3 +1257,10 @@
 2021-03-03 10:41:33,981 - 119 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
 2021-03-03 10:41:33,981 - 120 - INFO     $ 33% Acc. high val: 101, 66% Acc. high val: 379, 66% Acc. low val: 73, 100% Acc. low val: 340 $ <module>
 2021-03-03 10:41:33,981 - 121 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+
+2021-03-03 10:54:00,748 - 116 - INFO     $ ------------------------------------------ rows 1-4000 ------------------------------------------- $ <module>
+2021-03-03 10:54:00,748 - 117 - INFO     $ Complete rows 1: [429, 149, 370, 707, 891, 713, 659, 82], Complete rows 2: [4000, 3571, 3422, 3052, 2345, 1454, 741, 82] $ <module>
+2021-03-03 10:54:00,748 - 118 - INFO     $ Package name Lev. distance 0: 2548, Package name SUB: 534, Statistics: 3108, Low descriptions Lev. distance: 2061 $ <module>
+2021-03-03 10:54:00,748 - 119 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
+2021-03-03 10:54:00,748 - 120 - INFO     $ 33% Acc. high val: 106, 66% Acc. high val: 379, 66% Acc. low val: 73, 100% Acc. low val: 324 $ <module>
+2021-03-03 10:54:00,748 - 121 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>

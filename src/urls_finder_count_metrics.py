@@ -69,7 +69,7 @@ with open(input_file) as csv_file:
             lev_distance = lev_dist_text.split("/")[0]
             if lev_distance == "0" or lev_distance == "1": lev_dist_0 += 1
             if similarity == "Substring": name_substring += 1
-            if similarity == "Substring" or lev_distance == "0": matching_metrics += 1
+            if similarity == "Substring" or lev_distance == "0" or lev_distance == "1": matching_metrics += 1
 
             if statistics_url == "True":
                 true_stats += 1

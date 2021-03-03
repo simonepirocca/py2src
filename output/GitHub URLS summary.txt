@@ -86,12 +86,12 @@ False positives other right: [12, 150, 19]
 METRICS (out of 4000 packages)
 No match: 429           (10.72%)
 1 metric match: 3571    (89.27%)
-2 metrics match: 3414   (85.35%)
-3 metrics match: 3031   (75.77%)
-4 metrics match: 2309   (57.72%)
-5 metrics match: 1422   (35.55%)
-6 metrics match: 710    (17.75%)
-7 metrics match: 79     ( 1.97%)
+2 metrics match: 3422   (85.55%)
+3 metrics match: 3052   (76.30%)
+4 metrics match: 2345   (58.62%)
+5 metrics match: 1454   (36.35%)
+6 metrics match: 741    (18.52%)
+7 metrics match: 82     ( 2.05%)
 
 High Python lang. perc.: 3144         (78.60%)
 Statistics: 3108                      (77.70%)
@@ -103,6 +103,6 @@ Package name SUB: 534                 (13.35%)
 Readthedocs.io: 277                   ( 6.92%)
 
 
-33% Acc. high val: 101
+33% Acc. high val: 106
 66% Acc. low val: 73
-100% Acc. low val: 340
+100% Acc. low val: 324
