@@ -1264,3 +1264,132 @@
 2021-03-03 10:54:00,748 - 119 - INFO     $ Readthedocs.io: 277, GitHub/Travis badge: 1492, PyPI badge: 1512, High Python lang. perc.: 3144 $ <module>
 2021-03-03 10:54:00,748 - 120 - INFO     $ 33% Acc. high val: 106, 66% Acc. high val: 379, 66% Acc. low val: 73, 100% Acc. low val: 324 $ <module>
 2021-03-03 10:54:00,748 - 121 - INFO     $ ------------------------------------------------------------------------------------------------------------------------- $ <module>
+2021-03-05 04:25:34,661 - 24 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:48:46,345 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:48:46,961 - 28 - INFO     $ Package: urllib3, URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:49:12,031 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:49:12,673 - 28 - INFO     $ Package: urllib3, URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:49:18,101 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:49:18,685 - 28 - INFO     $ Package: urllib3, URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:54:26,194 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:54:26,814 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:54:44,410 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:54:44,994 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:54:45,580 - 35 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:55:08,615 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:55:09,233 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:55:09,830 - 35 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:56:32,900 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:56:33,526 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:56:34,310 - 35 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-05 04:56:34,924 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:56:58,578 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:56:59,176 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:56:59,494 - 35 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-05 04:57:00,080 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:57:56,655 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:57:57,291 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 04:57:57,885 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 04:57:58,668 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:07:04,478 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:07:05,151 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:07:05,755 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:07:06,531 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:40:23,295 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:40:23,961 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:40:24,585 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:40:25,350 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:40:25,942 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:02,157 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:02,763 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:03,368 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:03,681 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:41:04,280 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:36,829 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:37,442 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:38,057 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:38,836 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:41:39,435 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:56,533 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:57,139 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:41:57,749 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:41:58,065 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:41:58,648 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:42:44,148 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:42:44,768 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:42:45,383 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:42:46,156 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:42:46,754 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:11,589 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:12,180 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:12,830 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:13,130 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:43:13,728 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:33,629 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:34,248 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:34,855 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:35,143 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:43:35,736 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:47,041 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:47,633 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:43:48,222 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:43:48,992 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:43:49,588 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:44:11,807 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:44:12,400 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:44:12,996 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:44:13,311 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:44:13,905 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:45:28,710 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:45:29,310 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:45:29,896 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:45:30,670 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:45:31,256 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:45:59,734 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:46:00,299 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:46:00,906 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:46:01,223 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:46:01,812 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:46:42,967 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:46:43,542 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:46:44,152 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:46:44,924 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:46:45,549 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:46:45,694 - 58 - INFO     $ Package: urllib3, Homepage webpage URL: https://github.com $ <module>
+2021-03-05 05:48:05,679 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:48:06,268 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:48:06,834 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:48:07,608 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:48:08,204 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:57:36,414 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:57:37,006 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:57:37,593 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:57:38,346 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:57:38,955 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:58:06,922 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:58:07,510 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 05:58:08,116 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 05:58:08,438 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 05:58:09,027 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 06:03:12,612 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 06:03:13,223 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 06:03:13,840 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 06:03:14,588 - 49 - INFO     $ Package: adsafdsafda, Codepage metadata URL: None $ <module>
+2021-03-05 06:03:15,195 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: https://urllib3.readthedocs.io $ <module>
+2021-03-05 06:03:15,363 - 58 - INFO     $ Package: urllib3, Homepage webpage URL: https://github.com $ <module>
+2021-03-05 06:38:18,360 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:38:19,932 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:39:39,510 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:39:40,553 - 42 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 06:39:41,936 - 56 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:42:14,173 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 06:42:36,792 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:47:24,716 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:49:08,758 - 36 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 06:49:41,239 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-05 06:56:51,338 - 59 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-05 07:05:05,840 - 50 - INFO     $ Package: urllib3, Homepage webpage URL: None $ <module>
+2021-03-05 07:09:35,217 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 07:09:35,936 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 07:11:43,452 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-05 07:11:44,173 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>

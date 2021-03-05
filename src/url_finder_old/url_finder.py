@@ -18,6 +18,8 @@ import requests
 import validators
 from bs4 import BeautifulSoup
 
+PYPI_PROJECT_URL = "https://pypi.org/project/{}"
+
 class URLFinder:
     """
     Package class represeting a PyPI package
@@ -278,13 +280,6 @@ class URLFinder:
         """
 
         github_url = ""
-        #url = f"https://pypi.org/project/{self._package_name}"
-        #try:
-        #    req = Request(self._pypi_url, headers={'User-Agent': 'Mozilla/5.0'})
-        #    soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        #except (ValueError, URLError, HTTPError, ConnectionResetError):
-        #    return ""
-        #else:
         if self._pypi_soup != None:
             # Examine all the links present in the PyPi page of that package
             for link in self._pypi_soup.findAll("a"):
