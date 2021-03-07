@@ -6,6 +6,7 @@ import pytest
 from pathlib import Path
 
 from ..src.url_finder import URLFinder
+from ..src.pypi_metrics import PyPIMetric
 
 #utils_module_path = Path().resolve().parent / "src" / "utils"
 #sys.path.append(str(utils_module_path))
@@ -196,6 +197,13 @@ def test_find_github_url_from_homepage_metadata_package_non_exist():
 #    logger.info("GitHub badge: {}".format(github_badge))
 #    assert github_badge == True
 #
+def test_check_github_badge_success():
+    package_name = "pathlib-mate"
+    final_url = "https://github.com/machu-gwu/pathlib_mate-project"
+    pypi_metric= PyPIMetric(package_name=package_name)
+    badge_url = pypi_metric.find_github_badge() 
+    logger.info("PyPI badge: {}".format(badge_url))
+    assert badge_url == 'https://github.com/MacHu-GWU/pathlib_mate-project' 
 #def test_check_travis_badge_success():
 #    package_name = "twitter"
 #    final_url = "https://github.com/sixohsix/twitter"

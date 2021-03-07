@@ -3,6 +3,12 @@ import inspect
 from pathlib import Path
 import sys
 import os
+from bs4 import BeautifulSoup
+from urllib.request import Request
+from urllib.request import urlopen
+from .constants import CONST
+
+constants = CONST()
 
 
 def log_function_output(file_level: str, console_level: str, log_filepath: str = None) -> logging.Logger:
@@ -43,4 +49,12 @@ def log_function_output(file_level: str, console_level: str, log_filepath: str =
 
     return logger
 
+def get_soup_obj(url: str):
+    """Get the Beautiful soup object of a web content of a given URL
+    """
+    try:
+        req = Request(url, headers=constants.REQUEST_HEADER)
+        return BeautifulSoup(urlopen(req).read(), features="html.parser")
+    except (ValueError, URLError, HTTPError, ConnectionResetError):
+        return
 

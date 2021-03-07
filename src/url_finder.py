@@ -22,11 +22,9 @@ import validators
 from bs4 import BeautifulSoup
 
 from .utils import log_function_output
+from .constants import CONST
 
-PYPI_PROJECT_URL = "https://pypi.org/project/{}"
-PYPI_PACKAGE_METADATA = "https://pypi.org/pypi/{}/json"
-REPOSITORY_DOMAIN =  "github.com"
-REQUEST_HEADER = {"User-Agent": "Mozilla/5.0"} 
+constants = CONST()
 
 class URLFinder:
     """
@@ -53,7 +51,7 @@ class URLFinder:
         """Return the json metadata url of the package
         :return: the URL (str) of the package metadata
         """
-        return PYPI_PACKAGE_METADATA.format(self._package_name)
+        return constants.PYPI_PACKAGE_METADATA.format(self._package_name)
 
     def get_metadata(self) -> Dict:
         """ Get package metadata as json format
@@ -70,18 +68,38 @@ class URLFinder:
         return "https://pypi.org/project/{}".format(self._package_name)
 
     @staticmethod
-    def is_valid_github_url(url: str) -> bool:
+    def is_valid_url(url: str, github_or_pypi: str) -> bool:
         """
         Determine if a url is a valid url in which it has a valid host and repository name
         :return: True - if url is valid otherwhise False
         """
         url_obj = urlparse(url)
+        if github_or_pypi == "github":
+            DOMAIN = constants.REPOSITORY_DOMAIN
+        elif github_or_pypi == "pypi":
+            DOMAIN = constants.PYPI_DOMAIN
+
         # checking url domain
-        if REPOSITORY_DOMAIN in url_obj.netloc:  
+        if DOMAIN in url_obj.netloc:  
             # checking if it has valid repository name by checking if it is the full url
             if url_obj.path.count("/") in [2, 3]: 
                 return True
         return False
+
+    @staticmethod
+    def get_redirected_url(url: str) -> str:
+        """
+        Return the real GitHub URL, if it is a redirected url 
+        :return: a redirected url string 
+        """
+        try:
+            request = Request(url, headers=constants.REQUEST_HEADER)
+            response = urlopen(request)
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return 
+        else:
+            redirected_url = response.geturl()
+            return redirected_url 
 
     @staticmethod
     def is_url_working(url: str) -> bool:
@@ -93,7 +111,7 @@ class URLFinder:
         except requests.exceptions.ConnectionError:
             return False
         else:
-            if response.status_code == 200 and urlparse(url).path.count("/") == 2:
+            if response.status_code == 200: 
                 return True
             else:
                 return False
@@ -105,7 +123,7 @@ class URLFinder:
         """
         homepage_url = ""
         metadata_url = self.get_package_metadata_link()
-        request = Request(metadata_url, headers=REQUEST_HEADER)
+        request = Request(metadata_url, headers=constants.REQUEST_HEADER)
         try:
             with urlopen(request) as response:
                 data = json.loads(response.read().decode())
@@ -124,7 +142,7 @@ class URLFinder:
         :return: a valid Github and working URL
         """
         url_found = self.find_url_from_homepage_metadata()
-        if self.validate_url(url_found):
+        if self.validate_url(url_found, github_or_pypi="github"):
             return url_found
 
     def find_url_from_codepage_metadata(self) -> str:
@@ -133,7 +151,7 @@ class URLFinder:
         :return: a codepage url if it is found, otherwise None
         """
         metadata_url = self.get_package_metadata_link()
-        url_request = Request(metadata_url, headers=REQUEST_HEADER)
+        url_request = Request(metadata_url, headers=constants.REQUEST_HEADER)
         codepage_url = ""
         try:
             with urlopen(url_request) as response:
@@ -157,12 +175,14 @@ class URLFinder:
                     codepage_url = codepage_metadata
         return codepage_url
 
-    def validate_url(self, url) -> bool:
-        """Validating an url is valid Github URL and working
+    def validate_url(self, url, github_or_pypi: str) -> bool:
+        """Validating an url (redirected url) is valid Github URL and working
         :return: valid and working Github url
         """
         if url is not None:
-            if self.is_valid_github_url(url) and self.is_url_working(url):
+            url = self.get_redirected_url(url)
+            url = self.normalize_url(url, github_or_pypi=github_or_pypi)
+            if self.is_valid_url(url, github_or_pypi=github_or_pypi) and self.is_url_working(url):
                 return True
             else:
                 return False
@@ -174,7 +194,7 @@ class URLFinder:
         :return: a valid Github and working URL
         """
         url_found = self.find_url_from_codepage_metadata()
-        if self.validate_url(url_found):
+        if self.validate_url(url_found, github_or_pypi="github"):
             return url_found
 
     @staticmethod
@@ -183,7 +203,7 @@ class URLFinder:
         :return
         """
         try:
-            req = Request(url, headers=REQUEST_HEADER)
+            req = Request(url, headers=constants.REQUEST_HEADER)
             response = urlopen(req)
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return
@@ -218,7 +238,7 @@ class URLFinder:
         github_urls = []
         for url_found in all_urls:
             url_parts = urlparse(url_found)
-            if url_parts.netloc in [REPOSITORY_DOMAIN]:
+            if url_parts.netloc in [constants.REPOSITORY_DOMAIN]:
                 github_urls.append(url_found)
         logger.info("All Github URLS: {}".format(github_urls))
         return github_urls
@@ -258,7 +278,7 @@ class URLFinder:
             else:
                 url_found = raw_url_found 
             #TODO: REFACTOR THIS LINE LATER AS IT IS COMPLICATED AND LONG
-            return "https://{}".format(REPOSITORY_DOMAIN) + "/".join(urlparse(url_found).path.split("/")[:3])
+            return "https://{}".format(constants.REPOSITORY_DOMAIN) + "/".join(urlparse(url_found).path.split("/")[:3])
 
     def find_github_url_from_homepage_webpage(self) -> str:
         """Find the Github url in the homepage webpage
@@ -266,7 +286,7 @@ class URLFinder:
         """
         homepage_url_metadata = self.find_url_from_homepage_metadata()
         url_found = self.find_github_url_from_webpage(homepage_url_metadata)
-        if self.validate_url(url_found):
+        if self.validate_url(url_found, github_or_pypi="github"):
             return url_found
 
     def find_github_url_from_pypi_webpage(self) -> str:
@@ -274,7 +294,7 @@ class URLFinder:
         :return: a URL (str) found in the PyPI webpage
         """
         url_found = self.find_github_url_from_webpage(self.get_package_url())
-        if self.validate_url(url_found):
+        if self.validate_url(url_found, github_or_pypi="github"):
             return url_found
 
     def aggregate_github_urls(self) -> str:
@@ -299,22 +319,6 @@ class URLFinder:
 
         return final_github_url
 
-    def find_github_url_metadata(self) -> str:
-        """
-        Extract source code repository url in homepage and codepage urls
-        :return: a source code repository url if it is found, otherwise None
-        """
-        homepage_url = self.get_homepage()
-        if homepage_url:
-            if self.is_valid_github_url(homepage_url):
-                return homepage_url
-
-        codepage_url = self.get_codepage()
-        if codepage_url:
-            if self.is_valid_github_url(codepage_url):
-                return codepage_url
-
-
     def open_pypi_soup(self):
         """
         Open PyPI page setting the BeautifulSoup obj
@@ -335,35 +339,37 @@ class URLFinder:
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             self._github_soup = None
 
-    def find_github_url_from_pypi_page(self) -> str:
-        """
-        Get GitHub url from PyPi page
-        """
+    #def find_github_url_from_pypi_page(self) -> str:
+    #    """
+    #    Get GitHub url from PyPi page
+    #    """
 
-        github_url = ""
-        if self._pypi_soup != None:
-            # Examine all the links present in the PyPi page of that package
-            for link in self._pypi_soup.findAll("a"):
-                try:
-                    href_url = link["href"]
-                except KeyError:
-                    # Link is not valid, go to the next line
-                    continue
-                else:
-                    url_parts = urlparse(href_url)
-                    # Keep the first link that refers to a valid URL of GitHub project, that is not the "warehouse" project 
-                    if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
-                        github_url = href_url
-                        break
+    #    github_url = ""
+    #    if self._pypi_soup != None:
+    #        # Examine all the links present in the PyPi page of that package
+    #        for link in self._pypi_soup.findAll("a"):
+    #            try:
+    #                href_url = link["href"]
+    #            except KeyError:
+    #                # Link is not valid, go to the next line
+    #                continue
+    #            else:
+    #                url_parts = urlparse(href_url)
+    #                # Keep the first link that refers to a valid URL of GitHub project, that is not the "warehouse" project 
+    #                if url_parts.netloc == "github.com" and url_parts.path.count("/") == 2 and "warehouse" not in url_parts.path:
+    #                    github_url = href_url
+    #                    break
 
-        # Remove tag part from URL
-        if "#" in github_url:
-            to_delete_index = github_url.index("#")
-            github_url = github_url[:to_delete_index]
+    #    # Remove tag part from URL
+    #    if "#" in github_url:
+    #        to_delete_index = github_url.index("#")
+    #        github_url = github_url[:to_delete_index]
 
-        # Return the normalized URL if working, otherwise return empty string
-        if github_url != "" and self.is_url_working(self.normalize_url(github_url)): return self.real_github_url(github_url)
-        else: return ""
+    #    # Return the normalized URL if working, otherwise return empty string
+    #    if github_url != "" and self.is_url_working(self.normalize_url(github_url)): 
+    #        return self.real_github_url(github_url)
+    #    else: 
+    #        return ""
 
     def find_github_url_from_ossgadget(self) -> str:
         """
@@ -376,8 +382,10 @@ class URLFinder:
         else:
             #... Otherwise relaunch the command to see if it can found directly a GitHub URL 
             github_url = self.launch_ossgadget_command("github/" + self._package_name + "/" + self._package_name)
-            if(github_url != ""): return github_url
-            else: return ""
+            if github_url != "": 
+                return github_url
+            else: 
+                return ""
 
     @staticmethod
     def launch_ossgadget_command(pkg: str) -> str:
@@ -393,18 +401,26 @@ class URLFinder:
         # If a result has been found, take only the URL
         else: github_url = decoded_result.split(" ")[0][decoded_result.find("h"):]
         # Return the normalized URL if working, otherwise return empty string
-        if github_url != "" and URLFinder.is_url_working(URLFinder.normalize_url(github_url)): return URLFinder.real_github_url(github_url)
-        else: return ""
+        if github_url != "" and URLFinder.is_url_working(URLFinder.normalize_url(github_url)): 
+            return URLFinder.real_github_url(github_url)
+        else: 
+            return ""
 
     @staticmethod
-    def normalize_url(url: str) -> str:
+    def normalize_url(url: str, github_or_pypi: str) -> str:
         """
-        Normalize the URL, taking just the lower version of the path, removing ".git" if needed
+        Normalize and construct the URL, taking just the lower version of the path, removing ".git" if needed
+        :return: a normalized url string otherwise None
         """
-        if url == "": return ""
-        if url[0:2] == "//": url = url[2:]
-        if url[-1] == "/": url = url[:-1]
-        return "https://github.com" + urlparse(url).path.replace(".git", "").lower()
+        if url != "": 
+            if url[0:2] == "//": 
+                url = url[2:]
+            if url[-1] == "/": 
+                url = url[:-1]
+            if github_or_pypi == "github":
+                return constants.REPOSITY_FULL_DOMAIN + urlparse(url).path.replace(".git", "").lower()
+            elif github_or_pypi == "pypi":
+                return constants.PYPI_FULL_DOMAIN+ urlparse(url).path.replace(".git", "").lower()
 
     @staticmethod
     def real_github_url(url: str) -> str:
@@ -413,10 +429,11 @@ class URLFinder:
         """
         try:
             normalized_url = URLFinder.normalize_url(url)
-            real_url_request = Request(normalized_url, headers={"User-Agent": "Mozilla/5.0"})
+            real_url_request = Request(normalized_url, headers=constants.REQUEST_HEADER)
             real_url_response = urlopen(real_url_request)
             real_url = URLFinder.normalize_url(real_url_response.geturl())
-            if real_url[-1] == "/": real_url = real_url[:-1]
+            if real_url[-1] == "/": 
+                real_url = real_url[:-1]
             return real_url
         except (ValueError, URLError, HTTPError, ConnectionResetError):
             return ""

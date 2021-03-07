@@ -1393,3 +1393,42 @@
 2021-03-05 07:09:35,936 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>
 2021-03-05 07:11:43,452 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
 2021-03-05 07:11:44,173 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:50:30,584 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:50:31,208 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-07 09:50:31,995 - 36 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:50:33,817 - 50 - INFO     $ Package: urllib3, Homepage webpage URL: None $ <module>
+2021-03-07 09:50:34,513 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:50:35,320 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 09:58:33,650 - 21 - INFO     $ Package: urllib3, URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:58:34,272 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-07 09:58:35,033 - 36 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:58:35,775 - 50 - INFO     $ Package: urllib3, Homepage webpage URL: None $ <module>
+2021-03-07 09:58:36,496 - 57 - INFO     $ Package: urllib3, PyPI webpage URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 09:58:37,304 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:16:14,740 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:17:17,489 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:19:10,901 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:19:40,502 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:20:15,552 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:20:53,830 - 28 - INFO     $ Package: urllib3, Homepage metadata URL: None $ <module>
+2021-03-07 11:20:55,322 - 36 - INFO     $ Package: urllib3, Codepage metadata URL: https://github.com/urllib3/urllib3 $ <module>
+2021-03-07 11:20:56,266 - 50 - INFO     $ Package: urllib3, Homepage webpage URL: None $ <module>
+2021-03-07 11:20:57,103 - 64 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:30:58,537 - 65 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:30:59,370 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:31:14,114 - 65 - INFO     $ Package: adsafdsafda, Homepage metadata URL: None $ <module>
+2021-03-07 11:31:14,949 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:31:37,283 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:31:55,154 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:32:43,794 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:34:00,812 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:34:22,994 - 223 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:38:59,415 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:39:54,894 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:40:37,603 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:40:48,236 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:41:06,694 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:42:16,710 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:42:48,431 - 205 - INFO     $ PyPI badge: None $ <module>
+2021-03-07 11:44:19,236 - 205 - INFO     $ PyPI badge: https://github.com/MacHu-GWU/pathlib_mate-project $ <module>
+2021-03-07 11:45:19,554 - 205 - INFO     $ PyPI badge: https://github.com/MacHu-GWU/pathlib_mate-project $ <module>
