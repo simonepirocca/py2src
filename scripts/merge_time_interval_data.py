@@ -9,10 +9,8 @@ import logging
 import pytest
 from pathlib import Path
 
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/vulns.log")
+from ..src.utils import log_function_output
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/vulns.log")
 
 # Set input and output files, inizialize variables
 input_commit_vuln_file = "../output/vulns_output/commit_vulns_time_interval.csv"
@@ -126,7 +124,7 @@ with open(input_pr_packages_file) as csv_file:
 logger.info(f"Total packages time intervals: {tot_packages}")
 with open(packages_output_file, mode='w') as csv_file:
     vulns_writer = csv.writer(csv_file, delimiter=';')
-#    vulns_writer.writerow([Package name, Clone dir, Tot vulns, Commit vulns, PR vulns, Tot Severity L, Tot Severity M, Tot Severity H,\
-# Median Severity, Tot Major v., Tot Minor v., Tot Patch v., Median release type, Commit time interval, PR time interval, Avg time interval])
+    vulns_writer.writerow(["Package name", "Clone dir", "Tot vulns", "Commit vulns", "PR vulns", "Tot Severity L", "Tot Severity M", "Tot Severity H",\
+ "Median Severity", "Tot Major v.", "Tot Minor v.", "Tot Patch v.", "Median release type", "Commit time interval", "PR time interval", "Avg time interval"])
     for i in range(0, tot_packages):
         vulns_writer.writerow(packages[i])

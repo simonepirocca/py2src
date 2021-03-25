@@ -11,14 +11,9 @@ import logging
 import pytest
 from pathlib import Path
 
-vulns_module_path = Path().resolve() / "vulns"
-sys.path.append(str(vulns_module_path))
-from vulns import Vuln
-
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/vulns.log")
+from ..src.vulns.vulns import Vuln
+from ..src.utils import log_function_output
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/vulns.log")
 
 # Set input file and page range, initialize variables
 SNYK_DB_FILE = "../output/vulns_output/snyk_pip_vulns.csv"
@@ -26,11 +21,18 @@ BASE_URL = "https://snyk.io/vuln/page/"
 SNYK_VULN_PAGE_BASE_URL = "https://snyk.io"
 total_vulns = 0
 first_page = 1
-last_page = 5 # 43 is the last current page
+last_page = 49 # 49 is the last current page
 vulnerabilities = []
+
+if first_page == 1:
+    with open(SNYK_DB_FILE, mode='w') as csv_file:
+        vulns_writer = csv.writer(csv_file, delimiter=';')
+        vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
+'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
 
 # Loop among pages
 for i in range(first_page, last_page+1):
+    logger.info(f"Crawling page {str(i)}...")
     vulns_list_url = BASE_URL + str(i) + "?type=pip"
     try:
         req = Request(vulns_list_url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -72,8 +74,8 @@ for i in range(first_page, last_page+1):
 
 # Print out the number of vulnerabilities found and store the information in a CSV file
 logger.info(f"Tot SKYK vulns: {len(vulnerabilities)}")
-with open(SNYK_DB_FILE, mode='w') as csv_file:
+with open(SNYK_DB_FILE, mode='a') as csv_file:
     vulns_writer = csv.writer(csv_file, delimiter=';')
-    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
-'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
+#    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
+#'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
     for i in range(0, len(vulnerabilities)): vulns_writer.writerow(vulnerabilities[i])

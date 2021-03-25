@@ -9,10 +9,9 @@ import pytest
 import logging
 from pathlib import Path
 
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/metrics.log")
+from ..src.utils import log_function_output
+#logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filepath="../logs/url_finder.log")
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/metrics.log")
 
 # Set source, output and range
 input_file = "../output/metrics_final.csv"

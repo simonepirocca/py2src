@@ -1,62 +1,64 @@
-Vulnerabilities: 1276
-Packages: 564
+Vulnerabilities: 1458
+Packages: 631
 Complete rows: 0
 
-CVE: 941
-GitHub Advisory: 98
-GitHub Commit: 438
-GitHub Release: 61
+CVE: 1065
+GitHub Advisory: 106
+GitHub Commit: 534
+GitHub Release: 73
 GitHub Release Tag: 3
-GitHub Additional Information: 14
-GitHub PR: 182
-GitHub Issue: 195
-NVD: 343
+GitHub Additional Information: 21
+GitHub PR: 226
+GitHub Issue: 209
+NVD: 359
 
 ------------------------------------------
 
 Vulnerabilities related to known packages:
-701 (of 217 packages)
+775 (of 225 packages)
 
 ------------------------------------------
+Total packages affecting by commit or PR
+vulns:
+Total: 145
+Cloned: 142
+Duplications: 3
+
+-----------------------------------------
 
 Vulnerabilties related to known packages 
 with (unique) Commit link:
-218 (of 114 packages)
+262 (of 127 packages)
 
-PACKAGES (114)
-With broken links (fixed): 9
-Cloned: 112
-Duplications: 2
-
-COMMITS (218)
+COMMITS (262)
 Empty hashes: 1
-Hashes not found: 19
-Hashes with no releases linked: 6 
-Final commits analysed: 192
-Final packages involved: 100
+
+Hashes not found: 18
+Hashes with no releases linked: 18 
+
+Final commits analysed: 225
+Final packages involved: 113
 
 ------------------------------------------
 
 Vulnerabilties related to known packages 
 with (unique) PR link and no Commit link:
-51 (of 30 packages, of which 12 new)
+69 (of 39 packages, of which 18 new)
 
-PR (51)
+PR (69)
 
 Not found: 1
 Open (not analysed): 1
-Closed with commit link: 4
-Closed without commit link: 2
-Merged: 43
-
+Closed without commit link: 4
+Considered (Merged + Closed with commit link): 63
 
 Hashes not found: 2
-Hashes with no releases linked: 3 
+Hashes with no releases linked: 5 
 
-Final pr analysed: 42
-Final packages involved: 26
+Final pr analysed: 56
+Final packages involved: 32
 
 ------------------------------------------
 
 Total number of considered vulnerabilities
-(Commit + PR): 231, related to 109 packages
+(Commit + PR): 281, related to 128 packages

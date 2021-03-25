@@ -1,4 +1,4 @@
-Package name;Final URL
+Package name;GitHub URL
 azure-storage-blob;https://github.com/azure/azure-sdk-for-python
 psycopg2;https://github.com/psycopg/psycopg2
 typing-extensions;https://github.com/python/typing
@@ -18,7 +18,6 @@ azure-storage-queue;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-compute;https://github.com/azure/azure-sdk-for-python
 azure-keyvault;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-network;https://github.com/azure/azure-sdk-for-python
-geoip2;https://github.com/maxmind/libmaxminddb
 azure-mgmt-sql;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-datalake-nspkg;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-rdbms;https://github.com/azure/azure-sdk-for-python
@@ -28,14 +27,15 @@ azure-mgmt-datalake-store;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-batch;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-cdn;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-cosmosdb;https://github.com/azure/azure-sdk-for-python
+azure-cosmosdb-nspkg;https://github.com/azure/azure-cosmos-table-python
 azure-storage;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-web;https://github.com/azure/azure-sdk-for-python
 azure-storage-nspkg;https://github.com/azure/azure-storage-python
-pika;https://github.com/invl/retry
 azure-mgmt-containerservice;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-monitor;https://github.com/azure/azure-sdk-for-python
 azure-servicebus;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-datalake-analytics;https://github.com/azure/azure-sdk-for-python
+pep8;https://github.com/pycqa/pycodestyle
 azure-mgmt-dns;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-devtestlabs;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-redis;https://github.com/azure/azure-sdk-for-python
@@ -68,7 +68,6 @@ azure-mgmt-policyinsights;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-signalr;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-managementgroups;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-datamigration;https://github.com/azure/azure-sdk-for-python
-wasabi;https://github.com/explosion/thinc
 azure-mgmt-maps;https://github.com/azure/azure-sdk-for-python
 azure-storage-file;https://github.com/azure/azure-storage-python
 gapic-google-cloud-logging-v2;https://github.com/googleapis/googleapis
@@ -86,7 +85,6 @@ azure-mgmt-notificationhubs;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-subscription;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-managementpartner;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-commerce;https://github.com/azure/azure-sdk-for-python
-azure-mgmt-powerbiembedded;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-hanaonazure;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-machinelearningcompute;https://github.com/azure/azure-sdk-for-python
 tensorflow-gpu;https://github.com/tensorflow/tensorflow
@@ -94,6 +92,7 @@ azure-cli-core;https://github.com/azure/azure-cli
 azure-mgmt-devspaces;https://github.com/azure/azure-sdk-for-python
 azure-applicationinsights;https://github.com/azure/azure-sdk-for-python
 azure-cosmos;https://github.com/azure/azure-sdk-for-python
+certbot;https://github.com/certbot/certbot
 letsencrypt;https://github.com/certbot/certbot
 certbot-apache;https://github.com/certbot/certbot
 proto-google-cloud-datastore-v1;https://github.com/googleapis/googleapis
@@ -106,13 +105,16 @@ azure-cli-telemetry;https://github.com/azure/azure-cli
 gapic-google-cloud-datastore-v1;https://github.com/googleapis/googleapis
 opencensus-context;https://github.com/census-instrumentation/opencensus-python
 tensorflow-tensorboard;https://github.com/tensorflow/tensorboard
+opencv-contrib-python;https://github.com/opencv/opencv-python
 tb-nightly;https://github.com/tensorflow/tensorboard
 azure-eventhub;https://github.com/azure/azure-sdk-for-python
 kafka;https://github.com/dpkp/kafka-python
+gcloud;https://github.com/googleapis/google-cloud-python
 azure-mgmt-hdinsight;https://github.com/azure/azure-sdk-for-python
 flake8-docstrings;https://github.com/pycqa/pydocstyle
 azure-mgmt-netapp;https://github.com/azure/azure-sdk-for-python
 phonenumberslite;https://github.com/daviddrysdale/python-phonenumbers
+vsts;https://github.com/microsoft/azure-devops-python-api
 azure-mgmt-sqlvirtualmachine;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-deploymentmanager;https://github.com/azure/azure-sdk-for-python
 azure-mgmt-appconfiguration;https://github.com/azure/azure-sdk-for-python
@@ -131,8 +133,8 @@ proto-google-cloud-error-reporting-v1beta1;https://github.com/googleapis/googlea
 django-rest-framework;https://github.com/encode/django-rest-framework
 opencensus-ext-azure;https://github.com/census-instrumentation/opencensus-python
 azure-keyvault-secrets;https://github.com/azure/azure-sdk-for-python
+brewer2mpl;https://github.com/jiffyclub/palettable
 azure-storage-file-datalake;https://github.com/azure/azure-sdk-for-python
-ur-rtde;https://github.com/pybind/pybind11
 chart-studio;https://github.com/plotly/plotly.py
 grpc-google-logging-v2;https://github.com/googleapis/googleapis
 grpc-google-pubsub-v1;https://github.com/googleapis/googleapis
@@ -143,14 +145,20 @@ allure-pytest;https://github.com/allure-framework/allure-python
 gapic-google-cloud-pubsub-v1;https://github.com/googleapis/googleapis
 fake-factory;https://github.com/joke2k/faker
 azure-mgmt-core;https://github.com/azure/azure-sdk-for-python
+uritemplate-py;https://github.com/python-hyper/uritemplate
 zmq;https://github.com/zeromq/pyzmq
+xlwings;https://github.com/python-excel/xlrd
+facebookads;https://github.com/facebook/facebook-python-business-sdk
+twitter-common-dirutil;https://github.com/twitter-archive/commons
 azure-mgmt-redhatopenshift;https://github.com/azure/azure-sdk-for-python
 twitter-common-options;https://github.com/twitter-archive/commons
 twitter-common-log;https://github.com/twitter-archive/commons
+pytorch-transformers;https://github.com/huggingface/transformers
 azure-keyvault-keys;https://github.com/azure/azure-sdk-for-python
-flask-debugtoolbar;https://github.com/jazzband/django-debug-toolbar
+pytorch-pretrained-bert;https://github.com/huggingface/transformers
 path;https://github.com/jaraco/path
 opencensus-ext-stackdriver;https://github.com/census-instrumentation/opencensus-python
+uplink;https://github.com/psf/black
 elasticsearch6;https://github.com/elastic/elasticsearch-py
 elasticsearch5;https://github.com/elastic/elasticsearch-py
 twitter-common-collections;https://github.com/twitter-archive/commons
@@ -164,14 +172,10 @@ aws-cdk-aws-iam;https://github.com/aws/aws-cdk
 aws-cdk-region-info;https://github.com/aws/aws-cdk
 opencv-contrib-python-headless;https://github.com/opencv/opencv-python
 aws-cdk-aws-kms;https://github.com/aws/aws-cdk
-carbon;https://github.com/graphite-project/graphite-web
 aliyun-python-sdk-core-v3;https://github.com/aliyun/aliyun-openapi-python-sdk
 aws-cdk-aws-events;https://github.com/aws/aws-cdk
 aws-cdk-aws-s3;https://github.com/aws/aws-cdk
 aws-cdk-aws-ssm;https://github.com/aws/aws-cdk
-dbt-postgres;https://github.com/fishtown-analytics/dbt
-aws-cdk-aws-cloudwatch;https://github.com/aws/aws-cdk
-aws-cdk-assets;https://github.com/aws/aws-cdk
 aws-cdk-aws-ec2;https://github.com/aws/aws-cdk
 aws-cdk-aws-logs;https://github.com/aws/aws-cdk
 dbt;https://github.com/fishtown-analytics/dbt
@@ -179,6 +183,7 @@ aws-cdk-aws-sqs;https://github.com/aws/aws-cdk
 neo4j-driver;https://github.com/neo4j/neo4j-python-driver
 aws-cdk-aws-lambda;https://github.com/aws/aws-cdk
 aws-cdk-aws-s3-assets;https://github.com/aws/aws-cdk
+pyramid-arima;https://github.com/alkaline-ml/pmdarima
 dbt-redshift;https://github.com/fishtown-analytics/dbt
 dbt-snowflake;https://github.com/fishtown-analytics/dbt
 dbt-bigquery;https://github.com/fishtown-analytics/dbt
@@ -191,6 +196,7 @@ gapic-google-cloud-spanner-admin-instance-v1;https://github.com/googleapis/googl
 gapic-google-cloud-spanner-admin-database-v1;https://github.com/googleapis/googleapis
 proto-google-cloud-spanner-admin-instance-v1;https://github.com/googleapis/googleapis
 proto-google-cloud-spanner-admin-database-v1;https://github.com/googleapis/googleapis
+pep257;https://github.com/pycqa/pydocstyle
 tensorflow-cpu;https://github.com/tensorflow/tensorflow
 aws-cdk-aws-cloudformation;https://github.com/aws/aws-cdk
 aws-cdk-aws-route53;https://github.com/aws/aws-cdk
@@ -202,7 +208,6 @@ aws-cdk-aws-apigateway;https://github.com/aws/aws-cdk
 twitter-common-contextutil;https://github.com/twitter-archive/commons
 aws-cdk-aws-autoscaling-common;https://github.com/aws/aws-cdk
 twitter-common-util;https://github.com/twitter-archive/commons
-twitter-common-app;https://github.com/twitter-archive/commons
 twitter-common-process;https://github.com/twitter-archive/commons
 twitter-common-string;https://github.com/twitter-archive/commons
 pyobjc-framework-cocoa;https://github.com/ronaldoussoren/pyobjc
@@ -220,11 +225,14 @@ aws-cdk-aws-ecs;https://github.com/aws/aws-cdk
 ldclient-py;https://github.com/launchdarkly/python-server-sdk
 aws-cdk-aws-servicediscovery;https://github.com/aws/aws-cdk
 aws-cdk-aws-autoscaling-hooktargets;https://github.com/aws/aws-cdk
+pyuwsgi;https://github.com/unbit/uwsgi-docs
 doc-warden;https://github.com/azure/azure-sdk-tools
+asgi-redis;https://github.com/django/channels_redis
 aws-cdk-aws-stepfunctions;https://github.com/aws/aws-cdk
 python2-pythondialog;https://github.com/erikrose/blessings
 locust;https://github.com/locustio/locust
 elasticsearch2;https://github.com/elastic/elasticsearch-py
+pydevd-pycharm;https://github.com/fabioz/pydev.debugger
 azure-cli-profile;https://github.com/azure/azure-cli
 devpi-client;https://github.com/devpi/devpi
 ibm-watson;https://github.com/watson-developer-cloud/python-sdk
@@ -248,4 +256,3 @@ pyobjc-framework-cfnetwork;https://github.com/ronaldoussoren/pyobjc
 pyobjc-framework-webkit;https://github.com/ronaldoussoren/pyobjc
 pyobjc-framework-launchservices;https://github.com/ronaldoussoren/pyobjc
 pyobjc-framework-exceptionhandling;https://github.com/ronaldoussoren/pyobjc
-pykube-ng;https://github.com/kelproject/pykube

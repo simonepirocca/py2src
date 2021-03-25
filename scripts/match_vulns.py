@@ -11,13 +11,11 @@ import logging
 import pytest
 from pathlib import Path
 
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/vulns.log")
+from ..src.utils import log_function_output
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/vulns.log")
 
 # Set input and output files, inizialize variables
-packages_input_file = "../output/metrics_output/packages_asc.csv"
+packages_input_file = "../output/vulns_output/packages_asc.csv"
 vulns_input_file = "../output/vulns_output/snyk_pip_vulns.csv"
 packages_output_file = "../output/vulns_output/matching_packages.csv"
 vulns_output_file = "../output/vulns_output/matching_vulns.csv"
@@ -105,16 +103,16 @@ if ref_to_check != "":
     logger.info(f"'{ref_to_check}' vulns: {tot_ref_vulns}, '{ref_to_check}' packages: {tot_ref_packages}")
 
 # Store matching vulnerabilities
-#with open(vulns_output_file, mode='w') as csv_file:
-#    vulns_writer = csv.writer(csv_file, delimiter=';')
-#    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
-#'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
-#    for i in range(0, len(matching_vulns)):
-#        vulns_writer.writerow(matching_vulns[i])
+with open(vulns_output_file, mode='w') as csv_file:
+    vulns_writer = csv.writer(csv_file, delimiter=';')
+    vulns_writer.writerow(['Severity', 'Name', 'Vulnerability_url', 'Package', 'Versions', 'CVE', 'GitHub Advisory', \
+'GitHub Commit', 'GitHub Release', 'GitHub Release Tag', 'GitHub Additional Information', 'GitHub PR', 'GitHub Issue', 'NVD'])
+    for i in range(0, len(matching_vulns)):
+        vulns_writer.writerow(matching_vulns[i])
 
 # Store matching packages
-#with open(packages_output_file, mode='w') as csv_file:
-#    vulns_writer = csv.writer(csv_file, delimiter=';')
-#    vulns_writer.writerow(['Package name', 'Clone url'])
-#    for i in range(0, len(matching_packages)):
-#        vulns_writer.writerow(matching_packages[i])
+with open(packages_output_file, mode='w') as csv_file:
+    vulns_writer = csv.writer(csv_file, delimiter=';')
+    vulns_writer.writerow(['Package name', 'Clone url'])
+    for i in range(0, len(matching_packages)):
+        vulns_writer.writerow(matching_packages[i])

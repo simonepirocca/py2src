@@ -2,7 +2,7 @@ import json
 from urllib.request import Request, urlopen
 from datetime import date
 import pytest
-from metrics import Metrics
+from ..metrics.metrics import Metrics
 
 class GetMetrics:
     def __init__(self, package_name: str, github_url:str):
@@ -14,7 +14,7 @@ class GetMetrics:
         # Instanziate package
         github_url_parts = self._github_url.split("/")
         parts = len(github_url_parts)
-        github_token = "put_here_a_valid_github_token"
+        #github_token = "put_here_a_valid_github_token"
         pkg = Metrics(self._package_name, self._github_url)
 
         # Inizialize metrics

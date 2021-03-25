@@ -1,0 +1,335 @@
+ROW DATA:
+
+Complete rows 1: [504, 120, 91, 99, 643, 577, 1031, 664, 271]
+Complete rows 2: [4000, 3496, 3376, 3285, 3186, 2543, 1966, 935, 271]
+Equal rows 1: [504, 133, 111, 152, 702, 520, 1020, 670, 188]
+Equal rows 2: [4000, 3496, 3363, 3252, 3100, 2398, 1878, 858, 188]
+Equal to OSSGadget rows 1: [669, 91, 146, 701, 517, 1019, 669, 188]
+Equal to OSSGadget rows 2: [4000, 3331, 3240, 3094, 2393, 1876, 857, 188]
+Not Empty: [3369, 370, 2896, 2127, 2210, 3069, 3074, 822, 1491]
+Equal to OSSGadget (not empty): [2890, 2018, 2188, 2891, 3061, 560, 1371]
+OSSGadget empty: [6, 84, 8, 10, 6, 34, 33]
+
+--------------------------------------------
+NOT EMPTY:
+
+OSSGadget PyPI URL:    3369     (84%)
+Statistics URL:        3074     (77%)
+PyPI 2 URL:            3069     (77%)
+Metadata URL:          2896     (72%)
+PyPI URL:              2210     (55%)
+Homepage URL:          2127     (53%)
+PyPI badge URL:        1491     (37%)
+Readthedocs URL:        822     (21%)
+(OSSGadget GitHub URL:  370)    ( 9%)
+
+--------------------------------------------
+PRESENCES:
+
+Empty rows: 504                 (13%)
+Different URLs: 120             ( 3%)
+At least 2 equal URLs: 3376     (84%)
+At least 3 equal URLs: 3285     (82%)
+At least 4 equal URLs: 3186     (80%)
+At least 5 equal URLs: 2543     (64%)
+At least 6 equal URLs: 1966     (49%)
+At least 7 equal URLs:  935     (23%)
+All 8 URLs equal:       271     ( 7%)
+
+-------------------------------------------
+OSSGADGET GITHUB STATISTICS:
+
+Total occurrences:           370   ( 9%)
+GitHub OSSGadget PyPI empty:  60   (16%)
+Useless OSSGadget GitHub:     39   (65%)
+Useful OSSGadget GitHub:      21   (35%)
+
+--------------------------------------------
+EQUAL TO OSSGADGET (total 3369):
+
+Statistics URL:        3061    (91%)
+PyPI 2 URL:            2891    (86%)
+Metadata URL:          2890    (86%)
+PyPI URL:              2188    (65%)
+Homepage URL:          2018    (60%)
+PyPI badge URL:        1371    (41%)
+Readthedocs URL:        560    (17%)
+
+--------------------------------------------
+EQUAL TO OSSGADGET STATISTICS (total 3369):
+
+All different rows:      38     ( 1%)
+At least 1 equal URL:  3331     (99%)
+At least 2 equal URLs: 3240     (96%)
+At least 3 equal URLs: 3094     (92%)
+At least 4 equal URLs: 2393     (71%)
+At least 5 equal URLs: 1876     (56%)
+At least 6 equal URLs:  857     (25%)
+All 7 URLs equal:       188     ( 6%)
+
+-------------------------------------------
+OSSGADGET EMPTY (total 631):
+
+Homepage URL:           84     (13%)
+Readthedocs URL:        34     ( 5%)
+PyPI badge URL:         33     ( 5%)
+PyPI 2 URL:             10     ( 2%)
+PyPI URL:                8     ( 1%)
+Metadata URL:            6     ( 1%)
+Statistics URL           6     ( 1%)
+
+--------------------------------------------
+EQUAL COLS (not empty): 
+         1."OSSGadget PyPI URL", 2."Metadata URL", 3."Homepage URL", 4."PyPI URL", 5."PyPI 2 URL", 6."Statistics URL", 7."Readthedocs URL", 8."PyPI badge URL"
+1.[             (3369),                 2890,             2018,           2188,          2891,            *3061*,              560,                 1371], <-- point of reference
+2.[             *2890*,                (2896),            1828,           1888,          2674,             2880,               464,                 1169], 
+3.[             *2018*,                 1828,            (2127),          1902,          1778,             1905,               393,                  959], 
+4.[             *2188*,                 1888,             1902,          (2210),         1908,             2015,               385,                  954], 
+5.[             *2891*,                 2674,             1778,           1908,         (3069),            2764,               488,                 1191], 
+6.[             *3061*,                 2880,             1905,           2015,          2764,            (3074),              495,                 1235], 
+7.[              *560*,                  464,              393,            385,           488,              495,              (822),                 383], 
+8.[             *1371*,                 1169,              959,            954,          1191,             1235,               383,                (1491)]
+
+
+
+++++++++++++++ OSSGADGET NOT CONSIDERED +++++++++++++++++++++++
+
+
+----------------------------------------------------------------
+OSSGADGET STATISTICS
+
+URLs different from final URL: 200
+PRECISION (based on parameters)
+TP: 1460 
+FP: 40 ***TO CHECK***
+TP maybe: 816
+FP maybe: 34
+
+---------------------------------------------------------------
+OTHER URLS DIVERSITY
+
+0 URLs in row:  527
+1 URL in row:  3033
+2 URLs in row:  395
+3 URLs in row:   44
+4 URLs in row:    1
+
+---------------------------------------------------------------
+OSSGADGET AND OTHER URLS DIFFERENCES
+
+Equal URLs:                                3813
+
+OSSGadget URL equal to SECOND URL:           20 ***TO CHECK***
+OSSGadget URL equal to THIRD URL:             2 ***TO CHECK***
+Other different URLs:                       165 ***TO CHECK***
+
+All Different URLs (final URL not empty):   164
+Different (OSSGadget URL empty):            127
+Different (final URL empty):                 23
+
+Different TP:         24
+Different FP:          4
+Different TP maybe:    5
+Different FP maybe:    2
+Different empty:     141
+
+--> TOTAL TO CHECK MANUALLY: 253
+--> NOT CHECKED YET: 136 ***
+--> ALREADY CHECKED: 117
+
+--> REMAINING FROM CHECKED ONES: 189 - 117 = 72
+
+--> TOTAL SET OF CHECKED URLS: 253 + 72 = 325
+
+---------------------------------------------------------------
+FINAL URL PRECISION
+
+Different URL (final URL not empty): 164
+
+TP: 42 
+FP: 9
+TP maybe: 32
+FP maybe: 13
+
+TP --> TP: 0
+TP --> FP: 2
+FP --> TP: 1
+FP --> FP: 1
+
+--------------------------------------------------------------
+ROW DATA
+Complete rows 1: [527, 168, 115, 646, 575, 1033, 664, 272], Complete rows 2: [4000, 3473, 3305, 3190, 2544, 1969, 936, 272]
+Equal rows 1: [527, 191, 176, 707, 518, 1022, 670, 189], Equal rows 2: [4000, 3473, 3282, 3106, 2399, 1881, 859, 189]
+Not Empty: [2896, 2127, 2210, 3069, 3074, 822, 1491], TP: [2896, 2110, 2199, 2919, 3069, 598, 1398], FP: [0, 17, 11, 150, 5, 224, 93]
+
+--------------------------------------------------------------
+NOT EMPTY:
+
+Statistics URL:        3074     (77%)
+PyPI 2 URL:            3069     (77%)
+Metadata URL:          2896     (72%)
+PyPI URL:              2210     (55%)
+Homepage URL:          2127     (53%)
+PyPI badge URL:        1491     (37%)
+Readthedocs URL:        822     (21%)
+
+--------------------------------------------------------------
+PRESENCES:
+
+Empty rows: 527                 (13%)
+Different URLs: 168             ( 4%)
+At least 2 equal URLs: 3305     (83%)
+At least 3 equal URLs: 3190     (80%)
+At least 4 equal URLs: 2544     (64%)
+At least 5 equal URLs: 1969     (49%)
+At least 6 equal URLs:  936     (23%)
+All 7 URLs equal:       272     ( 7%)
+
+--------------------------------------------------------------
+FALSE POSITIVES (with respect to final URL)
+
+
+Metadata URL:       0     (0.0%)
+Statistics URL:     5     (0.16%)
+PyPI URL:          11     (0.5%)
+Homepage URL:      17     (0.8%)
+PyPI 2 URL:       150     (4.9%)
+PyPI badge URL:    93     (6.2%)
+Readthedocs URL:  224    (27.2%)
+
+--------------------------------------------------------------
+GROUND TRUTH (Total 253 + 72 = 325 packages analyzed)
+
+TRUE POSITIVES
+OSSGadget URL:     130   (80%)
+
+Homepage URL:       93   (92%)
+Statistics URL:     79   (95%)
+PyPI badge URL:     67   (93%)
+PyPI 2 URL:         64   (57%)
+Metadata URL:       56   (97%) 
+Readthedocs URL:    32   (54%)
+PyPI URL:           18   (72%)
+
+Major URL:         207   (78%)
+Weight URL:        214   (87%)
+
+FALSE POSITIVES
+OSSGadget URL:      32   (20%)
+
+Metadata URL:        2   ( 3%)
+Statistics URL:      4   ( 5%)
+PyPI badge URL:      5   ( 7%)
+PyPI URL:            7   (28%)
+Homepage URL:        8   ( 8%)
+Readthedocs URL:    27   (83%)
+PyPI 2 URL:         48   (43%)
+
+Major URL:          59   (22%)
+Weight URL:         41   (13%)
+
+TRUE NEGATIVES
+OSSGadget URL:      23   (14%)
+
+Metadata URL:       29   (11%) 
+Statistics URL:     29   (12%) 
+PyPI badge URL:     28   (10%)      
+Homepage URL:       27   (22%)
+PyPI URL:           27   ( 9%)
+PyPI 2 URL:         24   (11%)
+Readthedocs URL:    19   ( 7%)
+Homepage URL:        8   ( 8%)
+
+Major URL:          13   (22%)
+Weight URL:         20   (28%)
+
+FALSE NEGATIVES
+OSSGadget URL:     140   (86%)
+
+PyPI 2 URL:        189   (89%)  
+Homepage URL:      197   (78%)
+Statistics URL:    213   (88%)
+Metadata URL:      238   (89%) 
+Readthedocs URL:   247   (93%)
+PyPI badge URL:    255   (90%)
+PyPI URL:          273   (91%) 
+
+Major URL:          46   (78%)
+Weight URL:         50   (72%)
+
+PRECISION
+OSSGadget URL:     80%
+
+Metadata URL:      97%
+Statistics URL:    95%
+PyPI badge URL:    93%
+Homepage URL:      92%
+PyPI URL:          72%
+PyPI 2 URL:        57% 
+Readthedocs URL:   54%
+
+Major URL:         78%
+Weight URL:        84%
+
+RECALL
+OSSGadget URL:     48%
+
+Homepage URL:      32%
+Statistics URL:    27%
+PyPI 2 URL:        25% 
+PyPI badge URL:    23%
+Metadata URL:      19%
+Readthedocs URL:   11%
+PyPI URL:           6%
+
+Major URL:         82%
+Weight URL:        81%
+
+ACCURACY
+OSSGadget URL:     47%
+
+Homepage URL:      37%   
+Statistics URL:    33%  
+PyPI badge URL:    29%  
+PyPI 2 URL:        27%
+Metadata URL:      26%   
+Readthedocs URL:   16%   
+PyPI URL:          14%   
+
+Major URL:         68%
+Weight URL:        72%
+
+F SCORE
+                  F0.5    F1    F0.4
+OSSGadget URL:     71%    60%    73%
+
+Homepage URL:      67%    48%    73%
+Statistics URL:    63%    42%    71%
+PyPI badge URL:    58%    37%    65%
+Metadata URL:      53%    32%    62% *** CHECK THE
+PyPI 2 URL:        46%    35%    49% *** DIFFERENCE
+Readthedocs URL:   31%    19%    36%
+PyPI URL:          23%    11%    29%
+
+Major URL:         79%    80%    78%
+Weight URL:        83%    82%    84%
+-----------------------------------------
+AFTER FOUND REAL URL AND CONFIDENCE
+
+Confidence mean:                70%
+NO confidence (<10%):           37
+NO confidence (<10% not TP):    27
+NO confidence (<10% FP):        12
+LOW confidence (10%<x<35%):    313
+HIGH confidence (>35%) but FP:  54
+Diff from OSSGadget URL:       186
+Real diff from OSSGadget URL:   59
+Diff from Final URL:            15
+
+-----------------------------------------
+REAL/WEIGHT URLS DIFFERENCES
+
+Total differences:            91
+Different (Weight empty, FN): 70
+Different (Real empty, FP):    9
+Different (Both not empty):   12

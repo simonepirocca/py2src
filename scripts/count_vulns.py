@@ -9,15 +9,13 @@ import logging
 import pytest
 from pathlib import Path
 
-utils_module_path = Path().resolve() / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/vulns.log")
+from ..src.utils import log_function_output
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/vulns.log")
 
 # Set input file and range
 input_csv = "../output/vulns_output/snyk_pip_vulns.csv"
 start = 1 # DO NOT consider header line
-count = 1280
+count = 4000
 end = start + count
 
 # Inizialize variables
@@ -58,7 +56,7 @@ with open(input_csv) as csv_file:
             tot_vulns += 1
 
         line_count += 1
-        if line_count >= end: break
+        #if line_count >= end: break
 
 # Print out the total number of unique packages and vulnerabilities,
 # together with the number of occurrencies for each type of information

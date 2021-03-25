@@ -1,0 +1,254 @@
+Package name;OSSGadget URL;Final URL;Motivation
+cffi;;https://github.com/python-cffi/release-doc;Different
+future;;https://github.com/pythoncharmers/python-future;Different
+grpcio;https://github.com/grpc/grpc;;Different
+pygments;;https://github.com/pygments/pygments;Different
+pexpect;;https://github.com/pexpect/pexpect;Different
+contextlib2;;https://github.com/jazzband/contextlib2;Different
+funcsigs;https://github.com/testing-cabal/funcsigs;;Different
+docopt;https://github.com/docopt/docopt;https://github.com/keleshev/schema;Different
+requests-toolbelt;https://github.com/requests/toolbelt;https://github.com/psf/requests;Different
+notebook;;https://github.com/jupyter/notebook;Different
+pyarrow;https://github.com/apache/arrow;;Different
+babel;;https://github.com/python-babel/babel;Different
+py4j;;https://github.com/bartdag/py4j;Different
+dnspython;;https://github.com/rthalley/dnspython;Different
+xlrd;;https://github.com/python-excel/xlrd;Different
+pycrypto;;https://github.com/pycrypto/pycrypto;Different
+grpc-google-iam-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+ruamel-yaml;https://github.com/pypa/setuptools;https://github.com/readthedocs/sphinx_rtd_theme;Different
+nltk;;https://github.com/nltk/nltk;Different
+mypy;;https://github.com/python/mypy;Different
+openpyxl;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+thrift;;https://github.com/apache/thrift;Different
+ruamel-yaml-clib;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+plotly;https://github.com/plotly/orca;https://github.com/plotly/plotly.py;OSSGadget URL FP
+unidecode;https://github.com/avian2/unidecode;https://github.com/miurahr/unihandecode;Different
+aniso8601;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+bottle;;https://github.com/bottlepy/bottle;Different
+jeepney;;https://github.com/lew21/pydbus;Different
+maxminddb;https://github.com/maxmind/libmaxminddb;https://github.com/maxmind/libmaxminddb;OSSGadget URL FP
+blinker;;https://github.com/jek/blinker;Different
+geoip2;https://github.com/maxmind/libmaxminddb;https://github.com/maxmind/libmaxminddb;OSSGadget URL FP
+uwsgi;;https://github.com/unbit/uwsgi-docs;Different
+grpcio-tools;https://github.com/grpc/grpc;;Different
+numba;;https://github.com/numba/numba;Different
+pika;https://github.com/invl/retry;https://github.com/pika/pika;Equal to second URL
+spacy;https://github.com/explosion/spacy;https://github.com/psf/black;Equal to second URL
+pygithub;;https://github.com/pygithub/pygithub;Different
+pycairo;https://github.com/ldo/qahirah;https://github.com/pygobject/pycairo;Equal to second URL
+wasabi;https://github.com/explosion/thinc;https://github.com/ines/wasabi;Equal to second URL
+gapic-google-cloud-logging-v2;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+pyxdg;;https://github.com/takluyver/pyxdg;Different
+proto-google-cloud-logging-v2;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+xlwt;;https://github.com/python-excel/xlwt;Different
+pygobject;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+expiringdict;;https://github.com/mailgun/expiringdict;Different
+tensorboard-plugin-wit;https://github.com/pair-code/what-if-tool;https://github.com/pair-code/what-if-tool;OSSGadget URL FP maybe
+heapdict;;https://github.com/danielstutzbach/heapdict;Different
+zict;;https://github.com/dask/zict;Different
+geopandas;;https://github.com/geopandas/geopandas;Different
+webtest;;https://github.com/pylons/webtest;Different
+proto-google-cloud-datastore-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+anyjson;https://github.com/ask/carrot;;Different
+msal-extensions;https://github.com/azuread/microsoft-authentication-extensions-for-python;https://github.com/azuread/microsoft-authentication-library-for-python;Different
+googledatastore;https://github.com/googlecloudplatform/google-cloud-datastore;https://github.com/googlecloudplatform/google-cloud-datastore;OSSGadget URL FP maybe
+rospkg;;https://github.com/ros-infrastructure/rospkg;Different
+datashape;;https://github.com/blaze/datashape;Different
+statistics;https://github.com/python/cpython;https://github.com/digitalemagine/py-statistics;Different
+scikit-optimize;https://github.com/scikit-optimize/scikit-optimize;https://github.com/conda-forge/scikit-optimize-feedstock;Equal to second URL
+milksnake;https://github.com/getsentry/milksnake;;Different
+dotnetcore2;https://github.com/dotnet/core;https://github.com/dotnet/core;OSSGadget URL FP
+clickclick;;https://github.com/hjacobs/python-clickclick;Different
+python-ldap;;https://github.com/python-ldap/python-ldap;Different
+gapic-google-cloud-datastore-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+tb-nightly;https://github.com/tensorflow/tensorboard;https://github.com/tensorflow/tensorboard;OSSGadget URL FP maybe
+snowflake-sqlalchemy;https://github.com/snowflakedb/snowflake-sqlalchemy;;Different
+ibm-db-sa;https://github.com/ibmdb/python-ibmdbsa;;Different
+clickhouse-cityhash;https://github.com/xzkostyan/python-cityhash;https://github.com/xzkostyan/python-cityhash;OSSGadget URL FP maybe
+azureml-sdk;https://github.com/azure/machinelearningnotebooks;https://github.com/azure/machinelearningnotebooks;OSSGadget URL FP maybe
+pywebhdfs;;https://github.com/pywebhdfs/pywebhdfs;Different
+virtualenvwrapper;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+mkdocs;;https://github.com/mkdocs/mkdocs;Different
+hashids;;https://github.com/davidaurelio/hashids-python;Different
+locustio;;https://github.com/locustio/locust;Different
+ninja;https://github.com/scikit-build/ninja-python-distributions;https://github.com/ninja-build/ninja;Equal to second URL
+cftime;https://github.com/unidata/cftime;https://github.com/unidata/netcdf4-python;Equal to second URL
+libsass;https://github.com/sass/libsass;https://github.com/sass/libsass;OSSGadget URL FP
+urwid;;https://github.com/urwid/urwid;Different
+capstone;;https://github.com/aquynh/capstone;Different
+pyusb;;https://github.com/pyusb/pyusb;Different
+brunel;https://github.com/brunel-visualization/brunel;https://github.com/brunel-visualization/brunel;OSSGadget URL FP
+gapic-google-cloud-error-reporting-v1beta1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+proto-google-cloud-error-reporting-v1beta1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+ipyparallel;;https://github.com/ipython/ipyparallel;Different
+platformio;https://github.com/platformio/platformio-core;https://github.com/platformio/platformio-examples;Equal to second URL
+gevent-websocket;https://github.com/methane/wsaccel;;Different
+routes;;https://github.com/bbangert/routes;Different
+pylibmc;;https://github.com/lericson/pylibmc;Different
+konlpy;;https://github.com/konlpy/konlpy;Different
+palettable;;https://github.com/jiffyclub/palettable;Different
+django-rest-framework;;https://github.com/encode/django-rest-framework;Different
+geoalchemy2;;https://github.com/geoalchemy/geoalchemy2;Different
+httpagentparser;;https://github.com/shon/httpagentparser;Different
+mando;;https://github.com/rubik/mando;Different
+mkdocs-material;https://github.com/squidfunk/mkdocs-material;https://github.com/squidfunk/mkdocs-material;OSSGadget URL FP
+hacs-frontend;https://github.com/hacs/frontend;https://github.com/hacs/frontend;OSSGadget URL FP
+github3-py;;https://github.com/psf/requests;Different
+numpydoc;;https://github.com/numpy/numpydoc;Different
+progressbar;;https://github.com/niltonvolpato/python-progressbar;Different
+ur-rtde;https://github.com/universalrobots/universal_robots_ros_driver;https://github.com/universalrobots/universal_robots_externalcontrol_urcap;OSSGadget URL FP maybe
+chart-studio;https://github.com/plotly/ruby-api;https://github.com/plotly/plotly.py;OSSGadget URL FP
+h2o-pysparkling-2-4;https://github.com/h2oai/sparkling-water;https://github.com/h2oai/sparkling-water;OSSGadget URL FP maybe
+jupyter-latex-envs;https://github.com/jfbercher/jupyter_latex_envs;https://github.com/jfbercher/jupyter_latex_envs;OSSGadget URL FP maybe
+grpc-google-logging-v2;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+grpc-google-pubsub-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gax-google-logging-v2;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gax-google-pubsub-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+proto-google-cloud-pubsub-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gapic-google-cloud-pubsub-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+protorpc;;https://github.com/google/protorpc;Different
+hacking;https://github.com/pycqa/pycodestyle;;Different
+pywinauto;;https://github.com/pywinauto/pywinauto;Different
+limits;;https://github.com/alisaifee/limits;Different
+htcondor;;https://github.com/htcondor/htcondor;Different
+deepmerge;;https://github.com/toumorokoshi/deepmerge;Different
+osqp;https://github.com/oxfordcontrol/osqp-python;https://github.com/oxfordcontrol/osqp;Equal to third URL
+gsutil;;https://github.com/googlecloudplatform/gsutil;Different
+maturin;https://github.com/pyo3/maturin;https://github.com/pyo3/setuptools-rust;Equal to third URL
+img2pdf;;https://github.com/josch/img2pdf;Different
+sphinx-autobuild;;https://github.com/executablebooks/sphinx-autobuild;Different
+tlslite;https://github.com/moxie0/convergence;;OSSGadget URL FP maybe
+pytest-pep8;https://github.com/pycqa/pycodestyle;;Different
+scs;https://github.com/cvxgrp/scs;https://github.com/cvxgrp/scs;OSSGadget URL FP
+ecos;https://github.com/embotech/ecos;https://github.com/embotech/ecos;OSSGadget URL FP
+createsend;;https://github.com/campaignmonitor/createsend-python;Different
+django-haystack;;https://github.com/django-haystack/django-haystack;Different
+rpy2;;https://github.com/rpy2/rpy2;Different
+fastcluster;https://github.com/dmuellner/fastcluster;https://github.com/cran/fastcluster;Different
+nimbusml;https://github.com/microsoft/nimbusml;https://github.com/dotnet/machinelearning;Different
+python-heatclient;;https://github.com/openstack/python-heatclient;Different
+peakutils;;https://github.com/irskep/sphinx-better-theme;Different
+construct;;https://github.com/construct/construct;Different
+asyncssh;https://github.com/ronf/asyncssh;https://github.com/jedisct1/libsodium;Equal to second URL
+twitter-common-lang;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-dirutil;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-options;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-log;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+flask-debugtoolbar;https://github.com/jazzband/django-debug-toolbar;https://github.com/flask-debugtoolbar/flask-debugtoolbar;Equal to second URL
+testrepository;;https://github.com/testing-cabal/testrepository;Different
+meson;;https://github.com/mesonbuild/meson;Different
+pysmb;;https://github.com/miketeo/pysmb;Different
+gdata;;https://github.com/google/gdata-python-client;Different
+oss2;https://github.com/aliyun/aliyun-oss-python-sdk;https://github.com/psf/requests;Equal to second URL
+pylama;https://github.com/klen/pylama;;Different
+tf-nightly;https://github.com/tensorflow/tensorflow;https://github.com/tensorflow/tensorflow;OSSGadget URL FP maybe
+wxpython;https://github.com/wxwidgets/phoenix;;Different
+deap;https://github.com/deap/deap;https://github.com/soravux/scoop;Equal to second URL
+patool;;https://github.com/wummel/patool;Different
+django-configurations;;https://github.com/jazzband/django-configurations;Different
+keystonemiddleware;https://github.com/openstack/keystone;https://github.com/openstack/keystonemiddleware;Equal to second URL
+ipfshttpclient;https://github.com/ipfs-shipyard/py-ipfs-http-client;https://github.com/richardlitt/standard-readme;Different
+pysolar;;https://github.com/pingswept/pysolar;Different
+aiokafka;;https://github.com/aio-libs/aiokafka;Different
+ovs;;https://github.com/openvswitch/ovs;Different
+pyminizip;https://github.com/smihica/pyminizip;https://github.com/smihica/pyminizip;OSSGadget URL FP
+repoze-who;;https://github.com/repoze/repoze.who;Different
+azure-functions;https://github.com/azure/azure-functions-ux;;OSSGadget URL FP
+xstatic-bootstrap-scss;https://github.com/twbs/bootstrap-sass;https://github.com/twbs/bootstrap-sass;OSSGadget URL FP
+pycld2;https://github.com/abosamoor/pycld2;https://github.com/abosamoor/pycld2;OSSGadget URL FP
+pbkdf2;;https://github.com/dlitz/python-pbkdf2;Different
+googleappenginecloudstorageclient;https://github.com/googlecloudplatform/appengine-gcs-client;https://github.com/googlecloudplatform/appengine-gcs-client;OSSGadget URL FP maybe
+bashate;https://github.com/pycqa/pycodestyle;;Different
+xlutils;;https://github.com/python-excel/xlutils;Different
+cloudinary;https://github.com/cloudinary/pycloudinary;https://github.com/cloudinary/cloudinary_js;Different
+fastai;https://github.com/fastai/fastai;https://github.com/fastai/docker-containers;Equal to second URL
+twitter;;https://github.com/python-twitter-tools/twitter;Different
+atpublic;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+faulthandler;;https://github.com/vstinner/faulthandler;Different
+os-testr;;https://github.com/mtreinish/stestr;Different
+blaze;https://github.com/blaze/blaze;https://github.com/blaze/blaze-tutorial;Equal to second URL
+carbon;https://github.com/graphite-project/graphite-web;https://github.com/graphite-project/carbon;OSSGadget URL FP maybe
+jsonpath;https://github.com/masukomi/jsonpath-perl;https://github.com/masukomi/jsonpath-perl;OSSGadget URL FP
+pyramid-debugtoolbar;https://github.com/pylons/pyramid_debugtoolbar;;Different
+pathmatch;;https://github.com/demurgos/py-pathmatch;Different
+jenkins-job-builder;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+json-encoder;;https://github.com/nzme/json-encoder;Different
+google-python-cloud-debugger;https://github.com/googlecloudplatform/cloud-debug-python;https://github.com/googlecloudplatform/cloud-debug-python;OSSGadget URL FP maybe
+kfp-server-api;https://github.com/kubeflow/pipelines;https://github.com/kubeflow/pipelines;OSSGadget URL FP maybe
+simplekml;;https://github.com/eisoldt/simplekml;Different
+pyviz-comms;;https://github.com/holoviz/holoviz;Different
+browsermob-proxy;;https://github.com/automatedtester/browsermob-proxy-py;Different
+pycountry-convert;;https://github.com/readthedocs/sphinx_rtd_theme;Different
+http-ece;https://github.com/web-push-libs/encrypted-content-encoding;https://github.com/web-push-libs/encrypted-content-encoding;OSSGadget URL FP maybe
+gdal;;https://github.com/osgeo/gdal;Different
+positional;;https://github.com/morganfainberg/positional;Different
+netstorageapi;;https://github.com/akamai/netstoragekit-python;Different
+twitter-common-confluence;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+proto-google-cloud-spanner-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gapic-google-cloud-spanner-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gapic-google-cloud-spanner-admin-instance-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+gapic-google-cloud-spanner-admin-database-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+proto-google-cloud-spanner-admin-instance-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+proto-google-cloud-spanner-admin-database-v1;https://github.com/googleapis/googleapis;https://github.com/googleapis/googleapis;OSSGadget URL FP
+dai-sgqlc-3-5;https://github.com/graphql/graphiql;https://github.com/graphql/graphiql;OSSGadget URL FP
+pysal;https://github.com/pysal/pysal;https://github.com/psf/black;OSSGadget URL FP
+systemd-python;https://github.com/systemd/python-systemd;https://github.com/systemd/python-systemd;OSSGadget URL FP maybe
+repoze-sendmail;;https://github.com/repoze/repoze.sendmail;Different
+ocspresponder;;https://github.com/wbond/ocspbuilder;Different
+pylzma;;https://github.com/fancycode/pylzma;Different
+hypercorn;https://github.com/python-hyper/h2;https://github.com/python-hyper/h11;Different
+twitter-common-contextutil;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+stem;;https://github.com/torproject/stem;Different
+twitter-common-util;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-app;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-process;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+twitter-common-string;https://github.com/twitter-archive/commons;https://github.com/twitter-archive/commons;OSSGadget URL FP maybe
+tox-monorepo;https://github.com/azure/azure-sdk-tools;https://github.com/azure/azure-sdk-tools;OSSGadget URL FP maybe
+dedupe;;https://github.com/dedupeio/dedupe;Different
+dvc;;https://github.com/iterative/dvc;Different
+datefinder;;https://github.com/akoumjian/datefinder;Different
+pyfarmhash;https://github.com/veelion/python-farmhash;https://github.com/veelion/python-farmhash;OSSGadget URL FP maybe
+sphinx-bootstrap-theme;;https://github.com/ryan-roemer/sphinx-bootstrap-theme;Different
+lmfit;;https://github.com/lmfit/lmfit-py;Different
+edx-organizations;;https://github.com/edx/edx-organizations;Different
+mechanicalsoup;https://github.com/mechanicalsoup/mechanicalsoup;https://github.com/jjlee/mechanize;Equal to second URL
+python-jsonschema-objects;;https://github.com/cwacek/python-jsonschema-objects;Different
+simhash;;https://github.com/1e0ng/simhash;Different
+python-igraph;;https://github.com/igraph/python-igraph;Different
+bcdoc;;https://github.com/boto/bcdoc;Different
+doc-warden;https://github.com/azure/azure-sdk-tools;https://github.com/azure/azure-sdk-tools;OSSGadget URL FP maybe
+python-mistralclient;;https://github.com/openstack/python-mistralclient;Different
+frida;;https://github.com/frida/frida;Different
+salt;https://github.com/saltstack/salt;;Different
+quart;;https://github.com/tox-dev/tox;Different
+colcon-output;https://github.com/colcon/colcon-output;;Different
+locust;;https://github.com/locustio/locust;Different
+pydevd-pycharm;https://github.com/jetbrains/intellij-community;https://github.com/jetbrains/intellij-community;OSSGadget URL FP maybe
+tabula-py;;https://github.com/chezou/tabula-py;Different
+pydeck;https://github.com/visgl/deck.gl;https://github.com/visgl/deck.gl;OSSGadget URL FP maybe
+slugid;;https://github.com/taskcluster/slugid.py;Different
+bpemb;;https://github.com/bheinzerling/bpemb;Different
+pafy;;https://github.com/mps-youtube/pafy;Different
+delighted;;https://github.com/delighted/delighted-python;Different
+teradatasql;https://github.com/teradata/python-driver;;Different
+cmake-format;;https://github.com/cheshirekow/cmake-tools-rtd;Different
+constructs;https://github.com/aws/constructs;https://github.com/aws/constructs;OSSGadget URL FP
+simpy;https://github.com/r-simmer/simmer;https://github.com/heal-research/simsharp;OSSGadget URL FP
+orionsdk;https://github.com/solarwinds/orionsdk-python;;Different
+chargebee;;https://github.com/chargebee/chargebee-python;Different
+python-firebase;;https://github.com/ozgur/python-firebase;Different
+cloudbridge;;https://github.com/cloudve/cloudbridge;Different
+zc-buildout;https://github.com/buildout/buildout;https://github.com/buildout/buildout.wheel;Equal to second URL
+yaql;;https://github.com/openstack/yaql;Different
+circus;;https://github.com/circus-tent/circus;Different
+django-hijack-admin;https://github.com/django-hijack/django-hijack;;Different
+aws-kinesis-agg;https://github.com/awslabs/kinesis-aggregation;https://github.com/awslabs/kinesis-aggregation;OSSGadget URL FP maybe
+helper;;https://github.com/gmr/helper;Different
+darglint;https://github.com/terrencepreilly/darglint;https://github.com/raddessi/sublimelinter-contrib-darglint;Different
+murmurhash3;https://github.com/veegee/mmh3;https://github.com/veegee/mmh3;OSSGadget URL FP maybe
+pyramid-beaker;https://github.com/pylons/pyramid_beaker;;Different
+sas7bdat;https://github.com/biostatmatt/sas7bdat;https://github.com/biostatmatt/sas7bdat;OSSGadget URL FP
+pyobjc-framework-launchservices;;https://github.com/ronaldoussoren/pyobjc;Different
+zvmcloudconnector;https://github.com/mfcloud/python-zvm-sdk;https://github.com/mfcloud/python-zvm-sdk;OSSGadget URL FP maybe
+django-slack;;https://github.com/lamby/django-slack;Different

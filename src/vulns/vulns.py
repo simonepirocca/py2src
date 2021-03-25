@@ -11,11 +11,7 @@ class Vuln:
     def __init__(self, vuln_url: str):
         self._vuln_url = vuln_url
         self._soup = None
-        try:
-            req = Request(vuln_url, headers={'User-Agent': 'Mozilla/5.0'})
-            self._soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            self._soup = ""
+        self.open_soup()
 
     @property
     def vuln_url(self) -> str:
@@ -24,6 +20,13 @@ class Vuln:
     @property
     def soup(self) -> BeautifulSoup:
         return self._soup
+
+    def open_soup(self):
+        try:
+            req = Request(self._vuln_url, headers={'User-Agent': 'Mozilla/5.0'})
+            self._soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            self._soup = None
 
     def get_snyk_vuln_info(self):
         """
@@ -47,7 +50,7 @@ class Vuln:
         """
         Get CVE information crawling vulnerability's page
         """
-        if self._soup != "":
+        if self._soup != None:
             for a in self._soup.findAll("a"):
                 cve = a.getText().strip()
                 if "CVE-" in cve: return cve
@@ -58,7 +61,7 @@ class Vuln:
         """
         Get a reference URL of a vulnerability crawling its page
         """
-        if self._soup != "":
+        if self._soup != None:
             for a in self._soup.findAll("a"):
                 if name == a.getText().strip(): return a["href"].strip()
             return ""
@@ -68,7 +71,7 @@ class Vuln:
         """
         Get the commit link crwling a PR link page
         """
-        if self._soup != "":
+        if self._soup != None:
             for div in self._soup.findAll("div", {"class", "TimelineItem-body"}):
                 # merged case
                 div_text = div.getText()

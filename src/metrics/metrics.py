@@ -11,6 +11,8 @@ class Metrics:
         self._package_name = package_name
         self._github_url = github_url
         self._closed_issues_url = ""
+        self._github_soup = None
+        self.open_github_soup()
 
     @property
     def package_name(self) -> str:
@@ -23,19 +25,23 @@ class Metrics:
     @property
     def closed_issues_url(self) -> str:
         return self._closed_issues_url
-    
+
+    def open_github_soup(self):
+        """
+        Open GitHub page setting the BeautifulSoup obj
+        """
+        try:
+            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
+            self._github_soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            self._github_soup = None
+
     def get_link_metric_from_github_repo(self, metric:str) -> str:
         """
         Get a link metric of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a"):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -52,15 +58,9 @@ class Metrics:
         """
         Get updated_at of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
+        if self._github_soup != None:
             try:
-                div = soup.findAll("relative-time")[0]
+                div = self._github_soup.findAll("relative-time")[0]
                 datetime = div["datetime"]
             except Error:
                 return ""
@@ -71,14 +71,8 @@ class Metrics:
         """
         Get commits of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a"):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -96,14 +90,8 @@ class Metrics:
         """
         Get commits of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a"):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -121,14 +109,8 @@ class Metrics:
         """
         Get link span metric of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a"):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -152,15 +134,9 @@ class Metrics:
         """
         Get tags (releases) of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
+        if self._github_soup != None:
             i = 0
-            for link in soup.findAll("a", {"class": "link-gray-dark"}):
+            for link in self._github_soup.findAll("a", {"class": "link-gray-dark"}):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -175,19 +151,12 @@ class Metrics:
                             return self.convert_to_number(tags)
             return ""
 
-
     def get_last_release_from_github_repo(self) -> str:
         """
         Get updated_at of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            div = soup.findAll("relative-time")[1]
+        if self._github_soup != None:
+            div = self._github_soup.findAll("relative-time")[1]
             try:
                 datetime = div["datetime"]
             except KeyError:
@@ -200,14 +169,8 @@ class Metrics:
         """
         Get dependent url of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a", {"class": "d-flex"}):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a", {"class": "d-flex"}):
                 try:
                     href_url = link["href"]
                 except KeyError:
@@ -223,14 +186,8 @@ class Metrics:
         """
         Get issues url of github repo
         """
-        
-        try:
-            req = Request(self._github_url, headers={'User-Agent': 'Mozilla/5.0'})
-            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
-        except (ValueError, URLError, HTTPError, ConnectionResetError):
-            return ""
-        else:
-            for link in soup.findAll("a"):
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
                 try:
                     href_url = link["href"]
                 except KeyError:

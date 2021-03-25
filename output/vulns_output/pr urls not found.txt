@@ -1,12 +1,10 @@
-3 open *
-18 closed
-22 closed *
-30 closed
-38 closed *
-48 closed
-49 closed
-51 not found *
-
+SEARCHING COMMIT URL:
+9 closed without commit url
+25 not found
+32 closed without commit url
+36 open
+59 closed without commit url
+61 closed without commit url
 
 AFTER SCRIPT:
 4 no releases linked
