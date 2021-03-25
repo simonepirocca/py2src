@@ -1,4 +1,4 @@
-Package name;Clone dir;Commit vulns;Commit avg time interval;PR vulns;PR avg time interval;Total vulns;Total avg time interval;Pypi downloads;Dep repos;Dep packages
+Package name;Clone dir;Tot vulns;Commit vulns;PR vulns;Tot Severity L;Tot Severity M;Tot Severity H;Median Severity;Tot Major v.;Tot Minor v.;Tot Patch v.;Median release type;Commit time interval;PR time interval;Avg time interval;Pypi downloads;Dep repos;Dep packages
 urllib3;urllib3;6;5;1;1;3;2;M;0;0;6;patch;32;213;62;1086396695;504101;4439
 requests;requests;5;5;;0;4;1;M;0;5;0;minor;44;;44;786762026;847404;51478
 certifi;python-certifi;1;1;;0;1;0;M;0;0;1;patch;0;;0;738148393;501070;3219
