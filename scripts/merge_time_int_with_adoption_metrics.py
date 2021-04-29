@@ -14,7 +14,7 @@ logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INF
 # Set input and output files, inizialize variables
 metrics_input_file = "../output/metrics_final.csv"
 time_intervals_input_file = "../output/vulns_final.csv"
-output_file = "../output/vulns_output/time_interval_metrics.csv"
+output_file = "../output/vulns_output/time_interval_metrics_2.csv"
 time_intervals = {}
 packages = []
 
@@ -41,6 +41,8 @@ with open(metrics_input_file) as csv_file:
             # Get name and adoption metrics for each package
             name = row[0]
             pypi_downloads = row[1]
+            commit_frequency = row[5]
+            release_frequency = row[6]
             dep_repos = row[12]
             dep_packages = row[13]
 
@@ -48,6 +50,8 @@ with open(metrics_input_file) as csv_file:
             # with commit link associated, append it, its hash and the package directory
             if name in time_intervals:
                 time_intervals_metrics = time_intervals[name]
+                time_intervals_metrics.append(commit_frequency)
+                time_intervals_metrics.append(release_frequency)
                 time_intervals_metrics.append(pypi_downloads)
                 time_intervals_metrics.append(dep_repos)
                 time_intervals_metrics.append(dep_packages)
@@ -59,7 +63,8 @@ with open(metrics_input_file) as csv_file:
 # Store the information into a csv file
 with open(output_file, mode='w') as csv_file:
     vulns_writer = csv.writer(csv_file, delimiter=';')
-    vulns_writer.writerow(['Package name', 'Clone dir', 'Commit vulns', 'Commit avg time interval', 'PR vulns',\
- 'PR avg time interval', 'Total vulns', 'Total avg time interval', 'Pypi downloads', 'Dep repos', 'Dep packages'])
+    vulns_writer.writerow(["Package name", "Clone dir", "Tot vulns", "Commit vulns", "PR vulns", "Tot Severity L", "Tot Severity M", "Tot Severity H",\
+ "Median Severity", "Tot Major v.", "Tot Minor v.", "Tot Patch v.", "Median release type", "Commit time interval", "PR time interval", "Avg time interval",\
+ "Commit frequency", "Release frequency", "Pypi downloads", "Dep repos", "Dep packages"])
     for i in range(0, len(packages)):
         vulns_writer.writerow(packages[i])

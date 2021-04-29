@@ -1,0 +1,3246 @@
+package_name;license
+urllib3;MIT License
+six;MIT License
+botocore;Apache-2.0 License
+requests;Apache-2.0 License
+python-dateutil;Apache License (text)
+certifi;Mozilla Public License (text)
+s3transfer;Apache-2.0 License
+idna;BSD-3-Clause License
+chardet;LGPL-2.1 License
+pip;MIT License
+setuptools;MIT License
+pyyaml;MIT License
+jmespath;License not permissive (text)
+pyasn1;BSD-2-Clause License
+rsa;Apache License (text)
+pytz;MIT License
+boto3;Apache-2.0 License
+numpy;BSD-3-Clause License
+awscli;Apache License (text)
+colorama;BSD-3-Clause License
+wheel;MIT License (text)
+futures;Python Software Foundation (text)
+markupsafe;BSD-3-Clause License
+protobuf;License not permissive (text)
+jinja2;BSD-3-Clause License
+simplejson;MIT License (text)
+cryptography;License not permissive (text)
+attrs;MIT License
+click;BSD-3-Clause License
+importlib-metadata;Apache License (text)
+pyasn1-modules;BSD-2-Clause License
+future;MIT License
+zipp;MIT License
+pandas;BSD-3-Clause License
+pyparsing;MIT License
+cachetools;MIT License
+pycparser;License not permissive (text)
+oauthlib;BSD-3-Clause License
+google-auth;Apache-2.0 License
+requests-oauthlib;ISC License
+werkzeug;BSD-3-Clause License
+decorator;BSD-2-Clause License
+scipy;BSD-3-Clause License
+packaging;License not permissive (text)
+google-api-core;Apache-2.0 License
+wcwidth;MIT License (text)
+more-itertools;MIT License
+grpcio;Apache-2.0 License
+googleapis-common-protos;Apache-2.0 License
+pytest;MIT License
+jsonschema;MIT License
+google-cloud-core;Apache-2.0 License
+py;MIT License
+pluggy;MIT License
+pygments;BSD-2-Clause License
+psutil;BSD-3-Clause License
+flask;BSD-3-Clause License
+pyjwt;MIT License
+coverage;Apache-2.0 License
+scikit-learn;BSD-3-Clause License
+pyrsistent;MIT License
+itsdangerous;BSD-3-Clause License
+wrapt;BSD-2-Clause License
+pillow;HPND License (text)
+google-cloud-storage;Apache-2.0 License
+virtualenv;MIT License
+ipaddress;Python Software Foundation (text)
+websocket-client;LGPL-2.1 License
+pyopenssl;Apache-2.0 License
+sqlalchemy;MIT License
+entrypoints;MIT License
+google-resumable-media;Apache-2.0 License
+joblib;BSD-3-Clause License
+lxml;BSD-3-Clause License
+configparser;MIT License
+prompt-toolkit;BSD-3-Clause License
+asn1crypto;MIT License
+ipython;BSD 3-Clause License (text)
+pexpect;ISC License (text)
+redis;MIT License
+isodate;License not found
+httplib2;License not permissive (text)
+matplotlib;License not found
+ptyprocess;ISC License (text)
+mock;BSD-2-Clause License
+mccabe;Expat License (text)
+google-api-python-client;Apache License (text)
+boto;License not permissive (text)
+tornado;Apache-2.0 License
+defusedxml;Python Software Foundation (text)
+tqdm;Mozilla Public License (text)
+docker;Apache-2.0 License
+traitlets;License not permissive (text)
+tensorboard;Apache-2.0 License
+appdirs;MIT License (text)
+pycodestyle;Expat License (text)
+tensorflow;Apache-2.0 License
+webencodings;License not permissive (text)
+kiwisolver;Modified BSD License (text)
+bleach;Apache License (text)
+uritemplate;License not permissive (text)
+msrest;MIT License
+pickleshare;MIT License
+tabulate;MIT License
+psycopg2-binary;LGPL (text)
+bcrypt;Apache-2.0 License
+typing;Python Software Foundation (text)
+azure-common;MIT License
+argparse;Apache License (text)
+absl-py;Apache-2.0 License
+prometheus-client;Apache-2.0 License
+pyzmq;Modified BSD License (text)
+soupsieve;MIT License
+typed-ast;Python Software Foundation (text)
+tensorflow-estimator;Apache-2.0 License
+paramiko;LGPL-2.1 License
+markdown;License not permissive (text)
+pynacl;Apache-2.0 License
+atomicwrites;MIT License
+gunicorn;License not permissive (text)
+lazy-object-proxy;BSD-2-Clause License
+pyflakes;MIT License
+google-auth-oauthlib;Apache-2.0 License
+cycler;BSD-3-Clause License
+filelock;Unlicense License
+h5py;BSD-3-Clause License
+google-auth-httplib2;Apache-2.0 License
+google-cloud-bigquery;Apache-2.0 License
+gitpython;BSD-3-Clause License
+dill;License not permissive (text)
+pathlib2;MIT License
+toml;MIT License
+multidict;Apache-2.0 License
+contextlib2;Python Software Foundation (text)
+isort;MIT License
+funcsigs;Apache License (text)
+sqlparse;BSD-3-Clause License
+pymongo;Apache-2.0 License
+mistune;BSD-3-Clause License
+docopt;MIT License
+jupyter-client;License not permissive (text)
+nbconvert;Modified BSD License (text)
+requests-toolbelt;Apache License (text)
+notebook;Modified BSD License (text)
+testpath;BSD-3-Clause License
+pandocfilters;BSD-3-Clause License
+pyarrow;Apache-2.0 License
+terminado;License not permissive (text)
+send2trash;BSD-3-Clause License
+oauth2client;Apache-2.0 License
+babel;License not permissive (text)
+pytest-cov;MIT License
+azure-storage-common;MIT License
+retrying;Apache-2.0 License
+jedi;MIT License (text)
+aiohttp;Apache License (text)
+scandir;BSD-3-Clause License
+parso;MIT License (text)
+astroid;LGPL-2.1 License
+gast;BSD-3-Clause License
+async-timeout;Apache License (text)
+pylint;GPL-2.0 License
+keras-preprocessing;MIT License (text)
+yarl;Apache-2.0 License
+adal;MIT License (text)
+networkx;License not permissive (text)
+zope-interface;License not permissive (text)
+django;License not permissive (text)
+ujson;License not permissive (text)
+py4j;License not permissive (text)
+keras-applications;MIT License (text)
+pymysql;MIT License
+datadog;License not permissive (text)
+cloudpickle;License not permissive (text)
+qtconsole;BSD-3-Clause License
+dnspython;ISC License (text)
+mako;MIT License
+jupyter;BSD-3-Clause License
+tensorflow-metadata;Apache-2.0 License
+xlrd;License not permissive (text)
+pycrypto;EPL (text)
+astor;BSD-3-Clause License
+backcall;BSD-3-Clause License
+backports-functools-lru-cache;MIT License
+cython;Apache License (text)
+azure-devops;MIT License
+pycryptodomex;License not permissive (text)
+msgpack;Apache License (text)
+greenlet;MIT License (text)
+smart-open;MIT License
+xmltodict;MIT License
+google-pasta;Apache-2.0 License
+backports-shutil-get-terminal-size;MIT License
+google-cloud-logging;Apache-2.0 License
+elasticsearch;Apache-2.0 License
+tensorflow-transform;Apache-2.0 License
+python-editor;Apache-2.0 License
+ansible;GPL-3.0 License
+gitdb2;License not permissive (text)
+tzlocal;MIT License
+msrestazure;MIT License
+distro;Apache-2.0 License
+importlib-resources;Apache License (text)
+grpc-google-iam-v1;Apache-2.0 License
+jsonpickle;License not permissive (text)
+backports-abc;Python Software Foundation (text)
+functools32;Python Software Foundation (text)
+ruamel-yaml;MIT License
+pyspark;Apache-2.0 License
+websockets;BSD-3-Clause License
+nltk;Apache-2.0 License
+gevent;MIT License (text)
+gensim;LGPL-2.1 License
+cached-property;BSD-3-Clause License
+s3fs;License not permissive (text)
+monotonic;Apache-2.0 License
+singledispatch;MIT License
+smmap2;BSD-3-Clause License
+pathspec;MPL-2.0 License
+marshmallow;MIT License
+tfx-bsl;Apache License (text)
+nose;License not found
+subprocess32;Python Software Foundation (text)
+slackclient;MIT License
+selenium;Apache-2.0 License
+opencv-python;MIT License (text)
+html5lib;MIT License
+qtpy;MIT License
+pytest-runner;MIT License
+applicationinsights;MIT License
+toolz;License not permissive (text)
+mypy;MIT License (text)
+xlsxwriter;License not permissive (text)
+sentry-sdk;BSD-2-Clause License
+snowballstemmer;BSD-3-Clause License
+pandas-gbq;BSD-3-Clause License
+sortedcontainers;Apache License (text)
+text-unidecode;License not permissive (text)
+xgboost;Apache-2.0 License
+amqp;License not permissive (text)
+netaddr;License not permissive (text)
+tensorflow-model-analysis;Apache-2.0 License
+kubernetes;Apache-2.0 License
+tensorflow-data-validation;Apache-2.0 License
+fsspec;BSD-3-Clause License
+pydata-google-auth;BSD-3-Clause License
+thrift;Apache-2.0 License
+keras;Apache License (text)
+plotly;MIT License
+celery;License not permissive (text)
+snowflake-connector-python;Apache License (text)
+ijson;License not permissive (text)
+billiard;License not permissive (text)
+jdcal;BSD-2-Clause License
+mysqlclient;GPL-2.0 License
+sphinx;License not permissive (text)
+unidecode;GPL-2.0 License
+google-cloud-pubsub;Apache-2.0 License
+virtualenv-clone;MIT License
+gcsfs;BSD-3-Clause License
+mypy-extensions;MIT License (text)
+djangorestframework;License not permissive (text)
+tox;MIT License
+lightgbm;MIT License
+argcomplete;Apache-2.0 License
+shapely;License not permissive (text)
+oscrypto;MIT License
+opt-einsum;MIT License
+arrow;Apache-2.0 License
+pyodbc;License not permissive (text)
+statsmodels;BSD-3-Clause License
+databricks-cli;Apache License (text)
+vine;License not permissive (text)
+pipenv;MIT License
+ecdsa;License not permissive (text)
+black;MIT License
+docker-pycreds;Apache-2.0 License
+fasteners;Apache-2.0 License
+alabaster;License not permissive (text)
+imagesize;MIT License
+python-jose;MIT License
+graphviz;MIT License
+dask;BSD-3-Clause License
+pytest-mock;MIT License
+pyhamcrest;License not permissive (text)
+pytest-forked;MIT License
+backports-weakref;Python Software Foundation (text)
+imageio;BSD-2-Clause License
+scikit-image;License not permissive (text)
+hdfs;MIT License
+tenacity;Apache-2.0 License
+iso8601;MIT License
+setuptools-scm;MIT License
+flask-cors;MIT License
+inflection;MIT License
+python-dotenv;License not permissive (text)
+discord-py;MIT License
+twisted;License not permissive (text)
+hvac;Apache-2.0 License
+flask-sqlalchemy;BSD-3-Clause License
+aliyun-python-sdk-core;Apache License (text)
+unicodecsv;License not permissive (text)
+fastavro;MIT License
+incremental;License not permissive (text)
+secretstorage;License not permissive (text)
+google-cloud-datastore;Apache-2.0 License
+execnet;MIT License
+pywavelets;MIT License
+faker;MIT License
+aliyunsdkcore;Apache-2.0 License
+google-cloud-bigtable;Apache-2.0 License
+apipkg;MIT License
+raven;BSD-3-Clause License
+seaborn;BSD-3-Clause License
+constantly;License not permissive (text)
+texttable;MIT License
+automat;MIT License
+bottle;MIT License
+hyperlink;License not permissive (text)
+pytest-xdist;MIT License
+s3cmd;GPL-2.0 License
+blessings;MIT License
+patsy;Python Software Foundation (text)
+ua-parser;License not found
+python-magic;MIT License (text)
+querystring-parser;MIT License
+azure-datalake-store;MIT License (text)
+pendulum;MIT License
+jsonpointer;License not permissive (text)
+mlflow;Apache-2.0 License
+humanfriendly;MIT License
+responses;Apache-2.0 License
+ndg-httpsclient;License not found
+pytzdata;MIT License
+prettytable;License not permissive (text)
+keyring;MIT License
+fuzzywuzzy;GPL-2.0 License
+dockerpty;Apache-2.0 License
+retry;Apache License (text)
+deprecated;MIT License
+pydot;MIT License
+cssselect;License not permissive (text)
+service-identity;MIT License
+watchdog;Apache License (text)
+freezegun;Apache-2.0 License
+docker-compose;Apache-2.0 License
+maxminddb;Apache-2.0 License
+configobj;License not permissive (text)
+statsd;MIT License
+blinker;MIT License
+python-levenshtein;GPL-2.0 License
+backoff;MIT License
+jsonpatch;License not permissive (text)
+geopy;MIT License
+python-json-logger;BSD-2-Clause License
+google-gax;BSD-3-Clause License
+deepdiff;MIT License (text)
+gorilla;MIT License
+kafka-python;Apache-2.0 License
+readme-renderer;Apache-2.0 License
+google-apitools;Apache-2.0 License
+netifaces;MIT License
+wtforms;BSD-3-Clause License
+bz2file;License not found
+tldextract;BSD-3-Clause License
+cachecontrol;License not found
+geoip2;Apache-2.0 License
+colorlog;MIT License
+jsondiff;MIT License
+autopep8;MIT License
+uwsgi;MIT License
+requests-file;Apache License (text)
+semantic-version;BSD-2-Clause License
+pyhive;Apache License (text)
+django-cors-headers;MIT License
+idna-ssl;MIT License
+asgiref;BSD-3-Clause License
+google-cloud;Apache-2.0 License
+pathtools;MIT License
+torch;License not permissive (text)
+pyproj;License not permissive (text)
+sendgrid;MIT License
+croniter;License not found
+zope-deprecation;License not permissive (text)
+pytest-timeout;MIT License
+llvmlite;BSD-2-Clause License
+python-http-client;MIT License
+elasticsearch-dsl;Apache-2.0 License
+uvloop;Apache License (text)
+django-filter;License not permissive (text)
+pysocks;License not permissive (text)
+munch;MIT License
+pyserial;License not permissive (text)
+numba;BSD-2-Clause License
+graphql-core;MIT License
+django-extensions;MIT License
+azure-cosmosdb-table;Apache-2.0 License
+scp;License not permissive (text)
+user-agents;MIT License
+pycurl;License not permissive (text)
+aws-xray-sdk;Apache-2.0 License
+rfc3986;Apache License (text)
+tblib;BSD-2-Clause License
+jpype1;Apache License (text)
+flask-wtf;License not permissive (text)
+voluptuous;BSD-3-Clause License
+portalocker;Python Software Foundation (text)
+nodeenv;License not permissive (text)
+python-slugify;MIT License
+sphinx-rtd-theme;MIT License (text)
+pika;BSD-3-Clause License
+identify;MIT License
+gspread;MIT License
+holidays;MIT License
+sh;MIT License
+webob;License not found
+pymssql;LGPL-2.1 License
+promise;MIT License
+pre-commit;MIT License
+codecov;Apache-2.0 License
+python-pam;MIT License
+pywin32;License not found
+cerberus;ISC License
+hiredis;BSD-3-Clause License
+requests-aws4auth;MIT License
+cfgv;MIT License
+spacy;MIT License
+configargparse;MIT License
+ipdb;License not permissive (text)
+argh;LGPL-3.0 License
+prometheus-flask-exporter;MIT License
+flask-login;MIT License
+dataclasses;Apache-2.0 License
+pyaml;WTFPL License
+thinc;MIT License
+google-cloud-spanner;Apache-2.0 License
+h11;MIT License
+factory-boy;MIT License
+sqlalchemy-utils;License not permissive (text)
+lz4;License not permissive (text)
+preshed;MIT License
+influxdb;MIT License
+jira;BSD-2-Clause License
+newrelic;Apache-2.0 License
+datetime;License not permissive (text)
+aws-sam-translator;Apache-2.0 License
+murmurhash;MIT License
+requests-mock;Apache-2.0 License
+moto;Apache-2.0 License
+coloredlogs;MIT License
+django-storages;BSD-3-Clause License
+multiprocess;License not permissive (text)
+simple-salesforce;Apache License (text)
+cymem;MIT License
+aenum;License not found
+python3-openid;Apache-2.0 License
+pyrfc3339;MIT License
+plac;BSD-2-Clause License
+shellingham;ISC License
+stripe;MIT License
+phonenumbers;Apache-2.0 License
+pyglet;BSD-3-Clause License
+flask-restful;BSD-3-Clause License
+waitress;License not permissive (text)
+google-cloud-monitoring;Apache-2.0 License
+twine;Apache-2.0 License
+setproctitle;License not permissive (text)
+pytest-django;License not permissive (text)
+cfn-lint;License not permissive (text)
+blis;License not permissive (text)
+bokeh;BSD-3-Clause License
+ddtrace;License not permissive (text)
+youtube-dl;Unlicense License
+srsly;MIT License
+pygithub;LGPL-3.0 License
+appnope;License not permissive (text)
+httptools;MIT License
+zope-event;License not permissive (text)
+aiofiles;Apache-2.0 License
+watchtower;Apache-2.0 License
+yamllint;GPL-3.0 License
+pydocumentdb;MIT License
+threadpoolctl;BSD-3-Clause License
+parsedatetime;Apache-2.0 License
+fabric;BSD-2-Clause License
+pydocstyle;MIT License
+numexpr;MIT License
+pypandoc;Modified BSD License (text)
+cx-oracle;License not permissive (text)
+pycairo;LGPL (text)
+humanize;MIT License
+phoenixdb;License not found
+wasabi;MIT License
+hpack;MIT License
+ordered-set;MIT License
+pathos;License not permissive (text)
+h2;MIT License
+pystache;MIT License
+hyperframe;MIT License
+django-debug-toolbar;BSD-3-Clause License
+parse;MIT License
+pyxdg;License not permissive (text)
+progressbar2;BSD-3-Clause License
+tomlkit;MIT License
+supervisor;License not permissive (text)
+pox;License not permissive (text)
+pycountry;LGPL-2.1 License
+backports-tempfile;Python Software Foundation (text)
+linecache2;License not found
+python-utils;BSD-3-Clause License
+ldap3;License not permissive (text)
+itypes;License not permissive (text)
+coreapi;License not permissive (text)
+google-cloud-firestore;Apache-2.0 License
+xlwt;LGPL (text)
+lunardate;GPL-3.0 License
+coreschema;License not found
+pytest-metadata;License not permissive (text)
+pytest-html;License not permissive (text)
+pystan;ISC License
+semver;BSD-3-Clause License
+traceback2;Python Software Foundation (text)
+pip-tools;License not permissive (text)
+pyperclip;BSD-3-Clause License
+pygobject;LGPL-2.1 License
+ppft;License not permissive (text)
+redis-py-cluster;MIT License
+inflect;MIT License
+opentracing;Apache-2.0 License
+azure-cli;MIT License
+expiringdict;Apache-2.0 License
+click-plugins;License not permissive (text)
+pygsheets;MIT License (text)
+confluent-kafka;Apache-2.0 License
+dicttoxml;GPL-2.0 License
+sasl;Apache-2.0 License
+structlog;Apache License (text)
+distributed;License not permissive (text)
+dateparser;BSD-3-Clause License
+mmh3;CC0-1.0 License
+sympy;License not permissive (text)
+w3lib;License not permissive (text)
+apscheduler;MIT License
+twilio;MIT License
+feedparser;License not permissive (text)
+pydantic;MIT License
+fire;Apache License (text)
+django-redis;License not permissive (text)
+gym;License not permissive (text)
+hypothesis;Mozilla Public License (text)
+apispec;MIT License
+aspy-yaml;MIT License
+whitenoise;MIT License
+cligj;BSD-3-Clause License
+eventlet;MIT License (text)
+rx;MIT License
+glob2;License not permissive (text)
+uptime;BSD-2-Clause License
+marshmallow-sqlalchemy;MIT License
+tensorboard-plugin-wit;Apache-2.0 License
+azure-kusto-data;MIT License
+parameterized;License not permissive (text)
+heapdict;License not permissive (text)
+flask-admin;BSD-3-Clause License
+flask-migrate;MIT License
+astunparse;Python Software Foundation (text)
+ratelimit;MIT License
+convertdate;MIT License
+fiona;License not permissive (text)
+zict;License not permissive (text)
+yapf;Apache-2.0 License
+slacker;Apache-2.0 License
+thrift-sasl;Apache-2.0 License
+python-consul;MIT License
+flask-caching;License not permissive (text)
+poetry;MIT License
+google-cloud-vision;Apache-2.0 License
+python-mimeparse;MIT License
+stringcase;MIT License
+josepy;Apache License (text)
+html2text;GPL-3.0 License
+binaryornot;BSD-3-Clause License
+flask-babel;License not permissive (text)
+zope-component;License not permissive (text)
+shap;MIT License
+acme;Apache License (text)
+msal;MIT License (text)
+deprecation;Apache-2.0 License
+cleo;MIT License
+cookiecutter;BSD-3-Clause License
+requests-futures;Apache License (text)
+blobfile;Unlicense License
+pastel;MIT License
+poyo;MIT License
+fakeredis;License not permissive (text)
+filemagic;Apache License (text)
+pylev;License not permissive (text)
+brotli;MIT License
+torchvision;BSD-3-Clause License
+setuptools-git;License not permissive (text)
+jinja2-time;MIT License
+bandit;Apache-2.0 License
+sentencepiece;Apache-2.0 License
+fbprophet;MIT License
+findspark;BSD-3-Clause License
+koalas;Apache-2.0 License
+sshpubkeys;BSD-3-Clause License
+cachy;MIT License
+geojson;BSD-3-Clause License
+zope-proxy;License not permissive (text)
+zope-hookable;License not permissive (text)
+uamqp;MIT License
+mysql-python;License not found
+multipledispatch;License not permissive (text)
+qds-sdk;Apache-2.0 License
+hyperopt;License not permissive (text)
+cognite-sdk;Apache-2.0 License
+zope-deferredimport;License not permissive (text)
+whichcraft;BSD-3-Clause License
+multi-key-dict;MIT License
+tftpy;MIT License
+jellyfish;BSD-2-Clause License
+python-memcached;License not found
+jaraco-functools;MIT License
+pyvcf;License not permissive (text)
+google-cloud-kms;Apache-2.0 License
+kazoo;Apache-2.0 License
+cheroot;BSD-3-Clause License
+python-snappy;License not permissive (text)
+pg8000;License not permissive (text)
+emoji;License not permissive (text)
+dj-database-url;BSD-2-Clause License
+knack;MIT License
+geopandas;BSD-3-Clause License
+pycares;MIT License
+cherrypy;BSD-3-Clause License
+validators;MIT License
+cattrs;MIT License
+pytest-asyncio;Apache-2.0 License
+sniffio;License not permissive (text)
+parsel;License not permissive (text)
+prison;MIT License
+flower;License not permissive (text)
+pymeeus;LGPL-3.0 License
+django-appconf;BSD-3-Clause License
+ephem;MIT License (text)
+google-cloud-language;Apache-2.0 License
+tinycss2;BSD-3-Clause License
+ml-metadata;Apache-2.0 License
+flask-appbuilder;BSD-3-Clause License
+webtest;License not permissive (text)
+haversine;MIT License
+apache-airflow;Apache-2.0 License
+cliff;Apache-2.0 License
+queuelib;License not permissive (text)
+jsonpath-rw;Apache-2.0 License
+imbalanced-learn;MIT License
+hstspreload;BSD-3-Clause License
+flask-jwt-extended;MIT License
+basictracer;Apache-2.0 License
+async-generator;License not permissive (text)
+httpx;BSD-3-Clause License
+jsmin;MIT License
+mpmath;BSD-3-Clause License
+tempora;MIT License
+msal-extensions;MIT License
+google-cloud-error-reporting;Apache-2.0 License
+altgraph;License not permissive (text)
+googledatastore;Apache-2.0 License
+plumbum;MIT License
+olefile;License not permissive (text)
+backports-csv;License not permissive (text)
+testfixtures;MIT License
+pulp;License not permissive (text)
+cairocffi;BSD-3-Clause License
+utm;MIT License
+rospkg;License not found
+cmd2;MIT License
+portend;MIT License
+flask-swagger;MIT License
+terminaltables;MIT License
+scrapy;License not permissive (text)
+s2sphere;MIT License
+junit-xml;MIT License
+commonmark;License not permissive (text)
+parse-type;BSD-3-Clause License
+bitarray;Python Software Foundation (text)
+sanic;MIT License
+aiodns;MIT License
+cssselect2;BSD-3-Clause License
+pylint-plugin-utils;GPL-2.0 License
+ntlm-auth;MIT License
+tensorflow-hub;Apache-2.0 License
+datashape;BSD-2-Clause License
+cairosvg;LGPL-3.0 License
+flask-restplus;BSD 3-Clause License (text)
+dogpile-cache;MIT License
+zc-lockfile;License not permissive (text)
+boltons;License not permissive (text)
+clikit;MIT License
+pynamodb;MIT License
+qrcode;MIT License (text)
+graphene;MIT License
+fastparquet;Apache-2.0 License
+unittest-xml-reporting;License not permissive (text)
+tdigest;MIT License
+wandb;MIT License
+accumulation-tree;MIT License
+google-cloud-translate;Apache-2.0 License
+pypika;Apache-2.0 License
+ciso8601;MIT License
+google-cloud-videointelligence;Apache-2.0 License
+flask-bcrypt;License not permissive (text)
+flask-openid;License not permissive (text)
+sortedcollections;Apache License (text)
+catalogue;MIT License
+cfn-flip;Apache-2.0 License
+statistics;Python Software Foundation (text)
+python-swiftclient;Apache-2.0 License
+sshtunnel;MIT License
+recommonmark;MIT License
+tablib;MIT License
+aioopenssl;Apache-2.0 License
+pyphen;LGPL (text)
+pytest-rerunfailures;License not permissive (text)
+aiosasl;LGPL-3.0 License
+aioconsole;GPL-3.0 License
+graphql-relay;MIT License
+fonttools;MIT License (text)
+email-validator;CC0-1.0 License
+requests-ntlm;ISC License
+pyluach;MIT License (text)
+scikit-optimize;BSD-3-Clause License
+python-docx;MIT License
+coveralls;MIT License
+testtools;Python Software Foundation (text)
+django-model-utils;BSD-3-Clause License
+google-cloud-speech;Apache-2.0 License
+numpy-stl;BSD-3-Clause License
+natsort;MIT License
+cookies;MIT License
+aioxmpp;LGPL-3.0 License
+jupyterlab;License not permissive (text)
+flaky;Apache-2.0 License
+jaydebeapi;LGPL-3.0 License
+ray;Apache-2.0 License
+flask-script;License not permissive (text)
+json-merge-patch;BSD-3-Clause License
+extras;License not permissive (text)
+shortuuid;BSD-3-Clause License
+drf-yasg;License not permissive (text)
+theano;License not permissive (text)
+bumpversion;MIT License
+partd;License not permissive (text)
+cvxopt;LGPL (text)
+memoized-property;BSD-3-Clause License
+milksnake;Apache-2.0 License
+fortnitepy;MIT License
+easyprocess;BSD-2-Clause License
+robotframework;Apache License (text)
+dpath;MIT License
+tfx;Apache-2.0 License
+fixtures;Apache License (text)
+tensorflow-datasets;Apache-2.0 License
+dotnetcore2;MIT License (text)
+objectpath;MIT License
+mujoco-py;License not permissive (text)
+behave;License not permissive (text)
+mongoengine;MIT License
+python-ldap;License not permissive (text)
+googleads;Apache-2.0 License
+vcrpy;MIT License
+weasyprint;BSD-3-Clause License
+pylint-django;GPL-2.0 License
+pep8-naming;Expat License (text)
+python-crfsuite;MIT License
+pybind11;License not permissive (text)
+pkgconfig;MIT License
+django-crispy-forms;MIT License
+authlib;BSD 3-Clause License (text)
+locket;BSD-2-Clause License
+asyncio;License not found
+opencensus;Apache-2.0 License
+cytoolz;License not permissive (text)
+python-box;MIT License
+django-environ;MIT License
+pygame;License not found
+pyelftools;License not permissive (text)
+instana;MIT License
+rq;License not permissive (text)
+ftfy;MIT License
+meld3;License not permissive (text)
+livereload;BSD-3-Clause License
+pyinstaller;Apache License (text)
+click-completion;MIT License
+json5;Apache-2.0 License
+tweepy;MIT License
+django-timezone-field;BSD-2-Clause License
+typing-inspect;MIT License
+atlassian-jwt-auth;MIT License
+webargs;MIT License
+schema;MIT License
+fysom;License not found
+yq;Apache-2.0 License
+bitstring;MIT License
+pygam;Apache-2.0 License
+troposphere;BSD-2-Clause License
+cloudant;Apache-2.0 License
+falcon;Apache-2.0 License
+autowrapt;BSD-2-Clause License
+jupyterlab-server;BSD-3-Clause License
+couchdb;License not permissive (text)
+mleap;Apache-2.0 License
+uvicorn;BSD-3-Clause License
+google-cloud-dns;Apache-2.0 License
+presto-python-client;Apache-2.0 License
+grequests;BSD-2-Clause License
+fusepy;ISC License
+validate-email;License not permissive (text)
+genson;MIT License
+py-cpuinfo;MIT License
+pyinotify;MIT License
+cchardet;Mozilla Public License (text)
+jsonfield;MIT License
+workalendar;MIT License
+pint;License not permissive (text)
+python-gflags;BSD-3-Clause License
+google-cloud-trace;Apache-2.0 License
+google-cloud-resource-manager;Apache-2.0 License
+urltools;MIT License
+python-gitlab;LGPL-3.0 License
+pyvmomi;Apache-2.0 License
+pyathenajdbc;MIT License
+googlemaps;Apache-2.0 License
+flask-compress;MIT License
+frozendict;MIT License
+tld;License not found
+schematics;License not permissive (text)
+cassandra-driver;Apache-2.0 License
+langdetect;Apache License (text)
+funcy;BSD-3-Clause License
+google-cloud-runtimeconfig;Apache-2.0 License
+paste;License not found
+django-celery-beat;License not permissive (text)
+credstash;Apache-2.0 License
+argon2-cffi;MIT License
+pdfminer-six;MIT License
+djangorestframework-jwt;MIT License
+databricks-api;MIT License
+clickhouse-driver;MIT License (text)
+analytics-python;License not found
+peewee;MIT License
+pyathena;MIT License
+starlette;BSD-3-Clause License
+serpent;MIT License
+ddt;License not permissive (text)
+social-auth-core;License not permissive (text)
+odfpy;License not permissive (text)
+flask-marshmallow;MIT License
+django-rest-swagger;BSD-2-Clause License
+pyro4;MIT License
+shellescape;License not found
+pytest-sugar;License not permissive (text)
+spark-sklearn;Apache-2.0 License
+imageio-ffmpeg;BSD-2-Clause License
+curlify;MIT License
+aioredis;MIT License
+dictdiffer;MIT License (text)
+openapi-spec-validator;Apache-2.0 License
+google-cloud-container;Apache-2.0 License
+enum-compat;License not found
+intervaltree;Apache-2.0 License
+autobahn;MIT License
+aws-requests-auth;License not permissive (text)
+ansible-lint;MIT License
+pdfminer;MIT License
+pillow-simd;License not permissive (text)
+schedule;MIT License
+openapi-codec;License not permissive (text)
+sqlalchemy-redshift;MIT License
+pastedeploy;MIT License
+diff-match-patch;Apache-2.0 License
+immutables;Apache-2.0 License
+pefile;MIT License
+blessed;MIT License
+mpi4py;License not permissive (text)
+tribool;Apache License (text)
+social-auth-app-django;License not permissive (text)
+scramp;MIT License
+sgp4;MIT License
+colorlover;MIT License (text)
+timezonefinder;MIT License
+orderedset;Python Software Foundation (text)
+safety;MIT License
+langid;License not permissive (text)
+astral;Apache-2.0 License
+jplephem;MPL-2.0 License
+branca;MIT License
+django-js-asset;BSD-3-Clause License
+rjsmin;Apache-2.0 License
+dparse;MIT License
+orderedmultidict;License not permissive (text)
+pysqlite;License not permissive (text)
+asynctest;Apache-2.0 License
+snowflake-sqlalchemy;Apache-2.0 License
+txaio;MIT License
+pytesseract;Apache-2.0 License
+sacremoses;MIT License
+skyfield;MIT License
+pytest-env;MIT License
+collectd-nvidianvml;GPL-3.0 License
+naked;License not found
+pytest-instafail;License not permissive (text)
+tensorboardx;MIT License
+folium;MIT License
+nose-timer;MIT License
+resampy;ISC License
+skyfield-data;MIT License
+flake8-import-order;LGPL-3.0 License
+probableparsing;MIT License
+ibm-db-sa;License not found
+pyotp;License not permissive (text)
+usaddress;MIT License (text)
+wget;License not found
+django-nose;License not permissive (text)
+django-phonenumber-field;MIT License
+timeout-decorator;MIT License
+requests-kerberos;ISC License
+google-compute-engine;Apache-2.0 License
+verboselogs;MIT License
+django-ipware;MIT License
+flake8-quotes;MIT License
+pdfrw;MIT License (text)
+django-mysql;MIT License
+cement;BSD-3-Clause License
+geomet;Apache-2.0 License
+flake8-bugbear;MIT License
+tifffile;BSD-3-Clause License
+altair;BSD-3-Clause License
+clickhouse-cityhash;License not permissive (text)
+dominate;LGPL-3.0 License
+macholib;MIT License
+aiobotocore;Apache-2.0 License
+google-cloud-dlp;Apache-2.0 License
+flask-socketio;MIT License
+eli5;MIT License
+pysnmp;BSD-2-Clause License
+wordcloud;MIT License
+httpretty;MIT License
+django-mptt;License not permissive (text)
+bidict;MPL-2.0 License
+pmdarima;MIT License
+aws-encryption-sdk;Apache-2.0 License
+rfc3987;GPL-3.0 License
+onnx;Apache-2.0 License
+django-allauth;MIT License
+attrdict;MIT License
+pyvirtualdisplay;BSD-2-Clause License
+rtree;MIT License
+catboost;Apache-2.0 License
+pysmi;BSD-2-Clause License
+azureml-sdk;MIT License
+azure-multiapi-storage;MIT License
+nose-exclude;License not permissive (text)
+aioprometheus;License not found
+connexion;Apache License (text)
+django-import-export;BSD-2-Clause License
+crypto;MIT License
+python-logstash;MIT License
+h2o;Apache-2.0 License
+typeguard;MIT License (text)
+pdfkit;MIT License
+htmlmin;License not permissive (text)
+pywebhdfs;Apache License (text)
+librosa;ISC License
+rope;LGPL-3.0 License
+swagger-spec-validator;Apache License (text)
+contextvars;Apache-2.0 License
+lark-parser;MIT License
+venusian;License not permissive (text)
+mkdocs;BSD-2-Clause License
+flask-httpauth;MIT License
+google-cloud-bigquery-datatransfer;Apache-2.0 License
+mechanize;License not permissive (text)
+python-socketio;MIT License
+diskcache;Apache License (text)
+cmake;Apache License (text)
+python-engineio;MIT License
+django-webpack-loader;MIT License (text)
+ws4py;License not permissive (text)
+flask-testing;License not permissive (text)
+dropbox;MIT License
+audioread;MIT License
+scapy;GPL-2.0 License
+ipaddr;Apache-2.0 License
+textblob;MIT License
+soundfile;License not found
+pydash;MIT License
+pywinrm;MIT License
+tokenizers;Apache-2.0 License
+stackprinter;MIT License
+facebook-business;License not permissive (text)
+pytimeparse;MIT License
+transformers;Apache-2.0 License
+django-compressor;Apache License (text)
+django-countries;MIT License
+ptvsd;MIT License (text)
+jsonref;MIT License
+hashids;MIT License
+autograd;MIT License
+mathematics-dataset;Apache-2.0 License
+public;Unlicense License
+awsebcli;MPL-2.0 License
+luigi;Apache-2.0 License
+pyquery;License not permissive (text)
+mongomock;License not permissive (text)
+django-multiselectfield;LGPL-3.0 License
+path-py;MIT License
+glfw;MIT License
+fastapi;MIT License
+jsonpath-ng;Apache-2.0 License
+bashlex;GPL-3.0 License
+asyncpg;Apache-2.0 License
+salesforce-bulk;MIT License
+translationstring;License not permissive (text)
+webcolors;BSD-3-Clause License
+premailer;BSD-3-Clause License
+collections-extended;Apache-2.0 License
+fake-useragent;Apache-2.0 License
+m3u8;MIT License (text)
+jwcrypto;LGPL-3.0 License
+brotlipy;MIT License
+locustio;MIT License
+azure-functions-devops-build;MIT License
+cufflinks;MIT License
+python3-saml;MIT License
+vsts-cd-manager;MIT License
+javaproperties;MIT License
+geohash;AGPL-3.0 License
+gql;MIT License
+python-whois;MIT License
+dash;MIT License
+xmlsec;MIT License
+rollbar;MIT License
+oyaml;MIT License
+pvlib;BSD-3-Clause License
+django-celery-results;License not permissive (text)
+ninja;Apache-2.0 License
+cftime;MIT License
+loguru;MIT License
+editdistance;MIT License
+django-widget-tweaks;MIT License
+xxhash;BSD-2-Clause License
+astropy;BSD-3-Clause License
+mxnet;Apache-2.0 License
+dash-html-components;License not permissive (text)
+warlock;Apache-2.0 License
+django-oauth-toolkit;License not permissive (text)
+jsonlines;License not permissive (text)
+rcssmin;Apache-2.0 License
+pykwalify;MIT License
+daphne;BSD-3-Clause License
+libsass;MIT License
+jws;License not found
+dulwich;Apache License (text)
+netcdf4;MIT License
+python-stdnum;LGPL-2.1 License
+thriftpy;MIT License
+python-openid;Apache-2.0 License
+pywinpty;MIT License
+sqlalchemy-jsonfield;Apache-2.0 License
+jinja2-cli;BSD-2-Clause License
+appium-python-client;Apache-2.0 License
+python-jwt;MIT License
+orjson;Apache License (text)
+channels;BSD-3-Clause License
+awacs;BSD-2-Clause License
+urwid;LGPL-2.1 License
+mrjob;Apache License (text)
+sseclient-py;Apache-2.0 License
+pysaml2;Apache-2.0 License
+wsaccel;Apache License (text)
+oauth2;MIT License
+json-logging-py;MIT License
+simpleeval;License not permissive (text)
+keyrings-alt;MIT License
+capstone;License not permissive (text)
+mixpanel;Apache License (text)
+isoweek;BSD-2-Clause License
+flake8-comprehensions;MIT License
+luminol;Apache-2.0 License
+django-localflavor;License not permissive (text)
+sqlalchemy-migrate;License not found
+args;BSD-2-Clause License
+pyee;MIT License
+protobuf3-to-dict;License not permissive (text)
+clint;ISC License
+pyusb;BSD-3-Clause License
+pathlib-mate;MIT License
+lru-dict;MIT License
+xarray;Apache-2.0 License
+parsimonious;MIT License
+django-simple-history;BSD-3-Clause License
+snakebite;Apache-2.0 License
+cerberus-python-client;Apache-2.0 License
+num2words;LGPL-2.1 License
+iso3166;MIT License
+pytest-ordering;MIT License
+ratelim;MIT License
+memory-profiler;License not permissive (text)
+jupyter-pip;BSD-3-Clause License
+robotframework-seleniumlibrary;Apache License (text)
+korean-lunar-calendar;MIT License
+pyenchant;LGPL-2.1 License
+brunel;Apache-2.0 License
+rdflib;License not permissive (text)
+geocoder;MIT License
+google-cloud-dataproc;Apache-2.0 License
+django-taggit;License not permissive (text)
+pybase64;BSD-2-Clause License
+gprof2dot;LGPL-3.0 License
+python-decouple;MIT License
+vertica-python;Apache-2.0 License
+slackweb;License not found
+pygrok;MIT License
+nameparser;LGPL (text)
+django-braces;License not permissive (text)
+query-string;Unlicense License
+moviepy;MIT License
+retry-decorator;MIT License
+pytoml;MIT License (text)
+tzwhere;MIT License (text)
+dictionaries;MIT License
+pyaes;MIT License
+update-checker;BSD-2-Clause License
+facebook-sdk;Apache-2.0 License
+cmdstanpy;BSD-3-Clause License
+predicthq;MIT License
+base58;MIT License
+vowpalwabbit;License not permissive (text)
+signalfx;Apache-2.0 License
+node-semver;MIT License
+pluginbase;License not permissive (text)
+elastic-apm;BSD-3-Clause License
+thriftpy2;MIT License
+pyros-genmsg;License not found
+google-cloud-tasks;Apache-2.0 License
+conan;MIT License
+slimit;MIT License
+visitor;MIT License
+weka-easypy;BSD-3-Clause License
+lunarcalendar;MIT License
+bson;License not permissive (text)
+pyros-genpy;License not found
+furl;License not permissive (text)
+port-for;MIT License
+django-formtools;License not permissive (text)
+circleci;MIT License
+polyaxon-client;MIT License
+ptable;License not permissive (text)
+threatconnect;Apache License (text)
+djangorestframework-simplejwt;MIT License
+anyconfig;MIT License
+markdown2;MIT License (text)
+fluent-logger;Apache License (text)
+rauth;MIT License
+tensorflow-probability;Apache-2.0 License
+pytest-flask;MIT License
+annoy;Apache-2.0 License
+bottleneck;BSD-2-Clause License
+pytest-split-tests;MIT License
+pytest-benchmark;BSD-2-Clause License
+pdf2image;MIT License
+google-cloud-automl;Apache-2.0 License
+imutils;MIT License
+cbor2;MIT License
+fabric3;BSD-2-Clause License
+boxsdk;Apache-2.0 License
+testinfra;Apache-2.0 License
+pymemcache;Apache-2.0 License
+compound-word-splitter;MIT License
+icalendar;License not permissive (text)
+pipdeptree;MIT License
+polyaxon-cli;MIT License
+polyaxon-deploy;MIT License
+polyaxon-dockerizer;MIT License
+pyshp;MIT License
+flatbuffers;Apache-2.0 License
+javaobj-py3;Apache-2.0 License
+gcs-oauth2-boto-plugin;Apache-2.0 License
+pyjks;MIT License
+happybase;License not permissive (text)
+pympler;Apache-2.0 License
+ansiwrap;Apache License (text)
+drf-nested-routers;Apache-2.0 License
+sklearn-pandas;License not permissive (text)
+cmudict;GPL-3.0 License
+pronouncing;BSD-3-Clause License
+twofish;BSD-3-Clause License
+graphene-django;MIT License
+ipyparallel;License not permissive (text)
+pyhs2;MIT License
+tree-format;Apache-2.0 License
+django-polymorphic;License not permissive (text)
+wand;License not permissive (text)
+django-rest-auth;MIT License
+allure-python-commons;Apache-2.0 License
+platformio;Apache-2.0 License
+imagehash;BSD-2-Clause License
+python-telegram-bot;License not permissive (text)
+pyspark-flame;MIT License
+pyzipcode3;Apache License (text)
+aws-sam-cli;Apache-2.0 License
+radon;MIT License
+msgpack-numpy;License not permissive (text)
+pyppeteer;MIT License (text)
+functions-framework;Apache-2.0 License
+snapshottest;MIT License
+google-cloud-bigquery-storage;Apache-2.0 License
+pyu2f;Apache-2.0 License
+youtube-dl-server;Unlicense License
+mutagen;GPL-2.0 License
+pymdown-extensions;License not permissive (text)
+aws-lambda-builders;Apache-2.0 License
+wikipedia;MIT License
+google-reauth;Apache-2.0 License
+pylru;GPL-2.0 License
+flake8-print;MIT License
+fastdtw;MIT License
+liac-arff;MIT License
+minio;Apache-2.0 License
+pyramid;License not permissive (text)
+zstandard;BSD-3-Clause License
+sagemaker;Apache-2.0 License
+polyline;MIT License
+textwrap3;License not found
+autoflake;MIT License
+ggplot;BSD-2-Clause License
+gevent-websocket;Apache License (text)
+routes;MIT License
+fancycompleter;License not found
+stups-tokens;Apache License (text)
+transitions;MIT License
+uszipcode;MIT License
+jenkinsapi;MIT License (text)
+model-mommy;Apache License (text)
+delorean;MIT License
+flask-oauthlib;BSD-3-Clause License
+pylibmc;BSD-3-Clause License
+pytest-repeat;License not permissive (text)
+django-reversion;License not permissive (text)
+pyfiglet;MIT License (text)
+pylint-flask;GPL-2.0 License
+pypng;MIT License
+dataclasses-json;MIT License
+graphframes;Apache-2.0 License
+papermill;BSD-3-Clause License
+librato-metrics;License not permissive (text)
+motor;Apache-2.0 License
+konlpy;License not permissive (text)
+lmdb;License not permissive (text)
+pyhocon;Apache-2.0 License
+py-spy;MIT License
+exifread;BSD-3-Clause License
+django-picklefield;MIT License
+scikit-build;MIT License (text)
+palettable;License not permissive (text)
+ntplib;MIT License (text)
+graphql-server-core;MIT License
+j2cli;BSD-2-Clause License
+ffmpeg-python;Apache-2.0 License
+google-cloud-texttospeech;Apache-2.0 License
+edn-format;Apache License (text)
+stups-zign;Apache License (text)
+lifetimes;MIT License
+stups-cli-support;Apache License (text)
+geoalchemy2;MIT License
+trains;Apache-2.0 License
+pep517;MIT License
+tox-travis;MIT License
+django-ses;MIT License
+httpagentparser;MIT License
+pytest-watch;MIT License
+chevron;MIT License
+jieba;MIT License
+prawcore;BSD-2-Clause License
+flake8-commas;MIT License (text)
+pytest-pythonpath;MIT License
+fasttext;MIT License
+pdbpp;BSD-3-Clause License
+rq-scheduler;MIT License
+swagger-ui-bundle;Apache License (text)
+django-waffle;License not permissive (text)
+tfrecord-lite;MIT License
+cookiejar;MIT License
+iptools;BSD-2-Clause License
+mando;MIT License
+google-cloud-profiler;Apache-2.0 License
+openshift;Apache-2.0 License
+pyreadline;License not found
+python-string-utils;MIT License
+integrationhelper;MIT License
+django-treebeard;Apache-2.0 License
+nose2;Python Software Foundation (text)
+django-redis-cache;License not permissive (text)
+serverlessrepo;Apache-2.0 License
+mkdocs-material;MIT License
+flake8-builtins;GPL-2.0 License
+flake8-isort;License not permissive (text)
+aiogithubapi;MIT License
+rasterio;License not permissive (text)
+nest-asyncio;BSD-2-Clause License
+proglog;MIT License (text)
+python-gilt;MIT License
+threadloop;MIT License
+yattag;License not found
+hupper;MIT License
+tsfresh;MIT License
+hacs-frontend;MIT License
+praw;BSD-2-Clause License
+py3nvml;BSD-3-Clause License
+mercantile;BSD-3-Clause License
+colour;BSD-2-Clause License
+pytest-flake8;License not permissive (text)
+jupyter-nbextensions-configurator;Modified BSD License (text)
+pyfakefs;Apache-2.0 License
+pylint-celery;GPL-2.0 License
+ipy;License not permissive (text)
+vobject;License not found
+transaction;License not permissive (text)
+github3-py;License not permissive (text)
+authy;MIT License
+maxminddb-geolite2;License not permissive (text)
+flasgger;MIT License
+bingads;MIT License (text)
+lime;BSD-2-Clause License
+dodgy;MIT License
+python-pptx;MIT License
+numpydoc;License not permissive (text)
+pypd;MIT License
+molecule;MIT License
+stomp-py;Apache-2.0 License
+aiohttp-cors;Apache-2.0 License
+progressbar;LGPL (text)
+python-redis-lock;BSD-2-Clause License
+affine;License not permissive (text)
+crc16;LGPL-3.0 License
+h2o-pysparkling-2-4;Apache-2.0 License
+asana;MIT License
+mss;MIT License
+beaker;License not permissive (text)
+ec2-metadata;MIT License
+neotime;Apache-2.0 License
+prospector;GPL-2.0 License
+python-nvd3;MIT License (text)
+jupyter-latex-envs;Modified BSD License (text)
+ansible-tower-cli;Apache-2.0 License
+xhtml2pdf;Apache-2.0 License
+vulture;MIT License
+gspread-dataframe;MIT License
+leather;MIT License
+agate;MIT License
+superlance;License not permissive (text)
+pyspark-stubs;Apache-2.0 License
+pytest-pylint;MIT License
+sphinxcontrib-httpdomain;License not permissive (text)
+base64io;Apache-2.0 License
+nox;Apache-2.0 License
+aws-encryption-sdk-cli;Apache-2.0 License
+feather-format;Apache-2.0 License
+pydotplus;MIT License
+python-rapidjson;MIT License (text)
+elasticsearch-curator;Apache License (text)
+markuppy;MIT License
+rpyc;License not permissive (text)
+newlinejson;License not permissive (text)
+torchtext;BSD-3-Clause License
+django-otp;BSD-2-Clause License
+setoptconf;MIT License
+snuggs;MIT License
+neobolt;Apache-2.0 License
+pytest-randomly;MIT License
+django-health-check;MIT License
+django-ratelimit;Apache License (text)
+jupyter-contrib-core;Modified BSD License (text)
+requirements-detector;MIT License
+filetype;MIT License
+check-manifest;MIT License
+wordsegment;Apache License (text)
+google-cloud-ndb;Apache-2.0 License
+jupyter-contrib-nbextensions;License not permissive (text)
+google-crc32c;Apache-2.0 License
+djangorestframework-csv;BSD-2-Clause License
+dateutils;0BSD License
+crayons;MIT License
+googletrans;MIT License
+pytest-variables;License not permissive (text)
+biopython;License not permissive (text)
+simpleitk;Apache-2.0 License
+json-log-formatter;MIT License
+google-api-helper;GPL-3.0 License
+channels-redis;BSD-3-Clause License
+robotframework-requests;MIT License
+django-anymail;BSD 3-Clause License (text)
+h3;Apache-2.0 License
+restructuredtext-lint;Unlicense License
+trollius;Apache-2.0 License
+ansicolors;ISC License
+jaeger-client;Apache-2.0 License
+pandas-profiling;MIT License
+jupyter-highlight-selected-word;Modified BSD License (text)
+cov-core;MIT License
+mpld3;BSD-3-Clause License
+wasmer;MIT License
+pytest-aiohttp;Apache-2.0 License
+django-bootstrap4;BSD-3-Clause License
+junitparser;Apache License (text)
+flask-session;License not permissive (text)
+pyfcm;MIT License
+easydict;LGPL-3.0 License
+flask-apispec;MIT License
+impyla;Apache-2.0 License
+pyahocorasick;BSD-3-Clause License
+flask-graphql;MIT License
+teamcity-messages;Apache-2.0 License
+jinjasql;MIT License
+pandasql;MIT License
+django-ckeditor;License not permissive (text)
+pytest-remotedata;BSD-3-Clause License
+utils;LGPL-3.0 License
+urlobject;Unlicense License
+category-encoders;BSD-3-Clause License
+protorpc;Apache-2.0 License
+mypy-protobuf;Apache-2.0 License
+hacking;Apache-2.0 License
+graypy;BSD-3-Clause License
+xmlrunner;LGPL-3.0 License
+diff-cover;Apache-2.0 License
+django-grappelli;License not permissive (text)
+django-tables2;License not permissive (text)
+xvfbwrapper;MIT License (text)
+pywinauto;BSD-3-Clause License
+onnxruntime;MIT License
+pyhcl;MPL-2.0 License
+objgraph;MIT License
+django-guardian;MIT License (text)
+smdebug-rulesconfig;Apache-2.0 License
+limits;MIT License
+eth-utils;MIT License
+easy-thumbnails;BSD-3-Clause License
+jsonpath-rw-ext;Apache-2.0 License
+pytest-base-url;License not permissive (text)
+plaster-pastedeploy;MIT License
+hjson;MIT License (text)
+pyldap;License not permissive (text)
+psycogreen;License not permissive (text)
+first;MIT License
+ortools;License not found
+pydevd;EPL-1.0 License
+progress;License not permissive (text)
+tableauserverclient;MIT License (text)
+pytest-selenium;License not permissive (text)
+patch-ng;MIT License (text)
+uritools;MIT License
+google-cloud-secret-manager;Apache-2.0 License
+sacrebleu;Apache-2.0 License
+missingno;MIT License
+flask-bootstrap;Apache License (text)
+python-redis;MIT License
+pudb;License not permissive (text)
+plaster;MIT License
+stestr;Apache-2.0 License
+readthedocs-sphinx-ext;MIT License
+ccy;BSD-3-Clause License
+pysam;MIT License
+tinydb;MIT License
+trueskill;License not permissive (text)
+htcondor;License not found
+django-silk;MIT License
+sphinxcontrib-plantuml;BSD-2-Clause License
+civis;BSD-3-Clause License
+nbsphinx;MIT License
+gnupg;GPL-3.0 License
+eth-typing;MIT License
+confuse;MIT License
+pex;Apache-2.0 License
+m2crypto;License not permissive (text)
+click-log;MIT License
+environs;MIT License
+google-cloud-redis;Apache-2.0 License
+dynaconf;MIT License
+py-moneyed;BSD-3-Clause License
+dumb-init;MIT License
+braintree;MIT License
+django-fsm;MIT License
+deepmerge;MIT License
+apache-libcloud;Apache-2.0 License
+fpdf;LGPL-3.0 License
+json2parquet;MIT License
+webassets;License not permissive (text)
+elementpath;MIT License
+google-cloud-iam;Apache-2.0 License
+imgaug;MIT License
+testing-common-database;Apache-2.0 License
+djangorestframework-xml;BSD-3-Clause License
+pybrake;MIT License (text)
+google-cloud-asset;Apache-2.0 License
+sorl-thumbnail;BSD-3-Clause License
+jinja2-pluralize;BSD-3-Clause License
+compatibility-lib;Apache-2.0 License
+web3;MIT License
+djangorestframework-camel-case;License not permissive (text)
+placebo;Apache-2.0 License
+bravado-core;License not permissive (text)
+mizani;BSD-3-Clause License
+cvxpy;Apache License (text)
+importlib;Python Software Foundation (text)
+flask-principal;MIT License
+lifelines;MIT License
+django-celery;BSD-3-Clause License
+osqp;Apache-2.0 License
+suds-py3;LGPL-3.0 License
+onnxconverter-common;MIT License
+google-cloud-datacatalog;Apache-2.0 License
+pyjarowinkler;Apache-2.0 License
+rednose;MIT License
+xmlschema;MIT License
+zope-sqlalchemy;License not permissive (text)
+requests-unixsocket;Apache-2.0 License
+sphinxcontrib-bibtex;License not permissive (text)
+httpbin;ISC License
+django-jsonfield;License not permissive (text)
+gsutil;Apache-2.0 License
+maturin;Apache License (text)
+comtypes;License not permissive (text)
+ncclient;Apache-2.0 License
+pygresql;MIT License (text)
+mecab-python3;LGPL (text)
+pyroute2;License not found
+graphite-web;Apache-2.0 License
+google-cloud-scheduler;Apache-2.0 License
+eth-abi;MIT License
+zeroconf;LGPL-2.1 License
+latexcodec;License not permissive (text)
+img2pdf;LGPL-3.0 License
+sphinx-autobuild;MIT License
+tlslite;License not permissive (text)
+currencyconverter;Apache-2.0 License
+pytest-custom-exit-code;MIT License
+git-url-parse;MIT License
+datasketch;MIT License
+geventhttpclient-wheels;License not permissive (text)
+django-user-agents;MIT License
+pyscreeze;BSD-3-Clause License
+httpie;BSD-3-Clause License
+ez-setup;License not found
+django-prometheus;Apache-2.0 License
+pandas-datareader;License not permissive (text)
+alpha-vantage;MIT License
+flake8-blind-except;MIT License
+sphinxcontrib-spelling;BSD-2-Clause License
+requests-cache;BSD-2-Clause License
+resource;License not found
+pygtrie;Apache-2.0 License
+jsonform;License not found
+jaraco-classes;MIT License
+jsonsir;License not found
+python-easyconfig;License not found
+python-etcd;MIT License (text)
+dumbyaml;MIT License
+django-classy-tags;License not permissive (text)
+envs;Apache-2.0 License
+collectd;License not permissive (text)
+textfsm;Apache-2.0 License
+robotframework-selenium2library;License not found
+pytest-pep8;MIT License
+distance;GPL-2.0 License
+flask-cache;License not permissive (text)
+keras2onnx;Apache-2.0 License
+auth0-python;MIT License
+plotnine;GPL-2.0 License
+colorclass;MIT License
+skl2onnx;Apache-2.0 License
+django-csp;License not permissive (text)
+splunk-sdk;Apache-2.0 License
+flex;MIT License
+scs;MIT License
+ecos;GPL-3.0 License
+mlxtend;License not permissive (text)
+onnxmltools;Apache-2.0 License
+pyautogui;BSD-3-Clause License
+auth;MIT License
+createsend;MIT License
+horovod;Apache License (text)
+dirq;Apache License (text)
+coremltools;BSD-3-Clause License
+aiocontextvars;License not permissive (text)
+commentjson;MIT License
+jaraco-text;MIT License
+pybtex-docutils;License not permissive (text)
+lazy;BSD-2-Clause License
+django-haystack;MIT License (text)
+rpy2;GPL-2.0 License
+us;BSD-3-Clause License
+phik;Apache License (text)
+jaraco-collections;MIT License
+pytest-mypy;MIT License
+bump2version;MIT License
+fs;MIT License
+pymsgbox;BSD-3-Clause License
+cheetah3;MIT License (text)
+fastcluster;License not permissive (text)
+atari-py;License not permissive (text)
+testing-postgresql;Apache-2.0 License
+flatten-json;MIT License
+termstyle;BSD-3-Clause License
+aioresponses;MIT License
+google-oauth;MIT License
+google-cloud-securitycenter;Apache-2.0 License
+nosexcover;MIT License
+robotframework-sshlibrary;Apache License (text)
+textdistance;MIT License
+nimbusml;MIT License (text)
+django-bulk-update;MIT License
+infinity;BSD-3-Clause License
+python-heatclient;Apache-2.0 License
+flask-rq2;MIT License
+google-cloud-iot;Apache-2.0 License
+selectors34;Python Software Foundation (text)
+etcd3;Apache-2.0 License
+django-autocomplete-light;MIT License
+drf-extensions;MIT License
+django-stubs;MIT License
+sphinx-autodoc-typehints;MIT License (text)
+lml;License not permissive (text)
+django-coverage-plugin;Apache-2.0 License
+ctutlz;MIT License
+humpty;License not permissive (text)
+peakutils;MIT License
+netmiko;MIT License
+intervals;BSD-3-Clause License
+python-coveralls;Apache License (text)
+google-cloud-datalabeling;Apache-2.0 License
+google-cloud-talent;Apache-2.0 License
+pyscreenshot;BSD-2-Clause License
+google-cloud-os-login;Apache-2.0 License
+python-multipart;Apache License (text)
+rlp;MIT License
+pytweening;BSD-3-Clause License
+records;ISC License
+import-from-github-com;MIT License
+google-cloud-websecurityscanner;Apache-2.0 License
+shyaml;BSD-2-Clause License
+google-cloud-webrisk;Apache-2.0 License
+u-msgpack-python;MIT License
+pem;MIT License
+py-zabbix;GPL-2.0 License
+aerospike;Apache-2.0 License
+wsproto;MIT License
+gtts-token;MIT License
+pyexcel-io;License not permissive (text)
+fastprogress;Apache-2.0 License
+django-heroku;BSD-3-Clause License
+eth-hash;MIT License
+httpcore;BSD-3-Clause License
+bunch;MIT License
+pamela;MIT License (text)
+django-axes;MIT License
+ofxparse;MIT License
+awsiotpythonsdk;Apache-2.0 License
+pusher;MIT License
+anytree;Apache-2.0 License
+treelib;Apache License (text)
+overrides;Apache-2.0 License
+auditwheel;MIT License (text)
+apiclient;MIT License (text)
+wsgi-request-logger;License not permissive (text)
+honcho;MIT License
+testresources;Apache License (text)
+colander;License not permissive (text)
+boto3-type-annotations;MIT License
+utlz;MIT License
+django-pipeline;MIT License
+django-cacheops;BSD-3-Clause License
+ptpython;BSD-3-Clause License
+construct;License not permissive (text)
+spark-df-profiling;MIT License
+pprintpp;License not permissive (text)
+line-profiler;License not permissive (text)
+mockito;MIT License
+tavern;MIT License
+dataclasses-serialization;MIT License
+hyper;MIT License
+json-rpc;MIT License
+algoliasearch;MIT License
+nibabel;License not permissive (text)
+logzio-python-handler;Apache-2.0 License
+django-constance;BSD-3-Clause License
+cpplint;License not permissive (text)
+asyncssh;License not permissive (text)
+pydrive;Apache License (text)
+djangorestframework-filters;License not permissive (text)
+rake-nltk;MIT License
+python-jose-cryptodome;MIT License
+disklist;MIT License
+eth-keys;MIT License
+pyqrcode;BSD-3-Clause License
+pyod;BSD-2-Clause License
+great-expectations;Apache-2.0 License
+pydicom;MIT License (text)
+flask-mysql;MIT License
+itopy;MIT License
+spotipy;MIT License
+logstash-formatter;MIT License
+speechrecognition;License not permissive (text)
+twitter-common-lang;Apache License (text)
+django-admin-rangefilter;MIT License
+artifactory;MIT License
+speaklater;License not permissive (text)
+pycontracts;License not permissive (text)
+eth-account;MIT License
+flashtext;MIT License
+pytest-random-order;MIT License
+mailchimp3;MIT License
+pygerduty;MIT License
+requests-pkcs12;ISC License
+injector;BSD-3-Clause License
+pamqp;BSD-3-Clause License
+word2number;MIT License
+pybluez;GPL-2.0 License
+selectors2;MIT License
+flake8-logging-format;Apache-2.0 License
+pynput;LGPL (text)
+m2r;MIT License
+svgwrite;License not permissive (text)
+marisa-trie;MIT License
+async-lru;MIT License
+hexbytes;MIT License
+heroku3;License not permissive (text)
+pytest-dependency;Apache-2.0 License
+pygetwindow;BSD-3-Clause License
+durationpy;MIT License
+wurlitzer;MIT License
+wmi;License not found
+kappa;Apache-2.0 License
+profilehooks;MIT License
+requests-html;MIT License
+httmock;Apache License (text)
+eth-keyfile;MIT License
+implicit;MIT License
+image;License not permissive (text)
+flask-assets;BSD-2-Clause License
+patch;License not found
+yappi;MIT License
+eth-rlp;MIT License
+django-bootstrap3;BSD-3-Clause License
+mkdocs-minify-plugin;MIT License
+seleniumbase;MIT License
+xmljson;MIT License
+graphene-sqlalchemy;MIT License
+python-twitter;Apache License (text)
+gtts;MIT License
+cmarkgfm;MIT License
+oci;Apache License (text)
+jupyterhub;License not permissive (text)
+django-auth-ldap;BSD-2-Clause License
+memcnn;MIT License
+rpqueue;LGPL-2.1 License
+zappa;MIT License
+asyncio-nats-client;Apache-2.0 License
+addict;MIT License
+pyrect;BSD-3-Clause License
+flask-debugtoolbar;License not permissive (text)
+stop-words;BSD-3-Clause License
+trafaret;BSD-2-Clause License
+pytest-azurepipelines;MIT License
+property-manager;MIT License
+dlib;BSL-1.0 License
+stopit;MIT License
+django-object-actions;Apache-2.0 License
+geohash2;AGPL-3.0 License
+coverage-badge;MIT License
+glom;License not permissive (text)
+readchar;License not found
+hdbscan;BSD-3-Clause License
+django-compat;MIT License
+umap-learn;BSD-3-Clause License
+django-sekizai;License not permissive (text)
+testrepository;Apache License (text)
+pandoc;License not found
+comet-ml;License not found
+marshmallow-oneofschema;MIT License
+rdflib-jsonld;License not permissive (text)
+flake8-debugger;License not found
+jsonmerge;MIT License
+pytest-profiling;MIT License
+piexif;MIT License
+flask-limiter;MIT License
+ebaysdk;CDDL (text)
+mockredispy;Apache-2.0 License
+pyopengl;License not permissive (text)
+sphinx-markdown-tables;GPL-3.0 License
+splinter;BSD-3-Clause License
+dacite;MIT License
+edgegrid-python;Apache-2.0 License
+pytest-spark;MIT License
+transifex-client;GPL-2.0 License
+eyed3;GPL-3.0 License
+codetiming;MIT License
+django-modeltranslation;BSD-3-Clause License
+django-admin-sortable2;MIT License
+face;License not permissive (text)
+pygeohash;License not found
+pytest-shard;MIT License
+requirements-parser;License not permissive (text)
+hmsclient;Apache-2.0 License
+shrub-py;Apache-2.0 License
+google-ads;Apache-2.0 License
+flake8-tidy-imports;MIT License
+titlecase;MIT License
+pywatchman;Apache-2.0 License
+tokenize-rt;MIT License
+scrypt;BSD 2-Clause License (text)
+robotremoteserver;Apache License (text)
+reverse-geocoder;LGPL-2.1 License
+pymc3;Apache License (text)
+pipfile;License not permissive (text)
+pastescript;License not found
+pytest-socket;MIT License
+flask-talisman;Apache-2.0 License
+meson;Apache-2.0 License
+django-tastypie;License not permissive (text)
+ngram;LGPL-3.0 License
+json2html;MIT License
+bravado;License not permissive (text)
+dbfread;MIT License
+pysmb;License not permissive (text)
+gdata;License not found
+nbclient;Modified BSD License (text)
+django-annoying;BSD-3-Clause License
+pyudev;LGPL-2.1 License
+fastdiff;License not found
+cachelib;BSD-3-Clause License
+homeassistant;Apache-2.0 License
+opentracing-instrumentation;MIT License
+pywebpush;MPL-2.0 License
+python-statsd;BSD-3-Clause License
+zenpy;GPL-3.0 License
+quandl;MIT License
+lightfm;Apache-2.0 License
+imapclient;License not permissive (text)
+diamond;MIT License
+envparse;MIT License
+django-rq;MIT License
+pysolr;BSD-3-Clause License
+twython;MIT License
+lunr;MIT License
+wptools;MIT License
+oss2;MIT License
+selinux;MIT License
+paretochart;License not found
+cursor;GPL-3.0 License
+polling;MIT License
+pylama;LGPL-3.0 License
+tinyrpc;MIT License
+scikit-surprise;BSD-3-Clause License
+names;MIT License
+blist;License not permissive (text)
+cupy-cuda100;MIT License
+intelhex;License not permissive (text)
+aiopg;BSD-2-Clause License
+bayesian-optimization;MIT License
+dbutils;MIT License
+neo4j;Apache-2.0 License
+log-symbols;MIT License
+htmlparser;License not found
+dohq-artifactory;MIT License
+everett;MPL-2.0 License
+pymsteams;Apache-2.0 License
+wagtail;BSD-3-Clause License
+pygeoip;LGPL-3.0 License
+assertpy;BSD-3-Clause License
+pyrogram;LGPL-3.0 License
+spark-nlp;Apache-2.0 License
+interpret-core;MIT License
+mouseinfo;GPL-3.0 License
+wxpython;License not found
+warrant;Apache-2.0 License
+halo;MIT License
+draftjs-exporter;MIT License
+django-modelcluster;BSD-3-Clause License
+evergreen-py;Apache-2.0 License
+webdriver-manager;Apache-2.0 License
+mysql;License not found
+django-tinymce;MIT License
+globre;GPL-3.0 License
+envtpl;License not found
+spinners;MIT License
+couchbase;Apache-2.0 License
+checksumdir;MIT License
+deap;LGPL-3.0 License
+pykmip;Apache-2.0 License
+autograd-gamma;MIT License
+rethinkdb;Apache-2.0 License
+persistent;License not permissive (text)
+pyrouge;MIT License
+rouge;Apache-2.0 License
+varint;MIT License
+patool;GPL-3.0 License
+pip-licenses;MIT License
+pandavro;MIT License
+django-configurations;License not permissive (text)
+pytest-lazy-fixture;MIT License
+flask-babelex;License not permissive (text)
+backports-os;Python Software Foundation (text)
+starkbank-ecdsa;MIT License
+readline;License not found
+gputil;MIT License
+jobspy;LGPL-2.1 License
+pyexcel;License not permissive (text)
+vadersentiment;MIT License
+multiaddr;License not permissive (text)
+moderngl;MIT License
+js2py;MIT License
+pytest-freezegun;MIT License
+dependency-injector;BSD-3-Clause License
+yamlordereddictloader;MIT License
+pyarabic;GPL-3.0 License
+flatten-dict;MIT License
+py2neo;Apache-2.0 License
+pyactiveresource;MIT License (text)
+gnureadline;GPL-3.0 License
+pytest-bdd;MIT License
+peppercorn;License not permissive (text)
+aspy-refactor-imports;MIT License
+xdg;ISC License
+keystonemiddleware;Apache License (text)
+python-geoip;License not permissive (text)
+python-jsonrpc-server;MIT License
+pyzabbix;License not found
+django-crontab;License not permissive (text)
+flask-pymongo;BSD-2-Clause License
+ifaddr;MIT License
+rarfile;ISC License
+keras-mxnet;MIT License (text)
+ipfshttpclient;MIT License
+dfply;GPL-3.0 License
+asset;GPL-3.0 License
+pyramid-tm;License not permissive (text)
+lazy-import;GPL-3.0 License
+py2-ipaddress;License not found
+btrees;License not permissive (text)
+doc8;Apache-2.0 License
+scrapy-splash;License not permissive (text)
+eradicate;License not found
+param;BSD-3-Clause License
+cli-helpers;BSD-3-Clause License
+ffmpeg-quality-metrics;License not found
+click-help-colors;MIT License
+scrapy-random-useragent;MIT License
+kazurator;MIT License
+inquirer;MIT License
+unipath;License not found
+pyicu;License not permissive (text)
+imagecodecs;BSD-3-Clause License
+pydruid;Apache License (text)
+abbyy;MIT License
+pysolar;GPL-3.0 License
+aiokafka;Apache-2.0 License
+python-barcode;MIT License
+omegaconf;BSD-3-Clause License
+pysha3;Python Software Foundation (text)
+hdfs3;License not permissive (text)
+flake8-string-format;MIT License
+uhashring;BSD-3-Clause License
+pytest-factoryboy;License not found
+ratelimiter;Apache-2.0 License
+ovs;Apache-2.0 License
+python-oauth2;MIT License
+dataset;MIT License
+pockets;BSD-3-Clause License
+shopifyapi;MIT License
+telethon;MIT License
+python-monkey-business;BSD-2-Clause License
+librabbitmq;License not permissive (text)
+codacy-coverage;BSD-3-Clause License
+pyminizip;License not permissive (text)
+cron-descriptor;MIT License
+python-xlib;LGPL-2.1 License
+awesome-slugify;License not found
+hmmlearn;BSD-3-Clause License
+pilkit;License not permissive (text)
+pygraphviz;License not permissive (text)
+glmnet-py;GPL-2.0 License
+sqlalchemy-stubs;Apache-2.0 License
+web-py;License not permissive (text)
+eeweather;Apache-2.0 License
+keyboard;MIT License
+pep562;MIT License
+winkerberos;Apache-2.0 License
+interpret-community;MIT License
+pathvalidate;MIT License
+django-money;License not permissive (text)
+pypyodbc;MIT License (text)
+vistir;ISC License
+pyowm;MIT License
+nteract-scrapbook;BSD-3-Clause License
+flask-security;MIT License
+google-cloud-happybase;MIT License (text)
+sfmergeutility;MIT License
+django-mathfilters;MIT License
+pyxlsb;LGPL-3.0 License
+petname;Apache-2.0 License
+django-nested-admin;BSD 2-Clause License (text)
+django-autoslug;LGPL-3.0 License
+repoze-who;License not permissive (text)
+tensorflowonspark;Apache-2.0 License
+python-language-server;MIT License
+python-barbicanclient;Apache-2.0 License
+queueman;MIT License
+python-louvain;License not permissive (text)
+shutilwhich;Python Software Foundation (text)
+jinja2schema;License not permissive (text)
+pip-shims;ISC License
+ansi2html;LGPL-3.0 License
+graphene-file-upload;MIT License
+graphyte;MIT License
+gspread-pandas;BSD-3-Clause License
+django-dirtyfields;License not permissive (text)
+sfctl;MIT License (text)
+sphinxcontrib-napoleon;License not permissive (text)
+yamale;MIT License
+autosemver;GPL-3.0 License
+azure-functions;MIT License
+binary;Apache License (text)
+django-imagekit;License not permissive (text)
+static3;LGPL-2.1 License
+django-two-factor-auth;MIT License
+fastjsonschema;BSD-3-Clause License
+requests-oauth;BSD-3-Clause License
+weakrefmethod;Python Software Foundation (text)
+nose-progressive;MIT License
+formencode;MIT License
+kaggle;Apache-2.0 License
+xattr;MIT License (text)
+editorconfig;Python Software Foundation (text)
+plaid-python;MIT License
+rules;MIT License
+paver;License not permissive (text)
+speedtest-cli;Apache-2.0 License
+pyculiar;GPL-3.0 License
+exchangelib;BSD-2-Clause License
+spotify-tensorflow;Apache-2.0 License
+sqlitedict;Apache-2.0 License
+plette;ISC License
+unicode-slugify;License not permissive (text)
+df2gspread;GPL-3.0 License
+django-cors-middleware;License not permissive (text)
+pyexcel-xlsx;License not permissive (text)
+zipcodes;MIT License
+cronex;MIT License
+dj-static;BSD-2-Clause License
+aio-pika;Apache-2.0 License
+ffmpy;MIT License
+pyftpdlib;MIT License
+xstatic-bootstrap-scss;License not found
+requirementslib;MIT License
+pyroma;MIT License
+asteval;MIT License
+treeinterpreter;BSD-3-Clause License
+future-fstrings;MIT License
+yarg;MIT License (text)
+pyldavis;BSD-3-Clause License
+unidiff;MIT License
+fastcache;MIT License
+pycld2;Apache-2.0 License
+django-log-request-id;BSD-2-Clause License
+lambda-packages;License not found
+ara;GPL-3.0 License
+pbkdf2;License not found
+flake8-deprecated;License not permissive (text)
+googleappenginecloudstorageclient;Apache-2.0 License
+plyfile;GPL-3.0 License
+edx-opaque-keys;AGPL-3.0 License
+ansible-runner;License not permissive (text)
+dotmap;MIT License
+ibm-cos-sdk;Apache-2.0 License
+sailthru-client;MIT License
+yfinance;Apache-2.0 License
+rq-dashboard;License not permissive (text)
+pykafka;Apache License (text)
+bashate;Apache-2.0 License
+mahotas;License not permissive (text)
+pythonnet;MIT License
+sklearn-crfsuite;License not found
+python-intercom;License not permissive (text)
+iniconfig;MIT License
+aws;BSD-2-Clause License
+logzero;MIT License
+caniusepython3;Apache-2.0 License
+sparkpost;Apache License (text)
+flask-sslify;BSD-2-Clause License
+csvkit;MIT License
+odo;License not permissive (text)
+control;BSD-3-Clause License
+djoser;MIT License
+jsii;Apache-2.0 License
+xlutils;License not found
+aiohttp-jinja2;Apache-2.0 License
+cloudinary;MIT License (text)
+localstack-client;Apache-2.0 License
+dpkt;License not permissive (text)
+ruptures;BSD-2-Clause License
+pytest-parallel;MIT License
+aws-cdk-core;Apache-2.0 License
+flake8-mutable;MIT License
+jwt;Apache-2.0 License
+fastai;Apache-2.0 License
+django-recaptcha;BSD-3-Clause License
+django-fernet-fields;BSD-3-Clause License
+xstatic;MIT License (text)
+glances;LGPL-3.0 License
+funcparserlib;MIT License
+mitmproxy;MIT License
+cssmin;License not permissive (text)
+gherkin-official;MIT License
+prov;MIT License
+entrypoint2;BSD-2-Clause License
+twitter;MIT License
+arviz;Apache-2.0 License
+transforms3d;License not permissive (text)
+dnslib;BSD-2-Clause License
+faulthandler;License not permissive (text)
+times;License not permissive (text)
+newrelic-telemetry-sdk;Apache-2.0 License
+centrosome;BSD 3-Clause License (text)
+pymodbus;License not permissive (text)
+dynamodb-json;MPL-2.0 License
+javabridge;License not permissive (text)
+ibm-cos-sdk-core;Apache-2.0 License
+udatetime;Apache License (text)
+streamlit;Apache-2.0 License
+ibm-cos-sdk-s3transfer;Apache-2.0 License
+mirakuru;LGPL-3.0 License
+dm-tree;Apache-2.0 License
+djangorestframework-bulk;License not permissive (text)
+attr;License not found
+simple-settings;MIT License
+marshmallow-jsonschema;MIT License
+apns2;MIT License
+readability-lxml;Apache-2.0 License
+configspace;License not permissive (text)
+django-hijack;MIT License
+iso4217;License not found
+sparqlwrapper;License not permissive (text)
+pip-api;Apache-2.0 License
+gin-config;Apache-2.0 License
+junos-eznc;Apache License (text)
+edx-enterprise;AGPL-3.0 License
+django-enumfields;MIT License (text)
+optuna;MIT License
+cybox;BSD-3-Clause License
+tika;Apache-2.0 License
+yaspin;MIT License
+yarn-api-client;BSD-3-Clause License
+googledrivedownloader;MIT License
+django-select2;MIT License
+python-status;License not permissive (text)
+django-elasticsearch-dsl;Apache License (text)
+paramiko-expect;MIT License
+os-testr;Apache-2.0 License
+dask-ml;BSD-3-Clause License
+marshmallow-objects;MIT License
+flask-basicauth;License not permissive (text)
+flake8-colors;MIT License
+python-bioformats;License not permissive (text)
+daemoniker;Unlicense License
+publication;MIT License
+stix;BSD-3-Clause License
+djangorestframework-gis;MIT License
+dbt-core;Apache-2.0 License
+blaze;License not permissive (text)
+chalice;Apache-2.0 License
+pyquaternion;MIT License
+prokaryote;GPL-3.0 License
+sseclient;MIT License
+flake8-per-file-ignores;Expat License (text)
+pylint-quotes;MIT License
+django-celery-monitor;License not permissive (text)
+frozen-flask;License not permissive (text)
+typepy;MIT License
+mbstrdecoder;MIT License
+pecan;BSD-3-Clause License
+androguard;Apache-2.0 License
+django-jinja;License not permissive (text)
+pyramid-mako;License not permissive (text)
+simple-rest-client;MIT License
+smtpapi;MIT License
+visions;License not permissive (text)
+sudachipy;Apache-2.0 License
+mixbox;BSD-3-Clause License
+tangled-up-in-unicode;License not permissive (text)
+pipreqs;Apache-2.0 License
+pytest-faulthandler;MIT License
+flask-responses;License not found
+docx2txt;MIT License
+pygit2;License not permissive (text)
+profanityfilter;BSD-3-Clause License
+flask-mongoengine;License not permissive (text)
+zxcvbn;MIT License
+carbon;Apache-2.0 License
+func-timeout;LGPL-3.0 License
+django-ajax-selects;MIT License (text)
+requests-async;License not permissive (text)
+scons;MIT License (text)
+gcovr;License not permissive (text)
+django-solo;License not permissive (text)
+dis3;Python Software Foundation (text)
+portpicker;Apache-2.0 License
+flake8-eradicate;MIT License
+svglib;LGPL-3.0 License
+requests-http-signature;Apache-2.0 License
+pykube;Apache-2.0 License
+simple-crypt;License not found
+nose-parallel;MIT License
+netdisco;License not permissive (text)
+securesystemslib;MIT License
+s3io;MIT License
+python2-secrets;MIT License
+email-reply-parser;MIT License
+pyprind;BSD-3-Clause License
+python-binary-memcached;MIT License
+html-testrunner;MIT License
+flock;BSD-3-Clause License
+tinycss;License not permissive (text)
+www-authenticate;License not permissive (text)
+binpacking;MIT License
+pyramid-debugtoolbar;License not permissive (text)
+python-resize-image;MIT License
+jupytext;MIT License
+aioitertools;MIT License
+win-inet-pton;License not permissive (text)
+pathmatch;MIT License
+django-webtest;MIT License
+roman;Python Software Foundation (text)
+django-sslserver;MIT License
+combo;BSD-2-Clause License
+recurly;MIT License
+treq;MIT License (text)
+open3d-python;MIT License (text)
+django-jet;AGPL-3.0 License
+kivy;MIT License
+pytd;Apache-2.0 License
+py-lz4framed;Apache-2.0 License
+py-vapid;MPL-2.0 License
+json-encoder;License not found
+asttokens;Apache-2.0 License
+pyvim;BSD-3-Clause License
+click-spinner;MIT License
+agate-sql;MIT License
+qt4reactor;License not permissive (text)
+rdpy;GPL-3.0 License
+openapi-core;BSD-3-Clause License
+pytrends;Apache License (text)
+agate-excel;MIT License
+agate-dbf;MIT License
+marshmallow-dataclass;MIT License
+seqeval;MIT License
+docx;MIT License
+typish;MIT License
+edxval;AGPL-3.0 License
+spyne;LGPL-2.1 License
+scout-apm;MIT License
+aiormq;License not permissive (text)
+ldapdomaindump;MIT License
+gxformat2;EPL (text)
+py-mini-racer;ISC License
+mixer;License not permissive (text)
+honeycomb-beeline;Apache License (text)
+in-toto;Apache License (text)
+paypalrestsdk;License not permissive (text)
+django-extra-views;MIT License
+model-bakery;Apache License (text)
+google-python-cloud-debugger;Apache-2.0 License
+conan-package-tools;MIT License
+avalara;Apache-2.0 License
+matplotlib-venn;MIT License
+kfp-server-api;Apache-2.0 License
+magicattr;MIT License
+awslogs;License not permissive (text)
+workflow;License not permissive (text)
+sanic-cors;MIT License
+tflearn;MIT License (text)
+slacker-log-handler;Apache-2.0 License
+django-filer;License not permissive (text)
+django-bootstrap-form;License not permissive (text)
+ansible-vault;GPL-3.0 License
+pyclipper;MIT License
+simplekml;LGPL (text)
+duo-client;Apache License (text)
+python-nomad;MIT License
+pyviz-comms;BSD-3-Clause License
+curtsies;MIT License
+codespell;GPL-2.0 License
+yara-python;Apache-2.0 License
+browsermob-proxy;License not found
+robotframework-httplibrary;License not found
+django-dotenv;MIT License
+drf-writable-nested;License not permissive (text)
+georaptor;Apache-2.0 License
+contractions;MIT License
+http-ece;MIT License
+flake8-bandit;MIT License
+gdal;License not found
+hass-nabucasa;GPL-3.0 License
+av;BSD-3-Clause License
+conllu;MIT License
+positional;Apache-2.0 License
+edx-django-utils;AGPL-3.0 License
+flask-swagger-ui;MIT License
+cloudml-hypertune;Apache License (text)
+robotframework-faker;MIT License
+django-extra-fields;Apache-2.0 License
+zerorpc;MIT License (text)
+sphinx-argparse;MIT License
+plyvel;License not permissive (text)
+tendo;Python Software Foundation (text)
+pykcs11;GPL-2.0 License
+flatdict;BSD-3-Clause License
+djangocms-admin-style;License not permissive (text)
+cbapi;MIT License (text)
+bpython;MIT License (text)
+smartsheet-python-sdk;Apache-2.0 License
+edx-drf-extensions;Apache-2.0 License
+docxtpl;LGPL-2.1 License
+python-hosts;MIT License
+jax;Apache License (text)
+flask-shell-ipython;MIT License
+tailer;MIT License
+holoviews;BSD-3-Clause License
+inotify;GPL-2.0 License
+firebirdsql;BSD-2-Clause License
+lupa;License not permissive (text)
+python-social-auth;License not permissive (text)
+taskflow;Apache-2.0 License
+esprima;License not permissive (text)
+optimizely-sdk;Apache-2.0 License
+suod;BSD-2-Clause License
+requests-aws-sign;ISC License
+django-test-without-migrations;MIT License
+mohawk;BSD-3-Clause License
+doit;MIT License
+py-zipkin;Apache-2.0 License
+bert-tensorflow;Apache-2.0 License
+svn;GPL-2.0 License
+extract-msg;GPL-3.0 License
+win-unicode-console;MIT License
+iso-639;AGPL-3.0 License
+pytest-json-report;MIT License
+netstorageapi;Apache-2.0 License
+django-dynamic-fixture;MIT License (text)
+pyexasol;MIT License
+pyang;ISC License
+impacket;EPL (text)
+methodtools;License not permissive (text)
+td-client;Apache-2.0 License
+guessit;LGPL-3.0 License
+torchfile;BSD-3-Clause License
+sanic-plugins-framework;MIT License
+pyclustering;BSD-3-Clause License
+colorful;MIT License
+crochet;MIT License
+pytest-helpers-namespace;Apache-2.0 License
+yacs;Apache-2.0 License
+dist-keras;GPL-3.0 License
+chameleon;Python Software Foundation (text)
+visdom;Apache-2.0 License
+selenium-wire;MIT License
+hpsklearn;License not permissive (text)
+xblock;Apache-2.0 License
+bagit;License not found
+hachoir;GPL-2.0 License
+simplekv;MIT License
+ffmpeg;License not found
+face-recognition;MIT License
+flake8-pep3101;License not permissive (text)
+libtmux;MIT License
+pyxero;BSD-3-Clause License
+uncertainties;License not permissive (text)
+polygon-geohasher;MIT License
+questionary;MIT License
+pychromecast;MIT License
+untokenize;MIT License
+djangorestframework-stubs;MIT License
+ipwhois;BSD-2-Clause License
+python-keycloak;MIT License
+schema-salad;Apache-2.0 License
+prance;EPL (text)
+sounddevice;MIT License
+dataproperty;MIT License
+django-suit;License not permissive (text)
+flake8-black;MIT License
+pytest-flask-sqlalchemy;MIT License
+pynvim;Apache-2.0 License
+pytype;MIT License (text)
+azureml;MIT License
+strip-hints;MIT License
+pygerrit2;MIT License
+shodan;License not permissive (text)
+ropgadget;License not permissive (text)
+nbstripout;License not permissive (text)
+dai-sgqlc-3-5;ISC License
+passwordmeter;MIT License
+django-safedelete;License not permissive (text)
+htpasswd;MIT License
+celery-redbeat;Apache-2.0 License
+pytelegrambotapi;GPL-2.0 License
+fitbit;Apache License (text)
+cwltool;Apache-2.0 License
+pysal;BSD-3-Clause License
+logmatic-python;MIT License
+collectfast;MIT License
+django-sendgrid-v5;MIT License
+flask-restx;BSD 3-Clause License (text)
+pyct;BSD-3-Clause License
+django-watchman;BSD-3-Clause License
+jsons;MIT License
+django-crum;License not permissive (text)
+flask-dance;MIT License
+stldecompose;MIT License
+zdesk;MIT License
+manhole;BSD-2-Clause License
+pyinquirer;MIT License
+amqplib;LGPL-2.1 License
+qgrid;Apache-2.0 License
+txaws;MIT License
+callee;BSD-3-Clause License
+hashin;MIT License
+zope-index;License not permissive (text)
+python-cjson;LGPL (text)
+flake8-class-newline;MIT License
+systemd-python;LGPL-2.1 License
+ariadne;BSD-3-Clause License
+django-statici18n;License not permissive (text)
+o365;Apache-2.0 License
+django-debug-panel;License not permissive (text)
+parquet;Apache-2.0 License
+repoze-sendmail;License not found
+rfc6266-parser;LGPL-3.0 License
+cloudscraper;MIT License
+pytricia;LGPL-3.0 License
+trimesh;MIT License
+traces;MIT License
+pyunpack;BSD-2-Clause License
+django-graphql-jwt;MIT License
+flexget;MIT License
+face-recognition-models;CC0-1.0 License
+towncrier;MIT License
+gspread-formatting;MIT License
+pyxdameraulevenshtein;BSD-3-Clause License
+django-registration;BSD-3-Clause License
+sphinx-gallery;BSD-3-Clause License
+pyzipcode;MIT License
+mimerender;MIT License
+swifter;MIT License
+colcon-core;Apache-2.0 License
+ssh2-python;LGPL-2.1 License
+setuptools-scm-git-archive;MIT License
+niet;MIT License
+importlab;Apache-2.0 License
+pysendfile;MIT License
+pyexecjs;MIT License
+pytest-vcr;MIT License
+sure;GPL-3.0 License
+efficientnet;Apache-2.0 License
+django-redis-sessions;BSD-3-Clause License
+ocspbuilder;MIT License
+sphinxcontrib-svg2pdfconverter;License not permissive (text)
+edx-rbac;AGPL-3.0 License
+travis;License not found
+bitstruct;MIT License
+django-templated-mail;MIT License
+rocketchat-api;MIT License
+pyzbar;MIT License
+pgc-interface;MIT License
+pyspellchecker;MIT License
+supervisor-checks;MIT License
+pantsbuild-pants;Apache-2.0 License
+snitun;GPL-3.0 License
+postal-address;BSD 2-Clause License (text)
+datadog-checks-base;BSD-3-Clause License
+marshmallow-polyfield;Apache-2.0 License
+urlextract;MIT License
+atlassian-python-api;Apache-2.0 License
+affinegap;MIT License
+pylzma;LGPL-2.1 License
+django-memoize;BSD-3-Clause License
+base36;MIT License
+jproperties;Python Software Foundation (text)
+django-celery-email;BSD-3-Clause License
+pyobjc-core;License not found
+pytest-postgresql;LGPL-3.0 License
+pystemmer;MIT License (text)
+edx-when;AGPL-3.0 License
+pandas-usaddress;License not found
+geoip;LGPL-2.1 License
+executor;MIT License
+keras-self-attention;MIT License
+google-nucleus;Apache License (text)
+jxmlease;MIT License (text)
+pdfminer3k;MIT License
+asyncio-nats-streaming;Apache-2.0 License
+phpserialize;License not permissive (text)
+socketio-client;MIT License
+freetype-py;License not permissive (text)
+twitter-ads;MIT License
+python-miio;LGPL (text)
+pymisp;License not permissive (text)
+case-conversion;MIT License
+handyspark;MIT License
+js2xml;MIT License
+libusb1;LGPL-2.1 License
+cos-python-sdk-v5;MIT License
+awkward;BSD-3-Clause License
+django-cms;BSD-3-Clause License
+apispec-webframeworks;MIT License
+lomond;License not permissive (text)
+pyhdb;Apache-2.0 License
+cma;BSD 3-Clause License (text)
+antigate;GPL-3.0 License
+forex-python;MIT License
+stem;LGPL-3.0 License
+wirerope;License not permissive (text)
+rstcheck;MIT License
+django-json-widget;MIT License
+sqlalchemy-continuum;License not permissive (text)
+pycallgraph;GPL-2.0 License
+tap-py;BSD-2-Clause License
+kneed;BSD-3-Clause License
+uproot-methods;BSD-3-Clause License
+twitter-common-app;Apache License (text)
+hunspell;License not permissive (text)
+qiniu;MIT License
+edx-django-release-util;AGPL-3.0 License
+django-jenkins;LGPL-3.0 License
+postgres;MIT License
+launchdarkly-server-sdk;Apache License (text)
+sparse-dot-topn;Apache-2.0 License
+scikit-plot;MIT License
+plotly-express;MIT License
+aiohttp-session;Apache License (text)
+python-can;LGPL-3.0 License
+jsl;License not permissive (text)
+petastorm;Apache-2.0 License
+pyjq;MIT License
+keras-transformer;MIT License
+usps-api;MIT License
+coincurve;Apache License (text)
+mode;License not permissive (text)
+flask-apscheduler;Apache-2.0 License
+pyhaversion;MIT License
+tox-monorepo;MIT License
+janome;Apache-2.0 License
+pytest-json;MIT License
+customerio;License not permissive (text)
+uproot;BSD-3-Clause License
+fcm-django;MIT License
+edx-bulk-grades;AGPL-3.0 License
+serpy;MIT License
+keras-layer-normalization;MIT License
+python-xmp-toolkit;License not permissive (text)
+airspeed;License not permissive (text)
+certipy;BSD-3-Clause License
+django-cleanup;MIT License
+dedupe;MIT License
+pyjsparser;MIT License
+pgeocode;BSD-3-Clause License
+protobuf-to-dict;License not permissive (text)
+pwntools;MIT License (text)
+measurement;MIT License
+newspaper3k;MIT License (text)
+feedfinder2;MIT License
+outcome;License not permissive (text)
+env;BSD-2-Clause License
+singleton-decorator;License not found
+cpp-coveralls;Apache-2.0 License
+flask-json;License not permissive (text)
+django-templated-email;MIT License
+levenshtein-search;GPL-3.0 License
+dvc;Apache-2.0 License
+pyemd;MIT License
+kedro;License not permissive (text)
+flake8-formatter-junit-xml;MIT License
+chainer;MIT License
+pychef;Apache License (text)
+polyglot;GPL-3.0 License
+ics;License not permissive (text)
+pymediainfo;MIT License (text)
+publicsuffix2;License not found
+django-sortedm2m;BSD-3-Clause License
+envisage;License not permissive (text)
+pyinstrument-cext;BSD-3-Clause License
+ed25519;License not permissive (text)
+dedupe-hcluster;License not permissive (text)
+genshi;License not permissive (text)
+pygeoif;License not found
+pyexcel-xls;License not permissive (text)
+datefinder;MIT License
+pymemoize;BSD-3-Clause License
+django-redshift-backend;Apache-2.0 License
+gender-guesser;GPL-3.0 License
+djrill;License not permissive (text)
+aioboto3;Apache-2.0 License
+replit;ISC License
+openml;BSD 3-Clause License (text)
+redo;MPL-2.0 License
+django-uuidfield;License not permissive (text)
+marshmallow-arrow;License not found
+pyfarmhash;MIT License
+dash-bootstrap-components;Apache-2.0 License
+colcon-python-setup-py;Apache-2.0 License
+rlr;License not permissive (text)
+azure-devtools;MIT License
+albumentations;MIT License
+fissix;Python Software Foundation (text)
+sphinx-bootstrap-theme;MIT License
+django-sass-processor;MIT License
+gluonnlp;Apache-2.0 License
+characteristic;MIT License
+categorical-distance;License not found
+keras-multi-head;MIT License
+zope-schema;License not permissive (text)
+pylbfgs;MIT License
+django-daterange-filter;License not found
+rest-condition;MIT License
+pytest-testrail;MIT License
+lmfit;MIT License (text)
+tesserocr;MIT License
+pycpfcnpj;MIT License
+colcon-cmake;Apache-2.0 License
+aiocache;BSD-3-Clause License
+pytest-tornado;Apache-2.0 License
+anybadge;MIT License
+alexapy;Apache-2.0 License
+anytemplate;MIT License
+highered;License not found
+edx-organizations;AGPL-3.0 License
+aadict;GPL-3.0 License
+more-properties;MIT License
+google-api-python-client-uritemplate;Apache License (text)
+pytest-test-groups;MIT License
+lzstring;MIT License
+jenkins;License not found
+bowler;MIT License
+bottlenose;Apache-2.0 License
+docker-registry-client;Apache-2.0 License
+django-colorfield;MIT License
+djangorestframework-recursive;ISC License
+oci-cli;Apache License (text)
+django-test-plus;License not permissive (text)
+bitmath;MIT License
+etcd3gw;Apache-2.0 License
+fuzzy;MIT License
+pyhacrf-datamade;BSD-3-Clause License
+sauceclient;Apache-2.0 License
+colcon-ros;Apache-2.0 License
+google-endpoints-api-management;Apache-2.0 License
+restrictedpython;License not permissive (text)
+pretrainedmodels;BSD-3-Clause License
+timedelta;Unlicense License
+modernize;License not permissive (text)
+mechanicalsoup;MIT License
+async-exit-stack;Python Software Foundation (text)
+spyder;MIT License
+testlink-api-python-client;License not found
+django-rosetta;MIT License
+wtforms-components;License not permissive (text)
+flask-log-request-id;MIT License
+kmodes;MIT License
+simplecosine;License not found
+reportportal-client;Apache-2.0 License
+osmium;BSD-2-Clause License
+jq;BSD-2-Clause License
+dask-glm;License not permissive (text)
+alchemy-mock;License not permissive (text)
+pyaudioanalysis;Apache-2.0 License
+keras-pos-embd;MIT License
+multitasking;Apache-2.0 License
+oauth2-client;Apache-2.0 License
+pptree;MIT License
+keras-position-wise-feed-forward;MIT License
+keras-embed-sim;MIT License
+datetime-distance;MIT License
+colcon-recursive-crawl;Apache-2.0 License
+colorhash;License not found
+colcon-library-path;Apache-2.0 License
+edx-submissions;AGPL-3.0 License
+blockdiag;Apache-2.0 License
+pyqtgraph;MIT License (text)
+nanotime;MIT License
+flask-sockets;MIT License
+microsoftgraph-python;MIT License
+hyperloglog;LGPL-2.1 License
+djangocms-text-ckeditor;License not permissive (text)
+pytest-logger;MIT License
+fastkml;License not found
+timeago;MIT License
+python3-logstash;MIT License
+robotbackgroundlogger;License not found
+os-xenapi;License not found
+django-rest-knox;MIT License
+keras-bert;MIT License
+ebooklib;AGPL-3.0 License
+bdquaternions;Apache-2.0 License
+colcon-pkg-config;Apache-2.0 License
+blobxfer;MIT License
+cmaes;MIT License
+watson-developer-cloud;Apache-2.0 License
+python-jsonschema-objects;MIT License
+cachepath;MIT License
+django-registration-redux;License not permissive (text)
+magicinvoke;BSD-2-Clause License
+edx-rest-api-client;Apache-2.0 License
+zabbix-api;License not found
+upyun;License not found
+artifacts-keyring;MIT License
+pyghmi;License not found
+scaleapi;MIT License
+dash-daq;MIT License
+django-contrib-comments;License not permissive (text)
+grandalf;GPL-2.0 License
+mkdocs-material-extensions;MIT License
+django-htmlmin;BSD-2-Clause License
+tpot;LGPL-3.0 License
+google-endpoints;Apache-2.0 License
+weighted-levenshtein;MIT License
+simhash;MIT License
+pytest-allure-adaptor;Apache License (text)
+python-igraph;GPL-2.0 License
+slack-webhook-cli;License not found
+yanc;GPL-3.0 License
+moment;License not found
+metaphone;BSD-3-Clause License
+flask-restless;AGPL (text)
+bioblend;MIT License
+pyshark;MIT License
+baselines;MIT License
+mws;Unlicense License
+datacompy;Apache-2.0 License
+webexteamssdk;MIT License
+elasticsearch-async;Apache-2.0 License
+super-csv;Apache License (text)
+bcdoc;Apache License (text)
+aiomysql;MIT License
+jgscm;MIT License
+tryme;License not permissive (text)
+mojimoji;Apache License (text)
+flask-moment;MIT License
+fastentrypoints;BSD-2-Clause License
+flake8-broken-line;MIT License
+bcolz;License not found
+pygaljs;LGPL (text)
+hologram;MIT License
+slumber;BSD-2-Clause License
+edx-completion;AGPL-3.0 License
+jprops;BSD-2-Clause License
+event-tracking;AGPL-3.0 License
+nbval;License not permissive (text)
+avro-gen;Apache-2.0 License
+daemonize;MIT License
+grapheme;MIT License
+ibm-cloud-sdk-core;Apache-2.0 License
+colcon-mixin;Apache-2.0 License
+daiquiri;Apache-2.0 License
+pypiserver;License not permissive (text)
+esrally;Apache-2.0 License
+flask-jwt;MIT License
+deluge-client;MIT License
+pytube3;License not found
+django-admin-tools;MIT License
+django-user-tasks;Apache-2.0 License
+python-mistralclient;Apache-2.0 License
+pytest-qt;MIT License
+frida;License not permissive (text)
+shortid;MIT License
+percy;MIT License
+slots;MIT License
+lesscpy;MIT License
+pdpbox;MIT License
+kivy-garden;MIT License
+salt;Apache-2.0 License
+python-logstash-async;MIT License
+pyrabbit;BSD-3-Clause License
+pooch;License not permissive (text)
+python-terraform;MIT License
+nbdime;License not permissive (text)
+devpi-common;License not found
+quart;MIT License
+ifcfg;BSD-3-Clause License
+djangorestframework-jsonapi;BSD-2-Clause License
+xdis;GPL-2.0 License
+spyder-kernels;MIT License
+contexttimer;GPL-3.0 License
+python-vagrant;MIT License
+snowflake;License not found
+pytest-replay;MIT License
+instantmusic;License not found
+scrapy-crawlera;License not found
+qtawesome;MIT License
+pymupdf;AGPL-3.0 License
+pdftotext;MIT License
+colcon-package-information;Apache-2.0 License
+django-config-models;AGPL-3.0 License
+python-oembed;MIT License
+glean-parser;MPL-2.0 License
+bok-choy;Apache-2.0 License
+django-smtp-ssl;MIT License
+colcon-defaults;Apache-2.0 License
+pid;Apache-2.0 License
+colcon-output;Apache-2.0 License
+colcon-metadata;Apache-2.0 License
+strif;Apache-2.0 License
+textsearch;License not found
+colcon-package-selection;Apache-2.0 License
+pytest-subtests;MIT License
+pomegranate;MIT License
+standardjson;BSD-3-Clause License
+edx-celeryutils;Apache-2.0 License
+crontab;LGPL-2.1 License
+django-choices;MIT License
+flake8-executable;License not permissive (text)
+mapbox-vector-tile;MIT License
+factor-analyzer;GPL-2.0 License
+purl;MIT License
+colcon-parallel-executor;Apache-2.0 License
+colcon-powershell;Apache-2.0 License
+aiostream;GPL-3.0 License
+pysrt;GPL-3.0 License
+allennlp;Apache-2.0 License
+instaclone;Apache-2.0 License
+calmsize;License not permissive (text)
+django-splash;Apache-2.0 License
+flask-classful;License not permissive (text)
+bx-python;MIT License
+datetime-truncate;MIT License
+pytorch-memlab;MIT License (text)
+sphinx-click;MIT License
+flake8-rst-docstrings;MIT License
+tabula-py;MIT License
+geog;MIT License
+ddldump;GPL-3.0 License
+jupyter-kernel-gateway;License not permissive (text)
+ipcalc;BSD-2-Clause License
+symspellpy;MIT License
+django-taggit-serializer;BSD-3-Clause License
+pyeapi;BSD-3-Clause License
+natto-py;BSD-2-Clause License
+django-admin-sortable;License not permissive (text)
+cmreshandler;License not permissive (text)
+qualname;License not permissive (text)
+pyscss;MIT License
+pyscaffold;MIT License
+django-parler;Apache-2.0 License
+nameko;Apache-2.0 License
+flake8-junit-report;BSD-3-Clause License
+pytest-dotenv;MIT License
+pycosat;MIT License
+tabulator;MIT License
+pydeck;MIT License
+sqlacodegen;MIT License (text)
+slugid;MPL-2.0 License
+django-jsonview;Apache License (text)
+flanker;Apache-2.0 License
+bbcode;BSD-2-Clause License
+grpclib;BSD-3-Clause License
+psycopg2-pool;LGPL-3.0 License
+jsonmatch;License not permissive (text)
+fuzzyset;License not found
+pyuca;License not permissive (text)
+aws-configure;License not found
+cloudfoundry-client;Apache-2.0 License
+shadowsocks;License not found
+sphinx-copybutton;MIT License
+python-saml;MIT License
+lorem;MIT License
+dynamodb-encryption-sdk;Apache-2.0 License
+cfscrape;MIT License
+pyexcelerate;BSD-2-Clause License
+pytorch-lightning;Apache-2.0 License
+style;MIT License
+pyvisa;MIT License
+django-prettyjson;BSD-3-Clause License
+bpemb;MIT License
+keras-tuner;Apache-2.0 License
+pyangbind;Apache License (text)
+spark-parser;MIT License
+linear-tsv;Apache-2.0 License
+pip-review;BSD-3-Clause License
+colcon-notification;Apache-2.0 License
+sqlalchemy-views;MIT License (text)
+fakenewsredis;License not permissive (text)
+pyinstrument;BSD-3-Clause License
+edx-milestones;AGPL-3.0 License
+yellowbrick;Apache-2.0 License
+rply;License not permissive (text)
+smdebug;Apache License (text)
+trio;License not permissive (text)
+colcon-bash;Apache-2.0 License
+zstd;BSD-2-Clause License
+ryu;Apache-2.0 License
+faust;License not permissive (text)
+aioamqp;License not permissive (text)
+cornice;Mozilla Public License (text)
+pydomo;MIT License
+bfh;License not permissive (text)
+pypowervm;Apache-2.0 License
+uncompyle6;GPL-3.0 License
+redset;License not permissive (text)
+snakeviz;License not permissive (text)
+sdic;GPL-3.0 License
+mozilla-django-oidc;MPL-2.0 License
+pgpy;BSD-3-Clause License
+flexmock;License not permissive (text)
+flask-restful-swagger;MIT License
+amazon-kclpy;Apache-2.0 License
+djangocms-attributes-field;License not permissive (text)
+sphinx-tabs;MIT License
+pafy;License not found
+edx-sga;AGPL-3.0 License
+textract;MIT License
+emcee;MIT License
+meinheld;License not permissive (text)
+ulid-py;Apache-2.0 License
+pytelegraf;MIT License
+django-url-filter;License not permissive (text)
+nose-detecthttp;MIT License
+timezonefinderl;MIT License
+colcon-common-extensions;Apache-2.0 License
+colcon-devtools;Apache-2.0 License
+python-owasp-zap-v2-4;Apache-2.0 License
+pydoe;BSD-3-Clause License
+python-graph-core;License not permissive (text)
+delighted;MIT License
+pypubsub;License not found
+azure-storage-logging;Apache-2.0 License
+teradatasql;License not permissive (text)
+pyexcel-webio;License not permissive (text)
+optunity;License not permissive (text)
+scrapy-fake-useragent;MIT License
+python-keycloak-client;MIT License
+behave-django;MIT License
+cmake-format;License not found
+wiremock;Apache License (text)
+pyllist;MIT License
+virtualenvwrapper-win;License not permissive (text)
+web-fragments;Apache-2.0 License
+claw;Apache-2.0 License
+pygtail;GPL-2.0 License
+django-pyfs;Apache-2.0 License
+django-mock-queries;MIT License
+flake8-future-import;MIT License
+pyqt5-tools;LGPL (text)
+taskcluster-urls;MPL-2.0 License
+snaptime;MIT License
+wsgi-intercept;MIT License
+django-push-notifications;MIT License
+business-duration;License not found
+quinn;License not found
+json-logging;Apache-2.0 License
+constructs;Apache-2.0 License
+flask-injector;BSD-3-Clause License
+taskcluster;MPL-2.0 License
+plaidml;Apache-2.0 License
+sparkmeasure;Apache-2.0 License
+nylas;MIT License
+tabledata;MIT License
+xss-utils;AGPL-3.0 License
+segtok;MIT License
+glog;License not permissive (text)
+python-dynamodb-lock;Apache License (text)
+f5-icontrol-rest;Apache-2.0 License
+django-hashid-field;MIT License
+robotframework-debuglibrary;License not permissive (text)
+orionsdk;Apache-2.0 License
+bigquery-schema-generator;Apache-2.0 License
+flask-oidc;BSD-2-Clause License
+django-versatileimagefield;MIT License
+inject;Apache-2.0 License
+loky;BSD-3-Clause License
+marshmallow-jsonapi;MIT License
+ibmiotf;EPL-1.0 License
+django-split-settings;BSD-3-Clause License
+django-admin-list-filter-dropdown;MIT License
+fbmessenger;License not permissive (text)
+django-transaction-hooks;BSD-3-Clause License
+supermercado;MIT License
+django-queryinspect;License not found
+easygui;BSD-3-Clause License
+chargebee;MIT License
+rainbow-saddle;License not found
+colcon-lcov-result;Apache-2.0 License
+playsound;MIT License
+rasa-sdk;Apache-2.0 License
+sphinx-autoapi;MIT License
+transliterate;License not found
+oic;Apache License (text)
+expects;Apache License (text)
+dialogflow;Apache-2.0 License
+aiosmtplib;MIT License
+pytils;MIT License
+zope-i18nmessageid;License not permissive (text)
+pycapnp;BSD-2-Clause License
+gmplot;MIT License
+help-tokens;AGPL-3.0 License
+django-notifications-hq;BSD-3-Clause License
+flask-seasurf;License not permissive (text)
+python-lzf;EPL (text)
+numdifftools;BSD-3-Clause License
+pulsar-galaxy-lib;Apache-2.0 License
+flake8-coding;Apache-2.0 License
+python-firebase;MIT License
+pyttsx3;GPL-3.0 License
+pyvcloud;Apache License (text)
+mesh-tensorflow;Apache-2.0 License
+django-common-helpers;MIT License
+django-js-reverse;MIT License
+django-libsass;License not permissive (text)
+requests-credssp;MIT License
+url-normalize;MIT License
+rtslib-fb;Apache-2.0 License
+colorcet;EPL (text)
+instaloader;MIT License
+nplusone;MIT License
+redlock;MIT License
+mail-parser;Apache-2.0 License
+unrar;GPL-3.0 License
+flytekit;Apache-2.0 License
+janus;Apache-2.0 License
+typesentry;Apache-2.0 License
+http;MIT License
+wordninja;MIT License
+py-healthcheck;MIT License
+django-bitfield;Apache-2.0 License
+sanic-jwt;MIT License
+colcon-cd;Apache-2.0 License
+sockjs-tornado;MIT License
+s3contents;Apache-2.0 License
+cloudbridge;MIT License
+bdbag;Apache-2.0 License
+zc-buildout;MIT License (text)
+pywfm;MIT License
+sceptre;Apache License (text)
+localstack-ext;Apache License (text)
+fs-s3fs;MIT License
+sendgrid-django;MIT License
+beautifultable;MIT License
+logdna;MIT License
+pyeventsystem;MIT License
+yaql;Apache-2.0 License
+pytest-flakes;MIT License
+sinon;BSD-2-Clause License
+prometheus-async;Apache-2.0 License
+galaxy-sequence-utils;EPL (text)
+iniparse;Python Software Foundation (text)
+websockify;LGPL-3.0 License
+django-simple-captcha;MIT License
+gitlint;MIT License
+dictobj;Apache-2.0 License
+geotext;MIT License
+scikit-spark;Apache-2.0 License
+python-gettext;BSD-2-Clause License
+django-ratelimit-backend;BSD-3-Clause License
+rasa;Apache-2.0 License
+circuitbreaker;License not permissive (text)
+scales;Apache-2.0 License
+flask-uuid;License not permissive (text)
+django-colorful;MIT License
+edx-i18n-tools;Apache-2.0 License
+aiodataloader;MIT License
+circus;Apache License (text)
+aiosqlite;MIT License
+kerberos;Apache-2.0 License
+smartypants;License not permissive (text)
+flake8-tuple;BSD-3-Clause License
+cloudauthz;MIT License
+pytest-doctestplus;BSD-3-Clause License
+isa-rwval;EPL (text)
+you-get;MIT License (text)
+ndjson;LGPL (text)
+flask-mongoalchemy;BSD-2-Clause License
+traits;License not permissive (text)
+pytest-cover;MIT License
+django-pandas;BSD-3-Clause License
+libconf;MIT License
+celery-once;BSD-2-Clause License
+colcon-zsh;Apache-2.0 License
+zodbpickle;Python Software Foundation (text)
+mnemonic;MIT License
+mattermostwrapper;MIT License
+tslearn;BSD-2-Clause License
+sdnotify;MIT License
+sqlalchemy-diff;Apache License (text)
+pypom;MPL-2.0 License
+eliot;Apache-2.0 License
+django-s3-storage;License not permissive (text)
+dumper;BSD-3-Clause License
+wtforms-json;License not permissive (text)
+pyecharts;MIT License
+pretend;License not permissive (text)
+office365-rest-python-client;MIT License
+contentful;MIT License
+pyutilib;License not permissive (text)
+domain2idna;MIT License
+requests-aws;License not permissive (text)
+jupyterthemes;MIT License
+gluoncv;Apache-2.0 License
+flyteidl;Apache-2.0 License
+django-wkhtmltopdf;BSD-2-Clause License
+lyricwikia;MIT License
+teradata;MIT License (text)
+qdarkstyle;License not permissive (text)
+tox-battery;MIT License
+infi-clickhouse-orm;BSD-3-Clause License
+tensor2tensor;Apache-2.0 License
+spotdl;MIT License
+pingparsing;MIT License
+django-hosts;License not permissive (text)
+cx-freeze;License not found
+f5-sdk;Apache-2.0 License
+cgroupspy;BSD-3-Clause License
+line-bot-sdk;Apache-2.0 License
+django-hijack-admin;MIT License
+sqlalchemy-postgres-copy;MIT License
+hydra-core;MIT License
+django-babel;License not permissive (text)
+pybs;License not found
+hap-python;Apache License (text)
+textstat;MIT License
+pyhumps;License not permissive (text)
+riemann-client;MIT License
+fastrlock;MIT License
+sphinx-markdown-builder;MIT License
+talon;Apache-2.0 License
+ansible-modules-hashivault;MIT License
+docformatter;MIT License
+sqlalchemy-repr;MIT License
+http-parser;License not permissive (text)
+yagmail;MIT License
+nosehtml;License not found
+zconfig;License not permissive (text)
+graphql-ws;MIT License
+cqlsh;Apache-2.0 License
+c7n;Apache-2.0 License
+aws-kinesis-agg;Apache-2.0 License
+sshuttle;LGPL-2.1 License
+django-pyodbc-azure;BSD-3-Clause License
+adyen;MIT License
+treeherder-client;MPL-2.0 License
+openslide-python;LGPL (text)
+intuit-oauth;Apache-2.0 License
+requests-opentracing;Apache License (text)
+submit50;GPL-3.0 License
+sqlalchemy-utc;MIT License
+arpeggio;MIT License (text)
+robotframework-databaselibrary;Apache License (text)
+django-statsd-mozilla;License not permissive (text)
+django-debug-toolbar-request-history;BSD-3-Clause License
+django-cachalot;BSD-3-Clause License
+django-revproxy;MPL-2.0 License
+argo-models;Apache-2.0 License
+django-tagging;License not permissive (text)
+drf-jwt;MIT License
+pdoc3;AGPL-3.0 License
+remote-pdb;BSD-2-Clause License
+edx-django-sites-extensions;AGPL-3.0 License
+django-activity-stream;BSD-3-Clause License
+setuptools-git-version;License not found
+rebulk;MIT License
+gpustat;MIT License
+pytest-reportportal;Apache-2.0 License
+suds-community;LGPL-3.0 License
+djangocms-link;License not permissive (text)
+django-render-block;ISC License
+helper;BSD-3-Clause License
+bigquery-python;Apache-2.0 License
+django-allow-cidr;Apache License (text)
+filesplit;License not found
+image-classifiers;MIT License
+code-annotations;Apache-2.0 License
+zope-configuration;License not permissive (text)
+json-minify;License not found
+webium;Apache-2.0 License
+darglint;MIT License
+colcon-argcomplete;Apache-2.0 License
+captcha;BSD-3-Clause License
+murmurhash3;License not found
+babelfish;BSD-3-Clause License
+asciitree;MIT License
+softlayer;MIT License
+rdp;MIT License
+opsgenie-sdk;Apache License (text)
+flair;MIT License (text)
+pyramid-beaker;License not permissive (text)
+ciscoconfparse;GPL-3.0 License
+faiss-cpu;MIT License
+dawg-python;MIT License
+json-logic-qubit;MIT License
+pysnooper;MIT License
+consul-kv;MIT License
+collision;MIT License
+pymacaroons;MIT License
+traitsui;License not permissive (text)
+django-cron;MIT License
+pysnow;MIT License
+confusable-homoglyphs;MIT License
+mozdownload;MPL-2.0 License
+pyramid-jinja2;License not permissive (text)
+django-background-tasks;License not permissive (text)
+azure-log-analytics-data-collector-api;MIT License
+userpath;Apache License (text)
+jaraco-itertools;MIT License
+django-user-sessions;MIT License
+xblock-utils;AGPL-3.0 License
+conda;BSD 3-Clause License (text)
+pytest-splinter;MIT License
+zvmcloudconnector;Apache-2.0 License
+gino;License not permissive (text)
+evdev;License not permissive (text)
+jaconv;MIT License
+rapid-framework;Apache-2.0 License
+django-cookies-samesite;BSD-3-Clause License
+pyomo;License not permissive (text)
+python-grpc-prometheus;MIT License
+py-ecc;MIT License
+pytest-mockito;MIT License
+osmnx;MIT License
+proximityhash;Apache-2.0 License
+nmslib;Apache License (text)
+django-slack;BSD-3-Clause License
+edx-ccx-keys;AGPL-3.0 License
+pytest-arraydiff;License not permissive (text)
+q;Apache-2.0 License
+pykube-ng;Apache-2.0 License
+kwargs-only;ISC License
+django-partial-index;BSD-3-Clause License

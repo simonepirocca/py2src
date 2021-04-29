@@ -14,7 +14,8 @@ from ..src.utils import log_function_output
 logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/url_finder.log")
 
 # Set source and range
-input_file = "../output/url_finder_output/github_urls_from_diff_sources_2.csv"
+#input_file = "../output/url_finder_output/github_urls_from_diff_sources_2.csv"
+input_file = "../output/url_finder_final.csv"
 start = 1
 count = 4000
 end = start + count
@@ -36,7 +37,7 @@ with open(input_file) as csv_file:
     for row in csv_reader:
         if line_count >= start:
             package_name = row[0]
-            final_url = row[16]
+            final_url = row[30]
 
             not_empty_urls = 0
             right_urls = 0

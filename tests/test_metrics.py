@@ -8,19 +8,10 @@ from urllib.request import Request, urlopen
 from datetime import date
 from pathlib import Path
 
-url_finder_module_path = Path().resolve().parent / "src" / "url_finder"
-sys.path.append(str(url_finder_module_path))
-from url_finder import URLFinder
-
-get_metrics_module_path = Path().resolve().parent / "src" / "metrics"
-sys.path.append(str(get_metrics_module_path))
-from get_metrics import GetMetrics
-from metrics import Metrics
-
-utils_module_path = Path().resolve().parent / "src" / "utils"
-sys.path.append(str(utils_module_path))
-from utils import log_function_output
-logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filename="../logs/metrics.log")
+from ..src.metrics.metrics import Metrics
+from ..src.utils import log_function_output
+#logger = log_function_output(file_level=logging.DEBUG, console_level=logging.DEBUG, log_filepath="../logs/url_finder.log")
+logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/metrics.log")
 
 github_token = "put_here_a_valid_github_token"
 
@@ -182,6 +173,38 @@ def test_get_dep_packages_fail():
 
     dep_packages = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=PACKAGE")
     assert dep_packages == ""
+
+def test_get_license_in_homepage_success():
+    package_name = 'urllib3'
+    github_url = 'https://github.com/urllib3/urllib3'
+    pkg = Metrics(package_name, github_url)
+
+    license = pkg.get_license_from_github_repo()
+    assert license == True
+
+def test_get_license_in_license_text_success():
+    package_name = 'dateutil'
+    github_url = 'https://github.com/dateutil/dateutil'
+    pkg = Metrics(package_name, github_url)
+
+    license = pkg.get_license_from_github_repo()
+    assert license == True
+
+def test_get_license_in_homepage_fail():
+    package_name = 'chardet'
+    github_url = 'https://github.com/chardet/chardet'
+    pkg = Metrics(package_name, github_url)
+
+    license = pkg.get_license_from_github_repo()
+    assert license == False
+
+def test_get_license_in_license_text_fail():
+    package_name = 'certifi'
+    github_url = 'https://github.com/certifi/python-certifi'
+    pkg = Metrics(package_name, github_url)
+
+    license = pkg.get_license_from_github_repo()
+    assert license == False
 
 def test_get_created_at_success():
     package_name = 'urllib3'

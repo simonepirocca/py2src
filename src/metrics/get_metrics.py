@@ -14,7 +14,7 @@ class GetMetrics:
         # Instanziate package
         github_url_parts = self._github_url.split("/")
         parts = len(github_url_parts)
-        #github_token = "put_here_a_valid_github_token"
+        github_token = "put_here_a_valid_github_token"
         pkg = Metrics(self._package_name, self._github_url)
 
         # Inizialize metrics
@@ -38,6 +38,7 @@ class GetMetrics:
         releases = pkg.get_link_span_metric_from_github_repo("releases")
         if releases == "": releases = pkg.get_tags_from_github_repo()
         contributors = pkg.get_link_span_metric_from_github_repo("graphs/contributors")
+        license = pkg.get_license_from_github_repo()
         dependents_url = pkg.get_dependent_url_from_github_repo()
         dep_repos = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=REPOSITORY")
         dep_packages = pkg.get_dependent_from_github_repo(dependents_url, "dependent_type=PACKAGE")
@@ -116,5 +117,5 @@ class GetMetrics:
                 avg_close_issue_days = int(sum_closed_days / api_closed_issues)
             else: api_closed_issues = ""
 
-        metrics = [stargazers, last_commit, commit_frequency, release_frequency, open_issues, closed_issues, api_closed_issues, avg_close_issue_days, contributors, dep_repos, dep_packages]
+        metrics = [stargazers, last_commit, commit_frequency, release_frequency, open_issues, closed_issues, api_closed_issues, avg_close_issue_days, contributors, license, dep_repos, dep_packages]
         return metrics

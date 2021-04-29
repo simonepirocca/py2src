@@ -53,6 +53,7 @@ class Metrics:
                         output = link.getText().strip()
                         return self.convert_to_number(output)
             return ""
+        else: return ""
 
     def get_updated_at_from_github_repo(self) -> str:
         """
@@ -66,6 +67,7 @@ class Metrics:
                 return ""
             else:
                 return datetime.strip()
+        else: return ""
 
     def get_commits_from_github_repo(self) -> str:
         """
@@ -85,6 +87,7 @@ class Metrics:
                         commits = span.findAll("strong")[0].getText().strip()
                         return self.convert_to_number(commits)
             return ""
+        else: return ""
 
     def get_commits2_from_github_repo(self) -> str:
         """
@@ -104,6 +107,7 @@ class Metrics:
                         commits = span.findAll("strong")[0].getText().strip()
                         return self.convert_to_number(commits)
             return ""
+        else: return ""
 
     def get_link_span_metric_from_github_repo(self, metric:str) -> str:
         """
@@ -129,6 +133,7 @@ class Metrics:
                                 output = span.getText().strip()
                                 return self.convert_to_number(output)
             return ""
+        else: return ""
 
     def get_tags_from_github_repo(self) -> str:
         """
@@ -150,6 +155,7 @@ class Metrics:
                             tags = link.findAll("span", {"class": "text-bold"})[0].getText().strip()
                             return self.convert_to_number(tags)
             return ""
+        else: return ""
 
     def get_last_release_from_github_repo(self) -> str:
         """
@@ -164,6 +170,7 @@ class Metrics:
                 return ""
             else:
                 return datetime
+        else: return ""
 
     def get_dependent_url_from_github_repo(self) -> str:
         """
@@ -181,6 +188,7 @@ class Metrics:
                     if "dependents" in url_parts.path:
                         return "https://github.com" + href_url.strip()
             return ""
+        else: return ""
 
     def get_closed_issues_from_github_repo(self) -> str:
         """
@@ -199,6 +207,49 @@ class Metrics:
                         self._closed_issues_url = "https://github.com" + href_url.strip()
                         return self.get_closed_issues_from_closed_issues_url()
             return ""
+        else: return ""
+
+    def get_license_from_github_repo(self) -> str:
+        """
+        Get licence of github repo
+        """
+        valid_licenses = ["MIT License", "Apache-2.0 License", "BSD-3-Clause License", "BSD-2-Clause License", "ISC License"]
+        other_licenses = ["LGPL-2.1 License", "LGPL-3.0 License", "GPL-2.0 License", "GPL-3.0 License", "MPL-2.0 License",\
+ "EPL-1.0 License", "WTFPL License", "CC0-1.0 License", "AGPL-3.0 License", "0BSD License", "BSL-1.0 License", "Unlicense License"]
+        if self._github_soup != None:
+            for link in self._github_soup.findAll("a"):
+                a_text = link.getText().strip()
+                if a_text in valid_licenses: return a_text
+                elif a_text in other_licenses: return a_text
+                elif a_text == "View license":
+                    try:
+                        license_link = link["href"]
+                    except KeyError: return "Error getting the license link"
+                    else: return self.get_license_from_license_text(license_link)
+            return "License not found"
+        else: return "Error opening GitHub repository"
+
+    def get_license_from_license_text(self, url: str) -> str:
+        """
+        Get licence of github repo from license text
+        """
+        try:
+            if "github.com" not in url: url = "https://github.com" + url
+            req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            soup = BeautifulSoup(urlopen(req).read(), features="html.parser")
+        except (ValueError, URLError, HTTPError, ConnectionResetError):
+            return "Error opening license link"
+        else:
+            valid_licenses = ["MIT License", "Apache License", "BSD 3-Clause License", "BSD 2-Clause License", "ISC License"]
+            other_licenses = ["Python Software Foundation", "Mozilla Public License", "Modified BSD License", "HPND License", "Expat License", "AGPL", "LGPL", "EPL", "CDDL"]
+            for table in soup.findAll("table"):
+                for tr in table.findAll("tr"):
+                    tr_text = tr.getText().lower()
+                    for valid_license in valid_licenses:
+                        if valid_license.lower() in tr_text: return valid_license + " (text)"
+                    for other_license in other_licenses:
+                        if other_license.lower() in tr_text: return other_license + " (text)"
+            return "License not permissive (text)"
 
     def get_dependent_from_github_repo(self, url: str, type: str) -> str:
         """

@@ -16,3 +16,46 @@ Empty cells: [0, 0, 0, 1, 1, 128, 525, 209, 211, 471, 660, 364, 1397, 1508]
              [0, 0, 0, 0, 1, 78, 1600, 104, 105, 216, 229, 238, 1536, 1536]
 NOT Empty cells: [3265, 3265, 3265, 3264, 3264, 3137, 2740, 3056, 3054, 2794, 2605, 2901, 1868, 1757]
                  [3245, 3245, 3245, 3245, 3244, 3167, 1645, 3141, 3140, 3029, 3016, 3007, 1709, 1709]
+
+
+----------------------------------------------------
+VALID LICENSES: 2059
+'MIT License': 1109, 
+'Apache-2.0 License': 542, 
+'BSD-3-Clause License': 273, 
+'BSD-2-Clause License': 108, 
+'ISC License': 27             (NEW)
+
+OTHER LICENSES: 228
+'GPL-3.0 License': 54, 
+'LGPL-3.0 License': 44, 
+'GPL-2.0 License': 35, 
+'LGPL-2.1 License': 30,
+'AGPL-3.0 License': 27, 
+'MPL-2.0 License': 19, 
+'Unlicense License': 11, 
+'CC0-1.0 License': 3,    
+'EPL-1.0 License': 2, 
+'WTFPL License': 1, 
+'0BSD License': 1, 
+'BSL-1.0 License': 1
+
+TEXT LICENSES ('View License' --> license file): 329 (261 valid)
+'Apache License (text)': 133,              VALID
+'MIT License (text)': 99,                  VALID
+'Python Software Foundation (text)': 36,   
+'LGPL (text)': 16, 
+'Modified BSD License (text)': 10,         VALID
+'BSD 3-Clause License (text)': 9,          VALID
+'EPL (text)': 8, 
+'Mozilla Public License (text)': 5, 
+'Expat License (text)': 4,                 VALID (NEW)
+'ISC License (text)': 3,                   VALID
+'BSD 2-Clause License (text)': 3,          VALID
+'HPND License (text)': 1,         ****
+'CDDL (text)': 1,      
+'AGPL (text)': 1
+
+NOT FOUND LICENSES: 629
+'No license found in homepage': 135,
+'View page links with a strange license': 494

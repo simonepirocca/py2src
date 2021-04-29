@@ -58,7 +58,7 @@ if start == 1:
     with open(output_file, mode='w') as csv_file:
         metrics_writer = csv.writer(csv_file, delimiter=';')
         metrics_writer.writerow(['package_name', 'pypi_downloads', 'github_url', 'stars', 'last_commit', 'commit_freq',\
- 'release_freq', 'open_issues', 'closed_issues', 'api_closed_issues', 'avg_days_to_close_issue', 'contributors', 'dep_repos', 'dep_pkgs'])
+ 'release_freq', 'open_issues', 'closed_issues', 'api_closed_issues', 'avg_days_to_close_issue', 'contributors', 'license', 'dep_repos', 'dep_pkgs'])
 
 # Open the URL file
 with open(input_file) as csv_file:
@@ -105,6 +105,6 @@ with open(input_file) as csv_file:
 with open(output_file, mode='a') as csv_file:
     metrics_writer = csv.writer(csv_file, delimiter=';')
 #    metrics_writer.writerow(['package_name', 'pypi_downloads', 'github_url', 'stars', 'last_commit', 'commit_freq',\
-# 'release_freq', 'open_issues', 'closed_issues', 'api_closed_issues', 'avg_days_to_close_issue', 'contributors', 'dep_repos', 'dep_pkgs'])
+# 'release_freq', 'open_issues', 'closed_issues', 'api_closed_issues', 'avg_days_to_close_issue', 'contributors', 'license', 'dep_repos', 'dep_pkgs'])
     for i in range(0, len(metrics)):
         metrics_writer.writerow(metrics[i])
