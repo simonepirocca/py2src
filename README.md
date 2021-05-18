@@ -1,4 +1,4 @@
-# py2src
+# py2src: Automatic Identification of Source Code Repositories and Factors for Selecting New PyPI Packages
 
 ### Description
 *py2src* is a Python based tool that can be used by developers for the selection of new PyPI libraries, as well as by normal users needing to download such packages. 
