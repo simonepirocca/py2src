@@ -1,3 +1,0 @@
-django-registration (django-registration-redux)
-djangorestframework (django-rest-framework)
-tensorflow (tensorflow-gpu)

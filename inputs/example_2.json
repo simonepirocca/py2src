@@ -1,0 +1,10 @@
+{
+"packages": [
+{
+"name": "docutils"
+},
+{
+"name": "six"
+}
+]
+}

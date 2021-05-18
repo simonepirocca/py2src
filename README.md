@@ -1,24 +1,45 @@
-# research_project
-Research project about the verification of factors that influence the usage of Python dependencies
+# py2src
+*py2src* is a Python based tool that can be used by developers for the selection of new PyPI libraries, as well as normal users needing to download such packages. 
+Starting from a package name, *py2src* first tries to retrieve the URL of the associated GitHub repositories, looking at different sources present in the PyPI page, as well as exploiting the OSSGadget tool.
+If a GitHub repository is found, it calculates a reliability score for the returned URL, going from -4 to 4.
+Secondly, the tool goes through the GitHub repository looking at the adoption and popularity factors that developers suggest to be important while deciding to implement such dependency or not.
+Finally, it also crawls the Snyk Database looking for vulnerabilities affecting such package, analysing average severity, type of release and time to release the fix of each vulnerability.
+Information of packages are stored into an internal database, in order to reduce the time to return the information for already extracted packages. 
+Whenever a given package is already stored, if is not outdated (data retrieved no more than 1 months ago), the tool returns directly the stored information, otherwise information about such packages will be refreshed.
 
-## Metric description
+### Requirements
+* Use Linux 18.04 or higher
+* Install Python (>= 3.6.9) [Guide here] (https://askubuntu.com/questions/865554/how-do-i-install-python-3-6-using-apt-get)
+* Install [Pipenv] (https://pipenv-fork.readthedocs.io/en/latest/install.html)
+* Install OSSGadget [Docker image] (https://github.com/microsoft/OSSGadget/#docker-image), to ensure the complete functionality of the URL finder component
 
-### GitHub metrics (taken from https://docs.github.com/en/github/getting-started-with-github/github-glossary) 
-- Stars (got using github api, see 'metrics_output/json/generic_data'): The number of GitHub users that displayed an appreciation for the repository. Stars are a manual way to rank the popularity of projects.
-- Last commit (got using github api, see 'metrics_output/json/commits'): The date of the last commit
-- Commit frequency (got from GitHub webpage using a crawler): The average number of commits per months
-- Release frequency (got from GitHub webpage using a crawler): The average number days between two releases
-- Open issues (got from GitHub webpage using a crawler): The total number of issues linked to the repository that are still open, thus not addressed yet.
-- Closed issues (got from GitHub webpage using a crawler): The total number of issues linked to the repository that have been resolved.
-- Average time to close an issue (got using github api, see 'metrics_output/json/closed_issues'): The average time elapsed between the creation of an issue and when it has been resolved.
-- Contributors (got from GitHub webpage using a crawler): The number of GitHub users who don’t have collaborator access to a repository but have contributed to a project and had a pull request they opened merged into the repository.
-- Dependent repositories (got from GitHub webpage using a crawler): A GitHub repository which have the current repo as dependency.
-- Dependent packages (got from GitHub webpage using a crawler): A GitHub project which have the current repo as dependency
+### Installation
+1. Clone the repository into the PATH_TO_TOOL directory
+2. Set a valid GitHub Token in the beginning of *PATH_TO_TOOL/src/get_github_factors.py* file
+3. Install the dependencies
+```console
+foo@bar:~/py2src$ pipenv install
+Installing dependencies from Pipfile.lock (XXX)…
+[Progreesing bar here]
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+foo@bar:~/py2src$ pipenv shell
+(py2src)foo@bar:~/py2src$ 
+```
+4. Run tests
+```console
+(py2src)foo@bar:~/py2src$ cd tests
+(py2src)foo@bar:~/py2src/tests$ pytest test_url_finder.py
+(py2src)foo@bar:~/py2src/tests$ pytest test_factors.py
+(py2src)foo@bar:~/py2src/tests$ pytest test_vulns.py
+```
 
-### Libraries.io metrics (taken from https://libraries.io/data and https://docs.libraries.io/overview.html) 
-- SourceRank (got from Libraries.io webpage using a crawler): A score of the repository, from 0 to 30, based on code, community, distribution, documentation and usage.
-- Dependent packages (got from Libraries.io webpage using a crawler): The number of packages that have the repository as dependency
-- Dependent repositories (got from Libraries.io webpage using a crawler): The number of repositories that have the repository as dependency
-
-### PyPi metrics
-- Downloads (got from https://hugovk.github.io/top-pypi-packages/top-pypi-packages-365-days.json): the number of users that downloaded the repository from PyPi
+### Usage
+1. Create the *PATH_TO_TOOL/inputs/packages.json* file containing the needed PyPI packages, following one of the two structurs described in the two examaple files. If packages are extracted directly from the [Top PyPI Packages] (https://hugovk.github.io/top-pypi-packages/) page, just change the name or select a subset of those packages, following the *example_1.json* file. Otherwise, if only the name of the packages are known, follow the *example_2.json* file
+2. Launch the tool 
+```console
+foo@bar:~/py2src$ pipenv shell
+(py2src)foo@bar:~/py2src$ cd scripts
+(py2src)foo@bar:~/py2src/tests$ pytest py2src.py
+```
+5. Results will be stored in *PATH_TO_TOOL/logs/log.log* file. The process may require some minutes for each package, if not already stored in the database.

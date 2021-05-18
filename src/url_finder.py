@@ -352,17 +352,19 @@ class URLFinder:
         if type == "pypi": pkg = "pypi/" + self._package_name
         else: pkg = "github/" + self._package_name + "/" + self._package_name
         command = ["docker", "run", "ossgadget:latest", "/bin/bash", "-c", "./oss-find-source/bin/Debug/netcoreapp3.1/oss-find-source pkg:" + pkg]
-        result = subprocess.run(command, stdout=subprocess.PIPE)
-        decoded_result = result.stdout.decode('utf-8')
-
-        if "No repositories were found after searching metadata." in decoded_result: github_url = ""
-        # If a result has been found, take only the URL
-        else: github_url = decoded_result.split(" ")[0][decoded_result.find("h"):]
-        # Return the normalized URL if working, otherwise return empty string
-        if github_url != "" and URLFinder.test_url_working(URLFinder.normalize_url(github_url)): 
-            return URLFinder.real_github_url(github_url)
-        else: 
-            return ""
+        try:
+            result = subprocess.run(command, stdout=subprocess.PIPE)
+            decoded_result = result.stdout.decode('utf-8')
+        except Exception: return ""
+        else:
+            if "No repositories were found after searching metadata." in decoded_result: github_url = ""
+            # If a result has been found, take only the URL
+            else: github_url = decoded_result.split(" ")[0][decoded_result.find("h"):]
+            # Return the normalized URL if working, otherwise return empty string
+            if github_url != "" and URLFinder.test_url_working(URLFinder.normalize_url(github_url)): 
+                return URLFinder.real_github_url(github_url)
+            else: 
+                return ""
 
     def find_github_url_from_pypi_statistics(self) -> str:
         """

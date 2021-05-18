@@ -1,0 +1,5 @@
+Package name;PyPI downloads;Dependent repos;Stars;Contributors;Open issues;Closed issues;Open/Closed issues;Commit frequency;Release frequency;Time to close issue;License
+urllib3;1093554382;550163;2663;241;141;763;0.185;30;53;24;Permissive
+six;926044918;851567;782;56;84;173;0.486;10;;369;Permissive
+botocore;833513490;82484;967;125;132;640;0.206;76;;50;Permissive
+requests;787955809;913667;45248;610;252;3127;0.081;49;;1;Permissive
