@@ -1,11 +1,17 @@
 # py2src
-*py2src* is a Python based tool that can be used by developers for the selection of new PyPI libraries, as well as normal users needing to download such packages. 
-Starting from a package name, *py2src* first tries to retrieve the URL of the associated GitHub repositories, looking at different sources present in the PyPI page, as well as exploiting the OSSGadget tool.
+*py2src* is a Python based tool that can be used by developers for the selection of new PyPI libraries, as well as by normal users needing to download such packages. 
+
+Starting from a package name, *py2src* first tries to retrieve the URL of the associated GitHub repository, looking at different sources present in the PyPI page, as well as exploiting the OSSGadget tool.
+
 If a GitHub repository is found, it calculates a reliability score for the returned URL, going from -4 to 4.
+
 Secondly, the tool goes through the GitHub repository looking at the adoption and popularity factors that developers suggest to be important while deciding to implement such dependency or not.
+
 Finally, it also crawls the Snyk Database looking for vulnerabilities affecting such package, analysing average severity, type of release and time to release the fix of each vulnerability.
+
 Information of packages are stored into an internal database, in order to reduce the time to return the information for already extracted packages. 
-Whenever a given package is already stored, if is not outdated (data retrieved no more than 1 months ago), the tool returns directly the stored information, otherwise information about such packages will be refreshed.
+
+Whenever a given package is already stored, if is not outdated (data retrieved no more than 1 months ago), the tool returns directly the stored information, otherwise information about such package will be refreshed.
 
 ### Requirements
 * Use Linux 18.04 or higher
