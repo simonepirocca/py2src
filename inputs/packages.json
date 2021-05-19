@@ -16,12 +16,32 @@
 "project": "botocore"
 },
 {
+"download_count": 537117310,
+"project": "rsa"
+},
+{
 "download_count": 787955809,
 "project": "requests"
 },
 {
 "download_count": 575407993,
 "project": "docutils"
+},
+{
+"download_count": 468008023,
+"project": "numpy"
+},
+{
+"download_count": 391319698,
+"project": "awscli"
+},
+{
+"download_count": 42108019,
+"project": "ansible"
+},
+{
+"download_count": 108893268,
+"project": "tensorflow"
 },
 {
 "download_count": 926044918,

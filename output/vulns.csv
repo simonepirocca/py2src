@@ -1,1 +1,8 @@
-Package name;Total vulns;Analysed vulns;AVG Time to release fix;AVG Release type;AVG Severity
+Package name;Total vulns;Analysed vulns;AVG Severity;AVG Release type;AVG Time to release fix
+urllib3;8;6;M;patch;62
+rsa;5;3;M;patch;45
+requests;6;5;M;minor;44
+numpy;4;2;M;minor;107
+awscli;1;1;M;patch;0
+ansible;49;28;M;minor;129
+tensorflow;51;27;H;minor;86

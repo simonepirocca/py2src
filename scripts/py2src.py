@@ -7,10 +7,12 @@ import csv
 import logging
 import json
 import pytest
+import subprocess
 from datetime import datetime
 
 from ..src.get_github_url import GetFinalURL
 from ..src.get_github_factors import GetMetrics
+from ..src.get_vulns import GetVulns
 from ..src.utils import log_function_output
 logger = log_function_output(file_level=logging.DEBUG, console_level=logging.INFO, log_filepath="../logs/log.log")
 
@@ -74,26 +76,51 @@ with open(packages_json) as json_file:
 
         else:
             # Get GitHub URL associated to the package
-            gfu = GetFinalURL(package_name)
-            url_data = gfu.get_final_url()
+            url_data = GetFinalURL(package_name).get_final_url()
             github_url = url_data[0]
             score = url_data[1]
 
             package_url = [package_name, github_url, score, ts]
             stored_urls[package_name] = package_url
 
-            if github_url != "":
+            if github_url == "":
+                package_factors = "No GitHub URL found"
+                package_vulns = "No GitHub URL found"
+            else:
                 # Get the metrics
-                ms = GetMetrics(package_name, github_url)
-                factors_data = ms.get_metrics()
+                factors_data = GetMetrics(package_name, github_url).get_metrics()
                 # Put the metrics into the storage array
                 package_factors = [package_name, pypi_downloads]
                 for factor in factors_data: package_factors.append(factor)
                 stored_factors[package_name] = package_factors
-            else: package_factors = "No GitHub URL found"
 
-        package_vulns = "No vulnerabilities found"
-        #TODO: vulnerabilities data gathering
+                # Get vulns count
+                get_vulns = GetVulns(package_name).get_vulns()
+                total_vulns = get_vulns[0]
+                vulns_with_link = get_vulns[1]
+
+                # If there is at least one vulnerability considered
+                if total_vulns == 0: package_vulns = "No vulnerabilities found"
+                elif vulns_with_link == 0: package_vulns = [total_vulns, 0, "", "", ""]
+                else:
+                    # Extract clone URL and directory
+                    if github_url[-1] == "/": clone_url = github_url[:last_char_i-1] + ".git"
+                    else: clone_url = github_url + ".git"
+                    clone_dir = clone_url.split("/")[-1]
+                    clone_dir = clone_dir.replace(".git", "")
+
+                    # Clone repository
+                    clone_process = subprocess.Popen(["bash", "../src/clone_repository.sh", clone_url, clone_dir], stdout=subprocess.PIPE)
+                    out, err = clone_process.communicate()
+                    if not os.path.isdir("../cloned_repos/" + clone_dir): package_vulns = [total_vulns, 0, "", "", ""]
+                    else:
+                        get_vulns_metrics_process = subprocess.Popen(["bash", "../src/get_vulns_metrics.sh", clone_dir], stdout=subprocess.PIPE)
+                        out, err = get_vulns_metrics_process.communicate()
+                        if ";" not in str(out): package_vulns = [total_vulns, 0, "", "", ""]
+                        else:
+                            out_parts = str(out).split(";")
+                            package_vulns = [package_name, total_vulns, out_parts[1], out_parts[2], out_parts[3], out_parts[4]]
+                            stored_vulns[package_name] = package_vulns
 
         logger.info(f"'{package_name}' URL data: {package_url}")
         logger.info(f"'{package_name}' Factors data: {package_factors}")
@@ -113,5 +140,5 @@ with open(factors_file, mode='w') as factors_csv_file:
 
 with open(vulns_file, mode='w') as vulns_csv_file:
     vulns_writer = csv.writer(vulns_csv_file, delimiter=';')
-    vulns_writer.writerow(['Package name', 'Total vulns', 'Analysed vulns', 'AVG Time to release fix', 'AVG Release type', 'AVG Severity'])
+    vulns_writer.writerow(['Package name', 'Total vulns', 'Analysed vulns', 'AVG Severity', 'AVG Release type', 'AVG Time to release fix'])
     for pkg in stored_vulns: vulns_writer.writerow(stored_vulns[pkg])
