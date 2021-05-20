@@ -25,7 +25,7 @@ median_pkg_severity=""
 median_pkg_release_type=""
 if [[ ! -z "$CLONE_DIR" ]]
 then
-    cd ../cloned_repos
+    cd ../tmp
     if [ -d "./$CLONE_DIR" ]
     then
         cd $CLONE_DIR
@@ -189,5 +189,10 @@ then
             avg_package_time_interval=$((avg_package_time_interval / vulns))
             echo ";$vulns;$median_pkg_severity;$median_pkg_release_type;$avg_package_time_interval;"
         fi
+        if [ -d "../$CLONE_DIR" ]; then rm ../$CLONE_DIR; fi
     fi
 fi
+if [ -d "../$CLONE_DIR" ]; then rm -r ../$CLONE_DIR; fi
+if [ -f "../tmp_vulns.csv" ]; then rm ../tmp_vulns.csv; fi
+if [ -d "./$CLONE_DIR" ]; then rm -r $CLONE_DIR; fi
+if [ -f "./tmp_vulns.csv" ]; then rm tmp_vulns.csv; fi

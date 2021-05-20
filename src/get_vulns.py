@@ -9,7 +9,7 @@ class GetVulns:
     # Get the vulnerabilities and return the array
     def get_vulns(self):
         #Inizialize variables
-        crawled_vulns_file = "../tmp/crawled_vulns.csv"
+        crawled_vulns_file = "../inputs/crawled_vulns.csv"
         tmp_vulns_file = "../tmp/tmp_vulns.csv"
         crawled_vulns = []
         vulnerabilities = []

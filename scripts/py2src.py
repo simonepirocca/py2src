@@ -112,7 +112,7 @@ with open(packages_json) as json_file:
                     # Clone repository
                     clone_process = subprocess.Popen(["bash", "../src/clone_repository.sh", clone_url, clone_dir], stdout=subprocess.PIPE)
                     out, err = clone_process.communicate()
-                    if not os.path.isdir("../cloned_repos/" + clone_dir): package_vulns = [total_vulns, 0, "", "", ""]
+                    if not os.path.isdir("../tmp/" + clone_dir): package_vulns = [total_vulns, 0, "", "", ""]
                     else:
                         get_vulns_metrics_process = subprocess.Popen(["bash", "../src/get_vulns_metrics.sh", clone_dir], stdout=subprocess.PIPE)
                         out, err = get_vulns_metrics_process.communicate()
@@ -122,9 +122,11 @@ with open(packages_json) as json_file:
                             package_vulns = [package_name, total_vulns, out_parts[1], out_parts[2], out_parts[3], out_parts[4]]
                             stored_vulns[package_name] = package_vulns
 
+        # Return package information
         logger.info(f"'{package_name}' URL data: {package_url}")
         logger.info(f"'{package_name}' Factors data: {package_factors}")
         logger.info(f"'{package_name}' Vulns data: {package_vulns}")
+        logger.info(f"*******************************************************************************************************************************")
 
 # Update URLs data
 with open(urls_file, mode='w') as urls_csv_file:
